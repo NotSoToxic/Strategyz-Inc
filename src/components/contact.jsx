@@ -154,7 +154,7 @@ export const Contact = (props) => {
         <div className="container text-center">
           <p>
             &copy; 2024 Strategyz Inc.
-            <br />
+            <br/>
               All Rights Reserved
           </p>
         </div>
