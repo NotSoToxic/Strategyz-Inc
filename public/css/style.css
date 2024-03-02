@@ -400,6 +400,7 @@ header .intro-text {
   opacity: 1;
 }
 /* Testimonials Section */
+
 #testimonials {
   padding: 100px 0;
   background: #f6f6f6;
@@ -440,6 +441,7 @@ header .intro-text {
   color: #666;
 }
 /* Team Section */
+
 #team {
   padding: 100px 0;
 }
@@ -457,7 +459,8 @@ header .intro-text {
   padding: 10px 0 0;
   color: #888;
 }
-/* Contact Section */
+/* Contact Section - Links excluded */
+
 #contact {
   padding: 100px 0 60px;
   background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
