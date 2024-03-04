@@ -76,7 +76,7 @@ hr {
   transition: all 0.8s;
 }
 #menu.navbar-default {
-  background-color: #fff;
+  background-color: #EEEEEE;
   border-color: rgba(231, 231, 231, 0);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
 }
@@ -168,9 +168,10 @@ hr {
   color: #fff;
   background-color: #5ca9fb;
   background-image: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
-  padding: 14px 34px;
+  padding: 18px 36px;
   letter-spacing: 1px;
   margin: 0;
+  margin-top: -65px;
   font-size: 15px;
   font-weight: 500;
   border-radius: 25px;
@@ -209,7 +210,7 @@ a:focus,
   width: 100%;
   padding: 0;
   background: url(../img/intro_gif.gif) center center no-repeat;
-  background-color: #e5e5e5;
+  background-color: #BCC6CC;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -220,9 +221,10 @@ a:focus,
 }
 .intro h1 {
   font-family: "Raleway", sans-serif;
-  color: #fff;
+  color: #E5E4E2;
   font-size: 82px;
   font-weight: 700;
+  text-style: bold;
   text-transform: uppercase;
   margin-top: 0;
   margin-bottom: 10px;
@@ -233,10 +235,13 @@ a:focus,
 }
 .intro p {
   color: #fff;
+  font-family: "Raleway", sans-serif;
   font-size: 22px;
-  font-weight: 300;
+  text-style: bold;
+  font-weight: 600;
   line-height: 30px;
   margin: 0 auto;
+  margin-left: 400px;
   margin-bottom: 60px;
 }
 header .intro-text {
@@ -246,7 +251,7 @@ header .intro-text {
 }
 /* Features Section */
 #features {
-  background: #f6f6f6;
+  background: #BDEDFF;
 }
 #features i.fa {
   font-size: 38px;
