@@ -140,8 +140,8 @@ export const Contact = (props) => {
                     </a>
                   </li>
                   <li>
-                    <a href={props.data ? props.data.facebook : "/"} target="blank">
-                      <i className="fa fa-facebook"></i>
+                    <a href={props.data ? props.data.instagram : "/"} target="blank">
+                      <i className="fa fa-instagram"></i>
                     </a>
                   </li>
                 </ul>
@@ -154,7 +154,6 @@ export const Contact = (props) => {
         <div className="container text-center">
           <p>
             &copy; 2024 Strategyz Inc.
-            <br/>
               All Rights Reserved
           </p>
         </div>

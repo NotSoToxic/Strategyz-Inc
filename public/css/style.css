@@ -210,7 +210,8 @@ a:focus,
   width: 100%;
   padding: 0;
   background: url(../img/header_gif.gif) center center no-repeat;
-  background-color: #BCC6CC;
+  background-color: #CECECE;
+  background-shadow: 5px 5px 50px black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -268,6 +269,7 @@ header .intro-text {
 /* About Section */
 #about {
   padding: 100px 0;
+  background: #F5F5F5;
 }
 #about h3 {
   font-size: 22px;
@@ -355,7 +357,7 @@ header .intro-text {
 #services .service-desc {
   margin-bottom: 40px;
 }
-/* Portfolio Section */
+/* Portfolio/Gallery Section */
 #portfolio {
   padding: 100px 0;
 }
@@ -408,7 +410,7 @@ header .intro-text {
 
 #testimonials {
   padding: 100px 0;
-  background: #f6f6f6;
+  background: #D3D3D3;
 }
 #testimonials i {
   color: #e6e6e6;
@@ -449,6 +451,7 @@ header .intro-text {
 
 #team {
   padding: 100px 0;
+  background: #F5F5F5;
 }
 #team h4 {
   margin: 5px 0;
@@ -593,11 +596,11 @@ label {
 }
 /* Footer Section*/
 #footer {
-  background: #f6f6f6;
-  padding: 30px 0;
+  background: #E5E4E2;
+  padding: 20px 0;
 }
 #footer p {
-  color: #888;
+  color: #0C090A;
   font-size: 14px;
 }
 #footer a {
