@@ -289,20 +289,33 @@ header .intro-text {
   bottom: 0;
   left: 0;
 }
-#about .about-text li {
-  margin-bottom: 6px;
-  margin-left: 6px;
+#about .about-text {
+  
   list-style: none;
   padding: 0;
+  display: flex;
+  flex-wrap: wrap;
 }
-#about .about-text li:before {
+
+#about .about-text .why-item{
+  margin-right: 5px; /* Adjust the margin as needed */
+  display: flex;
+  align-items: center;
+}
+#about .about-text  i {
+  color: #5ca9fb;
+  font-size: 20px;
+  margin-right: 30px;
+  
+}
+/* #about .about-text li:before {
   content: "\f00c";
   font-family: "FontAwesome";
   color: #5ca9fb;
   font-size: 11px;
   font-weight: 300;
   padding-right: 8px;
-}
+} */
 #about img {
   width: 520px;
   margin-top: 10px;

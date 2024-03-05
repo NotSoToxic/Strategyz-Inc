@@ -7,16 +7,24 @@
     "paragraph": "Strategyz Inc was founded in year 2023 is a leading organization into Staffing & IT Sonsulting, Our vision is to provide cost-effective and qualitative solutions to the clients. We aim to become customer and employee centric company.",
     "paragraph2": "We are a Pre-Seed Recruitment Accelerator Startup Vendor that specializes in diversity talent across the india with results in the technology, manufacturing & corporate landscape.",
     "Why": [
-      "Lorem ipsum dolor",
-      "Tempor incididunt",
-      "Lorem ipsum dolor",
-      "Incididunt ut labore"
+      {
+      "icon": "fa fa-file",
+      "text": "Strong half a million+ CV database"
+      },
+      {
+      "icon": "fa fa-brain",
+      "text": "Robust Intutive AI platform"
+      }
     ],
     "Why2": [
-      "Aliquip ex ea commodo",
-      "Lorem ipsum dolor",
-      "Exercitation ullamco",
-      "Lorem ipsum dolor"
+      {
+      "icon": "fa fa-check",
+      "text": "Intentionally designed Diversity & inclusion"
+      },
+      {
+      "icon": "fa fa-check",
+      "text": "Candidate experiance Regular interaction and monitoring"
+      }
     ]
   },
   "Gallery": [
