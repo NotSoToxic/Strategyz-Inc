@@ -72,18 +72,18 @@ hr {
 }
 /* Navigation */
 #menu {
-  padding: 12px;
+  padding: 10px;
   transition: all 0.8s;
 }
 #menu.navbar-default {
-  background-color: #EEEEEE;
+  background-color: #F5F5F5;
   border-color: rgba(231, 231, 231, 0);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
 }
 /* for logo image*/
 #menu.navbar-default img {
-  max-width: 200px; 
-  margin: 0 auto;
+  max-width: 150px; 
+  margin-top: 10px;
   height: auto;
 }
 
