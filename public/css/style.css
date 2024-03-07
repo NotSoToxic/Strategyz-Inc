@@ -21,7 +21,7 @@ h2 {
   color: #333;
 }
 h3 {
-  font-size: 20px;
+  font-size: 22px;
   font-weight: 600;
   color: #333;
 }
@@ -36,7 +36,7 @@ h5 {
   line-height: 20px;
 }
 p {
-  font-size: 15px;
+  font-size: 16px;
 }
 p.intro {
   margin: 12px 0 0;
@@ -72,7 +72,7 @@ hr {
 }
 /* Navigation */
 #menu {
-  padding: 15px;
+  padding: 12px;
   transition: all 0.8s;
 }
 #menu.navbar-default {
@@ -80,7 +80,14 @@ hr {
   border-color: rgba(231, 231, 231, 0);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
 }
-#menu a.navbar-brand {
+/* for logo image*/
+#menu.navbar-default img {
+  max-width: 200px; 
+  margin: 0 auto;
+  height: auto;
+}
+
+#menu a.navbar-brand{
   font-family: "Raleway", sans-serif;
   font-size: 24px;
   font-weight: 700;
@@ -91,11 +98,11 @@ hr {
   font-family: "Lato", sans-serif;
   text-transform: uppercase;
   color: #555;
-  font-size: 15px;
+  font-size: 16px;
   font-weight: 400;
-  padding: 8px 2px;
+  padding: 9px 2px;
   border-radius: 0;
-  margin: 9px 20px 0;
+  margin: 15px 20px 0;
 }
 #menu.navbar-default .navbar-nav > li > a:after {
   display: block;
@@ -256,7 +263,7 @@ header .intro-text {
 }
 #features i.fa {
   font-size: 38px;
-  margin-bottom: 20px;
+  margin-bottom: 25px;
   transition: all 0.5s;
   color: #fff;
   width: 100px;

@@ -1,7 +1,7 @@
 {
   "Header": {
     "title": "We are Strategyz Inc.",
-    "paragraph": "LETS CREATE!"
+    "paragraph": "LETS CREATE"
   },
   "About": {
     "paragraph": "Strategyz Inc was founded in year 2023 is a leading organization into Staffing & IT Sonsulting, Our vision is to provide cost-effective and qualitative solutions to the clients. We aim to become customer and employee centric company.",
@@ -12,7 +12,7 @@
       "text": "Strong half a million+ CV database"
       },
       {
-      "icon": "fa fa-brain",
+      "icon": "fa fa-file",
       "text": "Robust Intutive AI platform"
       }
     ],
@@ -171,23 +171,23 @@
   "Features": [
     {
       "icon": "fa fa-comments-o",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "title": "Quality",
+      "text": "We use 15+ sourcing channels to source quality resumes."
     },
     {
       "icon": "fa fa-bullhorn",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "title": "Speed",
+      "text": "You can expect the first batch of resumes within 3 - 4 days. "
     },
     {
       "icon": "fa fa-group",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "title": "Time Saving",
+      "text": "All resumes received will be pre-screened to save your screening time."
     },
     {
       "icon": "fa fa-magic",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "title": "Assurance",
+      "text": "Model is completely postpaid, with 30 days refund/replacement clause to safeguard your interests."
     }
   ]
 }
