@@ -68,7 +68,7 @@ export const Navigation = (props) => {
         <div className="social">
           <ul className="nav navbar-nav navbar-right">       */}
             <li className="social">
-              <a href={props.data ? props.data.linkdin : "/"} target="blank">
+              <a href= "https://www.linkedin.com/company/strategyzinc/" target="blank">
                 <i className="fa fa-linkedin"></i>
               </a>
             </li>
@@ -78,7 +78,7 @@ export const Navigation = (props) => {
               </a>
             </li> */}
             <li className="social">
-              <a href={props.data ? props.data.instagram : "/"} target="blank">
+              <a href= "https://www.instagram.com/strategyzinc?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="blank">
                 <i className="fa fa-instagram"></i>
               </a>
             </li>
