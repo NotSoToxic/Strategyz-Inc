@@ -14,7 +14,7 @@ export const About = (props) => {
               <h2>About Us</h2>
               <p>{props.data ? props.data.paragraph : "loading..."}</p>
               <p>{props.data ? props.data.paragraph2 : "loading..."}</p>
-              <h3>Why Choose Us?</h3>
+              {/* <h3>Why Choose Us?</h3>
               <div className="list-style">
                 <div className="col-lg-6 col-sm-6 col-xs-12">
                   <ul className="why-list">
@@ -42,7 +42,7 @@ export const About = (props) => {
                       : "loading"}
                   </ul>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

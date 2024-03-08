@@ -102,7 +102,7 @@ hr {
   font-weight: 400;
   padding: 9px 2px;
   border-radius: 0;
-  margin: 15px 20px 0;
+  margin: 10px 10px 0;
 }
 #menu.navbar-default .navbar-nav > li > a:after {
   display: block;
@@ -211,12 +211,43 @@ a:focus,
   outline: none;
   outline-offset: none;
 }
+.social {
+  border-top: 1px solid rgba(20, 35, 167, 0.15);
+  text-align: center;
+  margin: -10 0px;
+  margin-left: 5px;
+}
+
+.social i.fa {
+  font-size: 15px;
+  width: 40px;
+  height: 40px;
+  padding: 12px 0;
+  border: 2px solid #124fea;
+  color: #0f58e0;
+  border-radius: 50%;
+  transition: all 0.3s;
+}
+.social i.fa:hover {
+  color: #608dfd;
+  background: #fff;
+}
 /* Header Section */
+.intro-bg{
+  position: relative;
+  background-color: #C0C0C0;
+  background-shadow: 5px 5px 50px black;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
 .intro {
   display: table;
   width: 100%;
+  /* margin-left: 150px; */
   padding: 0;
-  background: url(../img/header_gif.gif) center center no-repeat;
+  background: url(../img/header_gif2.gif) center center no-repeat;
   background-color: #CECECE;
   background-shadow: 5px 5px 50px black;
   -webkit-background-size: cover;
@@ -229,12 +260,12 @@ a:focus,
 }
 .intro h1 {
   font-family: "Raleway", sans-serif;
-  color: #E5E4E2;
+  color: #F5F5F5;
   font-size: 82px;
   font-weight: 700;
   text-style: bold;
   text-transform: uppercase;
-  margin-top: 0;
+  margin-top: 50px;
   margin-bottom: 10px;
 }
 .intro h1 span {
@@ -253,8 +284,8 @@ a:focus,
   margin-bottom: 60px;
 }
 header .intro-text {
-  padding-top: 350px;
-  padding-bottom: 200px;
+  padding-top: 100px;
+  padding-bottom: 100px;
   text-align: center;
 }
 /* Features Section */
@@ -490,12 +521,12 @@ header .intro-text {
 /* Contact Section - Links excluded */
 
 #contact {
-  padding: 100px 0 60px;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  padding: 20px 0 20px;
+  background-color: #004EAF;
   color: rgba(255, 255, 255, 0.75);
 }
 #contact .section-title {
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 #contact .section-title p {
   font-size: 16px;
@@ -517,8 +548,8 @@ header .intro-text {
 }
 #contact h3 {
   color: #fff;
-  margin-top: 80px;
-  margin-bottom: 25px;
+  margin-top: 40px;
+  margin-bottom: 0px;
   padding-bottom: 20px;
   font-weight: 400;
 }
@@ -590,7 +621,7 @@ label {
 #contact .contact-item i.fa {
   margin-right: 10px;
 }
-#contact .social {
+/* #contact .social {
   border-top: 1px solid rgba(255, 255, 255, 0.15);
   padding-top: 50px;
   margin-top: 50px;
@@ -613,11 +644,11 @@ label {
 #contact .social i.fa:hover {
   color: #608dfd;
   background: #fff;
-}
+} */
 /* Footer Section*/
 #footer {
   background: #E5E4E2;
-  padding: 20px 0;
+  padding: 5px 0;
 }
 #footer p {
   color: #0C090A;
