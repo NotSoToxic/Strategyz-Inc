@@ -9,10 +9,79 @@
   #team,
   #contact,
   #footer {
-    width: 111%;
+    width: 131vw;
   }
 
   #portfolio {
     width: 110%;
+  }
+}
+@media screen and (max-width: 320px) {
+  #features {
+    padding: 20px;
+    width: 111%;
+  }
+  #about,
+  #services,
+  #testimonials,
+  #team,
+  #contact,
+  #footer {
+    width: 161vw;
+  }
+
+  #portfolio {
+    width: 110%;
+  }
+}
+
+@media screen and (max-width: 376px, min-width:321px) {
+  
+  #about,
+  #services,
+  #testimonials,
+  #team,
+  #contact,
+  #footer {
+    width: 138vw;
+  }
+
+  
+}
+@media screen and (max-width: 430px, min-width:377px) {
+  #features {
+    padding: 20px;
+    width: 111%;
+  }
+  #about,
+  #services,
+  #testimonials,
+  #team,
+  #contact,
+  #footer {
+    width: 120vw;
+  }
+
+  #portfolio {
+    width: 110%;
+  }
+}
+@media screen and (max-width: 767px) {
+  #features {
+    padding: 20px;
+    width: 100%;
+  }
+  #header,
+  #about,
+  #services,
+  #testimonials,
+  #team,
+  #contact,
+  #footer {
+    width: 136vw;
+  }
+
+  #portfolio {
+    width: 100%;
   }
 }

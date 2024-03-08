@@ -306,6 +306,7 @@ header .intro-text {
 }
 /* About Section */
 #about {
+  width: 100vw;
   padding: 100px 0;
   background: #F5F5F5;
 }
@@ -666,3 +667,24 @@ label {
     margin: 50px 0;
   }
 }
+@media (max-width: 768px) {
+  #about .about-text {
+    margin: 0;
+  }
+}
+@media(max-width:512px){
+  .about{
+    align-items: center;
+    width: 100%;
+  }
+  #about img {
+    width: 100%;
+    
+  }
+}
+@media(max-width:300px){
+  .about{
+    width: 100%;
+  }
+}
+
