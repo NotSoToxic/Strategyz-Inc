@@ -1,6 +1,10 @@
-import React from "react";
+import React, { useEffect, useRef } from 'react';
 
 export const Navigation = (props) => {
+  
+
+  
+  
   return (
     <nav id="menu" className="navbar navbar-default navbar-fixed-top">
       <div className="container">
@@ -37,11 +41,30 @@ export const Navigation = (props) => {
                 About
               </a>
             </li>
-            <li>
-              <a href="#services" className="page-scroll">
-                Services
-              </a>
-            </li>
+            <li className="dropdown">
+      <a
+        href="#services"
+        className=" page-scroll"
+        data-toggle="hover"
+        role="button"
+        aria-haspopup="true"
+        aria-expanded="false"
+      >
+        Services <span className="caret"></span>
+        
+        
+      </a>
+      <ul className="dropdown-menu">
+        <li>
+          <a href="#">Services offered</a>
+        </li>
+        <li>
+          <a href="#">Our Products</a>
+        </li>
+        
+      </ul>
+    </li>
+    
             {/* <li>
               <a href="#portfolio" className="page-scroll">
                 Gallery

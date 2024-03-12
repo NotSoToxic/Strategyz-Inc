@@ -71,6 +71,55 @@ hr {
   border: 0;
 }
 /* Navigation */
+/* Dropdown animation */
+.dropdown .dropdown-menu {
+  animation: dropdown-animation 0.3s ease-out;
+}
+
+@keyframes dropdown-animation {
+  0% {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Dropdown background color */
+.dropdown .dropdown-menu {
+  background-color: #F5F5F5; /* Match the background color of the navigation */
+  border: 1px solid #ddd;
+  border-radius: 0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 10px 0;
+}
+
+/* Dropdown item text color */
+.dropdown .dropdown-menu > li > a {
+  color: #333; /* Match the text color of the navigation */
+  font-size: 16px;
+  font-weight: 400;
+  padding: 10px 20px;
+  transition: all 0.3s;
+}
+
+/* Dropdown item hover background color */
+.dropdown .dropdown-menu > li > a:hover,
+.dropdown .dropdown-menu > li > a:focus {
+  background-color: #608dfd; /* Match the hover background color */
+  color: #fff;
+}
+.dropdown:hover > .dropdown-menu {
+  display: block;
+}
+
+
+.dropdown:hover > .dropdown-menu {
+  display: block;
+}
+
 #menu {
   padding: 10px;
   transition: all 0.8s;
