@@ -120,6 +120,31 @@ hr {
   display: block;
 }
 
+.dropdown .caret {
+  margin-top: -8px;
+  position: relative;
+  display: inline-block;
+  border-bottom-color: #333;
+  border-top-color: #333;
+  display: inline-block;
+  margin-left: 5px;
+  vertical-align: middle;
+  transition: transform 0.3s ease;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-bottom: 6px solid black;
+  border-top: 6px solid transparent;
+  content: "";
+  
+  
+}
+
+.dropdown:hover .caret {
+  margin-top: 5px;
+  transform: rotate(180deg);
+}
+
+
 #menu {
   padding: 10px;
   transition: all 0.8s;
