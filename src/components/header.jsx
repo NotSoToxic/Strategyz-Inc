@@ -18,7 +18,7 @@ export const Header = (props) => {
                   href="#contact"
                   className="btn btn-custom btn-lg page-scroll"
                 >
-                  Get in Touch
+                  Contact Sales
                 </a>{" "}
               </div>
             </div>
