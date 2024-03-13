@@ -56,10 +56,10 @@ export const Navigation = (props) => {
               </a>
               <ul className="dropdown-menu">
                 <li>
-                  <a href="#">Services offered</a>
+                  <a href="/">Services offered</a>
                 </li>
                 <li>
-                  <a href="#">Our Products</a>
+                  <a href="/">Our Products</a>
                 </li>
                 
               </ul>
