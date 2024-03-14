@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from 'react';
+import React from 'react';
 
 export const Navigation = (props) => {
   
@@ -31,11 +31,7 @@ export const Navigation = (props) => {
           id="bs-example-navbar-collapse-1"
         >
           <ul className="nav navbar-nav navbar-right">
-            {/* <li>
-              <a href="#features" className="page-scroll">
-                Features
-              </a>
-            </li> */}
+            
             <li>
               <a href="#about" className="page-scroll">
                 About
@@ -56,10 +52,23 @@ export const Navigation = (props) => {
               </a>
               <ul className="dropdown-menu">
                 <li>
-                  <a href="/">Services offered</a>
+                  <div className='services-offered'>
+                  <h3>Services offered</h3>
+                  <ul className='services1'>
+                    <li><a href="/">item 1</a></li>
+                    <li><a href="/">Item 2</a></li>
+                  </ul>
+                  </div>
                 </li>
                 <li>
-                  <a href="/">Our Products</a>
+                  <div className='services-offered'>
+                  <h3>Our Products</h3>
+                  <ul className='services1'>
+                    <li><a href="/">item 1</a></li>
+                    <li><a href="/">Item 2</a></li>
+                    
+                  </ul>
+                  </div>
                 </li>
                 
               </ul>
@@ -71,10 +80,28 @@ export const Navigation = (props) => {
               </a>
             </li> */}
             
-            <li>
-              <a href="#team" className="page-scroll">
-                Insights
+            <li className="dropdown">
+              <a
+                href="#services"
+                className=" page-scroll"
+                data-toggle="hover"
+                role="button"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Insights <span className="caret"></span>
+                
+                
               </a>
+              <ul className="dropdown-menu">
+                <li>
+                  <a href="#">Blogs</a>
+                </li>
+                <li>
+                  <a href="#">Our Team</a>
+                </li>
+                
+              </ul>
             </li>
             
             <li>
