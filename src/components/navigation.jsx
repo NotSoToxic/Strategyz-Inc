@@ -68,11 +68,10 @@ export const Navigation = (props) => {
                     <li><a href="/">Application Tracking System(ATS)</a></li>
                     <li><a href="/">Human Resources Management System(HRMS)</a></li>
                     <li><a href="/">Vendor Management System(VMS)</a></li>
-                    
                   </ul>
                   </div>
                 </li>
-                
+
               </ul>
             </li>
     
@@ -106,10 +105,33 @@ export const Navigation = (props) => {
               </ul>
             </li>
             
-            <li>
-              <a href="#testimonials" className="page-scroll">
-                Careers
+            
+            <li className="dropdown">
+              <a
+                href="#services"
+                className=" page-scroll"
+                data-toggle="hover"
+                role="button"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Careers <span className="caret"></span>
+                
+                
               </a>
+              <ul className="dropdown-menu">
+                <li>
+                  <ul className='services-offered'>  
+                  <a href="/">Job Search</a>
+                  </ul>
+                </li>
+                <li>
+                <ul className='services-offered'>  
+                  <a href="/">Applicant Contact</a>
+                  </ul>
+                </li>
+                
+            </ul>
             </li>
             <li>
               <a href="#contact" className="page-scroll">

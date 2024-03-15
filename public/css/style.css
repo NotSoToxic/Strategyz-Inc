@@ -95,11 +95,13 @@ hr {
 /* Dropdown background color */
 .dropdown .dropdown-menu {
   background-color: #F5F5F5; /* Match the background color of the navigation */
-  width: 500px;
+  margin-left: 500px;
+  width: 800px;
   border: 1px solid #ddd;
   border-radius: 10px;
   box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.1);
   align-items: start;
+  overflow: hidden;
   
 }
 
@@ -133,6 +135,7 @@ hr {
   color: #333;
   text-align: left;
   display: block;
+  white-space: nowrap;
 
 }
 
