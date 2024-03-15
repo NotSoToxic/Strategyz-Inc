@@ -53,19 +53,21 @@ export const Navigation = (props) => {
               <ul className="dropdown-menu">
                 <li>
                   <div className='services-offered'>
-                  <h3>Services offered</h3>
+                  <h3>Strategyz Consulting</h3>
                   <ul className='services1'>
-                    <li><a href="/">item 1</a></li>
-                    <li><a href="/">Item 2</a></li>
+                    <li><a href="/">Business Transformation</a></li>
+                    <li><a href="/">Technology Consulting</a></li>
+                    <li><a href="/">Staff Augumentation</a></li>
                   </ul>
                   </div>
                 </li>
                 <li>
                   <div className='services-offered'>
-                  <h3>Our Products</h3>
+                  <h3>Strategyz Software</h3>
                   <ul className='services1'>
-                    <li><a href="/">item 1</a></li>
-                    <li><a href="/">Item 2</a></li>
+                    <li><a href="/">Application Tracking System(ATS)</a></li>
+                    <li><a href="/">Human Resources Management System(HRMS)</a></li>
+                    <li><a href="/">Vendor Management System(VMS)</a></li>
                     
                   </ul>
                   </div>
@@ -95,10 +97,10 @@ export const Navigation = (props) => {
               </a>
               <ul className="dropdown-menu">
                 <li>
-                  <a href="#">Blogs</a>
+                  <a href="/">Blogs</a>
                 </li>
                 <li>
-                  <a href="#">Our Team</a>
+                  <a href="/">Our Team</a>
                 </li>
                 
               </ul>
