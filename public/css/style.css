@@ -76,7 +76,7 @@ hr {
   animation: dropdown-animation 0.3s ease-out;
   background-color: #F5F5F5; 
   width: 800px;
-  top: 60px;
+  right: -300px;
   border: 1px solid #ddd;
   border-radius: 10px;
   box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.1);
