@@ -40,7 +40,7 @@ export const Contact = (props) => {
     <div>
       <div id="contact">
         <div className="container">
-          <div className="col-md-8">
+          <div className="col-md-7">
             <div className="row">
               <div className="section-title">
                 <h2>Get In Touch</h2>
@@ -95,7 +95,7 @@ export const Contact = (props) => {
               </form>
             </div>
           </div>
-          <div className="col-md-3 col-md-offset-1 contact-info">
+          <div className="col-md-5 col-md-offset-0 contact-info">
             <div className="contact-item">
               <h3>Contact Info</h3>
               <p>
@@ -103,6 +103,10 @@ export const Contact = (props) => {
                   <i className="fa fa-map-marker"></i> Address
                 </span>
                 {props.data ? props.data.address : "loading"}
+              </p>
+              <p>
+                
+                {props.data ? props.data.address2 : "loading"}
               </p>
             </div>
             <div className="contact-item">
