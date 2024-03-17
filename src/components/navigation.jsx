@@ -57,7 +57,7 @@ export const Navigation = (props) => {
                   <ul className='services1'>
                     <li><a href="/">Business Transformation</a></li>
                     <li><a href="/">Technology Consulting</a></li>
-                    <li><a href="/">Staff Augumentation</a></li>
+                    <li><a href="/">Staff Augmentation</a></li>
                   </ul>
                   </div>
                 </li>
