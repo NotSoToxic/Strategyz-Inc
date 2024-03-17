@@ -13,10 +13,7 @@ export const Header = (props) => {
                   {props.data ? props.data.title : "Loading"}
                   <span></span>
                 </h1>
-                <div className="margined">
-                <p align = 'right'>{props.data ? props.data.paragraph : "Loading"}</p>
-                <p align = 'right'>{props.data ? props.data.paragraph2 : "Loading"}</p>
-                </div>
+                
                 <a
                   href="#contact"
                   className="btn btn-custom btn-lg page-scroll"
@@ -25,7 +22,12 @@ export const Header = (props) => {
                 </a>{" "}
               </div>
             </div>
+            
           </div>
+          <div className="slogan">
+                <p >{props.data ? props.data.paragraph : "Loading"}</p>
+                <p >{props.data ? props.data.paragraph2 : "Loading"}</p>
+                </div>
         </div>
       </div>
       </div>
