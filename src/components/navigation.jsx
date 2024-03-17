@@ -96,12 +96,26 @@ export const Navigation = (props) => {
               </a>
               <ul className="dropdown-menu">
                 <li>
-                  <a href="/">Blogs</a>
+                  <div className='services-offered'>
+                  <h3>Blogs</h3>
+                  <ul className='services1'>
+                    {/* <li><a href="/">Business Transformation</a></li>
+                    <li><a href="/">Technology Consulting</a></li>
+                    <li><a href="/">Staff Augumentation</a></li> */}
+                  </ul>
+                  </div>
                 </li>
                 <li>
-                  <a href="/">Our Team</a>
+                  <div className='services-offered'>
+                  <h3>Team</h3>
+                  <ul className='services1'>
+                    {/* <li><a href="/">Application Tracking System(ATS)</a></li>
+                    <li><a href="/">Human Resources Management System(HRMS)</a></li>
+                    <li><a href="/">Vendor Management System(VMS)</a></li> */}
+                  </ul>
+                  </div>
                 </li>
-                
+
               </ul>
             </li>
             
@@ -121,17 +135,27 @@ export const Navigation = (props) => {
               </a>
               <ul className="dropdown-menu">
                 <li>
-                  <ul className='services-offered'>  
-                  <a href="/">Job Search</a>
+                  <div className='services-offered'>
+                  <h3>Job search</h3>
+                  <ul className='services1'>
+                    <li><a href="/">Internships</a></li>
+                    <li><a href="/">Entry Level jobs</a></li>
+                    <li><a href="/">Expirienced Professional jobs</a></li>
                   </ul>
+                  </div>
                 </li>
                 <li>
-                <ul className='services-offered'>  
-                  <a href="/">Applicant Contact</a>
+                  <div className='services-offered'>
+                  <h3>Life at Strategyz</h3>
+                  <ul className='services1'>
+                    {/* <li><a href="/">Application Tracking System(ATS)</a></li>
+                    <li><a href="/">Human Resources Management System(HRMS)</a></li>
+                    <li><a href="/">Vendor Management System(VMS)</a></li> */}
                   </ul>
+                  </div>
                 </li>
-                
-            </ul>
+
+              </ul>
             </li>
             <li>
               <a href="#contact" className="page-scroll">
