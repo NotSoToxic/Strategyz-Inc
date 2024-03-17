@@ -101,7 +101,7 @@ export const Navigation = (props) => {
                   <ul className='services1'>
                     {/* <li><a href="/">Business Transformation</a></li>
                     <li><a href="/">Technology Consulting</a></li>
-                    <li><a href="/">Staff Augumentation</a></li> */}
+                    <li><a href="/">Staff Augmentation</a></li> */}
                   </ul>
                   </div>
                 </li>
@@ -139,8 +139,8 @@ export const Navigation = (props) => {
                   <h3>Job search</h3>
                   <ul className='services1'>
                     <li><a href="/">Internships</a></li>
-                    <li><a href="/">Entry Level jobs</a></li>
-                    <li><a href="/">Expirienced Professional jobs</a></li>
+                    <li><a href="/">Entry Level Jobs</a></li>
+                    <li><a href="/">Experienced Professional Jobs</a></li>
                   </ul>
                   </div>
                 </li>
