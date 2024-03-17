@@ -398,13 +398,14 @@ a:focus,
   font-weight: 100;
   line-height: 20px;
   margin: 0 auto;
-  margin-left: 940px;
+  margin-left: 500px;
+  margin-right: 10px:
   /* margin-bottom: 60px; */
 }
-.intro margined{
+/* .intro margined{
   margin-top: 1050px;
   margin-bottom: 1px;
-}
+} */
 
 header .intro-text {
   padding-top: 100px;
