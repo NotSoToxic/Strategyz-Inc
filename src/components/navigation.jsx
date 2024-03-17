@@ -53,21 +53,21 @@ export const Navigation = (props) => {
               <ul className="dropdown-menu">
                 <li>
                   <div className='services-offered'>
-                  <h3>Strategyz Consulting</h3>
+                  <h3>STRATEGYZ Consulting</h3>
                   <ul className='services1'>
-                    <li><a href="/">Business Transformation</a></li>
-                    <li><a href="/">Technology Consulting</a></li>
-                    <li><a href="/">Staff Augmentation</a></li>
+                    <li><a href="/">↪ Business Transformation</a></li>
+                    <li><a href="/">↪ Technology Consulting</a></li>
+                    <li><a href="/">↪ Staff Augmentation</a></li>
                   </ul>
                   </div>
                 </li>
                 <li>
                   <div className='services-offered'>
-                  <h3>Strategyz Software</h3>
+                  <h3>STRATEGYZ Software</h3>
                   <ul className='services1'>
-                    <li><a href="/">Application Tracking System(ATS)</a></li>
-                    <li><a href="/">Human Resources Management System(HRMS)</a></li>
-                    <li><a href="/">Vendor Management System(VMS)</a></li>
+                    <li><a href="/">↪ Application Tracking System (ATS)</a></li>
+                    <li><a href="/">↪ Human Resources Management System (HRMS)</a></li>
+                    <li><a href="/">↪ Vendor Management System (VMS)</a></li>
                   </ul>
                   </div>
                 </li>
@@ -138,15 +138,15 @@ export const Navigation = (props) => {
                   <div className='services-offered'>
                   <h3>Job search</h3>
                   <ul className='services1'>
-                    <li><a href="/">Internships</a></li>
-                    <li><a href="/">Entry Level Jobs</a></li>
-                    <li><a href="/">Experienced Professional Jobs</a></li>
+                    <li><a href="/">↪ Internships</a></li>
+                    <li><a href="/">↪ Entry Level Jobs</a></li>
+                    <li><a href="/">↪ Experienced Professional Jobs</a></li>
                   </ul>
                   </div>
                 </li>
                 <li>
                   <div className='services-offered'>
-                  <h3>Life at Strategyz</h3>
+                  <h3>Life at STRATEGYZ</h3>
                   <ul className='services1'>
                     {/* <li><a href="/">Application Tracking System(ATS)</a></li>
                     <li><a href="/">Human Resources Management System(HRMS)</a></li>

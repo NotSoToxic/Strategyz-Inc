@@ -297,7 +297,7 @@ hr {
   padding: 18px 36px;
   letter-spacing: 1px;
   margin: 0;
-  margin-top: -50px;
+  margin-top: -30px;
   font-size: 15px;
   font-weight: 500;
   border-radius: 25px;
@@ -382,7 +382,7 @@ a:focus,
   color: #F5F5F5;
   font-size: 80px;
   font-weight: 100;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   margin-top: 50px;
   margin-bottom: 10px;
 }
@@ -393,14 +393,19 @@ a:focus,
 .intro p {
   color: #fff;
   font-family: "Andale Mono", sans-serif;
-  font-size: 20px;
+  font-size: 16px;
   text-style: bold;
   font-weight: 100;
-  line-height: 30px;
+  line-height: 20px;
   margin: 0 auto;
-  margin-left: 340px;
-  margin-bottom: 60px;
+  margin-left: 940px;
+  /* margin-bottom: 60px; */
 }
+.intro margined{
+  margin-top: 1050px;
+  margin-bottom: 1px;
+}
+
 header .intro-text {
   padding-top: 100px;
   padding-bottom: 100px;
