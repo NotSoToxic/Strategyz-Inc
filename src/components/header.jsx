@@ -14,8 +14,8 @@ export const Header = (props) => {
                   <span></span>
                 </h1>
                 <div className="margined">
-                <p>{props.data ? props.data.paragraph : "Loading"}</p>
-                <p>{props.data ? props.data.paragraph2 : "Loading"}</p>
+                <p align = 'right'>{props.data ? props.data.paragraph : "Loading"}</p>
+                <p align = 'right'>{props.data ? props.data.paragraph2 : "Loading"}</p>
                 </div>
                 <a
                   href="#contact"
