@@ -1,13 +1,17 @@
 import React, { useState, useEffect } from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { Navigation } from "./components/navigation";
 import { Header } from "./components/header";
-import { Features } from "./components/features";
 import { About } from "./components/about";
-import { Services } from "./components/services";
-import { Gallery } from "./components/gallery";
-import { Testimonials } from "./components/testimonials";
-import { Team } from "./components/Team";
 import { Contact } from "./components/contact";
+import { Buisnesstransformation } from "./components/sub-components/buisnesstransformation.jsx";
+import { Consulting } from "./components/sub-components/consulting.jsx";
+import { Augmentation } from "./components/sub-components/augmentation.jsx";
+import { Ats } from "./components/sub-components/ats.jsx";
+import { Hrms } from "./components/sub-components/hrms.jsx";
+import { Vms } from "./components/sub-components/vms.jsx";
+import { Internaljobs } from "./components/sub-components/internaljob.jsx";
+import { Clientjobs } from "./components/sub-components/clientjob.jsx";
 import JsonData from "./data/data.json";
 import SmoothScroll from "smooth-scroll";
 import "./App.css";
@@ -26,16 +30,46 @@ const App = () => {
 
   return (
     <div>
-      <Navigation />
-      <Header data={landingPageData.Header} />
-      {/* <Features data={landingPageData.Features} /> */}
-      <About data={landingPageData.About} />
-      {/* <Services data={landingPageData.Services} />
-      <Gallery data={landingPageData.Gallery} />
-      <Testimonials data={landingPageData.Testimonials} />
-      <Team data={landingPageData.Team} /> */}
-      <Contact data={landingPageData.Contact} />
-      <Analytics/>
+      <Router>
+        <Navigation />
+        <Routes>
+          {/* home page  */}
+          <Route path="/" element={<>
+            <Header data={landingPageData.Header} />
+            <About data={landingPageData.About} />
+            <Contact data={landingPageData.Contact} />
+          </>} />
+
+            {/* Consulting Pages */}
+
+          {/* Buisness Trasformation page  */}
+          <Route path="/buisnesstransformation" element={<Buisnesstransformation />} />
+
+          {/* Tech Consulting page  */}
+          <Route path="/consulting" element={<Consulting />} />
+
+          {/* Staff Augmentation page  */}
+          <Route path="/augmentation" element={<Augmentation />} />
+
+          {/* Software pages */}
+
+          {/* ATS page  */}
+          <Route path="/ats" element={<Ats />}/>
+
+          {/* HRMS page  */}
+          <Route path="/hrms" element={<Hrms />}/>
+
+          {/* VMS page  */}
+          <Route path="/vms" element={<Vms />}/>
+
+          {/* Carriers pages  */}
+          {/*internal openings*/ }
+          <Route path="/internaljob" element={<Internaljobs/>} />
+          {/*client openings*/ }
+          <Route path="/clientjob" element={<Clientjobs/>}/>
+        </Routes>
+        <Analytics />
+      </Router>
     </div>
   );
 };

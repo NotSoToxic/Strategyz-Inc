@@ -21,8 +21,8 @@ export const Navigation = (props) => {
             <span className="icon-bar"></span>{" "}
             <span className="icon-bar"></span>{" "}
           </button>
-          <a href = "#page-top">
-          <img src="./img/logo-nav.png" alt="Logo" href = "#page-top"/>
+          <a href = "/">
+          <img src="./img/logo-nav.png" alt="Logo" href = "/"/>
           </a>
         </div>
 
@@ -55,9 +55,9 @@ export const Navigation = (props) => {
                   <div className='services-offered'>
                   <h3>STRATEGYZ Consulting</h3>
                   <ul className='services1'>
-                    <li><a href="/">↪ Business Transformation</a></li>
-                    <li><a href="/">↪ Technology Consulting</a></li>
-                    <li><a href="/">↪ Staff Augmentation</a></li>
+                    <li><a href="/buisnesstransformation">↪ Business Transformation</a></li>
+                    <li><a href="/consulting">↪ Technology Consulting</a></li>
+                    <li><a href="/augmentation">↪ Staff Augmentation</a></li>
                   </ul>
                   </div>
                 </li>
@@ -65,9 +65,9 @@ export const Navigation = (props) => {
                   <div className='services-offered'>
                   <h3>STRATEGYZ Software</h3>
                   <ul className='services1'>
-                    <li><a href="/">↪ Application Tracking System (ATS)</a></li>
-                    <li><a href="/">↪ Human Resources Management System (HRMS)</a></li>
-                    <li><a href="/">↪ Vendor Management System (VMS)</a></li>
+                    <li><a href="/ats">↪ Application Tracking System (ATS)</a></li>
+                    <li><a href="/hrms">↪ Human Resources Management System (HRMS)</a></li>
+                    <li><a href="/vms">↪ Vendor Management System (VMS)</a></li>
                   </ul>
                   </div>
                 </li>
@@ -138,9 +138,9 @@ export const Navigation = (props) => {
                   <div className='services-offered'>
                   <h3>Job search</h3>
                   <ul className='services1'>
-                    <li><a href="/">↪ Internships</a></li>
-                    <li><a href="/">↪ Entry Level Jobs</a></li>
-                    <li><a href="/">↪ Experienced Professional Jobs</a></li>
+                    <li><a href="/internaljob">↪ Internal Openings</a></li>
+                    <li><a href="/clientjob">↪ Client Openings</a></li>
+                    
                   </ul>
                   </div>
                 </li>

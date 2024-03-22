@@ -496,6 +496,42 @@ header .intro-text {
   line-height: 24px;
   margin: 10px 0;
 }
+
+.carousel{
+  margin-top: 100px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.carousel .clienth {
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  margin: 0 0 20px;
+  font-weight: 800;
+  font-size: 36px;
+  color: #333;
+  text-align: center;
+  position: relative;
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+}
+
+.carousel .client {
+  height: 10px;
+  width: 90vw;
+  border-radius: 5px;
+  background: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+}
+
+.carousel img{
+  
+  width: 10vw;
+  height: 20vh;
+  padding: 0 10px;
+  
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.06);
+
+}
+
 /* Services Section */
 #services {
   padding: 100px 0;
@@ -820,4 +856,63 @@ label {
     width: 100%;
   }
 }
+
+/*Sub-components*/
+/*buisnesstransformation*/
+#buisnesstransformation{
+  text-align: center;
+  padding: 100px 0;
+  
+}
+
+/*Consulting*/
+#consulting{
+  text-align: center;
+  padding: 100px 0;
+  
+}
+
+/*Augmentation*/
+#augmentation{
+  text-align: center;
+  padding: 100px 0;
+  
+}
+
+/*Ats*/
+#ats{
+  text-align: center;
+  padding: 100px 0;
+  
+}
+
+/*Hrms*/
+#hrms{
+  text-align: center;
+  padding: 100px 0;
+  
+}
+
+/*Vms*/
+#vms{
+  text-align: center;
+  padding: 100px 0;
+  
+}
+
+/*Carriers page*/
+/*Internal openings*/
+#internaljobs{
+  text-align: center;
+  padding: 100px 0;
+  
+}
+
+/*Client openings*/
+#clientjobs{
+  text-align: center;
+  padding: 100px 0;
+  
+}
+
 
