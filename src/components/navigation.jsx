@@ -157,10 +157,29 @@ export const Navigation = (props) => {
 
               </ul>
             </li>
-            <li>
-              <a href="#contact" className="page-scroll">
-                Contact
+            <li className="dropdown">
+              <a
+                href="#services"
+                className=" page-scroll"
+                data-toggle="hover"
+                role="button"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Contact Us <span className="caret"></span>
+                
+                
               </a>
+              <ul className="dropdown-menu vertical-dropdown">
+                <li>
+                  <div className='services-offered  contact-info'>
+                  <ul className='services1'>
+                    <li><a href="/">↪ Our Locations</a></li>
+                    <li><a href="/">↪ Download</a></li>
+                  </ul>
+                  </div>
+                </li>
+              </ul>
             </li>
           {/* </ul>
         </div>

@@ -84,6 +84,11 @@ hr {
   overflow: hidden;
 }
 
+.dropdown .vertical-dropdown {
+  right: 0px;
+  width: 160px;
+}
+
 
 /* Dropdown animation */
 
@@ -117,6 +122,10 @@ hr {
   color: #333;
   text-align: left;
   display: block;
+}
+
+.dropdown .vertical-dropdown .contact-info{
+  padding: 10px 10px;
 }
 
 
