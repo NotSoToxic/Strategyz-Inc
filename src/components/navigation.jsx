@@ -174,8 +174,8 @@ export const Navigation = (props) => {
                 <li>
                   <div className='services-offered  contact-info'>
                   <ul className='services1'>
-                    <li><a href="/">↪ Our Locations</a></li>
-                    <li><a href="/">↪ Download</a></li>
+                    <li><a href="/locations">↪ Our Locations</a></li>
+                    <li><a href="/info">↪ Download</a></li>
                   </ul>
                   </div>
                 </li>

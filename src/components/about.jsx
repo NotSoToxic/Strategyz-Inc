@@ -11,7 +11,7 @@ import 'react-multi-carousel/lib/styles.css';
 // const responsive = {
 //   desktop: {
 //     breakpoint: { max: 3000, min: 1024 },
-//     items: 3,
+//     items: 4,
 //     slidesToSlide: 1 // optional, default to 1.
 //   },
 //   tablet: {
@@ -37,15 +37,15 @@ export const About = (props) => {
           </div>
           <div className="col-xs-12 col-md-6">
             <div className="about-text">
-              <h2>About Us</h2>
               <p>{props.data ? props.data.paragraph : "loading..."}</p>
-              <p>{props.data ? props.data.paragraph2 : "loading..."}</p>
+              {/* <p>{props.data ? props.data.paragraph2 : "loading..."}</p> */}
+              <p><a className="aboutstrategyz" href="/strategyzinfo">About STRATEGYZ →</a></p>
             </div>
             
           </div>
         </div>
       </div>
-      {/* <div className="carousel">
+       {/* <div className="carousel">
         <p className="clienth">OUR CLIENTS</p>
         <hr className="client"></hr>
         <Carousel
@@ -72,7 +72,7 @@ export const About = (props) => {
         <div><img src={tumbledry}></img></div>
         <div><img src=""></img></div>
         </Carousel>
-      </div> */}
+      </div>  */}
     </div>
   );
 };

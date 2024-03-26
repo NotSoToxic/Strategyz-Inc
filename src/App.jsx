@@ -12,10 +12,14 @@ import { Hrms } from "./components/sub-components/services/software/hrms.jsx";
 import { Vms } from "./components/sub-components/services/software/vms.jsx";
 import { Internaljobs } from "./components/sub-components/carriers/internaljob.jsx";
 import { Clientjobs } from "./components/sub-components/carriers/clientjob.jsx";
+import { Locations } from "./components/sub-components/contact/locations.jsx";
+import { Info } from "./components/sub-components/contact/info.jsx";
+import { Strategyzinfo } from "./components/sub-components/about/strategyzinfo.jsx";
 import JsonData from "./data/data.json";
 import SmoothScroll from "smooth-scroll";
 import "./App.css";
 import { Analytics } from '@vercel/analytics/react';
+import { Gallery } from "./components/gallery.jsx";
 
 export const scroll = new SmoothScroll('a[href*="#"]', {
   speed: 1000,
@@ -38,6 +42,7 @@ const App = () => {
             <Header data={landingPageData.Header} />
             <About data={landingPageData.About} />
             <Contact data={landingPageData.Contact} />
+            {/* <Gallery data={landingPageData.Gallery} /> */}
           </>} />
 
             {/* Consulting Pages */}
@@ -67,6 +72,14 @@ const App = () => {
           <Route path="/internaljob" element={<Internaljobs/>} />
           {/*client openings*/ }
           <Route path="/clientjob" element={<Clientjobs/>}/>
+
+          {/* Contact  Pages  */}
+          {/* locations */}
+          <Route path="/locations" element={<Locations />} />
+          {/* contact us */}
+          <Route path="/info" element={<Info/>} />
+
+          <Route path="/strategyzinfo" element={<Strategyzinfo/>} />
         </Routes>
         <Analytics />
       </Router>
