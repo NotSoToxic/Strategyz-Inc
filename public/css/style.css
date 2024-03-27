@@ -1105,7 +1105,8 @@ label {
   }
 
   #info label {
-    
+    padding-top: 0px;
+    padding-bottom: 7px;
     font-size: 1.5rem;
   }
 
