@@ -40,7 +40,7 @@ export const Info = (props) => {
     return (
         <div id="info">
             <div className="heading">
-            <p className="text">Please fill the following information</p>
+            <p className="text">Please fill the following form</p>
             <p className="text2"> Download link will be available here after submission</p>
             </div>
             <form onSubmit={handleSubmit}>

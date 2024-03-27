@@ -1067,6 +1067,7 @@ label {
   font-weight: 600;
   color: #004EAF;
   font-size: 2rem;
+  
   text-align: center;
 
 }
@@ -1078,11 +1079,23 @@ label {
 }
 
 @media screen and (max-width: 475px){
+  #info .heading {
+    text-align: center;
+ }
+
   #info .text{
+    text-align: justify;
+    justify-content: center;
+    padding-left: 35px;
+    padding-right: 10px;
     font-size: 2.2rem;
   }
 
   #info .text2{
+    padding-left: 35px;
+    text-align: justify;
+    justify-content: center;
+    padding-right: 10px;
     font-size: 1.5rem;
   }
  
@@ -1090,6 +1103,18 @@ label {
     
     padding: 0 20px;
   }
+
+  #info label {
+    padding-top: 10px;
+    font-size: 1.5rem;
+  }
+
+  #info input[type="text"],
+  #info input[type="email"]{
+    
+    font-size: 10px;
+  }
+
   #info .download-info{
     padding: 0 20px;
   }
