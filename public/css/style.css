@@ -1051,7 +1051,7 @@ label {
   padding-top: 100px;
   top: 0;
   position: absolute;
-  left: 925;
+  right: 0;
   width: 40%;
 }
 
@@ -1075,6 +1075,36 @@ label {
   width: 100%;
   bottom: 0;
   position: fixed;
+}
+
+@media screen and (max-width: 475px){
+  #info .text{
+    font-size: 2.2rem;
+  }
+
+  #info .text2{
+    font-size: 1.5rem;
+  }
+ 
+  #info form {
+    
+    padding: 0 20px;
+  }
+  #info .download-info{
+    padding: 0 20px;
+  }
+
+  #info .button{
+    margin-left: 0;
+  }
+
+  #info .headline{
+    font-size: 2rem;
+  }
+
+  #info .sub-headline{
+    font-size: 1rem;
+  }
 }
 
 #strategyzinfo{
