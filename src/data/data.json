@@ -28,6 +28,31 @@
       }
     ]
   },
+
+  "Strategyzinfo": {
+    "paragraph": "Solving the world’s problems through technology wouldn’t be possible without our most important invention: the STRATEGYZer. Have a look at our innovative solutions. ",
+    "paragraph2": "We are a Pre-Seed Recruitment Accelerator Startup Vendor that specializes in diversity talent across the india with results in the technology, manufacturing & corporate landscape.",
+    "Why": [
+      {
+      "icon": "fa fa-file",
+      "text": "Strong half a million+ CV database"
+      },
+      {
+      "icon": "fa fa-file",
+      "text": "Robust Intuitive AI platform"
+      }
+    ],
+    "Why2": [
+      {
+      "icon": "fa fa-check",
+      "text": "Intentionally designed Diversity & inclusion"
+      },
+      {
+      "icon": "fa fa-check",
+      "text": "Candidate experience Regular interaction and monitoring"
+      }
+    ]
+  },
   "Gallery": [
     {
       "title": "Project Title",
