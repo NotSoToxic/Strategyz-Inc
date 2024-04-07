@@ -1054,7 +1054,7 @@ label {
   padding-top: 100px;
   top: 0;
   position: absolute;
-  left: 925;
+  right: 0;
   width: 40%;
 }
 
@@ -1070,6 +1070,7 @@ label {
   font-weight: 600;
   color: #004EAF;
   font-size: 2rem;
+  
   text-align: center;
 
 }
@@ -1078,6 +1079,61 @@ label {
   width: 100%;
   bottom: 0;
   position: fixed;
+}
+
+@media screen and (max-width: 475px){
+  #info .heading {
+    text-align: center;
+ }
+
+  #info .text{
+    text-align: justify;
+    justify-content: center;
+    padding-left: 35px;
+    padding-right: 10px;
+    font-size: 2.2rem;
+  }
+
+  #info .text2{
+    padding-left: 35px;
+    text-align: justify;
+    justify-content: center;
+    padding-right: 10px;
+    font-size: 1.5rem;
+  }
+ 
+  #info form {
+    
+    padding: 0 20px;
+  }
+
+  #info label {
+    padding-top: 0px;
+    padding-bottom: 5px;
+    font-size: 1.5rem;
+  }
+
+  #info input[type="text"],
+  #info input[type="email"]{
+    
+    font-size: 7px;
+  }
+
+  #info .download-info{
+    padding: 0 20px;
+  }
+
+  #info .button{
+    margin-left: 0;
+  }
+
+  #info .headline{
+    font-size: 2rem;
+  }
+
+  #info .sub-headline{
+    font-size: 1rem;
+  }
 }
 
 #strategyzinfo{
