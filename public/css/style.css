@@ -1362,4 +1362,16 @@ label {
     width: 100%;
   }
 }
+/*Clients section aboutPage*/
+#clients.flex-container{
+  display: flex;
+  flex-wrap: wrap;
+}
+#clients.box {
+  width: 33.33%;
+  height: 100px;
+  background-color: #f1f1f1;
+  margin: 10px;
+  border: 1px solid #ccc;
+}
 
