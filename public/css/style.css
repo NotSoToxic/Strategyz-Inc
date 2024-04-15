@@ -1136,6 +1136,40 @@ label {
   }
 }
 
+/* Location  page*/
+
+#location{
+ padding: 100px;
+}
+#address-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#address-map-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+#address-section {
+  padding: 20px;
+}
+
+#map-section {
+  padding: 20px;
+}
+
+@media (min-width: 768px) {
+  #address-map-container {
+    width: 50%;
+  }
+}
+
+/* Location  page over*/
+
+
 /*Strategyz info page*/
 
 /* Strategyzinfo Section */
