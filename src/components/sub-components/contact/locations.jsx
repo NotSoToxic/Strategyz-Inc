@@ -45,54 +45,59 @@ export const Locations = (props) => {
               </div>
             </div>
           </div>
+          <div id="emptyDiv">
+          ⠀⠀
+          </div>
           <div id="location-form">
-            <h1>Contact Us</h1>
-            <form>
-              <div className="form-group">
-                <label htmlFor="name">Name:</label>
-                <input
-                  type="text"
-                  id="name"
-                  name="name"
-                  // value={formData.name}
-                  // onChange={handleChange}
-                  required
-                />
-              </div>
-              <div className="form-group">
-                <label htmlFor="email">Email:</label>
-                <input
-                  type="email"
-                  id="email"
-                  name="email"
-                  // value={formData.email}
-                  // onChange={handleChange}
-                  required
-                />
-              </div>
-              <div className="form-group">
-                <label htmlFor="contact-number">Contact Number:</label>
-                <input
-                  type="tel"
-                  id="contact-number"
-                  name="contact-number"
-                  // value={formData.contactNumber}
-                  // onChange={handleChange}
-                  required
-                />
-              </div>
-              <div className="form-group">
-                <label htmlFor="message">Message:</label>
-                <textarea
-                  id="message"
-                  name="message"
-                  // value={formData.message}
-                  // onChange={handleChange}
-                  required
-                ></textarea>
-              </div>
-              <button type="submit">Submit</button>
-            </form>
+          <div className="">
+                <h2>Contact Us</h2>
+          </div>
+              <form name="" validate >
+                <div className="row">
+                  <div className="col-md-6">
+                    <div className="form-group">
+                      <input
+                        type="text"
+                        id="name"
+                        name="name"
+                        className="form-control"
+                        placeholder="Name"
+                        required
+                      />
+                      <p className="help-block text-danger"></p>
+                    </div>
+                  </div>
+                  <div className="col-md-6">
+                    <div className="form-group">
+                      <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        className="form-control"
+                        placeholder="Email"
+                        required
+                      />
+                      <p className="help-block text-danger"></p>
+                    </div>
+                  </div>
+                </div>
+                <div className="form-group">
+                  <textarea
+                    name="message"
+                    id="message"
+                    className="form-control"
+                    rows="4"
+                    placeholder="Message"
+                    required
+                  ></textarea>
+                  <p className="help-block text-danger"></p>
+                </div>
+                
+                <button type="submit" className="btn  btn-lg">
+                  Send Message
+                </button>
+
+              </form>
           </div>
         </div>
       </div>

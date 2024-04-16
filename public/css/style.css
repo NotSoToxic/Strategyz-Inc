@@ -1137,8 +1137,11 @@ label {
 }
 
 /* Location  page*/
+/*blue color 608dfd */
 
 #location{
+  margin-top: 20px;
+  margin-right: -20px ;
  padding: 100px;
  display: block;
   justify-content: space-between;
@@ -1154,30 +1157,38 @@ label {
  
 }
 
+#emptyDiv{
+  background-color: #124fea;
+  width: 50%;
+  border-radius: 5%;
+}
 
 #address-section {
   padding: 20px;
 }
 
 #map-section {
-  padding: 5px;
+  padding: 25px;
 }
 
-#location-form{
-  
-  width: 50%;
-}
+
 
 #location-form {
+  width: 50%;
   position: fixed;
   top: 50%; /* Adjust as needed to center vertically */
   left: 75%; /* Adjust as needed to center horizontally */
+
   padding-right: 10px;
   max-width: 600px;
-  transform: translate(-50%, -50%);
-  
+  transform: translate(-55%, -50%);
+  /*background-color:  #124fea;*/
+  background-color:  #608dfd;
   padding: 20px;
-  background-color: #f8f9fa;
+
+  border-radius: 10px;
+  
+  
   
   
   
@@ -1187,13 +1198,13 @@ label {
   margin-bottom: 20px;
 }
 
-#location-form input[type="text"],
+/* #location-form input[type="text"],
 #location-form input[type="email"],
 #location-form input[type="tel"],
 #location-form textarea {
 
   
-}
+} */
 
 
 .form-control {
