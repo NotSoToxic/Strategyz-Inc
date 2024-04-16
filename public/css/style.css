@@ -1140,26 +1140,93 @@ label {
 
 #location{
  padding: 100px;
-}
-#address-container {
-  display: flex;
-  flex-wrap: wrap;
+ display: block;
+  justify-content: space-between;
 }
 
-#address-map-container {
+#location-main-container{
   display: flex;
-  flex-direction: column;
-  width: 100%;
-  margin-bottom: 20px;
 }
+
+
+#address{
+  width: 50%;
+ 
+}
+
 
 #address-section {
   padding: 20px;
 }
 
 #map-section {
-  padding: 20px;
+  padding: 5px;
 }
+
+#location-form{
+  
+  width: 50%;
+}
+
+#location-form {
+  position: fixed;
+  top: 50%; /* Adjust as needed to center vertically */
+  left: 75%; /* Adjust as needed to center horizontally */
+  padding-right: 10px;
+  max-width: 600px;
+  transform: translate(-50%, -50%);
+  
+  padding: 20px;
+  background-color: #f8f9fa;
+  
+  
+  
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+#location-form input[type="text"],
+#location-form input[type="email"],
+#location-form input[type="tel"],
+#location-form textarea {
+
+  
+}
+
+
+.form-control {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ced4da;
+}
+
+
+
+.btn-primary {
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+
+
+
+
+
+
+
+
 
 @media (min-width: 768px) {
   #address-map-container {
