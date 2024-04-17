@@ -1180,7 +1180,7 @@ label {
   max-width: 600px;
   transform: translate(-55%, -50%);
   background-color:  #004EAF; /*Logo color*/
-  border-radius: 10px;
+  border-radius: 12px;
 }
 
 #location-form h2 {
