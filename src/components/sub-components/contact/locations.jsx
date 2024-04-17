@@ -45,9 +45,7 @@ export const Locations = (props) => {
               </div>
             </div>
           </div>
-          <div id="emptyDiv">
-          ⠀⠀
-          </div>
+          
           <div id="location-form">
           <div className="">
                 <h2>Contact Us</h2>

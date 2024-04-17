@@ -1157,11 +1157,7 @@ label {
  
 }
 
-#emptyDiv{
-  background-color: #124fea;
-  width: 50%;
-  border-radius: 5%;
-}
+
 
 #address-section {
   padding: 20px;
@@ -1174,24 +1170,21 @@ label {
 
 
 #location-form {
+  top: 250;
+  margin-top: 150px;
+  padding: 20px 20px;
+  height: 80vh;
   width: 50%;
   position: fixed;
-  top: 50%; /* Adjust as needed to center vertically */
   left: 75%; /* Adjust as needed to center horizontally */
-
-  padding-right: 10px;
   max-width: 600px;
   transform: translate(-55%, -50%);
-  /*background-color:  #124fea;*/
-  background-color:  #608dfd;
-  padding: 20px;
-
+  background-color:  #004EAF; /*Logo color*/
   border-radius: 10px;
-  
-  
-  
-  
-  
+}
+
+#location-form h2 {
+  color: #fff;
 }
 
 .form-group {
