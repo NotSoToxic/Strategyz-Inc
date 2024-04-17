@@ -842,8 +842,9 @@ label {
 } */
 /* Footer Section*/
 #footer {
-  background: #E5E4E2;
+  background: #DADBDD;
   padding: 2px 0;
+  box-shadow: 2px 0 2px #686A6C;
 }
 #footer p {
   color: #0C090A;
