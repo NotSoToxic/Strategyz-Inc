@@ -1159,9 +1159,9 @@ label {
 
 .Strategyz_info .sidebar {
   width: 25%;
-  padding: 2rem;
+  padding: 90px 0;
   position: sticky;
-  top: 100;
+  top: 0;
   height: 90vh;
   overflow-y: auto;
 }
@@ -1197,7 +1197,7 @@ label {
 }
 
 #overview{
-  text-align: left;
+  text-align: center;
   margin: 0 30px;
   padding-top: 80px;
   
@@ -1331,9 +1331,9 @@ label {
 }
 
 @media (max-width: 480px) {
-  .Strategyz_info .sidebar ul {
+  /* .Strategyz_info .sidebar ul {
     display: none;
-  }
+  } */
 
   #overview {
     margin: 0 10px;
