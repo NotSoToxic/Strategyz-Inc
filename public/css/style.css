@@ -1332,18 +1332,20 @@ label {
 
 @media (max-width: 480px) {
   .Strategyz_info .sidebar ul {
-    padding: 10px;
-    border: none;
-    flex-direction: column;
-    align-items: center;
+    display: none;
   }
 
-  .Strategyz_info .sidebar li {
-    
-    margin: 0.75rem;
-    border: none;
-    padding: 0.5rem;
+  #overview {
+    margin: 0 10px;
+    padding: 0px;
   }
+
+  #working{
+    
+    padding-top: 30px;
+  }
+
+  
 
   .working-navbar ul {
     position: relative;
