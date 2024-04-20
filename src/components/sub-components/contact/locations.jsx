@@ -145,7 +145,6 @@ export const Locations = (props) => {
                       name="organisation"
                       class="form-control"
                       placeholder="Organization"
-                      required
                     />
                     <p class="help-block text-danger"></p>
                   </div>
