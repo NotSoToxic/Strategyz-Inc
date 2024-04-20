@@ -842,10 +842,9 @@ label {
 } */
 /* Footer Section*/
 #footer {
-  background: #E5E4E2;
+  background: #DADBDD;
   padding: 2px 0;
-  border-top: 2px ridge #E5E4E2;   /*added border in footer style could be changed*/
-    
+  box-shadow: 2px 0 2px #686A6C;
 }
 #footer p {
   color: #0C090A;
@@ -946,7 +945,7 @@ label {
 #info {
   padding-top: 70px;
   max-width: 100vw;
-  height: 100%;
+  height: 100vh;
   background: linear-gradient(to right, #ffffff 60%, #E5E4E2 60%);
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Soft shadow */
@@ -1055,6 +1054,7 @@ label {
 #info #logo-right{
   padding-top: 100px;
   top: 0;
+  height: 100%;
   position: absolute;
   right: 0;
   width: 40%;
@@ -1265,35 +1265,36 @@ label {
 }
 
 .Strategyz_info .sidebar {
-  width: 20%;
-  padding: 2rem;
+  width: 25%;
+  padding: 90px 0;
   position: sticky;
-  top: 100;
+  top: 0;
   height: 90vh;
   overflow-y: auto;
 }
 
 .Strategyz_info .sidebar ul {
+  text-align: left;
   list-style: none;
-  padding: 0;
+  padding: 1rem;
 }
 
 .Strategyz_info .sidebar li {
-  border: 1px solid #333;
-  padding: 1rem;
-  font-size: 14pt;
-  margin-bottom: 1rem;
+  padding: 2rem;
+  list-style-type: none;
 }
 
 .Strategyz_info .sidebar li a {
+  border-left: 3px solid #333;
   text-decoration: none;
-  
+  padding: 2rem;
+  font-size: 14pt;
+  transition: border-left-color 0.3s ease-in-out;
 }
 
 .Strategyz_info .sidebar li a:hover {
-  color: #000;
+  border-left-color: #999;
 }
-
 
 .Strategyz_info main {
   right: 0;
@@ -1302,9 +1303,24 @@ label {
   padding: 2rem;
 }
 
+#overview{
+  text-align: center;
+  margin: 0 30px;
+  padding-top: 80px;
+  
+}
+
+#overview > p {
+  font-size: 14pt;
+}
+
+#working{
+  padding-top: 80px;
+}
+
 .working-navbar {
   display: flex;
-  justify-content: center;
+  
   margin-top: 1rem;
 }
 
@@ -1316,12 +1332,13 @@ label {
 }
 
 .working-navbar li {
+  font-size: 14pt;
+  border-bottom: 2px solid blue;
   background-color: rgba(255, 255, 255, 0.8);
-  padding: 0.5rem 1rem;
-  margin: 0 0.5rem;
+  padding: 0.5rem 2rem;
+  margin: 0 3rem;
   cursor: pointer;
   border-radius: 3px;
-  
 }
 
 .working-navbar a {
@@ -1333,42 +1350,128 @@ label {
   cursor: pointer;
   color: #000;
 }
+
 .working-navbar a.active {
   font-weight: bold;
   color: #000;
 }
 
-.tab-content {
-  animation-duration: 0.5s;
-  animation-fill-mode: both;
+#working-navbar-content {
+  margin-right: 40px;
+  padding-left: 30px;
+  text-align: left;
+
 }
 
-.tab-content-slide-in-right {
-  animation-name: slideInRight;
+#working-navbar-content > h3 {
+  padding: 1rem;
+  font-size: 20pt;
 }
 
-.tab-content-slide-in-left {
-  animation-name: slideInLeft;
+#working-navbar-content > p {
+  padding-left: 10px;
+  font-size: 14pt;
 }
 
-@keyframes slideInRight {
-  from {
-    transform: translateX(100%);
-    opacity: 0;
+#working-navbar-content > ul {
+  
+  padding: 10px 30px;
+  font-size: 14pt;
+  list-style:disc;
+}
+
+#working-navbar-content > ul > li {
+  padding: 5px;
+}
+
+/* Responsive Styles */
+
+@media (max-width: 991px) {
+  .Strategyz_info .sidebar {
+    width: 30%;
   }
-  to {
-    transform: translateX(0);
-    opacity: 1;
+
+  .Strategyz_info main {
+    width: 70%;
   }
 }
 
-@keyframes slideInLeft {
-  from {
-    transform: translateX(-100%);
-    opacity: 0;
+@media (max-width: 768px) {
+  #working img{
+    width: 100%;
   }
-  to {
-    transform: translateX(0);
-    opacity: 1;
+  .Strategyz_info .content-wrapper {
+    flex-direction: column;
+  }
+
+  .Strategyz_info .sidebar {
+    width: 100%;
+    position: static;
+    height: auto;
+  }
+
+  .Strategyz_info .sidebar ul {
+    padding: 25px 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0.5rem;
+  }
+
+  .Strategyz_info .sidebar li {
+    margin: 0.5rem;
+    border: none;
+    
+    
+    padding: 1rem;
+  }
+
+  .Strategyz_info .sidebar li a {
+    padding: 1rem;
+    font-size: 12pt;
+  }
+
+  .Strategyz_info main {
+    width: 100%;
+    padding: 1rem;
   }
 }
+
+@media (max-width: 480px) {
+  .Strategyz_info .sidebar{
+    display: none;
+  }
+  
+
+  #overview {
+    margin: 0 10px;
+    padding-top: 20px
+  }
+
+  #working{
+    
+    padding-top: 30px;
+  }
+
+  
+
+  .working-navbar ul {
+    position: relative;
+    top: auto;
+    left: auto;
+    display: block;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .working-navbar li {
+    display: inline-block;
+    
+    margin: 0.5rem;
+  }
+  #working img{
+    width: 100%;
+  }
+}
+

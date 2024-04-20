@@ -80,7 +80,7 @@ export const Info = (props) => {
             <div id="logo-right">
                 <p className="headline">STRATEGYZ</p>
                 <p className="sub-headline">#LetsCreate</p>
-                <p className="sub-headline">#StrongerTogether</p>3
+                <p className="sub-headline">#StrongerTogether</p>
             </div>
             <div id="footer">
                 <div className="container text-center">
