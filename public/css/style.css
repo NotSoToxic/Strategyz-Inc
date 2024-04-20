@@ -1138,6 +1138,113 @@ label {
   }
 }
 
+/* Location  page*/
+/*blue color 608dfd */
+
+#location{
+  background-color: #E5E4E2;
+  margin-top: 20px;
+  margin-right: -20px ;
+ padding: 100px;
+ display: block;
+  justify-content: space-between;
+}
+
+#location-main-container{
+  /* background-color: #E5E4E2; */
+  display: flex;
+}
+
+
+#address{
+  width: 50%;
+ 
+}
+
+
+
+#address-section {
+  padding: 20px;
+}
+
+#map-section {
+  padding: 25px;
+}
+
+
+
+#location-form {
+  top: 250;
+  margin-top: 150px;
+  padding: 20px 20px;
+  height: 80vh;
+  width: 50%;
+  position: fixed;
+  left: 75%; /* Adjust as needed to center horizontally */
+  max-width: 600px;
+  transform: translate(-55%, -53%);   /* -52 could be ranged between -50 and -53*/
+  background-color:  #004EAF; /*Logo color*/
+  border-radius: 12px;
+}
+
+#location-form h2 {
+  color: #fff;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+/* #location-form input[type="text"],
+#location-form input[type="email"],
+#location-form input[type="tel"],
+#location-form textarea {
+
+  
+} */
+
+
+#location-form .form-control {
+  width: 100%;
+  padding: 10px;
+  font-size: 18px;
+  border-radius: 5px;
+ 
+  border: 2px solid #ced4da;
+}
+
+
+.btn-primary {
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 768px) {
+  #address-map-container {
+    width: 50%;
+  }
+}
+
+/* Location  page over*/
+
+
 /*Strategyz info page*/
 
 /* Strategyzinfo Section */
