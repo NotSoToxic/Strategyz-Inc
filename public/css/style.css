@@ -844,6 +844,8 @@ label {
 #footer {
   background: #E5E4E2;
   padding: 2px 0;
+  border-top: 2px ridge #E5E4E2;   /*added border in footer style could be changed*/
+    
 }
 #footer p {
   color: #0C090A;
@@ -1140,6 +1142,7 @@ label {
 /*blue color 608dfd */
 
 #location{
+  background-color: #E5E4E2;
   margin-top: 20px;
   margin-right: -20px ;
  padding: 100px;
@@ -1148,6 +1151,7 @@ label {
 }
 
 #location-main-container{
+  /* background-color: #E5E4E2; */
   display: flex;
 }
 
@@ -1178,7 +1182,7 @@ label {
   position: fixed;
   left: 75%; /* Adjust as needed to center horizontally */
   max-width: 600px;
-  transform: translate(-55%, -50%);
+  transform: translate(-55%, -53%);   /* -52 could be ranged between -50 and -53*/
   background-color:  #004EAF; /*Logo color*/
   border-radius: 12px;
 }
@@ -1200,14 +1204,14 @@ label {
 } */
 
 
-.form-control {
+#location-form .form-control {
   width: 100%;
   padding: 10px;
-  font-size: 16px;
+  font-size: 18px;
   border-radius: 5px;
-  border: 1px solid #ced4da;
+ 
+  border: 2px solid #ced4da;
 }
-
 
 
 .btn-primary {
