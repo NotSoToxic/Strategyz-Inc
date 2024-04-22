@@ -1376,6 +1376,7 @@ label {
   background-color: #d2dab7;
   margin: 4%;
   border: 1px solid #eaebe5;
+  border-radius: 10px;
   transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
 
