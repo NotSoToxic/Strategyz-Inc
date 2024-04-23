@@ -1204,14 +1204,6 @@ label {
   margin-bottom: 20px;
 }
 
-/* #location-form input[type="text"],
-#location-form input[type="email"],
-#location-form input[type="tel"],
-#location-form textarea {
-
-  
-} */
-
 
 #location-form .form-control {
   width: 100%;
@@ -1241,11 +1233,60 @@ label {
 
 
 
+@media (max-width: 1445px) {
+  #location-main-container{
+   /* background-color: #E5E4E2; */
+   display: block;
+   
+ } 
 
+ #location-form{
+  
+   margin-top: 10%;
+   max-width: 80%;
+   width: 100%;
+   background-color: black;
+   position: static;
+   transform: translate(0%, -0%);
+   left: 0%;
+   height: 80vh;
+   
+   
 
-@media (min-width: 768px) {
-  #address-map-container {
-    width: 50%;
+ }
+
+ #address{
+   width: 100%;
+ }
+}
+@media (max-width: 991px) {
+   #location-main-container{
+    /* background-color: #E5E4E2; */
+    display: block;
+    
+  } 
+
+  #location-form{
+    margin-top: 10%;
+    width: 850px;
+    background-color: black;
+    position: static;
+    transform: translate(0%, -0%);
+    left: 0%;
+    
+    
+
+  }
+
+  #address{
+    width: 100%;
+  }
+}
+@media (max-width: 768px) {
+  
+  #location-form{
+    background-color: black;
+    display: block;
   }
 }
 
