@@ -64,7 +64,6 @@ export const Strategyzinfo = (props) => {
                 <ul>
                 <li>
                   <a
-                    
                     className={activeTab === "STRATEGYZConsulting" ? "active" : ""}
                     onClick={() => handleTabClick("STRATEGYZConsulting")}
                   >
@@ -73,7 +72,6 @@ export const Strategyzinfo = (props) => {
                 </li>
                 <li>
                   <a
-                    
                     className={activeTab === "technologyConsulting" ? "active" : ""}
                     onClick={() => handleTabClick("technologyConsulting")}
                   >
