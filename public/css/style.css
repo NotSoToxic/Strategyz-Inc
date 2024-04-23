@@ -1245,7 +1245,7 @@ label {
    margin-top: 10%;
    max-width: 80%;
    width: 100%;
-   background-color: black;
+   background-color: #004EAF;
    position: static;
    transform: translate(0%, -0%);
    left: 0%;
@@ -1269,7 +1269,7 @@ label {
   #location-form{
     margin-top: 10%;
     width: 850px;
-    background-color: black;
+    background-color: #004EAF;
     position: static;
     transform: translate(0%, -0%);
     left: 0%;
@@ -1284,9 +1284,27 @@ label {
 }
 @media (max-width: 768px) {
   
-  #location-form{
-    background-color: black;
+  #location-main-container{
+    /* background-color: #E5E4E2; */
+    max-width: 100%;
     display: block;
+    
+  } 
+
+  #location-form{
+    margin-top: 10%;
+    width: 850px;
+    background-color: yellow;
+    position: static;
+    transform: translate(0%, -0%);
+    left: 0%;
+    
+    
+
+  }
+
+  #address{
+    width: 90%;
   }
 }
 
