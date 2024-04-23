@@ -1167,6 +1167,7 @@ label {
 #address{
   width: 50%;
  
+ 
 }
 
 
@@ -1176,7 +1177,7 @@ label {
 }
 
 #map-section {
-  padding: 25px;
+  padding: 1px;
 }
 
 
@@ -1234,8 +1235,6 @@ label {
 .btn-primary:hover {
   background-color: #0056b3;
 }
-
-
 
 
 
