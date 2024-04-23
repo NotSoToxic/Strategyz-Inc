@@ -1366,25 +1366,32 @@ label {
 #clients .flex-container {
   display: flex;
   flex-wrap: wrap; 
-  justify-content: space-around; 
+  justify-content:space-between; 
   align-items: center; 
 
 }
-#clients .flex-container .box  {
-  width: 20rem;
-  height: 20rem;
-  background-color: #d2dab7;
-  margin: 4%;
-  border: 1px solid #eaebe5;
-  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+#clients .flex-container .box img{
+  width: 100%; 
+  height: auto; 
+ 
 }
 
 
+#clients .flex-container .box  {
+  width: 20rem;
+  height: 20rem;
+  margin: 4%;
+  background-color: #ffffff;
+  border: 1px solid #eaebe5;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+ 
+}
+
 #clients .box:hover {
-  border-color: blueviolet;
+  border-color:white;
   transition: transform 0.3s linear;
   transform :scale(1.1);
-  box-shadow: 0 0 10px rgba(0, 255, 255, 0.5); 
+  box-shadow: 0 0 10px rgba(0, 6, 6, 0.5); 
 
 }
  
