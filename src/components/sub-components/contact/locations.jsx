@@ -30,12 +30,8 @@ export const Locations = (props) => {
     }
     // If all fields are filled, send the email
     emailjs
-      .sendForm(     // might be need to changed ::: 
-        "service_ieb6kha",
-        "template_w2wnukt",
-        e.target,
-        "ZIOaFVaBQHwXz4G5N"
-      )
+      .sendForm(
+        "service_ab57exb","template_bskri0w", e.target, "ZIOaFVaBQHwXz4G5N")
       .then(
         (result) => {
           console.log(result.text);
@@ -50,7 +46,7 @@ export const Locations = (props) => {
         }
       );
   };
-  //for form refrenced from contact.jsx
+  //for form refer from contact.jsx
 
   return (
     <>
@@ -166,6 +162,9 @@ export const Locations = (props) => {
               <button type="submit" class="btn btn-lg">
                 Send Message
               </button>
+              {/* set css to error messages - remove this after css is set */}
+              {errorMessage && <p className="error-message">{errorMessage}</p>}
+              {successMessage && <p className="success-message">{successMessage}</p>}
             </form>
           </div>
         </div>
