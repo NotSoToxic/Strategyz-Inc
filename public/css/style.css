@@ -1286,9 +1286,12 @@ label {
 }
 @media (max-width: 768px) {
   
+  {
+    background-color: #E5E4E2;
+  }
   #location-main-container{
     /* background-color: #E5E4E2; */
-    max-width: 100%;
+    width: 100%;
     display: block;
     
   } 
@@ -1306,7 +1309,7 @@ label {
   }
 
   #address{
-    width: 90%;
+    width: 100%;
   }
 }
 
