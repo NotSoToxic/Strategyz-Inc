@@ -1259,6 +1259,8 @@ label {
    width: 100%;
  }
 }
+
+
 @media (max-width: 991px) {
    #location-main-container{
     /* background-color: #E5E4E2; */
