@@ -200,18 +200,20 @@ hr {
 
 
 #menu {
-  padding: 10px;
+  padding-top: 5px;
+  padding-bottom: 6px;
   transition: all 0.8s;
 }
 #menu.navbar-default {
   background-color: #F5F5F5;
   border-color: rgba(231, 231, 231, 0);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+  
 }
 /* for logo image*/
 #menu.navbar-default img {
   max-width: 150px; 
-  margin-top: 10px;
+  margin-top: 12px;
   height: auto;
 }
 
@@ -342,8 +344,13 @@ a:focus,
 .social {
   border-top: 1px solid rgba(20, 35, 167, 0.15);
   text-align: center;
-  margin: -10 0px;
+  
+  margin: -6px 0px;
   margin-left: 5px;
+}
+
+.social a {
+  margin: 5px 10px 0px !important;
 }
 
 .social i.fa {
@@ -842,8 +849,9 @@ label {
 } */
 /* Footer Section*/
 #footer {
-  background: #E5E4E2;
+  background: #DADBDD;
   padding: 2px 0;
+  box-shadow: 2px 0 2px #686A6C;
 }
 #footer p {
   color: #0C090A;
@@ -944,7 +952,7 @@ label {
 #info {
   padding-top: 70px;
   max-width: 100vw;
-  height: 100%;
+  height: 100vh;
   background: linear-gradient(to right, #ffffff 60%, #E5E4E2 60%);
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Soft shadow */
@@ -1053,6 +1061,7 @@ label {
 #info #logo-right{
   padding-top: 100px;
   top: 0;
+  height: 100%;
   position: absolute;
   right: 0;
   width: 40%;
@@ -1136,6 +1145,114 @@ label {
   }
 }
 
+/* Location  page*/
+/*blue color 608dfd */
+
+#location{
+  width: 98.9vw;
+  background-color: #E5E4E2;
+  margin-top: 20px;
+  margin-right: -20px ;
+ padding: 100px;
+ display: block;
+  justify-content: space-between;
+}
+
+#location-main-container{
+  /* background-color: #E5E4E2; */
+  display: flex;
+}
+
+
+#address{
+  width: 50%;
+ 
+}
+
+
+
+#address-section {
+  padding: 20px;
+}
+
+#map-section {
+  padding: 25px;
+}
+
+
+
+#location-form {
+  
+  margin-top: 275px;
+  padding: 20px 20px;
+  height: 80vh;
+  width: 50%;
+  position: fixed;
+  left: 75%; /* Adjust as needed to center horizontally */
+  max-width: 600px;
+  transform: translate(-55%, -53%);   /* -52 could be ranged between -50 and -53*/
+  background-color:  #004EAF; /*Logo color*/
+  border-radius: 12px;
+}
+
+#location-form h2 {
+  color: #fff;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+/* #location-form input[type="text"],
+#location-form input[type="email"],
+#location-form input[type="tel"],
+#location-form textarea {
+
+  
+} */
+
+
+#location-form .form-control {
+  width: 100%;
+  padding: 10px;
+  font-size: 18px;
+  border-radius: 5px;
+ 
+  border: 2px solid #ced4da;
+}
+
+
+.btn-primary {
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 768px) {
+  #address-map-container {
+    width: 50%;
+  }
+}
+
+/* Location  page over*/
+
+
 /*Strategyz info page*/
 
 /* Strategyzinfo Section */
@@ -1157,9 +1274,9 @@ label {
 
 .Strategyz_info .sidebar {
   width: 25%;
-  padding: 2rem;
+  padding: 90px 0;
   position: sticky;
-  top: 100;
+  top: 0;
   height: 90vh;
   overflow-y: auto;
 }
@@ -1195,7 +1312,7 @@ label {
 }
 
 #overview{
-  text-align: left;
+  text-align: center;
   margin: 0 30px;
   padding-top: 80px;
   
@@ -1329,19 +1446,22 @@ label {
 }
 
 @media (max-width: 480px) {
-  .Strategyz_info .sidebar ul {
-    padding: 10px;
-    border: none;
-    flex-direction: column;
-    align-items: center;
+  .Strategyz_info .sidebar{
+    display: none;
+  }
+  
+
+  #overview {
+    margin: 0 10px;
+    padding-top: 20px
   }
 
-  .Strategyz_info .sidebar li {
+  #working{
     
-    margin: 0.75rem;
-    border: none;
-    padding: 0.5rem;
+    padding-top: 30px;
   }
+
+  
 
   .working-navbar ul {
     position: relative;
