@@ -1490,6 +1490,7 @@ label {
 }
 #clients .flex-container .box img{
   width: 100%; 
+  display: flex;
   justify-content: center;
 }
 
@@ -1508,7 +1509,7 @@ label {
 #clients .flex-container .box  {
   width: 20rem;
   height: 20rem;
-  margin: 4%;
+  margin: 0%;
   background-color: #ffffff;
   border: 1px solid #eaebe5;
   transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
