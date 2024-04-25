@@ -39,7 +39,7 @@ export const About = (props) => {
             <div className="about-text">
               <p>{props.data ? props.data.paragraph : "loading..."}</p>
               {/* <p>{props.data ? props.data.paragraph2 : "loading..."}</p> */}
-              <p><a className="aboutstrategyz" href="/ats">About STRATEGYZ →</a></p>
+              <p><a className="aboutstrategyz" href="/strategyzinfo">About STRATEGYZ →</a></p>
             </div>
             
           </div>
