@@ -54,7 +54,7 @@ export const Locations = (props) => {
         <div id="location-main-container">
           <div id="address">
             <div id="addressOne">
-              <h1>Address-1</h1>
+              <h1>Heading: Head Office | Gurgaon</h1>
               <p>{firstLocation}</p>
               <div id="map-section">
                 <iframe
@@ -69,7 +69,7 @@ export const Locations = (props) => {
               </div>
             </div>
             <div id="addressTwo">
-              <h1>Address-2</h1>
+              <h1>Corporate Office | Bengaluru</h1>
               <p>{secondLocation}</p>
               <div id="map-section">
                 <iframe
