@@ -141,19 +141,25 @@ export const Strategyzinfo = (props) => {
                   <div class="flex-container">
                     <div class="box">
                       <img src="img/StrategyzInfo_logo/ibm.png" alt="ibm logo"></img>
+                      <p>IBM</p>
                     </div>
                     <div class="box">
                       <img src="img/StrategyzInfo_logo/hexawareT logo.jpeg" alt="Hexaware logo"></img>
+                      <p>Hexaware Technologies</p>
                     </div>
                     <div class="box">
                       <img src="img/StrategyzInfo_logo/RangT logo.png" alt="Rang Technologies logo"></img>
+                      <p>Rang Technologies</p>
                     </div>
-                    <div class="box">
+                    <div class="box" id="row2">
                       <img src="img/StrategyzInfo_logo/HarjaiC logo.png" alt="Harjai Computers logo"></img>
+                      <p>Harjai Computers</p>
                     </div>
-                    <div class="box">
+                    <div class="box" id="row2" >
                       <img src="img/StrategyzInfo_logo/fabH logo.png" alt="Fab Hotels logo"></img>
+                      <p>FabHotels</p>
                     </div>
+                    
                     
                   </div>
                 <p>

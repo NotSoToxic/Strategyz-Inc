@@ -1485,18 +1485,18 @@ label {
 /*Clients section strategyzinfoPage*/
 #clients .flex-container {
   display: flex;
-  flex-wrap: wrap; 
-  justify-content:space-between; 
-  align-items: center; 
-
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 #clients .flex-container .box img{
   width: 100%; 
   justify-content: center;
 }
+
 #clients .flex-container .box  {
   width: 20rem;
   height: 20rem;
+  padding: 3rem 4rem;
   background-color: #d2dab7;
   margin: 4%;
   border: 1px solid #eaebe5;
