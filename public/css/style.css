@@ -1275,6 +1275,7 @@ label {
     position: static;
     transform: translate(0%, -0%);
     left: 0%;
+    height: 600px;
     
     
 
@@ -1285,10 +1286,51 @@ label {
   }
 }
 @media (max-width: 768px) {
-  
-  {
+  #location{
+    width: 200vw;
     background-color: #E5E4E2;
+    margin-top: 20px;
+    margin-right: -20px ;
+   padding: 100px;
+   display: block;
+    justify-content: space-between;
   }
+  
+  #location-main-container{
+    /* background-color: #E5E4E2; */
+    width: 100%;
+    display: block;
+    
+  } 
+
+  #location-form{
+    margin-top: 10%;
+    width: 850px;
+    background-color: #004EAF;
+    position: static;
+    transform: translate(0%, -0%);
+    left: 0%;
+    
+    
+
+  }
+
+  #address{
+    width: 100%;
+  }
+}
+
+@media (max-width: 320px) {
+  #location{
+    width: 250vw;
+    background-color: #E5E4E2;
+    margin-top: 20px;
+    margin-right: -20px ;
+   padding: 100px;
+   display: block;
+    justify-content: space-between;
+  }
+  
   #location-main-container{
     /* background-color: #E5E4E2; */
     width: 100%;
