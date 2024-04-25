@@ -168,9 +168,7 @@ export const Strategyzinfo = (props) => {
                     </div>
                     
                   </div>
-                <p>
-                Our clients include IBM, HexaWare, Harjai Computers, FabHotels, FrankFinn, and TumbleDry. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam iusto voluptatum alias, molestias repellat distinctio nostrum dolore accusantium inventore id ipsum ullam. Consequatur id consequuntur nihil saepe facere amet nisi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus deserunt delectus dolores consectetur quo, doloribus blanditiis consequatur aliquid iste architecto fugit placeat vel explicabo ipsa quasi, accusantium, nostrum beatae eaque! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati deserunt dolorem autem doloremque, odio delectus, id dicta quod dolores cum ut architecto distinctio assumenda nam, fugit mollitia blanditiis aliquid doloribus? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam eveniet earum amet magni velit, quis, voluptatibus maxime numquam magnam voluptatum fugit expedita alias odit molestiae illum delectus aliquid, dicta adipisci. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum autem inventore quos, velit omnis illo labore dolorum nostrum rerum veniam architecto non. Odit, similique vero reiciendis velit alias a inventore. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae veritatis sunt necessitatibus voluptas commodi esse fugit in, alias dolorum suscipit aliquid, enim est officia obcaecati iste delectus dolorem, provident soluta. Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum nostrum fugit ratione saepe velit, minima tempore animi quas odit ipsum eos distinctio dolorum vero maiores est laudantium alias magnam eius. Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam numquam dolore, eveniet eius vero animi iusto adipisci? Nesciunt ut, officia repellendus animi, eum voluptatibus temporibus molestiae itaque hic incidunt doloremque.
-                </p>
+                
             </section>
             
         </main>
