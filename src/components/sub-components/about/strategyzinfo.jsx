@@ -140,37 +140,39 @@ export const Strategyzinfo = (props) => {
                 <h2>Clients</h2>
                   <div class="flex-container">
                     <div class="box">
-                      <img src="img/ibm.png" alt="ibm logo"></img>
+                      <img src="img/StrategyzInfo_logo/ibm.png" alt="ibm logo"></img>
+                      <p>IBM</p>
                     </div>
                     <div class="box">
-                      <img src="img/ibm.png" alt="ibm logo"></img>
+                      <img src="img/StrategyzInfo_logo/hexawareT logo.jpeg" alt="Hexaware logo"></img>
+                      <p>Hexaware Technologies</p>
                     </div>
                     <div class="box">
-                      <img src="img/ibm.png" alt="ibm logo"></img>
+                      <img src="img/StrategyzInfo_logo/RangT logo.png" alt="Rang Technologies logo"></img>
+                      <p>Rang Technologies</p>
                     </div>
                     <div class="box">
-                      <img src="img/ibm.png" alt="ibm logo"></img>
+                      <img src="img/StrategyzInfo_logo/HarjaiC logo.png" alt="Harjai Computers logo"></img>
+                      <p>Harjai Computers</p>
                     </div>
                     <div class="box">
-                      <img src="img/ibm.png" alt="ibm logo"></img>
+                      <img src="img/StrategyzInfo_logo/fabH logo.png" alt="Fab Hotels logo"></img>
+                      <p>FabHotels</p>
                     </div>
-                    <div class="box">
-                      <img src="img/ibm.png" alt="ibm logo"></img>
-                    </div>
-                    <div class="box">
-                      <img src="img/ibm.png" alt="ibm logo"></img>
-                    </div>
-                    <div class="box">
-                      <img src="img/ibm.png" alt="ibm logo"></img>
-                    </div>
-                    <div class="box">
-                      <img src="img/ibm.png" alt="ibm logo"></img>
-                    </div>
+                    
                     
                   </div>
             </section>
             
         </main>
+      </div>
+      <div id="footer">
+        <div className="container text-center">
+          <p>
+            &copy; 2024 Strategyz Inc.
+              All Rights Reserved
+          </p>
+        </div>
       </div>
     </div>
   );
