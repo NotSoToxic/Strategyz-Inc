@@ -168,7 +168,6 @@ export const Strategyzinfo = (props) => {
                     </div>
                     
                   </div>
-                
             </section>
             
         </main>
