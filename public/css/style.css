@@ -1165,8 +1165,8 @@ label {
 
 
 #address{
+  height: 100vh;
   width: 50%;
- 
 }
 
 
@@ -1244,11 +1244,58 @@ label {
 
 
 
-@media (min-width: 768px) {
-  #address-map-container {
-    width: 50%;
+
+/* Adjustments for smaller screens */
+@media (max-width: 768px) {
+  #location-main-container {
+    flex-direction: column;
+  }
+  
+  #address,
+  #location-form {
+    width: 100%;
+  }
+
+  #address {
+    height: auto; /* Let the content dictate the height */
+  }
+
+  #location-form {
+    left: 0;
+    margin-top: 20px; /* Adjust as needed */
+    position: relative;
+    transform: none; /* Remove the translation */
+  }
+  .map-iframe{
+    width: 100%;
+    height: 100%;
+  }
+
+  #location-form .form-control {
+    font-size: 16px; /* Decrease font size for smaller screens */
   }
 }
+
+/* Additional adjustments for even smaller screens */
+@media (max-width: 480px) {
+  #location-main-container {
+    padding: 20px; /* Add some padding for better spacing */
+  }
+
+  #location {
+    width: 160vw;
+    padding: 20px; /* Add padding to the entire section */
+  }
+
+  #location-form {
+    margin-top: 20px; /* Adjust margin top as needed */
+  }
+  .map-iframe{
+    width: 100%;
+    height: 100%;
+  }
+}
+
 
 /* Location  page over*/
 
