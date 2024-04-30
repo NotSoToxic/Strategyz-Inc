@@ -1199,6 +1199,10 @@ label {
   color: #fff;
 }
 
+#address h1{
+  color: #000;
+}
+
 .form-group {
   margin-bottom: 20px;
 }
