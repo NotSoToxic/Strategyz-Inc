@@ -1165,9 +1165,8 @@ label {
 
 
 #address{
+  
   width: 50%;
- 
- 
 }
 
 
@@ -1354,6 +1353,7 @@ label {
     width: 100%;
   }
 }
+
 
 /* Location  page over*/
 
@@ -1590,18 +1590,19 @@ label {
 /*Clients section strategyzinfoPage*/
 #clients .flex-container {
   display: flex;
-  flex-wrap: wrap; 
-  justify-content:space-between; 
-  align-items: center; 
-
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 #clients .flex-container .box img{
   width: 100%; 
-  height: auto; 
+  display: flex;
+  justify-content: center;
 }
+
 #clients .flex-container .box  {
   width: 20rem;
   height: 20rem;
+  padding: 3rem 4rem;
   background-color: #d2dab7;
   margin: 4%;
   border: 1px solid #eaebe5;
@@ -1613,7 +1614,7 @@ label {
 #clients .flex-container .box  {
   width: 20rem;
   height: 20rem;
-  margin: 4%;
+  margin: 0%;
   background-color: #ffffff;
   border: 1px solid #eaebe5;
   transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
