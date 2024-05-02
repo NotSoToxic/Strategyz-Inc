@@ -120,42 +120,10 @@ export const Navigation = (props) => {
             </li>
             
             
-            <li className="dropdown">
-              <a
-                href="#services"
-                className=" page-scroll"
-                data-toggle="hover"
-                role="button"
-                aria-haspopup="true"
-                aria-expanded="false"
-              >
-                Careers <span className="caret"></span>
-                
-                
+            <li>
+              <a href="/carriers" className="page-scroll">
+                Carriers
               </a>
-              <ul className="dropdown-menu">
-                <li>
-                  <div className='services-offered'>
-                  <h3>Job search</h3>
-                  <ul className='services1'>
-                    <li><a href="/internaljob">↪ Internal Openings</a></li>
-                    <li><a href="/clientjob">↪ Client Openings</a></li>
-                    
-                  </ul>
-                  </div>
-                </li>
-                <li>
-                  <div className='services-offered'>
-                  <h3>Life at STRATEGYZ</h3>
-                  <ul className='services1'>
-                    {/* <li><a href="/">Application Tracking System(ATS)</a></li>
-                    <li><a href="/">Human Resources Management System(HRMS)</a></li>
-                    <li><a href="/">Vendor Management System(VMS)</a></li> */}
-                  </ul>
-                  </div>
-                </li>
-
-              </ul>
             </li>
             <li className="dropdown">
               <a

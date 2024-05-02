@@ -934,19 +934,14 @@ label {
 }
 
 /*Carriers page*/
-/*Internal openings*/
-#internaljobs{
+
+#carriers{
   text-align: center;
   padding: 100px 0;
   
 }
 
-/*Client openings*/
-#clientjobs{
-  text-align: center;
-  padding: 100px 0;
-  
-}
+
 
 /*Info page*/
 #info {

@@ -50,4 +50,29 @@
   <div id="root"></div>
   <script type="text/javascript" src="js/jquery.1.11.1.js"></script>
   <script type="text/javascript" src="js/bootstrap.js"></script>
+  <script>
+    // Function to update the title based on the current URL or page content
+    function updateTitle() {
+        var pageTitle = "Strategy Zinc"; // Default title
+        var path = window.location.pathname; // Get the current URL path
+
+        // You can add conditions here to set different titles for different pages
+        if (path === "/strategyzinfo") {
+            pageTitle = "Strategy Zinc - Info";
+        } else if (path === "/locations") {
+            pageTitle = "Strategy Zinc - Locations";
+        } else if (path === "/info") {
+            pageTitle = "Strategy Zinc - More Info";
+        }
+
+        // Update the title of the page
+        document.title = pageTitle;
+    }
+
+    // Call the function initially to set the title
+    updateTitle();
+
+    // Add an event listener to update the title when the URL changes
+    window.addEventListener('popstate', updateTitle);
+</script>
 </body>

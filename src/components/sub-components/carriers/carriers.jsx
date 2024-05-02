@@ -1,8 +1,8 @@
 import React from "react";
 
-export const Internaljobs = (props) => {
+export const Carriers = (props) => {
     return (
-        <div id="internaljobs">
+        <div id="carriers">
             <h1>
                 Coming Soon...
             </h1>
