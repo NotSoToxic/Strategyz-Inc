@@ -68,7 +68,7 @@ const App = () => {
 
           {/* Careers page  */}
           
-          <Route path="/careers" element={<Careers/>} />
+          {/* <Route path="/careers" element={<Careers/>} /> */}
           
           
 
