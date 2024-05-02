@@ -10,7 +10,7 @@ import { Augmentation } from "./components/sub-components/services/consulting/au
 import { Ats } from "./components/sub-components/services/software/ats.jsx";
 import { Hrms } from "./components/sub-components/services/software/hrms.jsx";
 import { Vms } from "./components/sub-components/services/software/vms.jsx";
-import { Carriers } from "./components/sub-components/carriers/carriers.jsx";
+import { Careers } from "./components/sub-components/carriers/careers.jsx";
 import { Locations } from "./components/sub-components/contact/locations.jsx";
 import { Info } from "./components/sub-components/contact/info.jsx";
 import { Strategyzinfo } from "./components/sub-components/about/strategyzinfo.jsx";
@@ -66,9 +66,9 @@ const App = () => {
           {/* VMS page  */}
           <Route path="/vms" element={<Vms />}/>
 
-          {/* Carriers page  */}
+          {/* Careers page  */}
           
-          <Route path="/carriers" element={<Carriers/>} />
+          <Route path="/careers" element={<Careers/>} />
           
           
 

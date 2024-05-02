@@ -73,15 +73,7 @@
     padding: 20px;
     width: 100%;
   }
-  #header,
-  #about,
-  #services,
-  #testimonials,
-  #team,
-  #contact,
-  #footer {
-    width: 160vw;
-  }
+  
 
   #portfolio {
     width: 100%;

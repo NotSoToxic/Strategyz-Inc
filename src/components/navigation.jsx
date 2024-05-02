@@ -121,8 +121,8 @@ export const Navigation = (props) => {
             
             
             <li>
-              <a href="/carriers" className="page-scroll">
-                Carriers
+              <a href="/careers" className="page-scroll">
+                Careers
               </a>
             </li>
             <li className="dropdown">
