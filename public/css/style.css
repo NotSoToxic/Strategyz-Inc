@@ -825,37 +825,7 @@ label {
 }
 
 /*Careers page*/
-#careers .sidebar {
-  width: 25%;
-  padding: 90px 0;
-  position: sticky;
-  top: 0;
-  height: 90vh;
-  overflow-y: auto;
-}
 
-#careers .sidebar ul {
-  text-align: left;
-  list-style: none;
-  padding: 1rem;
-}
-
-#careers .sidebar li {
-  padding: 2rem;
-  list-style-type: none;
-}
-
-#careers .sidebar li a {
-  border-left: 3px solid #333;
-  text-decoration: none;
-  padding: 2rem;
-  font-size: 14pt;
-  transition: border-left-color 0.3s ease-in-out;
-}
-
-#careers .sidebar li a:hover {
-  border-left-color: #999;
-}
 
 #careers{
   text-align: center;
@@ -892,7 +862,51 @@ label {
   height: auto;
 }
 
+#careers .sidebar {
+  width: 25%;
+  padding: 90px 0;
+  position: sticky;
+  top: 0;
+  height: 90vh;
+  overflow-y: auto;
+}
 
+#careers .sidebar ul {
+  text-align: left;
+  list-style: none;
+  padding: 1rem;
+}
+
+#careers .sidebar li {
+  padding: 2rem;
+  list-style-type: none;
+}
+
+#careers .sidebar li a {
+  border-left: 3px solid #333;
+  text-decoration: none;
+  padding: 2rem;
+  font-size: 14pt;
+  transition: border-left-color 0.3s ease-in-out;
+}
+
+#careers .sidebar li a:hover {
+  border-left-color: #999;
+}
+
+#careers .content-wrapper {
+  display: flex;
+  margin-top: 2rem;
+}
+
+#careers main {
+  position: relative;
+  
+  right: 0;
+  width: 70%;
+  flex-grow: 1;
+  padding: 2rem;
+}
 
 /*Info page*/
 #info {
