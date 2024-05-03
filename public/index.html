@@ -44,10 +44,36 @@
   <title>Strategyz Inc.</title>
   <meta name="description" content="Webpage for Strategyz Inc." />
   <meta name="author" content="@SarthakJoshi, @DevashishJindal" />
+  <meta http-equiv="content-language" content="en-us" />
 </head>
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
   <div id="root"></div>
   <script type="text/javascript" src="js/jquery.1.11.1.js"></script>
   <script type="text/javascript" src="js/bootstrap.js"></script>
+  <script>
+    // Function to update the title based on the current URL or page content
+    function updateTitle() {
+        var pageTitle = "Home || Strategyz Inc."; // Default title
+        var path = window.location.pathname; // Get the current URL path
+
+        // You can add conditions here to set different titles for different pages
+        if (path === "/strategyzinfo") {
+            pageTitle = "About || Strategyz Inc.";
+        } else if (path === "/locations") {
+            pageTitle = "Locations || Strategyz Inc.";
+        } else if (path === "/info") {
+            pageTitle = "Info || Strategyz Inc.";
+        }
+
+        // Update the title of the page
+        document.title = pageTitle;
+    }
+
+    // Call the function initially to set the title
+    updateTitle();
+
+    // Add an event listener to update the title when the URL changes
+    window.addEventListener('popstate', updateTitle);
+</script>
 </body>

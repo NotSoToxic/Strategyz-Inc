@@ -7,10 +7,18 @@
 
 
 
-<url>
-  <loc>https://www.strategyzinc.com/</loc>
-  <lastmod>2024-04-17T10:53:23+00:00</lastmod>
-</url>
+            <url>
+              <loc>https://www.strategyzinc.com/</loc>
+           </url>
+           <url>
+              <loc>https://www.strategyzinc.com/strategyzinfo</loc>
+           </url>
+           <url>
+              <loc>https://www.strategyzinc.com/locations</loc>
+           </url>
+           <url>
+              <loc>https://www.strategyzinc.com/info</loc>
+           </url>
 
 
 </urlset>
