@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { useState } from "react";
 import careers from "../../assets/images/careers.jpg";
 
@@ -28,9 +29,9 @@ export const Careers = (props) => {
             <div className="content-wrapper">
                 <aside className="sidebar">
                     <ul>
-                        <li><a href="#overview" className="page-scroll">Overview</a></li>
-                        <li><a href="#working" className="page-scroll">What does STRATEGYZ do?</a></li>
-                        <li><a href="#clients" className="page-scroll">Our Clients</a></li>
+                        <li><a href="#overview" className="page-scroll">What We Do</a></li>
+                        <li><a href="#working" className="page-scroll">Apply</a></li>
+                        <li><a href="#clients" className="page-scroll">Insights</a></li>
                     </ul>
                 </aside>
 
@@ -77,6 +78,33 @@ export const Careers = (props) => {
                             </div>
                         )}
                     </section>
+                    <section id="clients">
+                <h2>Clients</h2>
+                  <div class="flex-container">
+                    <div class="box">
+                      <img src="img/StrategyzInfo_logo/ibm.png" alt="ibm logo"></img>
+                      <p>IBM</p>
+                    </div>
+                    <div class="box">
+                      <img src="img/StrategyzInfo_logo/hexawareT logo.jpeg" alt="Hexaware logo"></img>
+                      <p>Hexaware Technologies</p>
+                    </div>
+                    <div class="box">
+                      <img src="img/StrategyzInfo_logo/RangT logo.png" alt="Rang Technologies logo"></img>
+                      <p>Rang Technologies</p>
+                    </div>
+                    <div class="box">
+                      <img src="img/StrategyzInfo_logo/HarjaiC logo.png" alt="Harjai Computers logo"></img>
+                      <p>Harjai Computers</p>
+                    </div>
+                    <div class="box">
+                      <img src="img/StrategyzInfo_logo/fabH logo.png" alt="Fab Hotels logo"></img>
+                      <p>FabHotels</p>
+                    </div>
+                    
+                    
+                  </div>
+            </section>
                 </main>
             </div>
 
