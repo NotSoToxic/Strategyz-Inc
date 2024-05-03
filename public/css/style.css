@@ -907,6 +907,81 @@ label {
   flex-grow: 1;
   padding: 2rem;
 }
+/* Responsive Styles */
+
+@media (max-width: 991px) {
+  #careers .sidebar {
+    width: 30%;
+  }
+
+  #careers main {
+    width: 70%;
+  }
+}
+
+@media (max-width: 768px) {
+  
+  #careers .content-wrapper {
+    flex-direction: column;
+  }
+
+  #careers .sidebar {
+    width: 100%;
+    position: static;
+    height: auto;
+  }
+
+  #careers .sidebar ul {
+    padding: 25px 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0.5rem;
+  }
+
+  #careers .sidebar li {
+    margin: 0.5rem;
+    border: none;
+    padding: 1rem;
+  }
+
+  #careers .sidebar li a {
+    padding: 1rem;
+    font-size: 12pt;
+  }
+
+  #careers main {
+    width: 100%;
+    padding: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  #careers .sidebar{
+    display: none;
+  }
+  #overview {
+    margin: 0 10px;
+    padding-top: 20px
+  }
+  #working{
+    padding-top: 30px;
+  }
+  .working-navbar ul {
+    position: relative;
+    top: auto;
+    left: auto;
+    display: block;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .working-navbar li {
+    display: inline-block;
+    margin: 0.5rem;
+  }
+  
+}
 
 /*Info page*/
 #info {
@@ -1343,7 +1418,6 @@ label {
 
 .working-navbar {
   display: flex;
-  
   margin-top: 1rem;
 }
 
@@ -1397,7 +1471,6 @@ label {
 }
 
 #working-navbar-content > ul {
-  
   padding: 10px 30px;
   font-size: 14pt;
   list-style:disc;
@@ -1444,8 +1517,6 @@ label {
   .Strategyz_info .sidebar li {
     margin: 0.5rem;
     border: none;
-    
-    
     padding: 1rem;
   }
 
@@ -1472,7 +1543,6 @@ label {
   }
 
   #working{
-    
     padding-top: 30px;
   }
 
