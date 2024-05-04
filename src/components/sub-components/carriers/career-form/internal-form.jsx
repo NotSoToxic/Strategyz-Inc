@@ -112,19 +112,19 @@ export const InternalForm = (props) => {
                 required
               >
                <option value="">-Area of Interest-</option>
-                <option value="Option 1">Software Engineering</option>
-                <option value="Option 2">Sales</option>
-                <option value="Option 3">Consulting</option>
-                <option value="Option 4">Data Analyst</option>
-                <option value="Option 5">Cybersecurity</option>
-                <option value="Option 6">Human Resources</option>
-                <option value="Option 7">Design and UX</option>
-                <option value="Option 8">Marketing</option>
-                <option value="Option 9">Finance</option>
-                <option value="Option 10">Research</option>
-                <option value="Option 11">Supply Chain</option>
-                <option value="Option 12">Operations</option>
-                <option value="Option 13">Other</option>
+                <option value="Software Engineering">Software Engineering</option>
+                <option value="Sales">Sales</option>
+                <option value="Consulting">Consulting</option>
+                <option value="Data Analyst">Data Analyst</option>
+                <option value="Cybersecurity">Cybersecurity</option>
+                <option value="Human Resources">Human Resources</option>
+                <option value="Design and UX">Design and UX</option>
+                <option value="Marketing">Marketing</option>
+                <option value="Finance">Finance</option>
+                <option value="Research">Research</option>
+                <option value="Supply Chain">Supply Chain</option>
+                <option value="Operations">Operations</option>
+                <option value="Other">Other</option>
               </select>
               <p className="help-block text-danger"></p>
             </div>
