@@ -69,7 +69,7 @@ export const Applicationform = (props) => {
         </div>
         <div className="app-form-group">
           <div className="app-card">
-            <label htmlFor="jobRole">Job Role</label>
+            <label htmlFor="jobRole">Job Role*</label>
             <input
               type="text"
               id="jobRole"
