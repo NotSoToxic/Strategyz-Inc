@@ -110,12 +110,11 @@ export const InternalForm = (props) => {
         </div>
         <div className="form-group">
           <input
-            type="file"
+            type="text"
             name="resume"
             id="resume"
             className="form-control"
-            accept=".pdf,.doc,.docx"
-            maxlength="10485760" // 10 MB in bytes
+            placeholder="Resume"
             required
           />
           <p className="help-block text-danger"></p>
