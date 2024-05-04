@@ -71,7 +71,7 @@ const App = () => {
 
           {/* Careers page  */}
           
-          <Route path="/careers" element={<Careers/>} />
+          {/* <Route path="/careers" element={<Careers/>} /> */}
 
           {/*Internal Job form page*/}
           {/* <Route path="/Application-form" element={<Applicationform/>} /> */}
