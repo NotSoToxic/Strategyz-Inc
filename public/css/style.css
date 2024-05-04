@@ -1008,64 +1008,124 @@ label {
 
 /*internal job page*/
 
-#internal-job{
-  display: flex;
-  height: 95vh;
-  flex-direction: row;
-  position: relative;
-  max-width: 100%;
-  margin: 0 40px;
-  text-align: center;
+#application-form {
   padding: 100px 0;
-  background: linear-gradient(to right, #ffffff 60%, #E5E4E2 60%);
-  align-items: center;
-  
-}
-
-#internal-form{
-  
-  position: relative;
-  max-width: 60%;
-  right: 0;
+  background: #c8b8f9;
+  color: #333;
   height: 100%;
-  padding: 0 50px;
-  align-self: center;
-  color: #fff;
-  
-
-}
-
-#internal-form h2{
-  color: #004EAF;
-}
-
-#internal-form .form-group {
-  margin-bottom: 20px;
-}
-
-#internal-form .form-control {
   width: 100%;
-  padding: 5px;
-  font-size: 16px;
-  border-radius: 0%;
-  
-  /* border: 2px solid #ced4da; */
 }
 
-#internal-form .btn-primary {
-  background-color: #007bff;
-  border: none;
+#application-form h1{
+  text-align: center;
+}
+
+#application-form-container{
+  margin: 20px 20px;
+  border-radius: 10px;
+  background-color: #d3c6fa;
+  padding: 20px;
+}
+
+#application-form-container h2{
+  text-align: left;
+  font-size: 20px;
+  font-style: none;
+}
+
+#application-form .app-form-group {
+  margin-bottom: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#application-form .app-form-group label {
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 5px;
+  color: #333; /* Dark grey label color */
+}
+
+
+#application-form .app-form-control {
+  
+  padding: 10px;
+  font-size: 16px;
   border-radius: 5px;
-  padding: 10px 20px;
-  color:#000;
+  border: 2px solid #ccc;
+}
+
+#application-form .app-card {
+  flex: 0 0 calc(33.333% - 20px);
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+#application-form .app-card label {
+  margin-bottom: 5px;
+}
+
+#application-form .app-card input {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 2px solid #ccc;
+}
+
+#application-form .app-card.full-width {
+  flex: 0 0 100%;
+}
+
+#application-form .resume-upload {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+#application-form .resume-upload .file-input {
+  opacity: 0;
+  width: 25%;
+  position: absolute;
+  z-index: 1;
   cursor: pointer;
 }
 
-.internal-content{
-  max-width: 40%;
-  height: 100%;
-  background-color: #E5E4E2;
+#application-form .resume-upload .upload-btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
 }
+
+#application-form .resume-upload .file-name {
+  margin-left: 10px;
+  font-size: 16px;
+}
+
+#application-form .app-card .radio-group {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#application-form .app-card .radio-column {
+  flex: 0 0 50%;
+  padding-right: 10px;
+  box-sizing: border-box;
+}
+
+#application-form .app-card .radio-column div {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+#application-form .app-card .radio-column label {
+  margin-left: 5px;
+}
+
 
 /*Info page*/
 #info {

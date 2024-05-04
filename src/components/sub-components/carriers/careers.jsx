@@ -75,7 +75,7 @@ export const Careers = (props) => {
                                     <div class="job-card">
                                         <h4>Software Engineering</h4>
                                         <p>Description of Job 1</p>
-                                        <a href="/internal-form">Apply Now ↪</a>
+                                        <a href="/Application-form">Apply Now ↪</a>
                                     </div>
                                     <div class="job-card">
                                         <h4>Sales</h4>
