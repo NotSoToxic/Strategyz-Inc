@@ -44,7 +44,7 @@ export const InternalForm = (props) => {
     <div id="internal-job">
       <div id="internal-form">
         <div>
-          <h2>Internal Applicant Form</h2>
+          <h2>Career Form</h2>
         </div>
         <form name="" validate onSubmit={handleSubmit} ref={formRef}>
           <div className="row">
@@ -112,7 +112,7 @@ export const InternalForm = (props) => {
                 className="form-control"
                 required
               >
-               <option value="">-Area of Interest-</option>
+               <option value="">--</option>
                 <option value="Option 1">Software Engineering</option>
                 <option value="Option 2">Sales</option>
                 <option value="Option 3">Consulting</option>

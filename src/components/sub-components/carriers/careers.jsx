@@ -75,22 +75,62 @@ export const Careers = (props) => {
                                     <div class="job-card">
                                         <h4>Software Engineering</h4>
                                         <p>Description of Job 1</p>
-                                        <a href="/internal-form">Apply</a>
+                                        <a href="/internal-form">Apply Now ↪</a>
                                     </div>
                                     <div class="job-card">
-                                        <h4>Title of Job 2</h4>
+                                        <h4>Sales</h4>
                                         <p>Description of Job 2</p>
-                                        <a href="/internal-form">Apply for Job 2</a>
+                                        <a href="/internal-form">Apply Now ↪</a>
                                     </div>
                                     <div class="job-card">
-                                        <h4>Title of Job 3</h4>
+                                        <h4>Consulting</h4>
                                         <p>Description of Job 3</p>
-                                        <a href="/internal-form">Apply for Job 3</a>
+                                        <a href="/internal-form">Apply Now ↪</a>
                                     </div>
                                     <div class="job-card">
-                                        <h4>Title of Job 4</h4>
+                                        <h4>Data Analyst</h4>
                                         <p>Description of Job 4</p>
-                                        <a href="/internal-form">Apply for Job 4</a>
+                                        <a href="/internal-form">Apply Now ↪</a>
+                                    </div>
+                                    <div class="job-card">
+                                        <h4>Cybersecurity</h4>
+                                        <p>Description of Job 4</p>
+                                        <a href="/internal-form">Apply Now ↪</a>
+                                    </div>
+                                    <div class="job-card">
+                                        <h4>Human Resources</h4>
+                                        <p>Description of Job 4</p>
+                                        <a href="/internal-form">Apply Now ↪</a>
+                                    </div>
+                                    <div class="job-card">
+                                        <h4>Design and UX</h4>
+                                        <p>Description of Job 4</p>
+                                        <a href="/internal-form">Apply Now ↪</a>
+                                    </div>
+                                    <div class="job-card">
+                                        <h4>Marketing</h4>
+                                        <p>Description of Job 4</p>
+                                        <a href="/internal-form">Apply Now ↪</a>
+                                    </div>
+                                    <div class="job-card">
+                                        <h4>Finance</h4>
+                                        <p>Description of Job 4</p>
+                                        <a href="/internal-form">Apply Now ↪</a>
+                                    </div>
+                                    <div class="job-card">
+                                        <h4>Research</h4>
+                                        <p>Description of Job 4</p>
+                                        <a href="/internal-form">Apply Now ↪</a>
+                                    </div>
+                                    <div class="job-card">
+                                        <h4>Supply Chain</h4>
+                                        <p>Description of Job 4</p>
+                                        <a href="/internal-form">Apply Now ↪</a>
+                                    </div>
+                                    <div class="job-card">
+                                        <h4>Marketing</h4>
+                                        <p>Description of Job 4</p>
+                                        <a href="/internal-form">Apply Now ↪</a>
                                     </div>
                                 </div>
                             
@@ -101,25 +141,65 @@ export const Careers = (props) => {
                             <div id="working-navbar-content">
                                 <h3>Client Openings</h3>
                                 <div class="job-container">
-                                    <div class="job-card">
-                                        <h4>Title of Job 1</h4>
+                                <div class="job-card">
+                                        <h4>Software Engineering</h4>
                                         <p>Description of Job 1</p>
-                                        <a href="/client-form">Apply for Job 1</a>
+                                        <a href="/internal-form">Apply Now ↪</a>
                                     </div>
                                     <div class="job-card">
-                                        <h4>Title of Job 2</h4>
+                                        <h4>Sales</h4>
                                         <p>Description of Job 2</p>
-                                        <a href="/client-form">Apply for Job 2</a>
+                                        <a href="/internal-form">Apply Now ↪</a>
                                     </div>
                                     <div class="job-card">
-                                        <h4>Title of Job 3</h4>
+                                        <h4>Consulting</h4>
                                         <p>Description of Job 3</p>
-                                        <a href="/client-form">Apply for Job 3</a>
+                                        <a href="/internal-form">Apply Now ↪</a>
                                     </div>
                                     <div class="job-card">
-                                        <h4>Title of Job 4</h4>
+                                        <h4>Data Analyst</h4>
                                         <p>Description of Job 4</p>
-                                        <a href="/client-form">Apply for Job 4</a>
+                                        <a href="/internal-form">Apply Now ↪</a>
+                                    </div>
+                                    <div class="job-card">
+                                        <h4>Cybersecurity</h4>
+                                        <p>Description of Job 4</p>
+                                        <a href="/internal-form">Apply Now ↪</a>
+                                    </div>
+                                    <div class="job-card">
+                                        <h4>Human Resources</h4>
+                                        <p>Description of Job 4</p>
+                                        <a href="/internal-form">Apply Now ↪</a>
+                                    </div>
+                                    <div class="job-card">
+                                        <h4>Design and UX</h4>
+                                        <p>Description of Job 4</p>
+                                        <a href="/internal-form">Apply Now ↪</a>
+                                    </div>
+                                    <div class="job-card">
+                                        <h4>Marketing</h4>
+                                        <p>Description of Job 4</p>
+                                        <a href="/internal-form">Apply Now ↪</a>
+                                    </div>
+                                    <div class="job-card">
+                                        <h4>Finance</h4>
+                                        <p>Description of Job 4</p>
+                                        <a href="/internal-form">Apply Now ↪</a>
+                                    </div>
+                                    <div class="job-card">
+                                        <h4>Research</h4>
+                                        <p>Description of Job 4</p>
+                                        <a href="/internal-form">Apply Now ↪</a>
+                                    </div>
+                                    <div class="job-card">
+                                        <h4>Supply Chain</h4>
+                                        <p>Description of Job 4</p>
+                                        <a href="/internal-form">Apply Now ↪</a>
+                                    </div>
+                                    <div class="job-card">
+                                        <h4>Marketing</h4>
+                                        <p>Description of Job 4</p>
+                                        <a href="/internal-form">Apply Now ↪</a>
                                     </div>
                                 </div>
                                 
