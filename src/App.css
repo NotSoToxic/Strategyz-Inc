@@ -10,7 +10,7 @@
   #contact,
   #footer,
   #info {
-    width: 131vw;
+    width: 100%;
   }
 
   #portfolio {
@@ -29,7 +29,7 @@
   #contact,
   #footer,
   #info {
-    width: 180vw;
+    width: 100%;
   }
 
   #portfolio {
@@ -45,7 +45,7 @@
   #team,
   #contact,
   #footer {
-    width: 138vw;
+    width: 100%;
   }
 
   
@@ -61,7 +61,7 @@
   #team,
   #contact,
   #footer {
-    width: 120vw;
+    width: 100%;
   }
 
   #portfolio {
