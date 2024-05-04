@@ -114,6 +114,8 @@ export const InternalForm = (props) => {
             name="resume"
             id="resume"
             className="form-control"
+            accept=".pdf,.doc,.docx"
+            maxlength="10485760" // 10 MB in bytes
             required
           />
           <p className="help-block text-danger"></p>
