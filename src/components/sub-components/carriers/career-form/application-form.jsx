@@ -83,7 +83,7 @@ export const Applicationform = (props) => {
             <label htmlFor="portfolio">Your Portfolio link</label>
             <input
               type="text"
-              id="Portfolio"
+              id="portfolio"
               name="portfolio"
               className="app-form-control"
               placeholder="Portfolio link"
@@ -148,7 +148,7 @@ export const Applicationform = (props) => {
               </label>
               <input
                 type="file"
-                id="resume-input"
+                id="resume"
                 name="resume"
                 className="file-input"
                 accept=".pdf,.doc,.docx"
