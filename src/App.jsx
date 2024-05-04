@@ -20,6 +20,7 @@ import "./App.css";
 import { Analytics } from '@vercel/analytics/react';
 
 
+
 export const scroll = new SmoothScroll('a[href*="#"]', {
   speed: 1000,
   speedAsDuration: true,
