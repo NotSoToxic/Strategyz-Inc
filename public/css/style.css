@@ -1295,9 +1295,13 @@ label {
 }
 
 #map-section {
+  max-width: 100%;
   padding: 25px;
 }
 
+.map-iframe{
+  width: 100%;
+}
 
 
 #location-form {
@@ -1355,7 +1359,6 @@ label {
   }
   .map-iframe{
     width: 100%;
-    height: 20%;
   }
 }
 
@@ -1366,7 +1369,6 @@ label {
   }
   .map-iframe{
     width: 100%;
-    height: 20%;
   }
 
 }
