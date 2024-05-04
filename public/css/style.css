@@ -1243,11 +1243,6 @@ label {
   margin-bottom: 20px;
 }
 
-<<<<<<< HEAD
-=======
-
-
->>>>>>> e5e88bbde50d7c6e455320e1e824437741f38672
 
 #location-form .form-control {
   width: 100%;
@@ -1312,7 +1307,6 @@ label {
     
   } 
 
-<<<<<<< HEAD
   #location-form{
     margin-top: 10%;
     width: 850px;
@@ -1325,7 +1319,7 @@ label {
     
 
   }
-=======
+
 @media (max-width: 991px) {
   #address,
   #location-form {
@@ -1337,27 +1331,26 @@ label {
   }
 
 }
->>>>>>> e5e88bbde50d7c6e455320e1e824437741f38672
+
 
   #address{
     width: 100%;
   }
 }
 @media (max-width: 768px) {
-<<<<<<< HEAD
+
   #location{
     width: 200vw;
     background-color: #E5E4E2;
     margin-top: 20px;
     margin-right: -20px ;
-   padding: 100px;
-   display: block;
+    padding: 100px;
+    display: block;
     justify-content: space-between;
-=======
+  }
   #location-main-container {
     display: flex;
     flex-direction: column;
->>>>>>> e5e88bbde50d7c6e455320e1e824437741f38672
   }
   
   #location-main-container{
@@ -1379,9 +1372,8 @@ label {
 
   }
 
-<<<<<<< HEAD
-  #address{
-=======
+  
+
   #address {
     height: auto; /* Let the content dictate the height */
   }
@@ -1395,7 +1387,6 @@ label {
     transform: none; /* Remove the translation */
   }
   .map-iframe{
->>>>>>> e5e88bbde50d7c6e455320e1e824437741f38672
     width: 100%;
   }
 }
@@ -1704,7 +1695,3 @@ label {
   box-shadow: 0 0 10px rgba(0, 6, 6, 0.5); 
 
 }
-
-
-  
-
