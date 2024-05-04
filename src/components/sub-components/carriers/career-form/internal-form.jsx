@@ -5,7 +5,7 @@ import { useState, useRef } from "react";
 
 export const InternalForm = (props) => {
 
-    //form
+  //form
   const formRef = useRef();
   const [errorMessage, setErrorMessage] = useState("");
   const [successMessage, setSuccessMessage] = useState("");
@@ -39,119 +39,134 @@ export const InternalForm = (props) => {
         }
       );
   };
-  return(
-  <div id="internal-job">
-  <div id="internal-form">
-            <div>
-              <h2>Internal Applicant Form</h2>
-            </div>
-            <form name="" validate onSubmit={handleSubmit} ref={formRef}>
-                <div className="row">
-                <div class="col-md-6">
-                  <div class="form-group">
-                    <input
-                      type="text"
-                      id="name"
-                      name="name"
-                      class="form-control"
-                      placeholder="Name"
-                      required
-                    />
-                    <p class="help-block text-danger"></p>
-                  </div>
-                </div>
-                <div class="col-md-6">
-                  <div class="form-group">
-                    <input
-                      type="email"
-                      id="email"
-                      name="email"
-                      class="form-control"
-                      placeholder="Email"
-                      required
-                    />
-                    <p class="help-block text-danger"></p>
-                  </div>
-                </div>
-                </div>
-                <div class="row">
-                <div class="col-md-6">
-                  <div class="form-group">
-                    <input
-                      type="text"
-                      id="phone"
-                      name="phone"
-                      class="form-control"
-                      placeholder="Phone Number"
-                      required
-                    />
-                    <p class="help-block text-danger"></p>
-                  </div>
-                </div>
-            <div className="col-md-6">
-            <div className="form-group">
-              <select
-                id="department"
-                name="department"
-                className="form-control"
-                required
-              >
-                <option value="">Select Department</option>
-                <option value="Department 1">Internal Opening</option>
-                <option value="Department 2">Client opening</option>
-              </select>
-              <p className="help-block text-danger"></p>
-            </div>
-          </div>
-                <div className="col-md-6">
-            <div className="form-group">
-              <select
-                id="role"
-                name="role"
-                className="form-control"
-                required
-              >
-               <option value="">-Area of Interest-</option>
-                <option value="Option 1">Software Engineering</option>
-                <option value="Option 2">Sales</option>
-                <option value="Option 3">Consulting</option>
-                <option value="Option 4">Data Analyst</option>
-                <option value="Option 5">Cybersecurity</option>
-                <option value="Option 6">Human Resources</option>
-                <option value="Option 7">Design and UX</option>
-                <option value="Option 8">Marketing</option>
-                <option value="Option 9">Finance</option>
-                <option value="Option 10">Research</option>
-                <option value="Option 11">Supply Chain</option>
-                <option value="Option 12">Operations</option>
-                <option value="Option 13">Other</option>
-              </select>
-              <p className="help-block text-danger"></p>
-            </div>
-          </div>
 
-        <div class="col-md-6 offset-md-3">
-        <div className="form-group">
-          <input
-            type="text"
-            name="resume"
-            id="resume"
-            className="form-control"
-            placeholder="Resume (Open Access Link)"
-            required
-          />
-          <p className="help-block text-danger"></p>
+  return(<>
+    <div id="internal-job">
+      <div id="internal-form">
+        <div>
+          <h2>Internal Applicant Form</h2>
         </div>
-        </div>
-        </div>
-              <button type="submit" class="btn btn-lg">
-                Send Message
-              </button>
-              {/* set css to error messages - remove this after css is set */}
-              {errorMessage && <p className="error-message">{errorMessage}</p>}
-              {successMessage && <p className="success-message">{successMessage}</p>}
-            </form>
+        <form name="" validate onSubmit={handleSubmit} ref={formRef}>
+          <div className="row">
+            <div className="col-md-6">
+              <div className="form-group">
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  className="form-control"
+                  placeholder="Name"
+                  required
+                />
+                <p className="help-block text-danger"></p>
+              </div>
+            </div>
+            <div className="col-md-6">
+              <div className="form-group">
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  className="form-control"
+                  placeholder="Email"
+                  required
+                />
+                <p className="help-block text-danger"></p>
+              </div>
+            </div>
           </div>
+          <div className="row">
+            <div className="col-md-6">
+              <div className="form-group">
+                <input
+                  type="text"
+                  id="phone"
+                  name="phone"
+                  className="form-control"
+                  placeholder="Phone Number"
+                  required
+                />
+                <p className="help-block text-danger"></p>
+              </div>
+            </div>
+            <div className="col-md-6">
+              <div className="form-group">
+                <select
+                  id="department"
+                  name="department"
+                  className="form-control"
+                  required
+                >
+                  <option value="">Select Department</option>
+                  <option value="Department 1">Internal Opening</option>
+                  <option value="Department 2">Client opening</option>
+                </select>
+                <p className="help-block text-danger"></p>
+              </div>
+            </div>
+            <div className="col-md-6">
+              <div className="form-group">
+                <select
+                  id="role"
+                  name="role"
+                  className="form-control"
+                  required
+                >
+                  <option value="">-Area of Interest-</option>
+                  <option value="Option 1">Software Engineering</option>
+                  <option value="Option 2">Sales</option>
+                  <option value="Option 3">Consulting</option>
+                  <option value="Option 4">Data Analyst</option>
+                  <option value="Option 5">Cybersecurity</option>
+                  <option value="Option 6">Human Resources</option>
+                  <option value="Option 7">Design and UX</option>
+                  <option value="Option 8">Marketing</option>
+                  <option value="Option 9">Finance</option>
+                  <option value="Option 10">Research</option>
+                  <option value="Option 11">Supply Chain</option>
+                  <option value="Option 12">Operations</option>
+                  <option value="Option 13">Other</option>
+                </select>
+                <p className="help-block text-danger"></p>
+              </div>
+            </div>
+            <div className="col-md-6 offset-md-3">
+              <div className="form-group">
+                <input
+                  type="text"
+                  name="resume"
+                  id="resume"
+                  className="form-control"
+                  placeholder="Resume (Open Access Link)"
+                  required
+                />
+                <p className="help-block text-danger"></p>
+              </div>
+            </div>
           </div>
-    )};
-    
+          <button type="submit" className="btn btn-lg btn-primary">
+            Send Message
+          </button>
+          {/* set css to error messages - remove this after css is set */}
+          {errorMessage && <p className="error-message">{errorMessage}</p>}
+          {successMessage && <p className="success-message">{successMessage}</p>}
+        </form>
+      </div>
+      <div className="internal-content">
+        <h2>Internal Job Openings</h2>
+        <p>
+          We are always looking for talented individuals to join our team. If you are interested in working with us, please fill out the form on the left. We will get back to you as soon as possible.
+        </p>
+      </div>
+    </div>
+    <div id="footer">
+    <div className="container text-center">
+      <p>
+        &copy; 2024 Strategyz Inc.
+          All Rights Reserved
+      </p>
+    </div>
+  </div>
+  </>
+  );
+};

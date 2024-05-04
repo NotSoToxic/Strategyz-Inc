@@ -987,25 +987,34 @@ label {
 /*internal job page*/
 
 #internal-job{
+  display: flex;
+  height: 95vh;
+  flex-direction: row;
+  position: relative;
   max-width: 100%;
   margin: 0 40px;
   text-align: center;
   padding: 100px 0;
+  background: linear-gradient(to right, #ffffff 60%, #E5E4E2 60%);
+  align-items: center;
   
 }
 
 #internal-form{
-  border-radius: 20px;
-  background-color: #000;
-  padding: 100px 50px;
-  margin: 0 auto;
+  
+  position: relative;
+  max-width: 60%;
+  right: 0;
+  height: 100%;
+  padding: 0 50px;
+  align-self: center;
   color: #fff;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  
 
 }
 
 #internal-form h2{
-  color: #fff;
+  color: #004EAF;
 }
 
 #internal-form .form-group {
@@ -1025,10 +1034,15 @@ label {
   border: none;
   border-radius: 5px;
   padding: 10px 20px;
-  color: #fff;
+  color:#000;
   cursor: pointer;
 }
 
+.internal-content{
+  max-width: 40%;
+  height: 100%;
+  background-color: #E5E4E2;
+}
 
 /*Info page*/
 #info {
@@ -1612,6 +1626,11 @@ label {
     width: 100%;
     padding: 1rem;
   } */
+  #footer{
+    width: 100%;
+    bottom: 0;
+    
+  }
 }
 
 @media (max-width:560px){
@@ -1644,6 +1663,11 @@ label {
   }
   #working img{
     width: 100%;
+  }
+  #footer{
+    width: 100%;
+    bottom: 0;
+    
   }
 
 }
@@ -1682,6 +1706,11 @@ label {
   }
   #working img{
     width: 100%;
+  }
+  #footer{
+    width: 100%;
+    bottom: 0;
+    
   }
 }
 /*Clients section strategyzinfoPage*/
