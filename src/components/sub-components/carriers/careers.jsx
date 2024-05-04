@@ -1,8 +1,8 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { useState } from "react";
 import careers from "../../assets/images/careers.jpg";
-// import { Testimonials } from "../../testimonials";
-// import JsonData from "../../../data/data.json";
+import { Testimonials } from "../../testimonials";
+import JsonData from "../../../data/data.json";
 
 
 
@@ -206,10 +206,10 @@ export const Careers = (props) => {
                             </div>
                         )}
                     </section>
-                    {/* <section id="clients">
+                    <section id="review">
                         <Testimonials data={JsonData.Testimonials} />
-                    </section> */} 
-                    <section id="clients">
+                    </section>
+                    {/* <section id="clients">
                     <h2>Meet the Team</h2>
                   <div class="flex-container">
                     <div class="box">
@@ -233,7 +233,7 @@ export const Careers = (props) => {
                       <p>B</p>
                     </div>
                   </div>
-            </section>   
+            </section>    */}
             </main>
             </div>
 
