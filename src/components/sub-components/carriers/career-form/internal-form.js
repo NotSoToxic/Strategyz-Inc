@@ -3,7 +3,7 @@ import React from "react";
 import emailjs from "emailjs-com";
 import { useState, useRef } from "react";
 
-export const internalForm = (props) => {
+export const InternalForm = (props) => {
 
     //form
   const formRef = useRef();
@@ -39,7 +39,9 @@ export const internalForm = (props) => {
         }
       );
   };
-  <div id="location-form">
+  return(
+  <div id="internal-job">
+  <div id="internal-form">
             <div>
               <h2>Internal Applicant Form</h2>
             </div>
@@ -124,5 +126,6 @@ export const internalForm = (props) => {
               {successMessage && <p className="success-message">{successMessage}</p>}
             </form>
           </div>
-    };
+          </div>
+    )};
     

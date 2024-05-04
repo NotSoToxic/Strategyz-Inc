@@ -104,7 +104,7 @@ export const Careers = (props) => {
                                     <div class="job-card">
                                         <h4>Title of Job 1</h4>
                                         <p>Description of Job 1</p>
-                                        <a href="link_to_form_for_job_1">Apply for Job 1</a>
+                                        <a href="/internal-form">Apply for Job 1</a>
                                     </div>
                                     <div class="job-card">
                                         <h4>Title of Job 2</h4>
@@ -127,10 +127,8 @@ export const Careers = (props) => {
                         )}
                     </section>
                     <section id="clients">
-                
-                <Testimonials data={JsonData.Testimonials} />
-                  
-            </section>
+                        <Testimonials data={JsonData.Testimonials} />
+                    </section>
                 </main>
             </div>
 
