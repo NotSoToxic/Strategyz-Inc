@@ -1429,6 +1429,48 @@ label {
 
 /* Location  page over*/
 
+/* Business Transformation start */
+
+#empowerBuisness{
+  
+  padding-top: 10%;
+  margin: auto;
+  
+  height: 95vh;
+
+}
+
+#buisnessButton{
+  color: white;
+  font-weight: bolder;
+  background-color: #004EAF;
+  margin: 10%;
+  /* margin-top: 5%; */
+  /* margin-right: 35%; */
+  width: 10vw;
+}
+
+
+#headding{
+  padding:2%;
+}
+.sec1buttons{
+ display: flex;
+}
+.getStartedB{
+  display: flex;
+  margin-left: 35%;
+  
+}
+.learnMoreB{
+  display: flex;
+  margin-left: 4%;
+  
+}
+
+
+
+/* Business Transformation over */
 
 /*Strategyz info page*/
 
