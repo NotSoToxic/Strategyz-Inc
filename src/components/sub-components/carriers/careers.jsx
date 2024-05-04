@@ -1,8 +1,8 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { useState } from "react";
 import careers from "../../assets/images/careers.jpg";
-import { Testimonials } from "../../testimonials";
-import JsonData from "../../../data/data.json";
+// import { Testimonials } from "../../testimonials";
+// import JsonData from "../../../data/data.json";
 
 
 
@@ -75,22 +75,22 @@ export const Careers = (props) => {
                                     <div class="job-card">
                                         <h4>Title of Job 1</h4>
                                         <p>Description of Job 1</p>
-                                        <a href="link_to_form_for_job_1">Apply for Job 1</a>
+                                        <a href="/internal-form">Apply for Job 1</a>
                                     </div>
                                     <div class="job-card">
                                         <h4>Title of Job 2</h4>
                                         <p>Description of Job 2</p>
-                                        <a href="link_to_form_for_job_2">Apply for Job 2</a>
+                                        <a href="/internal-form">Apply for Job 2</a>
                                     </div>
                                     <div class="job-card">
                                         <h4>Title of Job 3</h4>
                                         <p>Description of Job 3</p>
-                                        <a href="link_to_form_for_job_3">Apply for Job 3</a>
+                                        <a href="/internal-form">Apply for Job 3</a>
                                     </div>
                                     <div class="job-card">
                                         <h4>Title of Job 4</h4>
                                         <p>Description of Job 4</p>
-                                        <a href="link_to_form_for_job_4">Apply for Job 4</a>
+                                        <a href="/internal-form">Apply for Job 4</a>
                                     </div>
                                 </div>
                             
@@ -104,32 +104,57 @@ export const Careers = (props) => {
                                     <div class="job-card">
                                         <h4>Title of Job 1</h4>
                                         <p>Description of Job 1</p>
-                                        <a href="/internal-form">Apply for Job 1</a>
+                                        <a href="/client-form">Apply for Job 1</a>
                                     </div>
                                     <div class="job-card">
                                         <h4>Title of Job 2</h4>
                                         <p>Description of Job 2</p>
-                                        <a href="link_to_form_for_job_2">Apply for Job 2</a>
+                                        <a href="/client-form">Apply for Job 2</a>
                                     </div>
                                     <div class="job-card">
                                         <h4>Title of Job 3</h4>
                                         <p>Description of Job 3</p>
-                                        <a href="link_to_form_for_job_3">Apply for Job 3</a>
+                                        <a href="/client-form">Apply for Job 3</a>
                                     </div>
                                     <div class="job-card">
                                         <h4>Title of Job 4</h4>
                                         <p>Description of Job 4</p>
-                                        <a href="link_to_form_for_job_4">Apply for Job 4</a>
+                                        <a href="/client-form">Apply for Job 4</a>
                                     </div>
                                 </div>
                                 
                             </div>
                         )}
                     </section>
-                    <section id="clients">
+                    {/* <section id="clients">
                         <Testimonials data={JsonData.Testimonials} />
-                    </section>
-                </main>
+                    </section> */} 
+                    <section id="clients">
+                    <h2>Meet the Team</h2>
+                  <div class="flex-container">
+                    <div class="box">
+                      <img src="img/team/01.jpg" alt="ibm logo"></img>
+                      <p>X</p>
+                    </div>
+                    <div class="box">
+                      <img src="img/team/02.jpg" alt="Hexaware logo"></img>
+                      <p>Y</p>
+                    </div>
+                    <div class="box">
+                      <img src="img/team/03.jpg" alt="Rang Technologies logo"></img>
+                      <p>Z</p>
+                    </div>
+                    <div class="box">
+                      <img src="img/team/04.jpg" alt="Harjai Computers logo"></img>
+                      <p>A</p>
+                    </div>
+                    <div class="box">
+                      <img src="img/team/01.jpg" alt="Fab Hotels logo"></img>
+                      <p>B</p>
+                    </div>
+                  </div>
+            </section>   
+            </main>
             </div>
 
             <div id="footer">

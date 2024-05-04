@@ -14,7 +14,7 @@ export const InternalForm = (props) => {
     e.preventDefault();
 
     // Check if any of the fields are empty
-    const fields = ["name", "email", "phone", "role", "resume"];
+    const fields = ["name", "email", "phone", "role", "resume", "department"];
     for (const field of fields) {
       if (!formRef.current[field].value) {
         setErrorMessage("Please fill out all fields");
@@ -88,6 +88,21 @@ export const InternalForm = (props) => {
                     <p class="help-block text-danger"></p>
                   </div>
                 </div>
+            <div className="col-md-6">
+            <div className="form-group">
+              <select
+                id="department"
+                name="department"
+                className="form-control"
+                required
+              >
+                <option value="">Select Department</option>
+                <option value="Department 1">Internal Opening</option>
+                <option value="Department 2">Client opening</option>
+              </select>
+              <p className="help-block text-danger"></p>
+            </div>
+          </div>
                 <div className="col-md-6">
             <div className="form-group">
               <select
@@ -96,28 +111,38 @@ export const InternalForm = (props) => {
                 className="form-control"
                 required
               >
-                <option value="">Select Role</option>
-                <option value="Option 1">Option 1</option>
-                <option value="Option 2">Option 2</option>
-                <option value="Option 3">Option 3</option>
-                <option value="Option 4">Option 4</option>
-                <option value="Option 5">Option 5</option>
-                <option value="Option 6">Option 6</option>
+               <option value="">-Area of Interest-</option>
+                <option value="Option 1">Software Engineering</option>
+                <option value="Option 2">Sales</option>
+                <option value="Option 3">Consulting</option>
+                <option value="Option 4">Data Analyst</option>
+                <option value="Option 5">Cybersecurity</option>
+                <option value="Option 6">Human Resources</option>
+                <option value="Option 7">Design and UX</option>
+                <option value="Option 8">Marketing</option>
+                <option value="Option 9">Finance</option>
+                <option value="Option 10">Research</option>
+                <option value="Option 11">Supply Chain</option>
+                <option value="Option 12">Operations</option>
+                <option value="Option 13">Other</option>
               </select>
               <p className="help-block text-danger"></p>
             </div>
           </div>
-        </div>
+
+        <div class="col-md-6 offset-md-3">
         <div className="form-group">
           <input
             type="text"
             name="resume"
             id="resume"
             className="form-control"
-            placeholder="Resume"
+            placeholder="Resume (Open Access Link)"
             required
           />
           <p className="help-block text-danger"></p>
+        </div>
+        </div>
         </div>
               <button type="submit" class="btn btn-lg">
                 Send Message

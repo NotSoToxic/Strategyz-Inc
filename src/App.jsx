@@ -11,7 +11,8 @@ import { Ats } from "./components/sub-components/services/software/ats.jsx";
 import { Hrms } from "./components/sub-components/services/software/hrms.jsx";
 import { Vms } from "./components/sub-components/services/software/vms.jsx";
 import { Careers } from "./components/sub-components/carriers/careers.jsx";
-import {InternalForm} from "./components/sub-components/carriers/career-form/internal-form.js";
+import {InternalForm} from "./components/sub-components/carriers/career-form/internal-form.jsx";
+import {ClientForm} from "./components/sub-components/carriers/career-form/client-form.jsx"
 import { Locations } from "./components/sub-components/contact/locations.jsx";
 import { Info } from "./components/sub-components/contact/info.jsx";
 import { Strategyzinfo } from "./components/sub-components/about/strategyzinfo.jsx";
@@ -75,6 +76,8 @@ const App = () => {
           {/*Internal Job form page*/}
           <Route path="/internal-form" element={<InternalForm/>} />
           
+          {/*Client Job form page*/}
+          <Route path="/client-form" element = {<ClientForm/>} />
 
           {/* Contact  Pages  */}
           {/* locations */}
