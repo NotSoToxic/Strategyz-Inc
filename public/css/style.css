@@ -1480,6 +1480,37 @@ label {
   padding: 5px;
 }
 
+.job-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.job-card {
+  flex: 0 0 calc(33.333% - 20px); /* 33.333% - 20px is for 3 cards in a row with some margin */
+  margin: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.job-card h4 {
+  margin-top: 0;
+}
+
+.job-card p {
+  margin-bottom: 10px;
+}
+
+.job-card a {
+  text-decoration: none;
+  color: #007bff; /* or any other color you prefer */
+}
+
+.job-card a:hover {
+  text-decoration: underline;
+}
+
+
 /* Responsive Styles */
 
 @media (max-width: 991px) {

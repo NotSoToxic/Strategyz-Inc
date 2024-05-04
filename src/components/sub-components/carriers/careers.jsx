@@ -66,10 +66,33 @@ export const Careers = (props) => {
                         </nav>
                         
                         {activeTab === "Internaljobs" && (
-                            <div id="working-navbar-content">
+                            <div id="working-navbar-content" >
                                 <h3>Internal Openings</h3>
-                                
+                                <div class="job-container">
+                                    <div class="job-card">
+                                        <h4>Title of Job 1</h4>
+                                        <p>Description of Job 1</p>
+                                        <a href="link_to_form_for_job_1">Apply for Job 1</a>
+                                    </div>
+                                    <div class="job-card">
+                                        <h4>Title of Job 2</h4>
+                                        <p>Description of Job 2</p>
+                                        <a href="link_to_form_for_job_2">Apply for Job 2</a>
+                                    </div>
+                                    <div class="job-card">
+                                        <h4>Title of Job 3</h4>
+                                        <p>Description of Job 3</p>
+                                        <a href="link_to_form_for_job_3">Apply for Job 3</a>
+                                    </div>
+                                    <div class="job-card">
+                                        <h4>Title of Job 4</h4>
+                                        <p>Description of Job 4</p>
+                                        <a href="link_to_form_for_job_4">Apply for Job 4</a>
+                                    </div>
+                                </div>
+                            
                             </div>
+                        
                         )}
                         {activeTab === "Clientjobs" && (
                             <div id="working-navbar-content">
