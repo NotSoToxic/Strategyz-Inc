@@ -1574,7 +1574,12 @@ label {
   #working img{
     width: 100%;
   }
-  .Strategyz_info .content-wrapper {
+
+  .Strategyz_info .sidebar li a{
+    font-size: 12px;
+    padding: 22px 10px;
+  }
+  /* .Strategyz_info .content-wrapper {
     flex-direction: column;
   }
 
@@ -1606,7 +1611,7 @@ label {
   .Strategyz_info main {
     width: 100%;
     padding: 1rem;
-  }
+  } */
 }
 
 @media (max-width:560px){
