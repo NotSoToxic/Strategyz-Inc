@@ -1609,6 +1609,40 @@ label {
   }
 }
 
+@media (max-width:560px){
+  .Strategyz_info .sidebar{
+    display: none;
+  }
+  #overview {
+    margin: 0 10px;
+    padding-top: 20px
+  }
+
+  #working{
+    padding-top: 30px;
+  }
+
+  .working-navbar ul {
+    position: relative;
+    top: auto;
+    left: auto;
+    display: block;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .working-navbar li {
+    display: inline-block;
+    
+    margin: 0.5rem;
+  }
+  #working img{
+    width: 100%;
+  }
+
+}
+
 @media (max-width: 480px) {
   .Strategyz_info .sidebar{
     display: none;
