@@ -14,7 +14,7 @@ export const internalForm = (props) => {
     e.preventDefault();
 
     // Check if any of the fields are empty
-    const fields = ["name", "email", "phone", "organisation", "message"];
+    const fields = ["name", "email", "phone", "role", "resume"];
     for (const field of fields) {
       if (!formRef.current[field].value) {
         setErrorMessage("Please fill out all fields");
@@ -24,7 +24,7 @@ export const internalForm = (props) => {
     // If all fields are filled, send the email
     emailjs
       .sendForm(
-        "service_ab57exb","template_bskri0w", e.target, "ZIOaFVaBQHwXz4G5N")
+        "service_t2ujfb6","template_w2wnukt", e.target, "ZIOaFVaBQHwXz4G5N")
       .then(
         (result) => {
           console.log(result.text);
@@ -41,7 +41,7 @@ export const internalForm = (props) => {
   };
   <div id="location-form">
             <div>
-              <h2>Applicant Form</h2>
+              <h2>Internal Applicant Form</h2>
             </div>
             <form name="" validate onSubmit={handleSubmit} ref={formRef}>
                 <div className="row">
