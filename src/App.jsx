@@ -71,13 +71,13 @@ const App = () => {
 
           {/* Careers page  */}
           
-          {/* <Route path="/careers" element={<Careers/>} /> */}
+          <Route path="/careers" element={<Careers/>} />
 
           {/*Internal Job form page*/}
-          {/* <Route path="/internal-form" element={<InternalForm/>} /> */}
+          <Route path="/internal-form" element={<InternalForm/>} />
           
           {/*Client Job form page*/}
-          {/* <Route path="/client-form" element = {<ClientForm/>} /> */}
+          <Route path="/client-form" element = {<ClientForm/>} />
 
           {/* Contact  Pages  */}
           {/* locations */}

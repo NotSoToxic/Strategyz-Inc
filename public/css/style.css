@@ -1373,6 +1373,16 @@ label {
 
 }
 
+@media (max-width: 980px){
+  #location-form {
+    margin-top: 280px;
+    padding: 20px;
+    height: auto;
+    
+  }
+  
+}
+
 /* Adjustments for smaller screens */
 @media (max-width: 768px) {
   #location-main-container {
