@@ -40,7 +40,7 @@ export const InternalForm = (props) => {
       );
   };
 
-  return(<>
+  return(
     <div id="internal-job">
       <div id="internal-form">
         <div>
