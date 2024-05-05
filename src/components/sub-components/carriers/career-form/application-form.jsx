@@ -173,7 +173,7 @@ export const Applicationform = (props) => {
                       value="junior"
                       required
                     />
-                    <label htmlFor="junior">Junior</label>
+                    <label htmlFor="junior">Early Professional(0 - 3 Yrs)</label>
                   </div>
                 </div>
                 <div className="radio-column">
@@ -185,7 +185,7 @@ export const Applicationform = (props) => {
                       value="mid"
                       required
                     />
-                    <label htmlFor="mid">Mid-level</label>
+                    <label htmlFor="mid">Professional(3 - 5 Yrs)</label>
                   </div>
                   <div>
                     <input
@@ -195,7 +195,7 @@ export const Applicationform = (props) => {
                       value="senior"
                       required
                     />
-                    <label htmlFor="senior">Senior</label>
+                    <label htmlFor="senior">Senior (5+ Yrs)</label>
                   </div>
                 </div>
               </div>
