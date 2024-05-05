@@ -1074,6 +1074,7 @@ label {
 }
 
 #application-form .app-card.full-width {
+  align-items: center;
   flex: 0 0 100%;
 }
 
@@ -1126,6 +1127,51 @@ label {
   margin-left: 5px;
 }
 
+#application-form .app-form-group.side-by-side {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+#application-form .app-form-group.side-by-side .app-card {
+  flex: 0 0 calc(50% - 10px);
+}
+
+#application-form .app-card.experience-level h3,
+#application-form .app-card .resume-upload label {
+  margin-bottom: 10px;
+}
+
+#application-form .submit-container {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+#application-form .submit-btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  width: 100%;
+}
+
+#application-form .submit-text {
+  display: inline-block;
+  pointer-events: none;
+}
+
+#application-form .submit-btn:hover {
+  background-color: #45a049;
+}
+
+
+#application-form .submit-btn:hover {
+  background-color: #45a049;
+}
 
 /*Info page*/
 #info {
