@@ -34,7 +34,7 @@ export const Careers = (props) => {
                     <ul>
                         <li><a href="#overview" className="page-scroll">What We Do</a></li>
                         <li><a href="#working" className="page-scroll">Apply</a></li>
-                        <li><a href="#clients" className="page-scroll">Insights</a></li>
+                        <li><a href="#testimonials" className="page-scroll">Insights</a></li>
                     </ul>
                 </aside>
 

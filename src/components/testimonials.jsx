@@ -3,14 +3,14 @@ import React from "react";
 export const Testimonials = (props) => {
   return (
     <div id="testimonials">
-      <div className="container">
-        <div className="section-title text-center">
+      <div className="testimonial-section">
+        <div className="section-title text-center testimonial-title">
           <h2>Team Insights</h2>
         </div>
-        <div className="row">
+        <div className="testimonial-group">
           {props.data
             ? props.data.map((d, i) => (
-                <div key={`${d.name}-${i}`} className="col-md-4">
+                <div key={`${d.name}-${i}`} className="team-section ">
                   <div className="testimonial">
                     <div className="testimonial-image">
                       {" "}

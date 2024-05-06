@@ -929,6 +929,53 @@ label {
   flex-grow: 1;
   padding: 2rem;
 }
+
+.testimonial-section{
+  padding-top: 40px;
+  width: 100%;
+}
+
+.testimonial-title h2{
+  width: 100%;
+}
+
+
+
+.testimonial-group{
+  margin-bottom: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.team-section{
+  flex: 0 0 calc(33.333% - 20px);
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  padding-left:0 ;
+  padding-right: 0;
+}
+
+.testimonial{
+  padding: 0 5px;
+}
+
+
+
+.testimonial-content p{
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: justify;
+}
+
+.testimonial-meta{
+  text-align: center;
+  margin-bottom: 20px;
+
+}
+
+
 /* Responsive Styles */
 
 @media (max-width: 991px) {
@@ -1010,8 +1057,8 @@ label {
 
 #application-form {
   padding: 100px 0;
-  background: #c8b8f9;
-  color: #333;
+  background: #E5E4E2;
+  color: black;
   height: 100%;
   width: 100%;
 }
@@ -1019,15 +1066,22 @@ label {
 #application-form h1{
   text-align: center;
 }
+#application-form h3{
+  color: white;
+}
 
 #application-form-container{
   margin: 20px 20px;
   border-radius: 10px;
-  background-color: #d3c6fa;
+  background-color: #004eaf; /*light background color*/
+  
   padding: 20px;
+  border: 1px solid #99b8df ;
+  border-color: 1px solid #3371bf;
 }
 
 #application-form-container h2{
+  color: white;
   text-align: left;
   font-size: 20px;
   font-style: none;
@@ -1043,7 +1097,7 @@ label {
   font-size: 16px;
   font-weight: 400;
   margin-bottom: 5px;
-  color: #333; /* Dark grey label color */
+  color: white; /* Dark grey label color */
 }
 
 
