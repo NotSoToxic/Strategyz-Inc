@@ -535,11 +535,11 @@ header .intro-text {
 }
 #about p {
   font-family: 'IBM Plex Sans', sans-serif;
-  /* text-align: justify; */
-  /* padding-right: 75px; */
-  font-size: 28px;
-  line-height: 50px;
-  margin: 10px 0;
+  text-align: justify;
+  padding-right: 75px;
+  font-size: 27px;
+  line-height: 40px;
+  margin-top: 20px;
 }
 
 #about a {
