@@ -24,23 +24,43 @@ export const Buisnesstransformation = (props) => {
         
         <section id="features">
       <h2>Our Key Consulting Features</h2>
-      <p>Empowering businesses through strategic transformation</p>
+      <h3>Empowering businesses through strategic transformation</h3>
       
       
-      <div className="featureSection">
+      <div id="featuresSection" className="featureSection container">
       
-      <div class id="strategicPlanning">
+      <div id="firstRow" className="row">
+      <div class id="strategicPlanning" className=" col-md-6" >
         <h3>Strategic Planning</h3>
-      </div>
-      
-      <div id="changeManagement">
+        <p className=""> Develop customized strategies to drive buisness growth </p>
+      </div> 
+
+      <div id="changeManagement" className="col-md-6">
         <h3>Change Management</h3>
+        <p>Implement effective chaneg management processes for smooth transitions</p>
       </div>
-      <div id="offered">
+      </div>
+
+      <div id="secondRow" className="row">
+      <div id="offered" className="col-md-6" >
         <h3>Services Offered</h3>
+        <ul>
+          <li>Contact Staffing</li>
+          <li>Permanent Staffing</li>
+          <li>Contact-to-hire Services</li>
+          <li> Executive search and placement</li>
+        </ul>
       </div>
-      <div id="whyChoose">
+
+      <div id="whyChoose" className="col-md-6">
         <h3>Why choose us ?</h3>
+        <ul>
+          <li>Experienced Team of recruiters and HR</li>
+          <li>Proven track record of sucessful placements</li>
+          <li>Customized solutions tailored to client needs </li>
+          <li>Extensive candidate database and network</li>
+        </ul>
+      </div>
       </div>
       
       </div>

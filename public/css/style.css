@@ -829,20 +829,101 @@ label {
 
 #features{
   background-color: #f1deda;
-  margin: auto;
+  
   padding: 5%;
-  height: 100vh;
+  height: 110vh;
 }
 
 #featureSection{
-  display: flexbox;
+    
+}
+#featuresSection{
+  width: 100%;
 }
 
+#firstRow{
+  padding: 2%;
+  margin-bottom: 0.3%;
+}
+
+#firstRow h3 {
+  color: #0c062a;
+  text-align: left;
+  margin-left: 3%;
+  margin-top: 5%;
+  padding-bottom: 2%;
+  font-size: 170%;
+  
+}
+#firstRow p {
+  color: #0c062a;
+  text-align: left;
+  margin-left: 10%;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 150%;
+ 
+  
+  padding-bottom: 2%;
+  
+}
+#secondRow{
+  padding: 2%;
+  margin-bottom: 2%;
+}
+#secondRow h3{
+  color: #0c062a;
+  text-align: left;
+  margin-left: 3%;
+  margin-top: 5%;
+  padding-bottom: 2%;
+  font-size: 170%;
+}
+#secondRow li {
+  list-style: circle;
+  color: #0c062a;
+  text-align: left;
+  margin-left: 10%;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 140%;
+ 
+  
+  padding-bottom: 2%;
+  
+}
 #strategicPlanning{
-  display: flex;
+  color: #0c0940;
+  
+  background-color: #e5d2ce;
+  height: 30vh;
+}
+
+#strategicPlanning h3{
   
 }
 
+
+#changeManagement{
+  
+  height: 30vh;
+  background-color: #e5d2ce;
+
+}
+#changeManagement h3{
+  color: #0c062a;
+  text-align: left;
+  margin-left: 3%;
+  margin-top: 5%;
+  padding-bottom: 2%;
+}
+#offered{
+  background-color: #e5d2ce;
+}
+
+#whyChoose{
+  background-color: #e5d2ce;
+}
 
 
 /* Business Transformation over */
