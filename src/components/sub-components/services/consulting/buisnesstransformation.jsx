@@ -6,7 +6,7 @@ export const Buisnesstransformation = (props) => {
         
         <section id="empowerBuisness">
 
-            <h2 className="display-1 " id="b2">Empower Your Buisness with IT Consulting</h2>
+            <h2 className="display-1 " id="b2">Transform Your Buisness with our IT Consulting</h2>
             <h1 className="display-1" id="headding">Maximize Efficency and Innovation </h1>
 
             <div className="sec1buttons">
@@ -25,8 +25,8 @@ export const Buisnesstransformation = (props) => {
         </section>
         
         <section id="features">
-      <h2>Our Key Consulting Features</h2>
-      <h3>Empowering businesses through strategic transformation</h3>
+      <h2 id="fH">Our Key Consulting Features</h2>
+      <h3 id="fH">Empowering businesses through strategic transformation</h3>
       
       
       <div id="featuresSection" className="featureSection container">
@@ -39,7 +39,7 @@ export const Buisnesstransformation = (props) => {
 
       <div id="changeManagement" className="col-md-6">
         <h3>Change Management</h3>
-        <p>Implement effective chaneg management processes for smooth transitions</p>
+        <p>Implement effective change management processes for smooth transitions</p>
       </div>
       </div>
 

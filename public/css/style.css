@@ -838,6 +838,9 @@ label {
   padding: 5%;
   height: 110vh;
 }
+#fH{ /*feature heading*/
+  color: #14062f;
+}
 
 #featureSection{
     
@@ -857,6 +860,7 @@ label {
   margin-left: 3%;
   margin-top: 5%;
   padding-bottom: 2%;
+  font-weight: 800;
   font-size: 170%;
   
 }
@@ -883,6 +887,7 @@ label {
   margin-top: 5%;
   padding-bottom: 2%;
   font-size: 170%;
+  font-weight: 800;
 }
 #secondRow li {
   list-style: circle;
