@@ -1,11 +1,15 @@
 /* eslint-disable react-hooks/rules-of-hooks */
-import React, { useEffect, useRef } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import emailjs from 'emailjs-com';
 
 export const Applicationform = (props) => {
-  const resumeInputRef = useRef(null);
-  const fileNameRef = useRef(null);
-  const formRef = useRef(null);
+  const resumeInputRef = useRef();
+  const fileNameRef = useRef();
+  // const formRef = useRef(null);
+
+  const formRef = useRef();
+  const [errorMessage, setErrorMessage] = useState("");
+  const [successMessage, setSuccessMessage] = useState("");
 
   const jobRoles = [
     "Software Engineer",
@@ -47,20 +51,40 @@ export const Applicationform = (props) => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    const formData = new FormData(formRef.current);
 
+    const resumeFile = formData.get('resume');
+    const resumeUrl = URL.createObjectURL(resumeFile);
+
+    formData.set('resume', resumeUrl);
+
+    // Check if any of the fields are empty
+    const fields = ["name", "email", "phone", "jobRole", "department", "portfolio", "experienceLevel", "resume"];
+    for (const field of fields) {
+      if (!formRef.current[field].value) {
+        setErrorMessage("Please fill out all fields");
+        return;
+      }
+    }
     // EmailJS configuration
-    const serviceId = 'SERVICE_ID';
-    const templateId = 'TEMPLATE_ID';
-    const userId = 'USER_ID';
+    const serviceId = 'service_t2ujfb6';
+    const templateId = 'template_w2wnukt';
+    const userId = 'ZIOaFVaBQHwXz4G5N';
 
     emailjs.sendForm(serviceId, templateId, formRef.current, userId)
-      .then((result) => {
+    .then(
+      (result) => {
         console.log(result.text);
-        // Reset form after successful submission
-        formRef.current.reset();
-      }, (error) => {
-        console.error(error.text);
-      });
+        setSuccessMessage("Email sent successfully!");
+        formRef.current.reset(); // Reset form fields
+        setErrorMessage("");
+      },
+      (error) => {
+        console.log(error.text);
+        setErrorMessage("Failed to send email. Please try again later.");
+        setSuccessMessage("");
+      }
+    );
   };
 
   return (<>
@@ -143,7 +167,7 @@ export const Applicationform = (props) => {
               <label htmlFor="portfolio">Your Portfolio link</label>
               <input
                 type="text"
-                id="Portfolio"
+                id="portfolio"
                 name="portfolio"
                 className="app-form-control"
                 placeholder="Portfolio link"
@@ -160,7 +184,7 @@ export const Applicationform = (props) => {
                       type="radio"
                       id="fresher"
                       name="experienceLevel"
-                      value="fresher"
+                      value="Fresher"
                       required
                     />
                     <label htmlFor="fresher">Fresher</label>
@@ -170,7 +194,7 @@ export const Applicationform = (props) => {
                       type="radio"
                       id="junior"
                       name="experienceLevel"
-                      value="junior"
+                      value="Early Professional(0 - 3 Yrs)"
                       required
                     />
                     <label htmlFor="junior">Early Professional(0 - 3 Yrs)</label>
@@ -182,7 +206,7 @@ export const Applicationform = (props) => {
                       type="radio"
                       id="mid"
                       name="experienceLevel"
-                      value="mid"
+                      value="Professional(3 - 5 Yrs)"
                       required
                     />
                     <label htmlFor="mid">Professional(3 - 5 Yrs)</label>
@@ -192,7 +216,7 @@ export const Applicationform = (props) => {
                       type="radio"
                       id="senior"
                       name="experienceLevel"
-                      value="senior"
+                      value="Senior (5+ Yrs)"
                       required
                     />
                     <label htmlFor="senior">Senior (5+ Yrs)</label>
@@ -208,9 +232,9 @@ export const Applicationform = (props) => {
                 </label>
                 <input
                   type="file"
-                  id="resume-input"
+                  id="resume"
                   name="resume"
-                  className="file-input"
+                  className="resume"
                   accept=".pdf,.doc,.docx"
                   required
                   ref={resumeInputRef}
@@ -225,6 +249,9 @@ export const Applicationform = (props) => {
                 <button type="submit" className="submit-btn">
                   <span className="submit-text">Submit</span>
                 </button>
+                {/* set css to error messages - remove this after css is set */}
+              {errorMessage && <p className="error-message">{errorMessage}</p>}
+              {successMessage && <p className="success-message">{successMessage}</p>}
               </div>
             </div>
           </div>
