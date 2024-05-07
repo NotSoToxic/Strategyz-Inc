@@ -808,6 +808,11 @@ label {
   /* margin-right: 35%; */
   width: 10vw;
 }
+#buisnessButton a {
+  text-decoration: none;
+  color: inherit;
+  font-weight: inherit;
+}
 
 
 #headding{

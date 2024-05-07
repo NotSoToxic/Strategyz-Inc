@@ -11,7 +11,9 @@ export const Buisnesstransformation = (props) => {
 
             <div className="sec1buttons">
             <div className="getStartedB">
-            <button type="button" class="btn btn-lg" id="buisnessButton">Get Started</button>
+            <button type="button" class="btn btn-lg" id="buisnessButton" href="#features">
+              <a href="#features">Get Started</a> 
+            </button>
             </div>
             <div className="learnMoreB">
             <button type="button" class="btn btn-lg" id="buisnessButton">Learn More</button>
