@@ -1,5 +1,5 @@
 import React from "react";
-import Bgvedio from "D:/Stratrgyzinc/Strategyz-Inc/src/components/assets/banner_vedio/banner4.mp4";
+import Bgvedio from "../../../assets/banner_vedio/banner4.mp4";
 
 export const Consulting = (props) => {
   const handleClick = () => {
