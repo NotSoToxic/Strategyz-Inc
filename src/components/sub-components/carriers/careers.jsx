@@ -4,6 +4,9 @@ import careers from "../../assets/images/careers.jpg";
 import { Testimonials } from "../../testimonials";
 import JsonData from "../../../data/data.json";
 
+import jobData from '../../../data/data.json';
+import { Link } from 'react-router-dom';
+
 
 
 export const Careers = (props) => {
@@ -12,6 +15,8 @@ export const Careers = (props) => {
     const handleTabClick = (tab) => {
         setActiveTab(tab);
     };
+
+    
 
     return (
         <div id="careers">
@@ -71,70 +76,20 @@ export const Careers = (props) => {
                         {activeTab === "Internaljobs" && (
                             <div id="working-navbar-content" >
                                 <h3>Internal Openings</h3>
-                                <div class="job-container">
-                                    <div class="job-card">
-                                        <h4>Software Engineering</h4>
-                                        <p>Description of Job 1</p>
-                                        <a href="/Application-form">Apply Now ↪</a>
-                                    </div>
-                                    <div class="job-card">
-                                        <h4>Sales</h4>
-                                        <p>Description of Job 2</p>
-                                        <a href="/internal-form">Apply Now ↪</a>
-                                    </div>
-                                    <div class="job-card">
-                                        <h4>Consulting</h4>
-                                        <p>Description of Job 3</p>
-                                        <a href="/internal-form">Apply Now ↪</a>
-                                    </div>
-                                    <div class="job-card">
-                                        <h4>Data Analyst</h4>
-                                        <p>Description of Job 4</p>
-                                        <a href="/internal-form">Apply Now ↪</a>
-                                    </div>
-                                    <div class="job-card">
-                                        <h4>Cybersecurity</h4>
-                                        <p>Description of Job 4</p>
-                                        <a href="/internal-form">Apply Now ↪</a>
-                                    </div>
-                                    <div class="job-card">
-                                        <h4>Human Resources</h4>
-                                        <p>Description of Job 4</p>
-                                        <a href="/internal-form">Apply Now ↪</a>
-                                    </div>
-                                    <div class="job-card">
-                                        <h4>Design and UX</h4>
-                                        <p>Description of Job 4</p>
-                                        <a href="/internal-form">Apply Now ↪</a>
-                                    </div>
-                                    <div class="job-card">
-                                        <h4>Marketing</h4>
-                                        <p>Description of Job 4</p>
-                                        <a href="/internal-form">Apply Now ↪</a>
-                                    </div>
-                                    <div class="job-card">
-                                        <h4>Finance</h4>
-                                        <p>Description of Job 4</p>
-                                        <a href="/internal-form">Apply Now ↪</a>
-                                    </div>
-                                    <div class="job-card">
-                                        <h4>Research</h4>
-                                        <p>Description of Job 4</p>
-                                        <a href="/internal-form">Apply Now ↪</a>
-                                    </div>
-                                    <div class="job-card">
-                                        <h4>Supply Chain</h4>
-                                        <p>Description of Job 4</p>
-                                        <a href="/internal-form">Apply Now ↪</a>
-                                    </div>
-                                    <div class="job-card">
-                                        <h4>Marketing</h4>
-                                        <p>Description of Job 4</p>
-                                        <a href="/internal-form">Apply Now ↪</a>
-                                    </div>
-                                </div>
+                                <div className="job-container">
+        {jobData.jobs.map((job) => (
+          
+            <div key={job.id} className="job-card">
+              <h4>{job.title}</h4>
+              <p>{job.description}</p>
+              <Link to={`/job/${job.id}`}>Apply now</Link>
+            </div>
+          
+        ))}
+      </div>
                             
-                            </div>
+      
+    </div>
                         
                         )}
                         {activeTab === "Clientjobs" && (

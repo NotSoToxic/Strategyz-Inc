@@ -169,5 +169,38 @@
       "title": "Assurance",
       "text": "Model is completely postpaid, with 30 days refund/replacement clause to safeguard your interests."
     }
+  ],
+  "jobs": [
+    {
+      "id": 1,
+      "title": "Software Engineering",
+      "description": "Description of Software Engineering job"
+    },
+    {
+      "id": 2,
+      "title": "Sales",
+      "description": "Description of Sales job"
+    },
+    {
+      "id": 3,
+      "title": "Marketing",
+      "description": "Description of Marketing job"
+    },
+    {
+      "id": 4,
+      "title": "Customer Support",
+      "description": "Description of Customer Support job"
+    },
+    {
+      "id": 5,
+      "title": "Business Development",
+      "description": "Description of Business Development job"
+    },
+    {
+      "id": 6,
+      "title": "Human Resources",
+      "description": "Description of Human Resources job"
+    }
+    
   ]
 }

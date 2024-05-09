@@ -20,6 +20,7 @@ import JsonData from "./data/data.json";
 import SmoothScroll from "smooth-scroll";
 import "./App.css";
 import { Analytics } from '@vercel/analytics/react';
+import { JobDescription } from "./components/sub-components/carriers/career-form/jobdesciption.jsx";
 
 
 
@@ -74,8 +75,8 @@ const App = () => {
           {/* <Route path="/careers" element={<Careers/>} /> */}
 
           {/*Internal Job form page*/}
-          {/* <Route path="/Application-form" element={<Applicationform/>} /> */}
-          
+          {/* <Route path="/Application-form" element={<Applicationform/>} />
+          <Route path="/job/:jobId" element={<JobDescription/>} /> */}
           {/*Client Job form page*/}
           {/* <Route path="/client-form" element = {<ClientForm/>} /> */}
 

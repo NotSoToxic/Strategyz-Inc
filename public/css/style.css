@@ -1052,6 +1052,22 @@ label {
   
 }
 
+/*Job Description*/
+
+#jobdescription{
+  padding-top: 100px;
+  background-color: #F5F5F5;
+  width: 100%;
+  height: 100%;
+
+}
+
+.description-header{
+  padding-top: 20px;
+  padding-bottom: 30px;
+  background: url(../img/banner.png) center center no-repeat;
+
+}
 
 /*internal job page*/
 
