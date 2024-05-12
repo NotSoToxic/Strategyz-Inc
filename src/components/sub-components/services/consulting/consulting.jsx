@@ -1,9 +1,8 @@
 import React from "react";
-import Bgvedio from "D:/Stratrgyzinc/Strategyz-Inc/src/components/assets/banner_vedio/banner4.mp4";
+import Bgvedio from "../../../assets/banner_vedio/banner4.mp4";
 
 export const Consulting = (props) => {
   const handleClick = () => {
-    // Redirect to the info_section
     const infoSection = document.getElementById("con_footer");
     infoSection.scrollIntoView({ behavior: "smooth" });
   };
@@ -30,56 +29,31 @@ export const Consulting = (props) => {
       <div>
         <section id="con_footer">
           <h1>Discover Our Story</h1>
-          <h2>An Odyssey of Innovation and Excellence</h2>
-          <h3>Embark on a Journey Through Our Vision, Values, and Victories</h3>
-          <div className="con_container">
-            <div className="con_container_one">
-              <h4>Transformative Solutions Customized for Your Success</h4>
-              <p>
-                At Strategyz Inc., we specialize in providing tailored
-                technology consulting services to businesses and users alike.
-                With our deep expertise in the latest technological advancements
-                and industry trends, we collaborate closely with our clients to
-                develop innovative solutions that drive growth and maximize
-                efficiency.
-              </p>
-              <p>
-                From digital transformation strategies to software development
-                and implementation, our team of seasoned consultants works
-                tirelessly to unlock the full potential of technology for our
-                customers. We believe in fostering long-term partnerships built
-                on trust, integrity, and a shared commitment to success.
-              </p>
-              <p>
-                Whether you're a startup looking to disrupt the market or an
-                established enterprise seeking to stay ahead of the curve, we're
-                here to guide you every step of the way. Partner with us and
-                let's embark on a transformative journey towards a brighter,
-                more prosperous future.
-              </p>
+          <h2>Innovation & Excellence: Our Guiding Principles</h2>
+          <h3>Our Vision, Values, and Victories Define Our Success</h3>
+          <div class="con_container">
+            <div class="con_container_one">
+              <h4>Transformative Solutions. Your Success.</h4>
+              <ul>
+                <li>
+                  Tailored technology consulting for businesses and users.
+                </li>
+                <li>Deep expertise in cutting-edge advancements and trends.</li>
+                <li>Innovative solutions that drive growth and efficiency.</li>
+              </ul>
             </div>
-            <div className="con_container_one">
-              <h4>Comprehensive Solutions Tailored to Your Needs</h4>
-              <p>
-                Our dedication to excellence extends beyond technology
-                consulting. We offer a comprehensive suite of services designed
-                to address your unique challenges and objectives. From project
-                management and quality assurance to training and support, we're
-                committed to delivering results that exceed your expectations.
-              </p>
-              <p>
-                With a focus on innovation, collaboration, and continuous
-                improvement, we strive to be your trusted partner in navigating
-                the complexities of the digital landscape. Let us empower your
-                business to thrive in an ever-evolving world.
-              </p>
-              <p>
-                Our team of experts is dedicated to staying ahead of the curve,
-                constantly researching and implementing the latest technologies
-                and methodologies. By leveraging cutting-edge solutions, we
-                ensure that your business remains competitive and future-proof
-                in today's dynamic market.
-              </p>
+            <div class="con_container_one">
+              <h4>Comprehensive Services. Your Needs Met.</h4>
+              <ul>
+                <li>Suite of services addressing your unique challenges.</li>
+                <li>
+                  Project management, quality assurance, training, and support.
+                </li>
+                <li>
+                  Focus on innovation, collaboration, and continuous
+                  improvement.
+                </li>
+              </ul>
             </div>
           </div>
         </section>

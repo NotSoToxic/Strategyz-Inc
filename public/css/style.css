@@ -1043,29 +1043,79 @@ label {
 }
 
 #con_header {
-  margin-top: 50px ;
+  margin-top: 50px;
+}
+
+.con_container {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+}
+
+.con_container_one {
+  background-color:#76ABAE;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.con_container_one:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transform: translateY(-5px);
+}
+
+.con_container_one h4 {
+  margin-bottom: 5rem;
+  text-align: left;
+}
+
+.con_container_one ul {
+  list-style: none;
+  padding-left: 3rem;
+}
+
+.con_container_one li {
+  margin-bottom: 0.5rem;
+  line-height: 2.5;
+  font-size: medium;
+  position: relative;
+  color: rgb(255, 255, 255);
+  text-align: left;
+}
+
+.con_container_one li:before {
+  content: "•";
+  font-size: 1.4rem;
+  color: #333;
+  position: absolute;
+  left: -1.2rem;
+  top: 0.2rem;
 }
 
 #con_footer {
   margin-top: 30rem;
-  background-color: #EEF5FF;
-  padding-top: 30px;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /* Initial box shadow */
-  transition: box-shadow 0.3s ease; /* Add transition effect to box shadow */
-
+  background-color: #eef5ff;
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  transition: box-shadow 0.3s ease;
 }
+
 #con_footer:hover {
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+  
 }
 
 .con_container {
-  
   display: flex;
   justify-content: space-around;
- 
 }
-.con_container_one{
-  width: 50%;
+
+.con_container_one {
+  width: 45%;
   padding: 80px 80px 50px 50px;
 }
 
@@ -1079,15 +1129,14 @@ label {
   font-size: 16px;
   cursor: pointer;
   transition: background-color 0.3s;
-
 }
+
 .blue-button:hover {
   background-color: #0056b3;
-
 }
+
 .blue-button:active {
   background-color: #004080;
-
 }
 
 .video-background {
@@ -1110,8 +1159,147 @@ label {
 #augmentation {
   text-align: center;
   padding: 100px 0;
+  margin:auto;
 
 }
+
+.staff-class p {
+    padding: 0px 40px 0px 40px; 
+}
+
+.augmentation-features {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+
+.feature {
+  flex: 1;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #00adb5;
+  margin: 0 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.feature:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.feature i {
+  font-size: 40px;
+  margin-bottom: 20px;
+  
+}
+
+.feature h2 {
+  margin-bottom: 15px;
+  color: #222831;
+}
+
+.feature p {
+  font-size: 16px;
+  color: #393E46;
+}
+
+#aug_button {
+  position: relative;
+  width: 120px;
+  height: 40px;
+  background-color: #000;
+  display: flex;
+  align-items: center;
+  color: white;
+  flex-direction: column;
+  justify-content: center;
+  border: none;
+  padding: 12px;
+  gap: 12px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+#aug_button::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  left: -4px;
+  top: -1px;
+  margin: auto;
+  width: 128px;
+  height: 48px;
+  border-radius: 10px;
+  background: linear-gradient(-45deg, #e81cff 0%, #40c9ff 100% );
+  z-index: -10;
+  pointer-events: none;
+  transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+#aug_button::after {
+  content: "";
+  z-index: -1;
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(-45deg, #fc00ff 0%, #00dbde 100% );
+  transform: translate3d(0, 0, 0) scale(0.95);
+  filter: blur(20px);
+}
+
+#aug_button:hover::after {
+  filter: blur(30px);
+}
+
+#aug_button:hover::before {
+  transform: rotate(-180deg);
+}
+
+#aug_button:active::before {
+  scale: 0.7;
+}
+
+.aug_button_div{
+  margin-top: 5rem;
+  padding-left: 70rem;
+  
+}
+.aug_footer {
+  text-align: center;
+  padding: 50px 0;
+}
+
+.letterbox-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+
+.letterbox {
+  width: 45%;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.letterbox:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.letterbox h3 {
+  margin-bottom: 10px;
+}
+
+.letterbox p {
+  font-size: 16px;
+}
+
+
+
 
 /*Ats*/
 #Ats {
