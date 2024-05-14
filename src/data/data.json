@@ -87,6 +87,16 @@
   ],
   "Testimonials": [
     {
+      "img": "img/testimonials/SJ.jpg",
+      "text": "Strategyz empowers individuals, fostering a sense of ownership and accountability.",
+      "name": "Sarthak Joshi"
+    },
+    {
+      "img": "img/testimonials/DJ.jpg",
+      "text": "Strategyz empowers individuals, serving as the nexus where innovative ideas converge, strategies evolve, and success unfolds organically.",
+      "name": "Devashish Jindal"
+    },
+    {
       "img": "img/testimonials/BD.jpg",
       "text": "Strategyz Inc. fosters a dynamic environment where I continuously learn and grow as a strategyzer.",
       "name": "Balraj Dhakar"
@@ -96,21 +106,13 @@
       "text": "Working with flexible hours has empowered me to optimize productivity, maintain work-life balance, and deliver exceptional results with unparalleled autonomy and satisfaction.",
       "name": "Atharva Jaurkar"
     },
-    {
-      "img": "img/testimonials/DJ.jpg",
-      "text": "Strategyz empowers individuals, serving as the nexus where innovative ideas converge, strategies evolve, and success unfolds organically.",
-      "name": "Devashish Jindal"
-    },
+    
     {
       "img": "img/testimonials/GJ.jpg",
       "text": "At Strategyz, The energizing work environment and supportive team make every day fulfilling and inspiring.",
       "name": "Garvit Jain"
     },
-    {
-      "img": "img/testimonials/SJ.jpg",
-      "text": "Strategyz empowers individuals, fostering a sense of ownership and accountability.",
-      "name": "Sarthak Joshi"
-    },
+    
     {
       "img": "img/testimonials/AS.jpg",
       "text": "At Strategyz, I'm proud to be part of a vibrant startup where our incredible work culture fuels creativity and teamwork every day.",
@@ -172,35 +174,97 @@
   ],
   "jobs": [
     {
-      "id": 1,
+      "domain": "Software Engineering",
       "title": "Software Engineering",
       "description": "Description of Software Engineering job"
     },
     {
-      "id": 2,
+      "domain": "Sales",
       "title": "Sales",
       "description": "Description of Sales job"
     },
     {
-      "id": 3,
+      "domain": "Marketing",
       "title": "Marketing",
       "description": "Description of Marketing job"
     },
     {
-      "id": 4,
+      "domain": "Customer Support",
       "title": "Customer Support",
       "description": "Description of Customer Support job"
     },
     {
-      "id": 5,
+      "domain": "Business Development",
       "title": "Business Development",
       "description": "Description of Business Development job"
     },
     {
-      "id": 6,
+      "domain": "Human Resources",
       "title": "Human Resources",
       "description": "Description of Human Resources job"
     }
     
+  ],
+  "vacancies": [
+    {
+      "domain": "Software Engineering",
+      "title": "Full Stack Developer",
+      "description": "We are looking for a Full Stack Developer with experience in React and Node.js. Responsibilities include developing front-end website architecture, designing user interactions, and ensuring responsiveness of applications."
+    },
+    {
+      "domain": "Software Engineering",
+      "title": "Backend Developer",
+      "description": "Join our team as a Backend Developer with expertise in Java and Spring Boot. You will be responsible for server-side web application logic and integration of the work front-end developers do."
+    },
+    {
+      "domain": "Sales",
+      "title": "Sales Executive",
+      "description": "We are seeking a motivated Sales Executive to join our growing team. Your role will involve identifying new sales opportunities, building client relationships, and achieving sales targets."
+    },
+    {
+      "domain": "Sales",
+      "title": "Account Manager",
+      "description": "As an Account Manager, you will manage client accounts, ensure client satisfaction, and help to grow our business by maintaining and developing client relationships."
+    },
+    {
+      "domain": "Marketing",
+      "title": "Marketing Coordinator",
+      "description": "We are looking for a Marketing Coordinator to assist with planning and executing marketing campaigns. You will work closely with the marketing team to develop content, coordinate events, and track campaign performance."
+    },
+    {
+      "domain": "Marketing",
+      "title": "Digital Marketing Specialist",
+      "description": "Join our team as a Digital Marketing Specialist. You will be responsible for managing our online presence, executing SEO strategies, and running PPC campaigns to increase our brand awareness and drive traffic."
+    },
+    {
+      "domain": "Customer Support",
+      "title": "Customer Support Representative",
+      "description": "We are hiring a Customer Support Representative to provide excellent service to our clients. Responsibilities include resolving customer issues, providing product information, and maintaining customer satisfaction."
+    },
+    {
+      "domain": "Customer Support",
+      "title": "Technical Support Specialist",
+      "description": "As a Technical Support Specialist, you will assist customers with technical problems, guide them through solutions, and ensure technical issues are resolved promptly and effectively."
+    },
+    {
+      "domain": "Business Development",
+      "title": "Business Development Manager",
+      "description": "We are looking for a Business Development Manager to identify new business opportunities, build relationships with potential clients, and develop strategic partnerships to drive business growth."
+    },
+    {
+      "domain": "Business Development",
+      "title": "Business Analyst",
+      "description": "Join our team as a Business Analyst. You will analyze market trends, identify business opportunities, and provide insights to help shape our business strategy."
+    },
+    {
+      "domain": "Human Resources",
+      "title": "HR Manager",
+      "description": "We are seeking an HR Manager to oversee all aspects of human resources practices and processes. You will support business needs and ensure the proper implementation of company HR strategies."
+    },
+    {
+      "domain": "Human Resources",
+      "title": "Recruitment Specialist",
+      "description": "Join our team as a Recruitment Specialist. You will manage the recruitment process, including sourcing candidates, conducting interviews, and coordinating hiring processes to find the best talent."
+    }
   ]
 }

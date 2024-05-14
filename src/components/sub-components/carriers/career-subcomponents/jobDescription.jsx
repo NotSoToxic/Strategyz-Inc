@@ -1,10 +1,10 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
-import jobData from '../../../../data/data.json'
+import vacanciesData from '../../../../data/data.json'
 
 export const JobDescription = () => {
-  const { jobId } = useParams();
-  const job = jobData.jobs.find((job) => job.id === parseInt(jobId));
+  const { jobTitle } = useParams();
+  const job = vacanciesData.vacancies.find((job) => job.title === (jobTitle));
 
   if (!job) {
     return <div>Job not found</div>;
@@ -20,4 +20,3 @@ export const JobDescription = () => {
     </div>
   );
 };
-
