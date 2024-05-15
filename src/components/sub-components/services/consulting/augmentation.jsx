@@ -1,22 +1,38 @@
 import React from "react";
+import augvedio from "../../../assets/banner_vedio/aug_banner.mp4";
 
 export const Augmentation = (props) => {
   const handleClick = () => {
     const infoSection = document.getElementById("aug_footer");
     infoSection.scrollIntoView({ behavior: "smooth" });
   };
-  
+
   return (
     <>
       <div id="augmentation" className="staff-class">
-        <h1>Staff Augmentation Services</h1>
-        <p>
-          At Startegyz Inc., we offer premier staff augmentation services to
-          help your organization thrive in today's competitive landscape. Our
-          expert team of recruiters and consultants is dedicated to finding the
-          right talent to fill your temporary or long-term staffing needs.
-        </p>
-        <div className="augmentation-features">
+        <div className="aug_header">
+          <video autoPlay loop muted className="aug_video-background">
+            <source src={augvedio} type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+          <div className="aug_content">
+            <h1 id="aug_title">Staff Augmentation Services</h1>
+            <p>
+              At Startegyz Inc., we offer premier staff augmentation services to
+              help your organization thrive in today's competitive landscape.
+              Our expert team of recruiters and consultants is dedicated to
+              finding the right talent to fill your temporary or long-term
+              staffing needs.
+            </p>
+          </div>
+          <div className="aug_button_div">
+            <button id="aug_button" onClick={handleClick}>
+              Explore More
+            </button>
+          </div>
+        </div>
+
+        {/* <div className="augmentation-features">
           <div className="feature">
             <i className="fas fa-users"></i>
             <h2>Flexible Staffing Solutions</h2>
@@ -42,10 +58,7 @@ export const Augmentation = (props) => {
               productivity.
             </p>
           </div>
-        </div>
-        <div className="aug_button_div">
-          <button id="aug_button" onClick={handleClick}>Explore More</button>
-        </div>
+        </div> */}
       </div>
       <section className="aug_footer" id="aug_footer">
         <div>
@@ -62,7 +75,9 @@ export const Augmentation = (props) => {
           </div>
           <div className="letterbox">
             <h3>Continuous Support</h3>
-            <p>Round-the-clock assistance and support for seamless operations.</p>
+            <p>
+              Round-the-clock assistance and support for seamless operations.
+            </p>
           </div>
           <div className="letterbox">
             <h3>Industry-Leading Solutions</h3>

@@ -1163,6 +1163,28 @@ label {
 
 }
 
+.aug_header{
+  margin: 20rem 0rem 25rem 0rem ;
+}
+.aug_content {
+  position: relative;
+  font-size:50px;
+  z-index: 1;
+  opacity: 1;
+  color: rgb(7, 7, 7); 
+}
+
+.aug_video-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: .8; 
+}
+
+
 .staff-class p {
     padding: 0px 40px 0px 40px; 
 }
@@ -1177,10 +1199,11 @@ label {
   flex: 1;
   padding: 20px;
   border-radius: 10px;
-  background-color: #00adb5;
+  background-color: #4b84da;
   margin: 0 20px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease;
+  
 }
 
 .feature:hover {
@@ -1208,7 +1231,7 @@ label {
   position: relative;
   width: 120px;
   height: 40px;
-  background-color: #000;
+  background-color: #0079f3;
   display: flex;
   align-items: center;
   color: white;
@@ -1231,7 +1254,7 @@ label {
   width: 128px;
   height: 48px;
   border-radius: 10px;
-  background: linear-gradient(-45deg, #e81cff 0%, #40c9ff 100% );
+  background: linear-gradient(-45deg, #3060e6 0%, #40c9ff 100% );
   z-index: -10;
   pointer-events: none;
   transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
@@ -1242,7 +1265,7 @@ label {
   z-index: -1;
   position: absolute;
   inset: 0;
-  background: linear-gradient(-45deg, #fc00ff 0%, #00dbde 100% );
+  background: linear-gradient(-45deg, #3151e0 0%, #00dbde 100% );
   transform: translate3d(0, 0, 0) scale(0.95);
   filter: blur(20px);
 }
@@ -1273,12 +1296,13 @@ label {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  margin-top: 50px;
+  margin-top: 5rem;
 }
 
 .letterbox {
   width: 45%;
   padding: 20px;
+  margin: 1rem;
   border: 1px solid #ddd;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -1287,7 +1311,7 @@ label {
 
 .letterbox:hover {
   transform: translateY(-5px);
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 5px rgb(8, 120, 249);
 }
 
 .letterbox h3 {
