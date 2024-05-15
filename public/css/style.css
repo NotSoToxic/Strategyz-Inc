@@ -71,6 +71,28 @@ hr {
   border: 0;
 }
 /* Navigation */
+.navbar-content{
+  margin: 0 135px
+}
+@media (min-width: 1200px) {
+  .navbar-content{
+    width: 82%;
+    margin: 0 135px;
+  }
+}
+
+@media (min-width: 992px){
+  .navbar-content{
+    width: 81%;
+    margin: 0 114px;
+  }
+}
+@media (min-width: 768px) {
+  .navbar-content{
+    width: 81%;
+    margin: 0 94px;
+  }
+}
 
 .dropdown .dropdown-menu {
   animation: dropdown-animation 0.3s ease-out;
@@ -86,6 +108,7 @@ hr {
 
 .dropdown .vertical-dropdown {
   right: 0px;
+
   width: 160px;
 }
 
@@ -199,31 +222,37 @@ hr {
 }
 
 
+/* Navbar Styles */
 #menu {
   padding-top: 5px;
   padding-bottom: 6px;
   transition: all 0.8s;
+  position: fixed; /* Ensure the navbar is fixed */
+  top: 0;
+  width: 100%;
+  z-index: 1000;
 }
+
 #menu.navbar-default {
   background-color: #F5F5F5;
   border-color: rgba(231, 231, 231, 0);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
-  
 }
-/* for logo image*/
+
 #menu.navbar-default img {
-  max-width: 150px; 
+  max-width: 150px;
   margin-top: 12px;
   height: auto;
 }
 
-#menu a.navbar-brand{
+#menu a.navbar-brand {
   font-family: "Raleway", sans-serif;
   font-size: 24px;
   font-weight: 700;
   color: #333;
   text-transform: uppercase;
 }
+
 #menu.navbar-default .navbar-nav > li > a {
   font-family: "Lato", sans-serif;
   text-transform: uppercase;
@@ -233,7 +262,9 @@ hr {
   padding: 9px 2px;
   border-radius: 0;
   margin: 10px 10px 0;
+  position: relative; /* For the underline effect */
 }
+
 #menu.navbar-default .navbar-nav > li > a:after {
   display: block;
   position: absolute;
@@ -245,14 +276,17 @@ hr {
   content: "";
   transition: width 0.2s;
 }
+
 #menu.navbar-default .navbar-nav > li > a:hover:after {
   width: 100%;
 }
+
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
   background-color: transparent;
 }
+
 .navbar-default .navbar-nav > .active > a:after,
 .navbar-default .navbar-nav > .active > a:hover:after,
 .navbar-default .navbar-nav > .active > a:focus:after {
@@ -266,26 +300,32 @@ hr {
   content: "" !important;
   transition: width 0.2s !important;
 }
+
 .navbar-toggle {
   border-radius: 0;
 }
+
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
   background-color: #fff;
   border-color: #608dfd;
 }
+
 .navbar-default .navbar-toggle:hover > .icon-bar {
   background-color: #608dfd;
 }
+
 .section-title {
   margin-bottom: 70px;
 }
+
 .section-title h2 {
   position: relative;
   margin-top: 10px;
   margin-bottom: 15px;
   padding-bottom: 15px;
 }
+
 .section-title h2::after {
   position: absolute;
   content: "";
@@ -296,9 +336,11 @@ hr {
   margin-left: -30px;
   left: 50%;
 }
+
 .section-title p {
   font-size: 18px;
 }
+
 .btn-custom {
   font-family: "Raleway", sans-serif;
   text-transform: uppercase;
@@ -315,6 +357,7 @@ hr {
   transition: all 0.5s linear;
   border: 0;
 }
+
 .btn-custom:hover,
 .btn-custom:focus,
 .btn-custom.focus,
@@ -324,6 +367,7 @@ hr {
   background-image: none;
   background-color: #6372ff;
 }
+
 .btn:active,
 .btn.active {
   background-image: none;
@@ -331,6 +375,7 @@ hr {
   -webkit-box-shadow: none;
   box-shadow: none;
 }
+
 a:focus,
 .btn:focus,
 .btn:active:focus,
@@ -341,10 +386,10 @@ a:focus,
   outline: none;
   outline-offset: none;
 }
+
 .social {
   border-top: 1px solid rgba(20, 35, 167, 0.15);
   text-align: center;
-  
   margin: -6px 0px;
   margin-left: 5px;
 }
@@ -363,6 +408,7 @@ a:focus,
   border-radius: 50%;
   transition: all 0.3s;
 }
+
 .social i.fa:hover {
   color: #608dfd;
   background: #fff;
@@ -1076,12 +1122,6 @@ label {
 
 /*Job Description Page*/
 
-#jobdescription{
-  padding-top: 100px;
-  background-color: #F5F5F5;
-  width: 100%;
-  height: 100%;
-}
 
 /*Application Form page*/
 

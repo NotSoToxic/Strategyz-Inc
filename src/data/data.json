@@ -209,7 +209,39 @@
     {
       "domain": "Software Engineering",
       "title": "Full Stack Developer",
-      "description": "We are looking for a Full Stack Developer with experience in React and Node.js. Responsibilities include developing front-end website architecture, designing user interactions, and ensuring responsiveness of applications."
+      "type": "Full-time",
+      "location": "Gurgaon, Haryana, India",
+      "salary": "INR 10,00,000 - 15,00,000",
+      "experience": "3+ years",
+      "skills": "React, Node.js",
+      "description": "We are looking for a Full Stack Developer with experience in React and Node.js. Responsibilities include developing front-end website architecture, designing user interactions, and ensuring responsiveness of applications.",
+      "responsibilities": [
+        "Developing front-end website architecture.",
+        "Designing user interactions on web pages.",
+        "Ensuring responsiveness of applications.",
+        "Working alongside graphic designers for web design features.",
+        "Seeing through a project from conception to finished product.",
+        "Designing and developing APIs."
+      ],
+      "requirements": [
+        "3+ years of experience as a Full Stack Developer.",
+        "Experience with React and Node.js.",
+        "Experience with database technologies such as MySQL, MongoDB, and PostgreSQL.",
+        "Experience with web application architecture.",
+        "Experience with cloud technologies such as AWS, Azure, or Google Cloud Platform.",
+        "Experience with RESTful APIs.",
+        "Experience with version control tools such as Git.",
+        "Experience with front-end technologies such as HTML, CSS, and JavaScript.",
+        "Experience with server-side languages such as Python, Ruby, Java, or PHP."
+      ],
+      "benefits": [
+        "Competitive salary.",
+        "Flexible working hours.",
+        "Opportunity to work on cutting-edge technologies.",
+        "Opportunity for career growth and advancement.",
+        "Collaborative and supportive work environment."
+      ]
+      
     },
     {
       "domain": "Software Engineering",
