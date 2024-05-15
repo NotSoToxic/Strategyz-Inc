@@ -1294,7 +1294,7 @@ label {
 }
 .aug_footer {
   text-align: center;
-  padding: 2rem 0rem;
+  padding: 10rem 0rem;
   background-color:#eef5ff;
 }
 
@@ -1318,7 +1318,7 @@ label {
 
 .letterbox:hover {
   transform: translateY(-5px);
-  box-shadow: 0 2px 5px rgb(8, 120, 249);
+  box-shadow: 0 2px 5px rgb(0, 74, 159);
 }
 
 .letterbox h3 {
