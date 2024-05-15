@@ -1163,11 +1163,10 @@ label {
 }
 
 .aug_header{
-  margin: 10rem 0rem 20rem 0rem ;
+  margin: 10rem 0rem 16rem 0rem ;
 }
 .aug_content {
   font-family: "Raleway", sans-serif;
-  /* font-weight:bold; */
   position: relative;
   font-size:1rem;
   z-index: 1;
@@ -1291,16 +1290,19 @@ label {
   margin-top: 5rem;
   padding-left: 70rem;
   
+  
 }
 .aug_footer {
   text-align: center;
   padding: 2rem 0rem;
+  background-color:#eef5ff;
 }
 
 .letterbox-container {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  background-color:#eef5ff;
   margin-top: 5rem;
 }
 
