@@ -1167,11 +1167,17 @@ label {
   margin: 20rem 0rem 25rem 0rem ;
 }
 .aug_content {
+  font-family: "Raleway", sans-serif;
+  /* font-weight:bold; */
   position: relative;
-  font-size:50px;
+  font-size:1rem;
   z-index: 1;
   opacity: 1;
   color: rgb(7, 7, 7); 
+  
+}
+.aug_p{
+  font-size: large;
 }
 
 .aug_video-background {

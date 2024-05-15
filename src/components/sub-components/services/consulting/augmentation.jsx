@@ -16,8 +16,9 @@ export const Augmentation = (props) => {
             Your browser does not support the video tag.
           </video>
           <div className="aug_content">
-            <h1 id="aug_title">Staff Augmentation Services</h1>
-            <p>
+            <h3>Welcome to Strategyz Inc.</h3>
+            <h2>Staff Augmentation Services</h2>
+            <p className="aug_p">
               At Startegyz Inc., we offer premier staff augmentation services to
               help your organization thrive in today's competitive landscape.
               Our expert team of recruiters and consultants is dedicated to
