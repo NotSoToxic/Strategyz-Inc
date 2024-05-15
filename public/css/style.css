@@ -1160,11 +1160,10 @@ label {
   text-align: center;
   padding: 100px 0;
   margin:auto;
-
 }
 
 .aug_header{
-  margin: 20rem 0rem 25rem 0rem ;
+  margin: 20rem 0rem 20rem 0rem ;
 }
 .aug_content {
   font-family: "Raleway", sans-serif;
@@ -1295,7 +1294,7 @@ label {
 }
 .aug_footer {
   text-align: center;
-  padding: 50px 0;
+  padding: 2rem 0rem;
 }
 
 .letterbox-container {
@@ -1308,7 +1307,7 @@ label {
 .letterbox {
   width: 45%;
   padding: 20px;
-  margin: 1rem;
+  margin: 2rem;
   border: 1px solid #ddd;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
