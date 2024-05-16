@@ -120,6 +120,14 @@ export const Contact = (props) => {
             <div className="contact-item">
               <p>
                 <span>
+                   CIN Number
+                </span>{" "}
+                U62011HR2024PTC121414
+              </p>
+            </div>
+            <div className="contact-item">
+              <p>
+                <span>
                   <i className="fa fa-envelope-o"></i> Email
                 </span>{" "}
                 {props.data ? props.data.email : "loading"}
