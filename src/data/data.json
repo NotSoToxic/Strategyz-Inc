@@ -53,53 +53,6 @@
       }
     ]
   },
-  "Gallery": [
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/01-large.jpg",
-      "smallImage": "img/portfolio/01-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/02-large.jpg",
-      "smallImage": "img/portfolio/02-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/03-large.jpg",
-      "smallImage": "img/portfolio/03-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/04-large.jpg",
-      "smallImage": "img/portfolio/04-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/05-large.jpg",
-      "smallImage": "img/portfolio/05-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/06-large.jpg",
-      "smallImage": "img/portfolio/06-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/07-large.jpg",
-      "smallImage": "img/portfolio/07-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/08-large.jpg",
-      "smallImage": "img/portfolio/08-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/09-large.jpg",
-      "smallImage": "img/portfolio/09-small.jpg"
-    }
-  ],
   "Services": [
     {
       "icon": "fa fa-wordpress",
@@ -134,34 +87,36 @@
   ],
   "Testimonials": [
     {
-      "img": "img/testimonials/01.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
+      "img": "img/testimonials/SJ.jpg",
+      "text": "Strategyz empowers individuals, fostering a sense of ownership and accountability.",
+      "name": "Sarthak Joshi"
     },
     {
-      "img": "img/testimonials/02.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
+      "img": "img/testimonials/DJ.jpg",
+      "text": "Strategyz empowers individuals, serving as the nexus where innovative ideas converge, strategies evolve, and success unfolds organically.",
+      "name": "Devashish Jindal"
     },
     {
-      "img": "img/testimonials/03.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
+      "img": "img/testimonials/BD.jpg",
+      "text": "Strategyz Inc. fosters a dynamic environment where I continuously learn and grow as a strategyzer.",
+      "name": "Balraj Dhakar"
     },
     {
-      "img": "img/testimonials/04.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
+      "img": "img/testimonials/AJ.jpg",
+      "text": "Working with flexible hours has empowered me to optimize productivity, maintain work-life balance, and deliver exceptional results with unparalleled autonomy and satisfaction.",
+      "name": "Atharva Jaurkar"
     },
+    
     {
-      "img": "img/testimonials/05.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
+      "img": "img/testimonials/GJ.jpg",
+      "text": "At Strategyz, The energizing work environment and supportive team make every day fulfilling and inspiring.",
+      "name": "Garvit Jain"
     },
+    
     {
-      "img": "img/testimonials/06.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
+      "img": "img/testimonials/AS.jpg",
+      "text": "At Strategyz, I'm proud to be part of a vibrant startup where our incredible work culture fuels creativity and teamwork every day.",
+      "name": "Ambuj Srivasatava"
     }
   ],
   "Team": [
@@ -187,8 +142,8 @@
     }
   ],
   "Contact": {
-    "address": "STRATEGYZ Technologies PVT. LTD. We Work Institutional Area, Sector 44, Gurgaon, Haryana, India - 122002",
-    "address2": "STRATEGYZ Technologies PVT. LTD. Bannerghatta Road, Bengaluru, Karnataka, India - 560076",
+    "address": "Abiroo Strategyz Technologies Private Limited, We Work Institutional Area, Sector 44, Gurgaon, Haryana, India - 122002",
+    "address2": "Abiroo Strategyz Technologies Private Limited, Bengaluru, Karnataka, India - 560076",
     "phone": "+91-9560303407",
     "email": "info@strategyzinc.com",
     "instagram": "https://www.instagram.com/strategyzinc?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
@@ -215,6 +170,133 @@
       "icon": "fa fa-magic",
       "title": "Assurance",
       "text": "Model is completely postpaid, with 30 days refund/replacement clause to safeguard your interests."
+    }
+  ],
+  "jobs": [
+    {
+      "domain": "Software Engineering",
+      "title": "Software Engineering",
+      "description": "Description of Software Engineering job"
+    },
+    {
+      "domain": "Sales",
+      "title": "Sales",
+      "description": "Description of Sales job"
+    },
+    {
+      "domain": "Marketing",
+      "title": "Marketing",
+      "description": "Description of Marketing job"
+    },
+    {
+      "domain": "Customer Support",
+      "title": "Customer Support",
+      "description": "Description of Customer Support job"
+    },
+    {
+      "domain": "Business Development",
+      "title": "Business Development",
+      "description": "Description of Business Development job"
+    },
+    {
+      "domain": "Human Resources",
+      "title": "Human Resources",
+      "description": "Description of Human Resources job"
+    }
+    
+  ],
+  "vacancies": [
+    {
+      "domain": "Software Engineering",
+      "title": "Full Stack Developer",
+      "type": "Full-time",
+      "location": "Gurgaon, Haryana, India",
+      "salary": "INR 10,00,000 - 15,00,000",
+      "experience": "3+ years",
+      "skills": "React, Node.js",
+      "description": "We are looking for a Full Stack Developer with experience in React and Node.js. Responsibilities include developing front-end website architecture, designing user interactions, and ensuring responsiveness of applications.",
+      "responsibilities": [
+        "Developing front-end website architecture.",
+        "Designing user interactions on web pages.",
+        "Ensuring responsiveness of applications.",
+        "Working alongside graphic designers for web design features.",
+        "Seeing through a project from conception to finished product.",
+        "Designing and developing APIs."
+      ],
+      "requirements": [
+        "3+ years of experience as a Full Stack Developer.",
+        "Experience with React and Node.js.",
+        "Experience with database technologies such as MySQL, MongoDB, and PostgreSQL.",
+        "Experience with web application architecture.",
+        "Experience with cloud technologies such as AWS, Azure, or Google Cloud Platform.",
+        "Experience with RESTful APIs.",
+        "Experience with version control tools such as Git.",
+        "Experience with front-end technologies such as HTML, CSS, and JavaScript.",
+        "Experience with server-side languages such as Python, Ruby, Java, or PHP."
+      ],
+      "benefits": [
+        "Competitive salary.",
+        "Flexible working hours.",
+        "Opportunity to work on cutting-edge technologies.",
+        "Opportunity for career growth and advancement.",
+        "Collaborative and supportive work environment."
+      ]
+      
+    },
+    {
+      "domain": "Software Engineering",
+      "title": "Backend Developer",
+      "description": "Join our team as a Backend Developer with expertise in Java and Spring Boot. You will be responsible for server-side web application logic and integration of the work front-end developers do."
+    },
+    {
+      "domain": "Sales",
+      "title": "Sales Executive",
+      "description": "We are seeking a motivated Sales Executive to join our growing team. Your role will involve identifying new sales opportunities, building client relationships, and achieving sales targets."
+    },
+    {
+      "domain": "Sales",
+      "title": "Account Manager",
+      "description": "As an Account Manager, you will manage client accounts, ensure client satisfaction, and help to grow our business by maintaining and developing client relationships."
+    },
+    {
+      "domain": "Marketing",
+      "title": "Marketing Coordinator",
+      "description": "We are looking for a Marketing Coordinator to assist with planning and executing marketing campaigns. You will work closely with the marketing team to develop content, coordinate events, and track campaign performance."
+    },
+    {
+      "domain": "Marketing",
+      "title": "Digital Marketing Specialist",
+      "description": "Join our team as a Digital Marketing Specialist. You will be responsible for managing our online presence, executing SEO strategies, and running PPC campaigns to increase our brand awareness and drive traffic."
+    },
+    {
+      "domain": "Customer Support",
+      "title": "Customer Support Representative",
+      "description": "We are hiring a Customer Support Representative to provide excellent service to our clients. Responsibilities include resolving customer issues, providing product information, and maintaining customer satisfaction."
+    },
+    {
+      "domain": "Customer Support",
+      "title": "Technical Support Specialist",
+      "description": "As a Technical Support Specialist, you will assist customers with technical problems, guide them through solutions, and ensure technical issues are resolved promptly and effectively."
+    },
+    {
+      "domain": "Business Development",
+      "title": "Business Development Manager",
+      "description": "We are looking for a Business Development Manager to identify new business opportunities, build relationships with potential clients, and develop strategic partnerships to drive business growth."
+    },
+    {
+      "domain": "Business Development",
+      "title": "Business Analyst",
+      "description": "Join our team as a Business Analyst. You will analyze market trends, identify business opportunities, and provide insights to help shape our business strategy."
+    },
+    {
+      "domain": "Human Resources",
+      "title": "HR Manager",
+      "description": "We are seeking an HR Manager to oversee all aspects of human resources practices and processes. You will support business needs and ensure the proper implementation of company HR strategies."
+    },
+    {
+      "domain": "Human Resources",
+      "title": "Recruitment Specialist",
+      "description": "Join our team as a Recruitment Specialist. You will manage the recruitment process, including sourcing candidates, conducting interviews, and coordinating hiring processes to find the best talent."
     }
   ]
 }

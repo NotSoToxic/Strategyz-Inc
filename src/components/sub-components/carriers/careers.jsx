@@ -1,6 +1,12 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { useState } from "react";
 import careers from "../../assets/images/careers.jpg";
+import { Testimonials } from "../../landingpage/testimonials";
+import JsonData from "../../../data/data.json";
+
+import jobData from '../../../data/data.json';
+import { Link } from 'react-router-dom';
+
 
 
 export const Careers = (props) => {
@@ -9,6 +15,8 @@ export const Careers = (props) => {
     const handleTabClick = (tab) => {
         setActiveTab(tab);
     };
+
+    
 
     return (
         <div id="careers">
@@ -31,7 +39,7 @@ export const Careers = (props) => {
                     <ul>
                         <li><a href="#overview" className="page-scroll">What We Do</a></li>
                         <li><a href="#working" className="page-scroll">Apply</a></li>
-                        <li><a href="#clients" className="page-scroll">Insights</a></li>
+                        <li><a href="#testimonials" className="page-scroll">Insights</a></li>
                     </ul>
                 </aside>
 
@@ -66,46 +74,40 @@ export const Careers = (props) => {
                         </nav>
                         
                         {activeTab === "Internaljobs" && (
-                            <div id="working-navbar-content">
+                            <div id="working-navbar-content" >
                                 <h3>Internal Openings</h3>
-                                
+                                <div className="job-container">
+                                    {jobData.jobs.map((job) => (
+                                        <div key={job.domain} className="job-card">
+                                        <h4>{job.title}</h4>
+                                        <p>{job.description}</p>
+                                        <Link to={`/job/${job.domain}`}>Apply now</Link>
+                                        </div>
+                                    ))}
+                                </div>
                             </div>
                         )}
                         {activeTab === "Clientjobs" && (
                             <div id="working-navbar-content">
                                 <h3>Client Openings</h3>
+                                <div class="job-container">
+                                        
+                                        {jobData.jobs.map((job) => (
+                                        <div key={job.domain} className="job-card">
+                                        <h4>{job.title}</h4>
+                                        <p>{job.description}</p>
+                                        <Link to={`/job/${job.domain}`}>Apply now</Link>
+                                        </div>
+                                    ))}
+                                </div>
                                 
                             </div>
                         )}
                     </section>
-                    <section id="clients">
-                <h2>Clients</h2>
-                  <div class="flex-container">
-                    <div class="box">
-                      <img src="img/StrategyzInfo_logo/ibm.png" alt="ibm logo"></img>
-                      <p>IBM</p>
-                    </div>
-                    <div class="box">
-                      <img src="img/StrategyzInfo_logo/hexawareT logo.jpeg" alt="Hexaware logo"></img>
-                      <p>Hexaware Technologies</p>
-                    </div>
-                    <div class="box">
-                      <img src="img/StrategyzInfo_logo/RangT logo.png" alt="Rang Technologies logo"></img>
-                      <p>Rang Technologies</p>
-                    </div>
-                    <div class="box">
-                      <img src="img/StrategyzInfo_logo/HarjaiC logo.png" alt="Harjai Computers logo"></img>
-                      <p>Harjai Computers</p>
-                    </div>
-                    <div class="box">
-                      <img src="img/StrategyzInfo_logo/fabH logo.png" alt="Fab Hotels logo"></img>
-                      <p>FabHotels</p>
-                    </div>
-                    
-                    
-                  </div>
-            </section>
-                </main>
+                    <section id="review">
+                        <Testimonials data={JsonData.Testimonials} />
+                    </section>
+            </main>
             </div>
 
             <div id="footer">
