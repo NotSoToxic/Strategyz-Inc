@@ -1,7 +1,7 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
 import vacanciesData from '../../../../data/data.json';
-import './jobDescription.css';
+
 
 export const JobDescription = () => {
   const { jobTitle } = useParams();
@@ -43,17 +43,23 @@ export const JobDescription = () => {
       </div>
       <div className='job-description'>
         <div className='description-content'>
+          <div>
           <h3>Job Description</h3>
           <p>{job.description || 'No description available.'}</p>
-          <h3>Responsibilities</h3>
+          </div>
+          <div><h3>Responsibilities</h3>
           {renderList(job.responsibilities)}
-          <h3>Requirements</h3>
+          </div>
+          <div>
+            <h3>Requirements</h3>
           {renderList(job.requirements)}
-          <h3>Preferred Qualifications</h3>
+          </div>
+          <div><h3>Preferred Qualifications</h3>
           {renderList(job.preferredQualifications)}
-          <h3>Benefits</h3>
+          </div>
+          <div><h3>Benefits</h3>
           {renderList(job.benefits)}
-      
+          </div>
         </div>
       </div>
     </div>

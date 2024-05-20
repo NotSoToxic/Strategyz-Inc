@@ -1,7 +1,8 @@
 import React from 'react';
-import { useParams } from 'react-router-dom';
+import { useParams, Link } from 'react-router-dom';
 import vacanciesData from '../../../../data/data.json';
-import { Link } from 'react-router-dom';
+
+
 
 export const Vacancies = () => {
   const { jobDomain } = useParams();
@@ -12,7 +13,9 @@ export const Vacancies = () => {
   return (
     <div id='vacancies'>
         <div className='vacancies-header'>
-            <h2>Roles in {jobDomain}</h2>
+            <h1>Roles in {jobDomain}</h1>
+          </div>
+          <div className='vacancies-body'>
             <div className="job-container">                       
               {filteredJobs.map((job) => (
                 <div key={job.domain} className="job-card">
@@ -22,8 +25,9 @@ export const Vacancies = () => {
                 </div>
               ))}
             </div>
+            </div>
         </div>
-    </div>
+    
   );
 };
 

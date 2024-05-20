@@ -1106,22 +1106,132 @@ label {
 /*Vacancies page*/
 
 #vacancies{
-  padding-top: 100px;
+  margin-top: 80px;
   background-color: #F5F5F5;
   width: 100%;
-  height: 100%;
-
+  height:100%;
 }
 
 .vacancies-header{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
   padding-top: 20px;
   padding-bottom: 30px;
-  background: url(../img/banner.png) center center no-repeat;
+  background-color: #004EAF;
+  border-bottom-left-radius: 22px;
+  border-bottom-right-radius: 22px;
+  height: 30%;
 
 }
 
-/*Job Description Page*/
+.vacancies-header h1{
+  color: white;
+  font-size: 35px;
+  font-style: bold;
+  
+  padding-left: 28px;
+  /* padding-bottom: 30px; */
+  /* margin-left: -5px; */
+}
 
+.vacancies-body{
+  height: 100%;
+  padding: 20px;
+}
+
+#vacancies .job-card{
+  background-color: white;
+}
+
+/*Job Description Page*/
+#jobdescription{
+  margin-top: 80px;
+  background-color: #F5F5F5;
+  width: 100%;
+  height: 100%;
+}
+
+.description-header{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  background-color: #004EAF;
+  border-bottom-left-radius: 22px;
+  border-bottom-right-radius: 22px;
+}
+
+.description-header-title{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  
+  align-items: flex-end;
+  width: 100%;
+}
+
+.description-header h1{
+  color: white;
+  font-size: 35px;
+  font-style: bold;
+  padding-top: 20px;
+  padding-left: 28px;
+  /* padding-bottom: 30px; */
+  /* margin-left: -5px; */
+}
+
+.apply-button {
+  padding: 10px 20px;
+  background-color: #007BFF;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.apply-button:hover {
+  background-color: #0056b3;
+}
+
+.description-header-tags{
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  align-items: center;
+  width: 100%;
+  
+}
+
+.description-header p{
+  text-align: center;
+  font-size: 16px;
+  color: blue;
+  background-color: white;
+  padding: 10px;
+  width: 14%;
+  margin-left: 20px;
+  border-radius: 22px;
+}
+
+.job-description{
+  padding-top: 20px;
+  padding-bottom: 30px;
+  width: 100%;
+  height: 100%;
+}
+
+.description-content{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  width: 100%;
+  background-color: white;
+}
 
 /*Application Form page*/
 
