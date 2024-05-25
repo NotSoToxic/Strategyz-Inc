@@ -26,6 +26,14 @@ export const Vacancies = () => {
               ))}
             </div>
             </div>
+            <div id="footer">
+        <div className="container text-center">
+          <p>
+            &copy; 2024 Strategyz Inc.
+              All Rights Reserved
+          </p>
+        </div>
+      </div>
         </div>
     
   );

@@ -1,4 +1,4 @@
-body,
+
 html {
   font-family: "Open Sans", sans-serif;
   text-rendering: optimizeLegibility !important;
@@ -7,6 +7,14 @@ html {
   font-weight: 400;
   width: 100% !important;
   height: 100% !important;
+}
+body{
+  font-family: "Open Sans", sans-serif;
+  text-rendering: optimizeLegibility !important;
+  -webkit-font-smoothing: antialiased !important;
+  color: #777;
+  font-weight: 400;
+  width: 100% !important;
 }
 h2,
 h3,
@@ -71,33 +79,40 @@ hr {
   border: 0;
 }
 /* Navigation */
-.navbar-content{
-  margin: 0 135px
+/* General Navbar Content */
+.navbar-content {
+  margin: 0 7vw;
 }
-@media (min-width: 1200px) {
-  .navbar-content{
+
+/* Large screens */
+@media (max-width: 1200px) {
+  .navbar-content {
     width: 82%;
-    margin: 0 135px;
+    margin: 0 auto;
   }
 }
 
-@media (min-width: 992px){
-  .navbar-content{
+/* Medium to large screens */
+@media (max-width: 992px) {
+  .navbar-content {
     width: 81%;
-    margin: 0 114px;
-  }
-}
-@media (min-width: 768px) {
-  .navbar-content{
-    width: 81%;
-    margin: 0 94px;
+    margin: 0 auto;
   }
 }
 
+/* Small to medium screens */
+@media (max-width: 768px) {
+  .navbar-content {
+    width: 81%;
+    margin: 0 5vw;
+  }
+}
+
+/* Dropdown Menu Styles */
 .dropdown .dropdown-menu {
   animation: dropdown-animation 0.3s ease-out;
-  background-color: #F5F5F5; 
-  width: 800px;
+  background-color: #F5F5F5;
+  width: 770px;
   right: -300px;
   border: 1px solid #ddd;
   border-radius: 10px;
@@ -107,14 +122,11 @@ hr {
 }
 
 .dropdown .vertical-dropdown {
-  right: 0px;
-
+  right: 0;
   width: 160px;
 }
 
-
 /* Dropdown animation */
-
 @keyframes dropdown-animation {
   0% {
     opacity: 0;
@@ -122,22 +134,18 @@ hr {
   }
   100% {
     opacity: 1;
-    transform: translateY(0px);
+    transform: translateY(0);
   }
 }
+
 .dropdown .dropdown-menu > li {
   display: inline-block;
-  width: 50%;
+  width: 45%;
   vertical-align: top;
 }
 
-
-
-
 .dropdown .dropdown-menu .services-offered {
-  
-  position:static;
-  
+  position: static;
   padding: 10px 30px;
   font-size: 16px;
   font-weight: 400;
@@ -147,51 +155,43 @@ hr {
   display: block;
 }
 
-.dropdown .vertical-dropdown .contact-info{
+.dropdown .vertical-dropdown .contact-info {
   padding: 10px 10px;
 }
 
-
 .dropdown .dropdown-menu .services-offered > h3 {
   text-align: left;
-  
   overflow: hidden;
   text-overflow: ellipsis;
 }
 
-.dropdown .dropdown-menu .services-offered .services1 > li{
+.dropdown .dropdown-menu .services-offered .services1 > li {
   margin-top: 5px;
   margin-bottom: 5px;
-  padding-top: 5px 10px ;
+  padding: 5px 10px;
   transition: all 0.3s;
   color: #333;
   text-align: left;
   display: block;
   white-space: nowrap;
-
 }
 
 /* Dropdown item text color */
-.dropdown .dropdown-menu .services-offered .services1> li > a {
-  color: #333; /* Match the text color of the navigation */
+.dropdown .dropdown-menu .services-offered .services1 > li > a {
+  color: #333;
   font-size: 16px;
   font-weight: 400;
   padding: 5px 10px;
-  padding-right: 100px;
   transition: all 0.3s;
   border-radius: 5px;
 }
 
 /* Dropdown item hover background color */
-.dropdown .dropdown-menu .services-offered .services1> li > a:hover,
+.dropdown .dropdown-menu .services-offered .services1 > li > a:hover,
 .dropdown .dropdown-menu .services-offered .services1 > li > a:focus {
-  background-color: #608dfd; /* Match the hover background color */
+  background-color: #608dfd;
   color: #fff;
 }
-.dropdown:hover > .dropdown-menu {
-  display: block;
-}
-
 
 .dropdown:hover > .dropdown-menu {
   display: block;
@@ -203,17 +203,11 @@ hr {
   display: inline-block;
   border-bottom-color: #333;
   border-top-color: #333;
-  display: inline-block;
-  margin-left: 5px;
-  vertical-align: middle;
-  transition: transform 0.3s ease;
   border-left: 6px solid transparent;
   border-right: 6px solid transparent;
   border-bottom: 6px solid black;
   border-top: 6px solid transparent;
-  content: "";
-  
-  
+  transition: transform 0.3s ease;
 }
 
 .dropdown:hover .caret {
@@ -221,13 +215,28 @@ hr {
   transform: rotate(180deg);
 }
 
+@media (max-width: 950px){
+  .dropdown .dropdown-menu{
+    width: 700px;
+    right: 380px;
+  }
+  .dropdown .dropdown-menu .services-offered{
+    padding: 10px 20px;
+  }
+  .dropdown .dropdown-menu .services-offered > h3{
+    font-size: 20px;
+  }
+  .dropdown .dropdown-menu .services-offered .services1 > li > a{
+    font-size: 15px;
+  }
+}
 
 /* Navbar Styles */
 #menu {
   padding-top: 5px;
   padding-bottom: 6px;
   transition: all 0.8s;
-  position: fixed; /* Ensure the navbar is fixed */
+  position: fixed;
   top: 0;
   width: 100%;
   z-index: 1000;
@@ -262,7 +271,7 @@ hr {
   padding: 9px 2px;
   border-radius: 0;
   margin: 10px 10px 0;
-  position: relative; /* For the underline effect */
+  position: relative;
 }
 
 #menu.navbar-default .navbar-nav > li > a:after {
@@ -315,6 +324,7 @@ hr {
   background-color: #608dfd;
 }
 
+/* Section Title Styles */
 .section-title {
   margin-bottom: 70px;
 }
@@ -341,6 +351,7 @@ hr {
   font-size: 18px;
 }
 
+/* Button Styles */
 .btn-custom {
   font-family: "Raleway", sans-serif;
   text-transform: uppercase;
@@ -387,15 +398,16 @@ a:focus,
   outline-offset: none;
 }
 
+/* Social Media Icons */
 .social {
   border-top: 1px solid rgba(20, 35, 167, 0.15);
   text-align: center;
-  margin: -6px 0px;
+  margin: -6px 0;
   margin-left: 5px;
 }
 
 .social a {
-  margin: 5px 10px 0px !important;
+  margin: 5px 10px 0 !important;
 }
 
 .social i.fa {
@@ -413,6 +425,7 @@ a:focus,
   color: #608dfd;
   background: #fff;
 }
+
 
 
 
@@ -1105,46 +1118,83 @@ label {
 /*Career Sub-components*/
 /*Vacancies page*/
 
-#vacancies{
+/* General styling for the vacancies component */
+#vacancies {
   margin-top: 80px;
-  background-color: #F5F5F5;
+  
   width: 100%;
-  height:100%;
-}
-
-.vacancies-header{
   display: flex;
   flex-direction: column;
-  position: relative;
+  min-height: 90vh; /* Ensure it covers the full viewport height */
+}
+
+.vacancies-header {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Align header content to the left */
   width: 100%;
-  padding-top: 20px;
-  padding-bottom: 30px;
+  padding: 40px 28px; /* Combine top and bottom padding with horizontal padding */
   background-color: #004EAF;
   border-bottom-left-radius: 22px;
   border-bottom-right-radius: 22px;
-  height: 30%;
-
+  box-sizing: border-box; /* Include padding and border in the element's total width and height */
 }
 
-.vacancies-header h1{
+.vacancies-header h1 {
   color: white;
-  font-size: 35px;
-  font-style: bold;
-  
-  padding-left: 28px;
-  /* padding-bottom: 30px; */
-  /* margin-left: -5px; */
+  font-size: 3rem; /* Use responsive units for font size */
+  font-weight: bold;
+  margin: 0; /* Remove default margin */
 }
 
-.vacancies-body{
-  height: 100%;
+.vacancies-body {
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  background-color: #F5F5F5;
+  flex: 1; /* Allow the body to grow and take available space */
   padding: 20px;
+  border-radius: 20px;
+  border: 2px solid #99b8df;
+  box-sizing: border-box; /* Include padding in the element's total width and height */
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  
 }
 
-#vacancies .job-card{
+#vacancies .job-container {
+  width: 100%;
+  max-width: 1200px; /* Set a max width for the container */
+  display: flex;
+  flex-wrap: wrap; /* Allow job cards to wrap to the next line */
+  gap: 20px; /* Add space between job cards */
+}
+
+#vacancies .job-card {
   background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for better visual separation */
+  flex: 1 1 calc(33.333% - 40px); /* Responsive width for job cards */
+  box-sizing: border-box; /* Include padding and border in the element's total width and height */
 }
 
+@media (max-width: 768px) {
+  .vacancies-header h1 {
+    font-size: 1.5rem; /* Adjust font size for smaller screens */
+  }
+
+  #vacancies .job-card {
+    flex: 1 1 calc(50% - 20px); /* Adjust width for job cards on medium screens */
+  }
+}
+
+@media (max-width: 480px) {
+  #vacancies .job-card {
+    flex: 1 1 100%; /* Adjust width for job cards on small screens */
+  }
+}
 /*Job Description Page*/
 #jobdescription{
   margin-top: 80px;
