@@ -39,7 +39,7 @@ export const Navigation = (props) => {
             </li>
             <li className="dropdown">
               <a
-                href="#services"
+                
                 className=" page-scroll"
                 data-toggle="hover"
                 role="button"
@@ -91,7 +91,6 @@ export const Navigation = (props) => {
             </li>
             <li className="dropdown">
               <a
-                href="#services"
                 className=" page-scroll"
                 data-toggle="hover"
                 role="button"
