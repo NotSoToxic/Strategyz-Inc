@@ -102,7 +102,7 @@ export const Navigation = (props) => {
                 
               </a>
               <ul className="dropdown-menu vertical-dropdown">
-                <li>
+                <li className='contact-list'>
                   <div className='services-offered  contact-info'>
                   <ul className='services1'>
                     <li><a href="/locations">↪ Our Locations</a></li>

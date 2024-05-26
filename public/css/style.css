@@ -122,9 +122,11 @@ hr {
 }
 
 .dropdown .vertical-dropdown {
-  right: 0;
-  width: 160px;
+  right: 0 !important;
+  width: 160px !important;
 }
+
+
 
 /* Dropdown animation */
 @keyframes dropdown-animation {
@@ -155,7 +157,11 @@ hr {
   display: block;
 }
 
+.dropdown .vertical-dropdown .contact-list{
+  width: 100%;
+}
 .dropdown .vertical-dropdown .contact-info {
+  width: 100%;
   padding: 10px 0px;
 }
 
@@ -230,6 +236,106 @@ hr {
     font-size: 15px;
   }
 }
+
+@media (max-width: 768px){
+  .dropdown .dropdown-menu{
+    width: 500px;
+    right: -250px;
+  }
+  .dropdown .dropdown-menu .services-offered .services1 > li{
+    white-space: normal;
+  }
+  .dropdown .dropdown-menu .services-offered{
+    padding: 10px 15px;
+  }
+  .dropdown .dropdown-menu .services-offered > h3{
+    font-size: 16px;
+  }
+  .dropdown .dropdown-menu .services-offered .services1 > li > a{
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 576px){
+  .dropdown .dropdown-menu{
+    width: 300px;
+    right: 100px;
+  }
+  .dropdown .dropdown-menu .services-offered{
+    padding: 10px 20px;
+  }
+  .dropdown .dropdown-menu .services-offered > h3{
+    font-size: 20px;
+  }
+  .dropdown .dropdown-menu .services-offered .services1 > li > a{
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 480px){
+  .dropdown .dropdown-menu{
+    width: 250px;
+    right: 50px;
+  }
+  .dropdown .dropdown-menu .services-offered{
+    margin-left: 10px;
+    padding: 10px 8px;
+  }
+  .dropdown .dropdown-menu .services-offered > h3{
+    font-size: 14px;
+  }
+  .dropdown .dropdown-menu .services-offered .services1 > li > a{
+    font-size: 12px;
+  }
+  .dropdown .dropdown-menu .services-offered .services1 > li{
+    padding: 5px 0px;
+    white-space: normal;
+  }
+}
+
+@media (max-width: 375px){
+  .dropdown .dropdown-menu{
+    width: 200px;
+    right: 30px;
+  }
+  .dropdown .dropdown-menu .services-offered{
+    margin-left: 10px;
+    padding: 10px 8px;
+  }
+  .dropdown .dropdown-menu .services-offered > h3{
+    font-size: 14px;
+  }
+  .dropdown .dropdown-menu .services-offered .services1 > li > a{
+    font-size: 12px;
+  }
+  .dropdown .dropdown-menu .services-offered .services1 > li{
+    padding: 5px 0px;
+    white-space: normal;
+  }
+}
+
+@media (max-width: 320px){
+  .dropdown .dropdown-menu{
+    width: 150px;
+    right: 15px;
+  }
+  .dropdown .dropdown-menu .services-offered{
+    margin-left: 10px;
+    padding: 10px 8px;
+  }
+  .dropdown .dropdown-menu .services-offered > h3{
+    font-size: 14px;
+  }
+  .dropdown .dropdown-menu .services-offered .services1 > li > a{
+    font-size: 12px;
+  }
+  .dropdown .dropdown-menu .services-offered .services1 > li{
+    padding: 5px 0px;
+    white-space: normal;
+  }
+}
+
+
 
 /* Navbar Styles */
 #menu {
@@ -599,6 +705,14 @@ header .intro-text {
   font-size: 22px;
   line-height: 40px;
   margin-top: 20px;
+}
+
+@media (max-width: 426px){
+  #about p{
+    text-align: left;
+    padding-right: 55px;
+    padding-left: 40px;
+  }
 }
 
 #about .decription{
