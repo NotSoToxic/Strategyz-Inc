@@ -1,6 +1,6 @@
 
 html {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Raleway", sans-serif !important;
   text-rendering: optimizeLegibility !important;
   -webkit-font-smoothing: antialiased !important;
   color: #777;
@@ -9,7 +9,7 @@ html {
   height: 100% !important;
 }
 body{
-  font-family: "Open Sans", sans-serif;
+  font-family: "Raleway", sans-serif !important;
   text-rendering: optimizeLegibility !important;
   -webkit-font-smoothing: antialiased !important;
   color: #777;
@@ -156,7 +156,7 @@ hr {
 }
 
 .dropdown .vertical-dropdown .contact-info {
-  padding: 10px 10px;
+  padding: 10px 0px;
 }
 
 .dropdown .dropdown-menu .services-offered > h3 {
@@ -181,7 +181,7 @@ hr {
   color: #333;
   font-size: 16px;
   font-weight: 400;
-  padding: 5px 10px;
+  padding: 5px 0px;
   transition: all 0.3s;
   border-radius: 5px;
 }
@@ -596,9 +596,13 @@ header .intro-text {
   font-family: 'IBM Plex Sans', sans-serif;
   text-align: justify;
   padding-right: 75px;
-  font-size: 27px;
+  font-size: 22px;
   line-height: 40px;
   margin-top: 20px;
+}
+
+#about .decription{
+  padding-top: 65px;
 }
 
 #about a {
@@ -914,6 +918,7 @@ label {
   height: 100vh;
   
 }
+
 .careers-top{
   padding-top: 20px;
   padding-bottom: 30px;
@@ -1903,11 +1908,16 @@ label {
 }
 
 #overview > p {
-  font-size: 14pt;
+  font-size: 14.5pt;
 }
 
 #working{
   padding-top: 80px;
+}
+
+#working > p{
+  font-size: 14.5pt;
+
 }
 
 .working-navbar {
@@ -1961,7 +1971,7 @@ label {
 
 #working-navbar-content > p {
   padding-left: 10px;
-  font-size: 14pt;
+  font-size: 14.5pt;
 }
 
 #working-navbar-content > ul {

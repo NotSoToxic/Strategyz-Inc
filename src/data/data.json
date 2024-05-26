@@ -246,67 +246,462 @@
     {
       "domain": "Software Engineering",
       "title": "Backend Developer",
-      "description": "Join our team as a Backend Developer with expertise in Java and Spring Boot. You will be responsible for server-side web application logic and integration of the work front-end developers do."
+      "type": "Full-time",
+      "location": "Gurgaon, Haryana, India",
+      "description": "Join our team as a Backend Developer with expertise in Java and Spring Boot. You will be responsible for server-side web application logic and integration of the work front-end developers do.",
+      "responsibilities": [
+        "Writing reusable, testable, and efficient code.",
+        "Designing and implementing low-latency, high-availability, and performant applications.",
+        "Integrating user-facing elements developed by front-end developers with server-side logic.",
+        "Implementing security and data protection.",
+        "Integrating data storage solutions.",
+        "Creating database schemas that represent and support business processes."
+      ],
+      "requirements": [
+        "3+ years of experience as a Backend Developer.",
+        "Experience with Java and Spring Boot.",
+        "Experience with database technologies such as MySQL, MongoDB, and PostgreSQL.",
+        "Experience with RESTful APIs.",
+        "Experience with version control tools such as Git.",
+        "Experience with cloud technologies such as AWS, Azure, or Google Cloud Platform.",
+        "Experience with server-side languages such as Python, Ruby, Java, or PHP."
+      ],
+      "benefits": [
+        "Competitive salary.",
+        "Flexible working hours.",
+        "Opportunity to work on cutting-edge technologies.",
+        "Opportunity for career growth and advancement.",
+        "Collaborative and supportive work environment."
+      ]
+
     },
     {
       "domain": "Software Engineering",
-      "title": "Backend Developer",
-      "description": "Join our team as a Backend Developer with expertise in Java and Spring Boot. You will be responsible for server-side web application logic and integration of the work front-end developers do."
+      "title": "Dev ops Engineer",
+      "type": "Full-time",
+      "location": "Gurgaon, Haryana, India",
+      "description": "We are looking for a DevOps Engineer to join our team. You will be responsible for managing the deployment and operation of our systems, ensuring high availability and performance.",
+      "responsibilities": [
+        "Designing and implementing build, deployment, and configuration management.",
+        "Automating deployment of applications and services.",
+        "Monitoring and maintaining systems to ensure high availability and performance.",
+        "Troubleshooting and resolving issues in development, test, and production environments.",
+        "Collaborating with developers to make sure new environments meet requirements and conform to best practices.",
+        "Managing code repositories and version control systems."
+      ],
+      "requirements": [
+        "3+ years of experience as a DevOps Engineer.",
+        "Experience with cloud technologies such as AWS, Azure, or Google Cloud Platform.",
+        "Experience with containerization technologies such as Docker and Kubernetes.",
+        "Experience with configuration management tools such as Ansible, Puppet, or Chef.",
+        "Experience with monitoring tools such as Nagios, Prometheus, or Grafana.",
+        "Experience with version control tools such as Git.",
+        "Experience with scripting languages such as Bash, Python, or Ruby."
+      ],
+      "benefits": [
+        "Competitive salary.",
+        "Flexible working hours.",
+        "Opportunity to work on cutting-edge technologies.",
+        "Opportunity for career growth and advancement.",
+        "Collaborative and supportive work environment."
+      ]
     },
     {
       "domain": "Software Engineering",
-      "title": "Backend Developer",
-      "description": "Join our team as a Backend Developer with expertise in Java and Spring Boot. You will be responsible for server-side web application logic and integration of the work front-end developers do."
+      "title": "Database Administrator",
+      "type": "Full-time",
+      "location": "Gurgaon, Haryana, India",
+      "description": "As a Database Administrator, you will be responsible for maintaining and optimizing our database systems. You will ensure data integrity, security, and performance of our databases.",
+      "responsibilities": [
+        "Installing and configuring database software and servers.",
+        "Monitoring database performance and optimizing database operations.",
+        "Ensuring data integrity and security.",
+        "Performing database backups and recovery.",
+        "Troubleshooting database issues and resolving database errors.",
+        "Collaborating with developers to optimize database queries and performance."
+      ],
+      "requirements": [
+        "3+ years of experience as a Database Administrator.",
+        "Experience with database technologies such as MySQL, MongoDB, and PostgreSQL.",
+        "Experience with database design and normalization.",
+        "Experience with database performance tuning and optimization.",
+        "Experience with database backup and recovery procedures.",
+        "Experience with database security best practices.",
+        "Experience with database monitoring and alerting tools.",
+        "Experience with version control tools such as Git."
+      ],
+      "benefits": [
+        "Competitive salary.",
+        "Flexible working hours.",
+        "Opportunity to work on cutting-edge technologies.",
+        "Opportunity for career growth and advancement.",
+        "Collaborative and supportive work environment."
+      ]
+
+    },
+    {
+      "domain": "Software Engineering",
+      "title": "Security Engineer",
+      "type": "Full-time",
+      "location": "Gurgaon, Haryana, India",
+      "description": "Join our team as a Security Engineer. You will be responsible for protecting our systems and networks from cyber threats, ensuring the security and privacy of our data and infrastructure.",
+      "responsibilities": [
+        "Designing and implementing security measures to protect systems and networks.",
+        "Monitoring security vulnerabilities and threats.",
+        "Conducting security assessments and penetration testing.",
+        "Responding to security incidents and providing incident response.",
+        "Implementing security best practices and standards.",
+        "Collaborating with developers to secure applications and services."
+      ],
+      "requirements": [
+        "3+ years of experience as a Security Engineer.",
+        "Experience with security technologies such as firewalls, intrusion detection systems, and antivirus software.",
+        "Experience with security assessment tools such as Nessus, Metasploit, or Burp Suite.",
+        "Experience with security standards such as ISO 27001, NIST, or CIS.",
+        "Experience with security incident response and forensics.",
+        "Experience with cloud security best practices.",
+        "Experience with version control tools such as Git."
+      ],
+      "benefits": [
+        "Competitive salary.",
+        "Flexible working hours.",
+        "Opportunity to work on cutting-edge technologies.",
+        "Opportunity for career growth and advancement.",
+        "Collaborative and supportive work environment."
+      ]
+
+    },
+    {
+      "domain": "Software Engineering",
+      "title": "UI/UX Designer",
+      "type": "Full-time",
+      "location": "Gurgaon, Haryana, India",
+      "description": "We are looking for a UI/UX Designer to join our team. You will be responsible for designing user interfaces and creating user experiences that meet our clients' needs and expectations.",
+      "responsibilities": [
+        "Gathering and evaluating user requirements.",
+        "Illustrating design ideas using storyboards, process flows, and sitemaps.",
+        "Designing graphic user interface elements, like menus, tabs, and widgets.",
+        "Developing UI mockups and prototypes that clearly illustrate how sites function and look.",
+        "Creating original graphic designs (e.g., images, sketches, and tables).",
+        "Preparing and presenting rough drafts to internal teams and key stakeholders."
+      ],
+      "requirements": [
+        "3+ years of experience as a UI/UX Designer.",
+        "Experience with design software such as Adobe XD, Sketch, or Figma.",
+        "Experience with wireframing and prototyping tools.",
+        "Experience with user research and usability testing.",
+        "Experience with responsive design and mobile-first design principles.",
+        "Experience with front-end technologies such as HTML, CSS, and JavaScript.",
+        "Experience with version control tools such as Git."
+      ],
+      "benefits": [
+        "Competitive salary.",
+        "Flexible working hours.",
+        "Opportunity to work on cutting-edge technologies.",
+        "Opportunity for career growth and advancement.",
+        "Collaborative and supportive work environment."
+      ]
+
     },
     {
       "domain": "Sales",
       "title": "Sales Executive",
-      "description": "We are seeking a motivated Sales Executive to join our growing team. Your role will involve identifying new sales opportunities, building client relationships, and achieving sales targets."
+      "type": "Full-time",
+      "location": "Gurgaon, Haryana, India",
+      "description": "We are seeking a motivated Sales Executive to join our growing team. Your role will involve identifying new sales opportunities, building client relationships, and achieving sales targets.",
+      "responsibilities": [
+        "Identifying new sales opportunities and generating leads.",
+        "Building client relationships and maintaining customer satisfaction.",
+        "Negotiating and closing sales deals.",
+        "Achieving sales targets and objectives.",
+        "Collaborating with the marketing team to develop sales strategies.",
+        "Providing feedback on market trends and customer needs."
+      ],
+      "requirements": [
+        "3+ years of experience as a Sales Executive.",
+        "Experience in B2B sales.",
+        "Experience in technology sales is a plus.",
+        "Proven track record of achieving sales targets.",
+        "Excellent communication and negotiation skills.",
+        "Strong customer service and relationship-building skills.",
+        "Self-motivated and results-oriented."
+      ],
+      "benefits": [
+        "Competitive salary and commission structure.",
+        "Flexible working hours.",
+        "Opportunity for career growth and advancement.",
+        "Collaborative and supportive work environment."
+      ]
+
     },
     {
       "domain": "Sales",
       "title": "Account Manager",
-      "description": "As an Account Manager, you will manage client accounts, ensure client satisfaction, and help to grow our business by maintaining and developing client relationships."
+      "type": "Full-time",
+      "location": "Gurgaon, Haryana, India",
+      "description": "As an Account Manager, you will manage client accounts, ensure client satisfaction, and help to grow our business by maintaining and developing client relationships.",
+      "responsibilities": [
+        "Building and maintaining strong, long-lasting client relationships.",
+        "Negotiating contracts and agreements to maximize profit.",
+        "Developing trusted advisor relationships with key accounts.",
+        "Ensuring the timely and successful delivery of our solutions according to client needs and objectives.",
+        "Forecasting and tracking key account metrics.",
+        "Identifying and growing opportunities within accounts."
+      ],
+      "requirements": [
+        "3+ years of experience as an Account Manager.",
+        "Experience in B2B sales.",
+        "Experience in technology sales is a plus.",
+        "Proven track record of achieving sales targets.",
+        "Excellent communication and negotiation skills.",
+        "Strong customer service and relationship-building skills.",
+        "Self-motivated and results-oriented."
+      ],
+      "benefits": [
+        "Competitive salary and commission structure.",
+        "Flexible working hours.",
+        "Opportunity for career growth and advancement.",
+        "Collaborative and supportive work environment."
+      ]
     },
+
     {
       "domain": "Marketing",
       "title": "Marketing Coordinator",
-      "description": "We are looking for a Marketing Coordinator to assist with planning and executing marketing campaigns. You will work closely with the marketing team to develop content, coordinate events, and track campaign performance."
+      "type": "Full-time",
+      "location": "Gurgaon, Haryana, India",
+      "description": "We are looking for a Marketing Coordinator to assist with planning and executing marketing campaigns. You will work closely with the marketing team to develop content, coordinate events, and track campaign performance.",
+      "responsibilities": [
+        "Assisting with the development and execution of marketing campaigns.",
+        "Creating and curating content for social media and other marketing channels.",
+        "Coordinating marketing events and trade shows.",
+        "Tracking and analyzing campaign performance.",
+        "Assisting with the development of marketing collateral.",
+        "Collaborating with the marketing team to develop marketing strategies."
+      ],
+      "requirements": [
+        "3+ years of experience as a Marketing Coordinator.",
+        "Experience in digital marketing and social media.",
+        "Experience with marketing automation tools.",
+        "Strong written and verbal communication skills.",
+        "Strong organizational and project management skills.",
+        "Self-motivated and results-oriented."
+      ],
+      "benefits": [
+        "Competitive salary.",
+        "Flexible working hours.",
+        "Opportunity for career growth and advancement.",
+        "Collaborative and supportive work environment."
+      ]
+
     },
     {
       "domain": "Marketing",
       "title": "Digital Marketing Specialist",
-      "description": "Join our team as a Digital Marketing Specialist. You will be responsible for managing our online presence, executing SEO strategies, and running PPC campaigns to increase our brand awareness and drive traffic."
+      "type": "Full-time",
+      "location": "Gurgaon, Haryana, India",
+      "description": "Join our team as a Digital Marketing Specialist. You will be responsible for managing our online presence, executing SEO strategies, and running PPC campaigns to increase our brand awareness and drive traffic.",
+      "responsibilities": [
+        "Developing and implementing SEO strategies to increase website traffic.",
+        "Managing PPC campaigns to drive traffic and increase conversions.",
+        "Creating and curating content for social media and other online channels.",
+        "Analyzing and reporting on digital marketing performance.",
+        "Optimizing website content and user experience.",
+        "Collaborating with the marketing team to develop digital marketing strategies."
+      ],
+      "requirements": [
+        "3+ years of experience as a Digital Marketing Specialist.",
+        "Experience with SEO and PPC campaigns.",
+        "Experience with digital marketing tools such as Google Analytics, Google AdWords, and SEMrush.",
+        "Strong written and verbal communication skills.",
+        "Strong analytical and problem-solving skills.",
+        "Self-motivated and results-oriented."
+      ],
+      "benefits": [
+        "Competitive salary.",
+        "Flexible working hours.",
+        "Opportunity for career growth and advancement.",
+        "Collaborative and supportive work environment."
+      ]
+
     },
     {
       "domain": "Customer Support",
       "title": "Customer Support Representative",
-      "description": "We are hiring a Customer Support Representative to provide excellent service to our clients. Responsibilities include resolving customer issues, providing product information, and maintaining customer satisfaction."
+      "type": "Full-time",
+      "location": "Gurgaon, Haryana, India",
+      "description": "We are hiring a Customer Support Representative to provide excellent service to our clients. Responsibilities include resolving customer issues, providing product information, and maintaining customer satisfaction.",
+      "responsibilities": [
+        "Responding to customer inquiries and resolving issues.",
+        "Providing product information and troubleshooting assistance.",
+        "Maintaining customer records and updating account information.",
+        "Following up with customers to ensure their satisfaction.",
+        "Escalating unresolved issues to the appropriate department.",
+        "Identifying and implementing process improvements to enhance customer service."
+      ],
+      "requirements": [
+        "3+ years of experience as a Customer Support Representative.",
+        "Experience in a customer service role.",
+        "Strong communication and interpersonal skills.",
+        "Strong problem-solving and conflict resolution skills.",
+        "Ability to work in a fast-paced environment.",
+        "Self-motivated and results-oriented."
+      ],
+      "benefits": [
+        "Competitive salary.",
+        "Flexible working hours.",
+        "Opportunity for career growth and advancement.",
+        "Collaborative and supportive work environment."
+      ]
+
     },
     {
       "domain": "Customer Support",
       "title": "Technical Support Specialist",
-      "description": "As a Technical Support Specialist, you will assist customers with technical problems, guide them through solutions, and ensure technical issues are resolved promptly and effectively."
+      "type": "Full-time",
+      "location": "Gurgaon, Haryana, India",
+      "description": "As a Technical Support Specialist, you will assist customers with technical problems, guide them through solutions, and ensure technical issues are resolved promptly and effectively.",
+      "responsibilities": [
+        "Providing technical support to customers via phone, email, or chat.",
+        "Diagnosing and troubleshooting technical issues.",
+        "Guiding customers through solutions and providing step-by-step instructions.",
+        "Escalating unresolved issues to the appropriate department.",
+        "Documenting technical support interactions and solutions.",
+        "Identifying and implementing process improvements to enhance technical support."
+      ],
+      "requirements": [
+        "3+ years of experience as a Technical Support Specialist.",
+        "Experience in a technical support role.",
+        "Strong technical knowledge of software, hardware, and systems.",
+        "Strong communication and interpersonal skills.",
+        "Strong problem-solving and troubleshooting skills.",
+        "Ability to work in a fast-paced environment.",
+        "Self-motivated and results-oriented."
+      ],
+      "benefits": [
+        "Competitive salary.",
+        "Flexible working hours.",
+        "Opportunity for career growth and advancement.",
+        "Collaborative and supportive work environment."
+      ]
+
     },
     {
       "domain": "Business Development",
       "title": "Business Development Manager",
-      "description": "We are looking for a Business Development Manager to identify new business opportunities, build relationships with potential clients, and develop strategic partnerships to drive business growth."
+      "type": "Full-time",
+      "location": "Gurgaon, Haryana, India",
+      "description": "We are looking for a Business Development Manager to identify new business opportunities, build relationships with potential clients, and develop strategic partnerships to drive business growth.",
+      "responsibilities": [
+        "Identifying new business opportunities and markets.",
+        "Building and maintaining relationships with clients and partners.",
+        "Developing and implementing sales strategies to achieve business objectives.",
+        "Negotiating and closing business deals.",
+        "Collaborating with the marketing team to develop marketing strategies.",
+        "Providing feedback on market trends and customer needs."
+      ],
+      "requirements": [
+        "3+ years of experience as a Business Development Manager.",
+        "Experience in B2B sales.",
+        "Proven track record of achieving sales targets.",
+        "Excellent communication and negotiation skills.",
+        "Strong customer service and relationship-building skills.",
+        "Self-motivated and results-oriented."
+      ],
+      "benefits": [
+        "Competitive salary and commission structure.",
+        "Flexible working hours.",
+        "Opportunity for career growth and advancement.",
+        "Collaborative and supportive work environment."
+      ]
     },
     {
       "domain": "Business Development",
       "title": "Business Analyst",
-      "description": "Join our team as a Business Analyst. You will analyze market trends, identify business opportunities, and provide insights to help shape our business strategy."
+      "type": "Full-time",
+      "location": "Gurgaon, Haryana, India",
+      "description": "Join our team as a Business Analyst. You will analyze market trends, identify business opportunities, and provide insights to help shape our business strategy.",
+      "responsibilities": [
+        "Analyzing market trends and identifying business opportunities.",
+        "Conducting market research and competitor analysis.",
+        "Developing business cases and financial models.",
+        "Providing insights and recommendations to support business decisions.",
+        "Collaborating with cross-functional teams to drive business growth.",
+        "Monitoring and reporting on business performance."
+      ],
+      "requirements": [
+        "3+ years of experience as a Business Analyst.",
+        "Experience in market research and analysis.",
+        "Strong analytical and problem-solving skills.",
+        "Excellent communication and presentation skills.",
+        "Strong financial modeling skills.",
+        "Self-motivated and results-oriented."
+      ],
+      "benefits": [
+        "Competitive salary.",
+        "Flexible working hours.",
+        "Opportunity for career growth and advancement.",
+        "Collaborative and supportive work environment."
+      ]
     },
     {
       "domain": "Human Resources",
       "title": "HR Manager",
-      "description": "We are seeking an HR Manager to oversee all aspects of human resources practices and processes. You will support business needs and ensure the proper implementation of company HR strategies."
+      "type": "Full-time",
+      "location": "Gurgaon, Haryana, India",
+      "description": "We are seeking an HR Manager to oversee all aspects of human resources practices and processes. You will support business needs and ensure the proper implementation of company HR strategies.",
+      "responsibilities": [
+        "Developing and implementing HR strategies and initiatives aligned with the overall business strategy.",
+        "Bridging management and employee relations by addressing demands, grievances, or other issues.",
+        "Managing the recruitment and selection process.",
+        "Supporting current and future business needs through the development, engagement, motivation, and preservation of human capital.",
+        "Developing and monitoring overall HR strategies, systems, tactics, and procedures across the organization."
+      ],
+      "requirements": [
+        "3+ years of experience as an HR Manager.",
+        "Experience in HR practices and processes.",
+        "Strong knowledge of labor legislation and HR best practices.",
+        "Strong communication and interpersonal skills.",
+        "Strong problem-solving and conflict resolution skills.",
+        "Self-motivated and results-oriented."
+      ],
+      "benefits": [
+        "Competitive salary.",
+        "Flexible working hours.",
+        "Opportunity for career growth and advancement.",
+        "Collaborative and supportive work environment."
+      ]
+
     },
     {
       "domain": "Human Resources",
       "title": "Recruitment Specialist",
-      "description": "Join our team as a Recruitment Specialist. You will manage the recruitment process, including sourcing candidates, conducting interviews, and coordinating hiring processes to find the best talent."
+      "type": "Full-time",
+      "location": "Gurgaon, Haryana, India",
+      "description": "Join our team as a Recruitment Specialist. You will manage the recruitment process, including sourcing candidates, conducting interviews, and coordinating hiring processes to find the best talent.",
+      "responsibilities": [
+        "Sourcing candidates through various channels.",
+        "Conducting interviews and screening candidates.",
+        "Coordinating hiring processes and onboarding new employees.",
+        "Developing and implementing recruitment strategies.",
+        "Maintaining candidate databases and tracking recruitment metrics.",
+        "Collaborating with hiring managers to identify staffing needs."
+      ],
+      "requirements": [
+        "3+ years of experience as a Recruitment Specialist.",
+        "Experience in recruitment and talent acquisition.",
+        "Strong knowledge of recruitment best practices.",
+        "Strong communication and interpersonal skills.",
+        "Strong problem-solving and conflict resolution skills.",
+        "Self-motivated and results-oriented."
+      ],
+      "benefits": [
+        "Competitive salary.",
+        "Flexible working hours.",
+        "Opportunity for career growth and advancement.",
+        "Collaborative and supportive work environment."
+      ]
+
     }
   ]
 }
