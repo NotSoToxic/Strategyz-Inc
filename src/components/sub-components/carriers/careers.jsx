@@ -1,9 +1,8 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { useState } from "react";
-import careers from "../../assets/images/careers.jpg";
 import { Testimonials } from "../../landingpage/testimonials";
 import JsonData from "../../../data/data.json";
-
+import careerbanner from "../../assets/images/career-banner.jpg";
 import jobData from '../../../data/data.json';
 import { Link } from 'react-router-dom';
 
@@ -21,17 +20,7 @@ export const Careers = (props) => {
     return (
         <div id="careers">
             <div className="careers-top">
-                <h1>Define Your Career with Strategyz</h1>
-                <div className="career-banner">
-                    <div className="career-img">
-                        <img src={careers} alt="" className="careersimg" />
-                    </div>
-                    <div className="careers-top-content">
-                        <p>
-                            At Strategyz, we are always looking for talented individuals to join our team. We offer a wide range of career opportunities across a variety of disciplines. Whether you are an experienced professional or a recent graduate, we have a place for you.
-                        </p>
-                    </div>
-                </div>
+                <img className="career-banner" src={careerbanner} alt="careers" />
             </div>
 
             <div className="content-wrapper">

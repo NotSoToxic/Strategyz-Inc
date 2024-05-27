@@ -1036,7 +1036,7 @@ label {
 .careers-top{
   padding-top: 20px;
   padding-bottom: 30px;
-  background: #F5F5F5;
+  
 
 }
 .careers-top h1{
@@ -1044,6 +1044,7 @@ label {
   padding-bottom: 10px;
 }
 .career-banner {
+  width: 100%;
   display: flex;
   align-items: center; /* Align items vertically */
 }
@@ -1126,9 +1127,9 @@ label {
 }
 
 .team-section{
-  border: 2px solid #0C090A;
+  border: 0.1px solid #0C090A;
   padding-top: 10px;
-  border-radius: 15px;
+  border-radius: 10px;
   flex: 0 0 calc(33.333% - 20px);
   margin: 10px;
   display: flex;
@@ -1142,13 +1143,19 @@ label {
   padding: 0 5px;
 }
 
-
+.review-name{
+  font-weight: 600;
+  color: #3371bf;
+}
 
 .testimonial-content p{
+  text-align: center;
+  padding: 0 15px 0 15px;
+  font-style: italic;
   margin-top: 10px;
+
   display: flex;
   flex-wrap: wrap;
-  text-align: justify;
 }
 
 .testimonial-meta{
@@ -1532,6 +1539,7 @@ label {
 }
 
 #application-form .app-card .radio-column label {
+  margin-top: 7px;
   margin-left: 5px;
 }
 
