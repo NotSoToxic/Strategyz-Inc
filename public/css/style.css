@@ -1192,36 +1192,21 @@ label {
   }
 
   #careers .sidebar {
-    width: 100%;
-    position: static;
-    height: auto;
+    display: none;
   }
 
-  #careers .sidebar ul {
-    padding: 25px 40px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding: 0.5rem;
-  }
-
-  #careers .sidebar li {
-    margin: 0.5rem;
-    border: none;
-    padding: 1rem;
-  }
-
-  #careers .sidebar li a {
-    padding: 1rem;
-    font-size: 12pt;
-  }
+  
 
   #careers main {
     width: 100%;
     padding: 1rem;
   }
 }
-
+@media (max-width: 769px){
+  #careers #overview{
+    padding-top: 0;
+  }
+}
 @media (max-width: 480px) {
   #careers h2{
     font-size: 24px !important;
