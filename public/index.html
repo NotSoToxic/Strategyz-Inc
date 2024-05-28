@@ -54,18 +54,18 @@
   <script>
     // Function to update the title based on the current URL or page content
     function updateTitle() {
-        var pageTitle = "Home || Strategyz Inc."; // Default title
+        var pageTitle = "Home | Strategyz"; // Default title
         var path = window.location.pathname; // Get the current URL path
 
         // You can add conditions here to set different titles for different pages
         if (path === "/strategyzinfo") {
-            pageTitle = "About || Strategyz Inc.";
+            pageTitle = "About | Strategyz";
         } else if (path === "/locations") {
-            pageTitle = "Locations || Strategyz Inc.";
+            pageTitle = "Contact Us | Strategyz";
         } else if (path === "/info") {
-            pageTitle = "Info || Strategyz Inc.";
+            pageTitle = "Info | Strategyz";
         } else if (path === "/careers") {
-            pageTitle = "Careers || Strategyz Inc.";
+            pageTitle = "Define your career with STRATEGYZ";
         }
 
         // Update the title of the page

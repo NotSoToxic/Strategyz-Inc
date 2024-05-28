@@ -7,7 +7,7 @@ export const Navigation = (props) => {
   
   return (
     <nav id="menu" className="navbar navbar-default navbar-fixed-top">
-      <div className="container">
+      <div className="container navbar-content">
         <div className="navbar-header">
           <button
             type="button"
@@ -39,7 +39,7 @@ export const Navigation = (props) => {
             </li>
             <li className="dropdown">
               <a
-                href="#services"
+                
                 className=" page-scroll"
                 data-toggle="hover"
                 role="button"
@@ -91,7 +91,6 @@ export const Navigation = (props) => {
             </li>
             <li className="dropdown">
               <a
-                href="#services"
                 className=" page-scroll"
                 data-toggle="hover"
                 role="button"
@@ -103,7 +102,7 @@ export const Navigation = (props) => {
                 
               </a>
               <ul className="dropdown-menu vertical-dropdown">
-                <li>
+                <li className='contact-list'>
                   <div className='services-offered  contact-info'>
                   <ul className='services1'>
                     <li><a href="/locations">↪ Our Locations</a></li>
