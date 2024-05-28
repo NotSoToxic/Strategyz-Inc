@@ -1449,6 +1449,12 @@ label {
   margin-top: 0;
 }
 
+@media (max-width: 426px){
+  .description-header{
+    padding: 40px 26px;
+  }
+}
+
 /*Application Form page*/
 
 #application-form {
