@@ -1256,6 +1256,9 @@ label {
 }
 
 @media (max-width: 376px) {
+  #working-navbar-content > h3{
+    font-size: 24px !important;
+  }
   
   #careers .job-card h4{
     font-size: 16px;
