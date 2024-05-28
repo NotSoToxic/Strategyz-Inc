@@ -1255,6 +1255,24 @@ label {
   
 }
 
+@media (max-width: 376px) {
+  
+  #careers .job-card h4{
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 320px) {
+  #working-navbar-content > h3{
+    font-size: 24px !important;
+  }
+  #careers .job-card,
+  #careers .team-section{
+    flex: 0 0 calc(100% - 20px);
+  }
+  
+}
+
 /*Career Sub-components*/
 /*Vacancies page*/
 
