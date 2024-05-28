@@ -1109,6 +1109,14 @@ label {
   padding: 2rem;
 }
 
+#careers .job-card {
+  flex: 1 1 calc(33.333% - 20px); /* 33.333% - 20px is for 3 cards in a row with some margin */
+  margin: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+}
+
 .testimonial-section{
   padding-top: 40px;
   width: 100%;
@@ -1130,7 +1138,7 @@ label {
   border: 0.1px solid #0C090A;
   padding-top: 10px;
   border-radius: 10px;
-  flex: 0 0 calc(33.333% - 20px);
+  flex: 1 1 calc(33.333% - 20px);
   margin: 10px;
   display: flex;
   flex-direction: column;
@@ -1246,9 +1254,12 @@ label {
     margin: 0.5rem;
   }
 
-  #careers .job-card,
+  /* #careers .job-card,
   #careers .team-section{
     flex: 0 0 calc(49.333% - 20px);
+  } */
+  #careers .job-card h4{
+    font-size: 16px;
   }
 
   
@@ -1269,10 +1280,10 @@ label {
   #working-navbar-content > h3{
     font-size: 24px !important;
   }
-  #careers .job-card,
+  /* #careers .job-card,
   #careers .team-section{
     flex: 0 0 calc(100% - 20px);
-  }
+  } */
   
 }
 
