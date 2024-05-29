@@ -810,9 +810,19 @@ header .intro-text {
 /* Contact Section - Links excluded */
 
 #contact {
-  padding: 20px 0 20px;
+  padding: 20px 0 0px;
   background-color: #004EAF;
   color: rgba(255, 255, 255, 0.75);
+}
+
+.contact-us-content{
+  display: flex;
+  width: 100% !important;
+}
+
+.contact-form{
+  margin-left: 95px;
+  width: 43%;
 }
 #contact .section-title {
   margin-bottom: 20px;
@@ -843,14 +853,18 @@ header .intro-text {
   font-weight: 400;
 }
 #contact form {
-  padding-top: 20px;
+  /* padding-top: 20px; */
+}
+
+.contact-info{
+  width: 45%;
 }
 #contact .text-danger {
   color: #cc0033;
   text-align: left;
 }
 #contact .btn-custom {
-  margin: 30px 0;
+  margin: 10px 0 15px 0;
   background: transparent;
   border: 2px solid #fff;
 }
@@ -899,10 +913,27 @@ label {
 .form-control:-ms-input-placeholder {
   color: #777;
 }
+
+#contact .contact-address{
+  display: flex;
+  /* width: 100%; */
+  flex-direction: row;
+  justify-content: center;
+}
+
+#contact .address1{
+  width: 100%;
+  padding-right: 10px;
+}
+#contact .address2{
+  width: 100%;
+  padding-left: 10px;
+}
+
 #contact .contact-item {
   margin: 20px;
   padding-left: 0px;
-  padding-right: 95px;
+  
   margin-left: 60px;
 }
 #contact .contact-item span {

@@ -39,9 +39,9 @@ export const Contact = (props) => {
   return (
     <div>
       <div id="contact">
-        <div className="container">
-          <div className="col-md-7">
-            <div className="row">
+        <div className="container contact-us-content">
+          <div className="contact-form">
+            <div className="contact-row">
               <div className="section-title">
                 <h2>Get In Touch</h2>
                 <p>Please fill out the form below to send us an email and we will get back to you as soon as possible.</p>
@@ -95,43 +95,47 @@ export const Contact = (props) => {
               </form>
             </div>
           </div>
-          <div className="col-md-5 col-md-offset-0 contact-info">
+          <div className="contact-info">
             <div className="contact-item">
               <h3>Contact Info</h3>
               <p>
                 <span>
                   <i className="fa fa-map-marker"></i> Address
-                </span>
+                </span></p>
+                <div className='contact-address'>
+                  <p className='address1'>
                 {props.data ? props.data.address : "loading"}
               </p>
-              <p>
+              <p className='address2'>
                 
                 {props.data ? props.data.address2 : "loading"}
               </p>
+              </div>
             </div>
-            <div className="contact-item">
+            {/* <div className="contact-item">
               <p>
                 <span>
                   <i className="fa fa-phone"></i> Phone
                 </span>{" "}
                 {props.data ? props.data.phone : "loading"}
               </p>
-            </div>
+            </div> */}
             <div className="contact-item">
-              <p>
+              <div className='contact-address'>
+              <p className='address1'>
                 <span>
                    CIN Number
                 </span>{" "}
                 U62011HR2024PTC121414
               </p>
-            </div>
-            <div className="contact-item">
-              <p>
+            
+              <p className='address2'>
                 <span>
                   <i className="fa fa-envelope-o"></i> Email
                 </span>{" "}
                 {props.data ? props.data.email : "loading"}
               </p>
+              </div>
             </div>
           </div>
         </div>
