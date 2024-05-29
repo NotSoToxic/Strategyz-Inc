@@ -20,7 +20,7 @@ export const Contact = (props) => {
 
     // If all fields are filled, send the email
     emailjs
-      .sendForm('service_ieb6kha', 'template_bskri0w', e.target, 'ZIOaFVaBQHwXz4G5N')
+      .sendForm('service_girwh06', 'template_q1wh0lc', e.target, 'nk1ZZwdR1WkFqw1yn')
       .then(
         (result) => {
           console.log(result.text);
