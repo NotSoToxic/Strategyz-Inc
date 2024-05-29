@@ -2058,8 +2058,9 @@ label {
 }
 
 .Strategyz_info h2{
+  font-size: 32px;
   font-weight: 600;
-  text-transform: capitalize;
+  text-transform: none;
 }
 .Strategyz_info header {
   background-color: #333;
@@ -2129,7 +2130,7 @@ label {
 #working{
   margin: 0 30px;
   text-align: left;
-  padding-top: 80px;
+  padding-top: 45px;
 }
 
 #working > p{
