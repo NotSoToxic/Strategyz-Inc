@@ -170,6 +170,9 @@ hr {
   overflow: hidden;
   text-overflow: ellipsis;
 }
+.dropdown .dropdown-menu .services-offered .services1{
+  margin-left: -10px;
+}
 
 .dropdown .dropdown-menu .services-offered .services1 > li {
   margin-top: 5px;
@@ -187,14 +190,14 @@ hr {
   color: #333;
   font-size: 16px;
   font-weight: 400;
-  padding: 5px 0px;
+  padding: 5px 10px 5px 10px;
   transition: all 0.3s;
   border-radius: 5px;
 }
 
 /* Dropdown item hover background color */
-.dropdown .dropdown-menu .services-offered .services1 > li > a:hover,
-.dropdown .dropdown-menu .services-offered .services1 > li > a:focus {
+.dropdown .dropdown-menu .services-offered .services1 > li:hover > a:hover,
+.dropdown .dropdown-menu .services-offered .services1 > li:focus > a:focus {
   background-color: #608dfd;
   color: #fff;
 }
