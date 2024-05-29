@@ -30,7 +30,7 @@ export const Contact = (props) => {
         },
         (error) => {
           console.log(error.text);
-          setErrorMessage('Failed to send email. Please try again later.');
+          setErrorMessage('Too many requests, Please try again later.');
           setSuccessMessage('');
         }
       );
