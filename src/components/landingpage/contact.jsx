@@ -8,6 +8,7 @@ export const Contact = (props) => {
 
   const departments = [
     "Sales",
+    "HR",
     "Customer Support",
     "Finance",
     "Marketing",
