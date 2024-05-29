@@ -554,7 +554,7 @@ a:focus,
   width: 100%;
   /* margin-left: 150px; */
   padding: 0;
-  background: url(../img/header_img.jpg) center center no-repeat;
+  background: url(../img/pxfuel.jpg) center center no-repeat;
   background-color: #CECECE;
   background-shadow: 5px 5px 50px black;
   -webkit-background-size: cover;
@@ -563,12 +563,12 @@ a:focus,
   -o-background-size: cover;
 }
 .intro .overlay {
-  background: rgba(0, 0, 0, 0.2);
+  background: rgba(0, 0, 0, 0.5);
 
 }
 .intro h1 {
   font-family: "Andale Mono", sans-serif;
-  color: #F5F5F5;
+  color: white;
   font-size: 80px;
   font-weight: 100;
   padding-bottom: 40px;
@@ -577,8 +577,8 @@ a:focus,
   margin-bottom: 10px;
 }
 .intro h1 span {
-  font-weight: 600;
-  color: #5ca9fb;
+  font-weight: 100;
+  color: #007BFF;
 }
 .intro p {
   color: #fff;
