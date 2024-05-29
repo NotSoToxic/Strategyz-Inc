@@ -10,7 +10,7 @@ export const Contact = (props) => {
     e.preventDefault();
 
     // Check if any of the fields are empty
-    const fields = ['name', 'email', 'message'];
+    const fields = ['name', 'email', 'phone', 'department', 'message'];
     for (const field of fields) {
       if (!formRef.current[field].value) {
         setErrorMessage('Please fill out all fields');
@@ -75,17 +75,53 @@ export const Contact = (props) => {
                     </div>
                   </div>
                 </div>
+                < div class="row">
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <input
+                      type="text"
+                      id="phone"
+                      name="phone"
+                      class="form-control"
+                      placeholder="Phone Number"
+                      required
+                    />
+                    <p class="help-block text-danger"></p>
+                  </div>
+                </div>
+                <div className="col-md-6">
+            <div className="form-group">
+              <select
+                id="department"
+                name="department"
+                className="form-control"
+                required
+              >
+                <option value="">-Choose a Department-</option>
+                <option value="Option 1">Sales</option>
+                <option value="Option 2">HR</option>
+                <option value="Option 3">Customer Support</option>
+                <option value="Option 4">Finance</option>
+                <option value="Option 5">Marketing</option>
+                <option value="Option 6">Product Development</option>
+                <option value="Option 7">Other</option>
+                </select>
+              <p className="help-block text-danger"></p>
+            </div>
+          </div>
+          </div>
+                {/* <div class="col-md-6"> */}
                 <div className="form-group">
                   <textarea
                     name="message"
                     id="message"
                     className="form-control"
-                    rows="4"
                     placeholder="Message"
                     required
                   ></textarea>
                   <p className="help-block text-danger"></p>
                 </div>
+                {/* </div> */}
                 <div id="success"></div>
                 <button type="submit" className="btn btn-custom btn-lg">
                   Send Message
