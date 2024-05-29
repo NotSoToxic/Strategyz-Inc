@@ -6,6 +6,15 @@ export const Contact = (props) => {
   const [errorMessage, setErrorMessage] = useState('');
   const [successMessage, setSuccessMessage] = useState('');
 
+  const departments = [
+    "Sales",
+    "Customer Support",
+    "Finance",
+    "Marketing",
+    "Product Development",
+    "Other"
+
+  ];
   const handleSubmit = (e) => {
     e.preventDefault();
 
@@ -97,14 +106,12 @@ export const Contact = (props) => {
                 className="form-control"
                 required
               >
-                <option value="">-Choose a Department-</option>
-                <option value="Option 1">Sales</option>
-                <option value="Option 2">HR</option>
-                <option value="Option 3">Customer Support</option>
-                <option value="Option 4">Finance</option>
-                <option value="Option 5">Marketing</option>
-                <option value="Option 6">Product Development</option>
-                <option value="Option 7">Other</option>
+                 <option value="">Select a department</option>
+                {departments.map((department) => (
+                  <option key={department} value={department}>
+                    {department}
+                  </option>
+                ))}
                 </select>
               <p className="help-block text-danger"></p>
             </div>
