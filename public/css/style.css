@@ -2075,6 +2075,8 @@ label {
 }
 
 .Strategyz_info .sidebar li a {
+  color: #0056b3;
+  font-weight: 500;
   border-left: 3px solid #333;
   text-decoration: none;
   padding: 2rem 0px 2rem 13px;
@@ -2094,7 +2096,7 @@ label {
 }
 
 #overview{
-  text-align: center;
+  text-align: left;
   margin: 0 30px;
   padding-top: 80px;
   
@@ -2105,6 +2107,8 @@ label {
 }
 
 #working{
+  margin: 0 30px;
+  text-align: left;
   padding-top: 80px;
 }
 
