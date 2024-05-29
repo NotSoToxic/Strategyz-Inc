@@ -44,6 +44,7 @@ export const Strategyzinfo = (props) => {
             <nav className="working-navbar">
               <ul>
                 <li>
+                {/* eslint-disable-next-line */}
                   <a
                     className={activeTab === "STRATEGYZConsulting" ? "active" : ""}
                     onClick={() => handleTabClick("STRATEGYZConsulting")}
@@ -52,6 +53,7 @@ export const Strategyzinfo = (props) => {
                   </a>
                 </li>
                 <li>
+                  {/* eslint-disable-next-line */}
                   <a
                     className={activeTab === "technologyConsulting" ? "active" : ""}
                     onClick={() => handleTabClick("technologyConsulting")}

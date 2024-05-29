@@ -2,9 +2,10 @@
 import React, { useState } from "react";
 import { Testimonials } from "../../landingpage/testimonials";
 import JsonData from "../../../data/data.json";
-import careerbanner from "../../assets/images/career-banner.jpg";
+import icons from "../../assets/images/banner-img.png";
 import jobData from '../../../data/data.json';
 import { Link } from 'react-router-dom';
+import banner from "../../assets/images/career-banner.jpg";
 
 
 
@@ -20,7 +21,25 @@ export const Careers = (props) => {
     return (
         <div id="careers">
             <div className="careers-top">
-                <img className="career-banner" src={careerbanner} alt="careers" />
+                <div className="banner">
+                    <img src={banner} className="banner-img" alt="banner"></img>
+                    {/* <div className="banner-left">
+                        <h3>Define your career with STRATEGYZ</h3>
+                        <p>What we stand for</p>
+                        <ol>
+                            <li><b>Individuality:</b> At STRATEGYZ, uniqueness is not only recognized—it's celebrated.</li>
+                            <li><b>Curiosity:</b> Every STRATEGYZer is led by ourjoint passion for discovety.</li>
+                            <li><b>Possibility:</b> When faced with challenges, we turn problems into possibilities.</li>
+                        </ol>
+                    </div>
+                    <div className="banner-right">
+                        
+                        <p>At Strategyz, we are always looking for talented individuals to join our team. We offer a wide range of career opportunities across a variety of disciplines. Whether you are an experienced professional or a recent graduate, we have a place for you.</p>
+                        <div className="banner-icons">
+                        <img src={icons} className="banner-icons-img"></img>
+                        </div>
+                    </div> */}
+                </div>
             </div>
 
             <div className="content-wrapper">

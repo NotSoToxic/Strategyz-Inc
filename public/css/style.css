@@ -827,6 +827,24 @@ header .intro-text {
   margin-left: 95px;
   width: 43%;
 }
+
+@media (max-width: 768px){
+  .contact-us-content{
+    flex-direction: column;
+    width: 100%;
+  }
+  .contact-form{
+    margin-left: 0;
+    width: 100%;
+  }
+  .contact-info{
+    width: 100% !important;
+  }
+  .contact-item{
+    margin-left: 0 !important;
+  
+  }
+}
 #contact .section-title {
   margin-bottom: 20px;
 }
@@ -1067,6 +1085,65 @@ label {
   
 }
 
+#careers .banner{
+  height: 100%;
+  /* height: 278.25px;
+  background: linear-gradient(to right, #e6f9fd 0%, #ecdffb 100%);
+  display: flex;
+  flex-direction: row; */
+}
+
+#careers .banner .banner-img{
+  width: 100%;
+}
+#careers .banner .banner-left{
+  padding-left: 25px;
+}
+#careers .banner .banner-left > h3{
+  font-size: 24px;
+  padding-left: 20px;
+  text-align: left;
+}
+
+#careers .banner .banner-left > p{
+  font-size: 20px;
+  padding-left: 20px;
+  text-align: left;
+  margin: 0;
+}
+
+#careers .banner .banner-left > ol{
+  font-size: 14px;
+  padding-left: 101px;
+  text-align: left;
+  
+}
+
+#careers .banner .banner-left > ol > li{
+  
+  padding: 8px;
+}
+
+#careers .banner-left{
+  margin: 10px 0 10px 20px;
+  width: 100%;
+  border-right: 3px solid black;
+}
+
+#careers .banner-right{
+  width: 100%;
+  text-align: justify;
+  
+}
+#careers .banner-right > p{
+  padding: 30px 10px 20px 20px;
+    font-size: 20px;
+}
+
+#careers .banner-icons{
+  display: flex;
+  justify-content: center;
+}
 .careers-top{
   padding-top: 20px;
   padding-bottom: 30px;
@@ -2046,9 +2123,9 @@ label {
 
 .Strategyz_info .banner{
   padding: 10px;
-    background-color: gainsboro;
+    background-color: #F5F5F5;
     /* align-items: center; */
-    margin-top: 75px;
+    margin-top: 50px;
 }
 
 .Strategyz_info .banner-img{
