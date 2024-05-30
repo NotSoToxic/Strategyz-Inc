@@ -1136,13 +1136,14 @@ label {
 
 }
 
-#buisnesstransformation #clients{
+#buisnesstransformation #clients,
+#augmentation #clients{
   margin: 0 30px;
     text-align: left;
     padding-top: 45px;
 }
 
-#buisnesstransformation .buisness-card{
+.buisness-card{
   flex: 1 1 calc(33.333% - 20px); /* 33.333% - 20px is for 3 cards in a row with some margin */
   margin: 10px;
   
@@ -1150,7 +1151,7 @@ label {
   padding: 10px;
 }
 
-#buisnesstransformation .buisness-card:hover{
+.buisness-card:hover{
   border-bottom: 1px solid #0056b3;
 }
 
@@ -1166,7 +1167,7 @@ label {
 }
 
 @media (max-width: 992px){
-  #buisnesstransformation .buisness-banner-text h1{
+   .buisness-banner-text h1{
     font-size: 24px;
   }
   
@@ -1178,11 +1179,11 @@ label {
 
 @media (max-width: 768px){
 
-  #buisnesstransformation .buisness-banner-text{
+   .buisness-banner-text{
     padding-top: 20px
   }
 
-  #buisnesstransformation .buisness-banner-text h1{
+   .buisness-banner-text h1{
     font-size: 22px;
     padding-left: 35px;
   }
@@ -1195,10 +1196,10 @@ label {
 }
 
 @media (max-width: 500px){
-  #buisnesstransformation .buisness-banner-text{
+  .buisness-banner-text{
     width: 50%;
   }
-  #buisnesstransformation .buisness-banner-text h1{
+  .buisness-banner-text h1{
     font-size: 18px;
     padding-left: 20px;
   }
@@ -1207,7 +1208,7 @@ label {
     font-size: 14px;
     padding-left: 20px;
   }
-  #buisnesstransformation .sidebar{
+   .sidebar{
     display: none;
   }
 }
@@ -1231,7 +1232,7 @@ label {
   padding: 100px 0 0 0;
   
 }
-#augmentation .augmentation-banner{
+#buisnesstransformation .augmentation-banner{
   display: table;
   width: 100%;
   height: 278.25px;
