@@ -1213,6 +1213,27 @@ label {
   
 }
 
+#consulting .consulting-banner{
+  display: table;
+  width: 100%;
+  height: 278.25px;
+  /* margin-left: 150px; */
+  padding: 0;
+  background: url(../img/servicesPage/consulting\ banner.png) center center no-repeat;
+  background-color: #CECECE;
+  background-shadow: 5px 5px 50px black;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+#consulting .consulting-banner-text{
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
 /*Augmentation*/
 /*Staff Augmentation start*/
 #staffAugmentation{
