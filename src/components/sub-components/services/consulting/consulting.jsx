@@ -1,5 +1,6 @@
 import React from "react";
-
+import buisnessData from '../../../../data/data.json';
+import { Link } from 'react-router-dom';
 export const Consulting = (props) => {
     return (
         <div id="consulting">
@@ -39,9 +40,22 @@ export const Consulting = (props) => {
 
           <section id="working">
             <h2>Capabilities</h2>
-            <p>
+            {/* <p>
               We bring together all the necessary technology and services to help our clients solve their business problems. Bringing together a diverse set of voices with new technology, we collaborate closely, ideate freely and swiftly apply breakthrough innovations that drive big impact.
-            </p>
+            </p> */}
+
+            <div id="working-navbar-content" >
+                                
+                                <div className="job-container">
+                                    {buisnessData.buisness.map((buisness) => (
+                                        <div key={buisness.domain} className="consulting-card">
+                                        <h4>{buisness.title}</h4>
+                                        <p>{buisness.description}</p>
+                                        
+                                        </div>
+                                    ))}
+                                </div>
+                            </div>
 
             
             
