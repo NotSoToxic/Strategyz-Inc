@@ -1,5 +1,5 @@
 import React from "react";
-import augvedio from "../../../assets/banner_vedio/aug_banner.mp4";
+import augImg from "../../../assets/images/staff_AugmentationB.png";
 
 export const Augmentation = (props) => {
   const handleClick = () => {
@@ -8,7 +8,8 @@ export const Augmentation = (props) => {
   };
 
 return (
-    <div>coming soon</div>
+    <div><img src="augImg" alt="Augmentation Banner">
+      </img></div>
         
 
   );
