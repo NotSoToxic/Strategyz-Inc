@@ -42,6 +42,8 @@ export const Consulting = (props) => {
             <p>
               We bring together all the necessary technology and services to help our clients solve their business problems. Bringing together a diverse set of voices with new technology, we collaborate closely, ideate freely and swiftly apply breakthrough innovations that drive big impact.
             </p>
+
+            
             
 
             
