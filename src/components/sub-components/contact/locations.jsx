@@ -61,8 +61,8 @@ export const Locations = (props) => {
                 className="map-iframe"
                   title="Location Map"
                   src={iframeSrcAddress1}
-                  width="600"
-                  height="450"
+                  width="645"
+                  height="475"
                   style={{ border: 0 }}
                   allowFullScreen={true}
                   loading="eager"
@@ -77,8 +77,8 @@ export const Locations = (props) => {
                 className="map-iframe"
                   title="Location Map"
                   src={iframeSrcAddress2} //to be changed to bengluru location
-                  width="600"
-                  height="450"
+                  width="645"
+                  height="475"
                   style={{ border: 0 }}
                   allowFullScreen={true}
                   loading="lazy"

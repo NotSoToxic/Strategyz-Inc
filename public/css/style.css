@@ -1033,12 +1033,161 @@ label {
 }
 
 /*Sub-components*/
-/*buisnesstransformation*/
+/*buisnesstransformation start*/
 #buisnesstransformation{
   text-align: center;
   padding: 100px 0;
   
 }
+
+
+#empowerBuisness{
+  
+  padding-top: 10%;
+  margin: auto;
+  
+  height: 95vh;
+
+}
+
+#buisnessButton{
+  color: white;
+  font-weight: bolder;
+  background-color: #004EAF;
+  margin: 10%;
+  /* margin-top: 5%; */
+  /* margin-right: 35%; */
+  width: 10vw;
+}
+#buisnessButton a {
+  text-decoration: none;
+  color: inherit;
+  font-weight: inherit;
+}
+
+
+#headding{
+  padding:2%;
+}
+.sec1buttons{
+ display: flex;
+}
+.getStartedB{
+  display: flex;
+  margin-left: 35%;
+  
+}
+.learnMoreB{
+  display: flex;
+  margin-left: 4%;
+  
+}
+
+#features{
+  background-color: #f1deda;
+  
+  padding: 5%;
+  height: 110vh;
+}
+#fH{ /*feature heading*/
+  color: #14062f;
+}
+
+#featureSection{
+    
+}
+#featuresSection{
+  width: 100%;
+}
+
+#firstRow{
+  padding: 2%;
+  margin-bottom: 0.3%;
+}
+
+#firstRow h3 {
+  color: #0c062a;
+  text-align: left;
+  margin-left: 3%;
+  margin-top: 5%;
+  padding-bottom: 2%;
+  font-weight: 800;
+  font-size: 170%;
+  
+}
+#firstRow p {
+  color: #0c062a;
+  text-align: left;
+  margin-left: 10%;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 150%;
+ 
+  
+  padding-bottom: 2%;
+  
+}
+#secondRow{
+  padding: 2%;
+  margin-bottom: 2%;
+}
+#secondRow h3{
+  color: #0c062a;
+  text-align: left;
+  margin-left: 3%;
+  margin-top: 5%;
+  padding-bottom: 2%;
+  font-size: 170%;
+  font-weight: 800;
+}
+#secondRow li {
+  list-style: circle;
+  color: #0c062a;
+  text-align: left;
+  margin-left: 10%;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 140%;
+ 
+  
+  padding-bottom: 2%;
+  
+}
+#strategicPlanning{
+  color: #0c0940;
+  
+  background-color: #e5d2ce;
+  height: 30vh;
+}
+
+#strategicPlanning h3{
+  
+}
+
+
+#changeManagement{
+  
+  height: 30vh;
+  background-color: #e5d2ce;
+
+}
+#changeManagement h3{
+  color: #0c062a;
+  text-align: left;
+  margin-left: 3%;
+  margin-top: 5%;
+  padding-bottom: 2%;
+}
+#offered{
+  background-color: #e5d2ce;
+}
+
+#whyChoose{
+  background-color: #e5d2ce;
+}
+
+
+/* Business Transformation over */
 
 /*Consulting*/
 #consulting{
@@ -1049,14 +1198,166 @@ label {
 }
 
 /*Augmentation*/
-#augmentation{
+/*Staff Augmentation start*/
+#staffAugmentation{
   text-align: center;
   padding: 100px 0;
   
 }
 
+
+#empowerStaff{
+  
+  padding-top: 10%;
+  margin: auto;
+  
+  height: 95vh;
+
+}
+
+#staffButton{
+  color: white;
+  font-weight: bolder;
+  background-color: #004EAF;
+  margin: 10%;
+  /* margin-top: 5%; */
+  /* margin-right: 35%; */
+  width: 10vw;
+}
+#staffButton a {
+  text-decoration: none;
+  color: inherit;
+  font-weight: inherit;
+}
+
+
+#headding{
+  padding:2%;
+}
+.sec1buttons{
+ display: flex;
+}
+.getStartedB{
+  display: flex;
+  margin-left: 35%;
+  
+}
+.learnMoreB{
+  display: flex;
+  margin-left: 4%;
+  
+}
+
+#features{
+  background-color: #004eaf;
+  
+  padding: 5%;
+  height: 110vh;
+}
+#fH{ /*feature heading*/
+  color: whitesmoke;
+}
+
+
+#featuresSection{
+  width: 100%;
+}
+
+#firstRow{
+  padding: 2%;
+  margin-bottom: 0.3%;
+}
+
+#firstRow h3 {
+  color: #0c062a;
+  text-align: left;
+  margin-left: 3%;
+  margin-top: 5%;
+  padding-bottom: 2%;
+  font-weight: 800;
+  font-size: 170%;
+  
+}
+#firstRow p {
+  color: #0c062a;
+  text-align: left;
+  margin-left: 10%;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 150%;
+ 
+  
+  padding-bottom: 2%;
+  
+}
+#secondRow{
+  padding: 2%;
+  margin-bottom: 2%;
+}
+#secondRow h3{
+  color: #0c062a;
+  text-align: left;
+  margin-left: 3%;
+  margin-top: 5%;
+  padding-bottom: 2%;
+  font-size: 170%;
+  font-weight: 800;
+}
+#secondRow li {
+  list-style: circle;
+  color: #0c062a;
+  text-align: left;
+  margin-left: 10%;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 140%;
+ 
+  
+  padding-bottom: 2%;
+  
+}
+#strategicPlanning{
+  color: #0c0940;
+  
+  background-color: #f5f5f5;
+  height: 30vh;
+  border-radius: 15px 0px 0px 15px;
+}
+
+#strategicPlanning h3{
+  
+}
+
+
+#changeManagement{
+  
+  height: 30vh;
+  background-color: #f5f5f5;
+  border-radius: 0 15px 15px 0px;
+
+}
+#changeManagement h3{
+  color: #0c062a;
+  text-align: left;
+  margin-left: 3%;
+  margin-top: 5%;
+  padding-bottom: 2%;
+}
+#offered{
+  border-radius: 15px 0px 0px 15px;
+  background-color: #f5f5f5;
+}
+
+#whyChoose{
+  background-color: #f5f5f5;
+  border-radius: 0 15px 15px 0px;
+}
+
+
+/* Staff Augmentation over */
+
 /*Ats*/
-#ats{
+#Ats{
   text-align: center;
   padding: 100px 0;
   
@@ -2075,11 +2376,13 @@ label {
   color: #fff;
 }
 
+#address h1{
+  color: #000;
+}
+
 .form-group {
   margin-bottom: 20px;
 }
-
-
 
 
 #location-form .form-control {
@@ -2138,15 +2441,41 @@ label {
 
 /* Adjustments for smaller screens */
 @media (max-width: 768px) {
+
+  #location{
+    width: 200vw;
+    background-color: #E5E4E2;
+    margin-top: 20px;
+    margin-right: -20px ;
+    padding: 100px;
+    display: block;
+    justify-content: space-between;
+  }
   #location-main-container {
     display: flex;
     flex-direction: column;
   }
   
-  #address,
-  #location-form {
+  #location-main-container{
+    /* background-color: #E5E4E2; */
     width: 100%;
+    display: block;
+    
+  } 
+
+  #location-form{
+    margin-top: 10%;
+    width: 850px;
+    background-color: #004EAF;
+    position: static;
+    transform: translate(0%, -0%);
+    left: 0%;
+    
+    
+
   }
+
+  
 
   #address {
     height: auto; /* Let the content dictate the height */
@@ -2186,12 +2515,12 @@ label {
   }
   .map-iframe{
     width: 100%;
-    height: 100%;
   }
 }
 
 
 /* Location  page over*/
+
 
 
 /*Strategyz info page*/
@@ -2602,7 +2931,3 @@ label {
   box-shadow: 0 0 10px rgba(0, 6, 6, 0.5); 
 
 }
-
-
-  
-
