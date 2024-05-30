@@ -1,5 +1,5 @@
 import React from "react";
-import Bgvedio from "../../../assets/banner_vedio/banner4.mp4";
+// import Bgvedio from "../../../assets/banner_vedio/banner4.mp4";
 
 export const Consulting = (props) => {
   const handleClick = () => {
@@ -10,10 +10,10 @@ export const Consulting = (props) => {
   return (
     <div id="consulting">
       <section id="con_header" className="video-banner">
-        <video autoPlay loop muted className="video-background">
+        {/* <video autoPlay loop muted className="video-background">
           <source src={Bgvedio} type="video/mp4" />
           Your browser does not support the video tag.
-        </video>
+        </video> */}
         <div className="content">
           <h1>Welcome to Strategyz Inc.</h1>
           <h4>Innovate. Elevate. Dominate.</h4>
