@@ -1234,6 +1234,7 @@ label {
 }
 #buisnesstransformation .augmentation-banner{
   display: table;
+  padding: 10px !important;
   width: 100%;
   height: 278.25px;
   /* margin-left: 150px; */
