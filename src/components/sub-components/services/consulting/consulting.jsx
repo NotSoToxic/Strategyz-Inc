@@ -10,10 +10,10 @@ export const Consulting = (props) => {
                         
                                 <div className="consulting-banner-text">
                                         <h1>
-                                        IT Consulting Services
-                                        
+                                        Technology Consulting Services
                                         </h1>
-                                        <p>Grow and transform your business by reimagining your corporate strategy and how you work.</p>
+                                        <p id="consulting-para">Discover how forward-thinking IT companies are using Technology consulting to manage IT autonomously </p>
+                                        
                                     </div>
                             </div>
                             </div>

@@ -1232,6 +1232,7 @@ label {
   display: table-cell;
   vertical-align: middle;
   text-align: center;
+  width: 750px;
 }
 
 /*Augmentation*/
