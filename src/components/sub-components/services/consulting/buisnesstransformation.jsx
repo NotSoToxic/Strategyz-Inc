@@ -1,4 +1,6 @@
 import React from "react";
+import buisnessData from '../../../../data/data.json';
+import { Link } from 'react-router-dom';
 
 
 export const Buisnesstransformation = (props) => {
@@ -14,12 +16,12 @@ export const Buisnesstransformation = (props) => {
         <div id="buisnesstransformation">
         
         
-            <div className="intro-bg">
+            <div className="buisness-bg">
                 <div className="buisness-banner">
                     <div className="overlay">
                       <div className="buisness-banner-text">
                           <h1>
-                          Strategyz consulting services
+                          Strategy consulting services
                           </h1>
                           <p className="buisness-banner-content">Grow and transform your business by reimagining your corporate strategy and how you work.</p>
                       </div>
@@ -55,7 +57,7 @@ export const Buisnesstransformation = (props) => {
           <section id="overview">
             <h2>Overview</h2>
             <p>
-              “Our client's systems support modern society. In making them faster, more productive, and more secure, we don't just make business work better. We make the world work better.”
+            With a deep understanding of emerging trends and industry disruptions, we uncover untapped potential inside your business and help deliver new levels of productivity and growth. Our strategy consulting services help you align your team around a vision, activate your data and right size roadmaps and technology investments. Our co-creative, human-centric approach helps you realize additional value from existing and emerging technologies, improve decision making and problem solving and increase competitive advantage and long-term, sustainable impact.
             </p>
           </section>
 
@@ -64,6 +66,19 @@ export const Buisnesstransformation = (props) => {
             <p>
               We bring together all the necessary technology and services to help our clients solve their business problems. Bringing together a diverse set of voices with new technology, we collaborate closely, ideate freely and swiftly apply breakthrough innovations that drive big impact.
             </p>
+            <div id="working-navbar-content" >
+                                
+                                <div className="job-container">
+                                    {buisnessData.buisness.map((buisness) => (
+                                        <div key={buisness.domain} className="buisness-card">
+                                        <h4>{buisness.title}</h4>
+                                        <p>{buisness.description}</p>
+                                        
+                                        </div>
+                                    ))}
+                                </div>
+                            </div>
+            
             
 
             

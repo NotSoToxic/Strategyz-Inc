@@ -45,7 +45,7 @@ export const Careers = (props) => {
             <div className="content-wrapper">
                 <aside className="sidebar">
                     <ul>
-                        <li><a href="#overview" className="page-scroll">What We Do</a></li>
+                        <li><a href="#overview" className="page-scroll">Careers @STRATEGYZ</a></li>
                         <li><a href="#working" className="page-scroll">Apply</a></li>
                         <li><a href="#testimonials" className="page-scroll">Insights</a></li>
                     </ul>
@@ -53,7 +53,7 @@ export const Careers = (props) => {
 
                 <main>
                     <section id="overview">
-                        <h2>Overview</h2>
+                        <h2>Careers @STRATEGYZ</h2>
                         <p>Our curiosity runs deep. That's why we let you explore new paths at your own speed—making sure you're constantly learning. Discover the possibilities.</p>
                     </section>
                     <section id="working">
