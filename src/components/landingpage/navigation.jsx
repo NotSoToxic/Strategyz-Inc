@@ -38,6 +38,11 @@ export const Navigation = (props) => {
                 Home
               </a>
             </li>
+            <li>
+              <a href="/strategyzinfo" className="page-scroll">
+                About Us
+              </a>
+            </li>
             <li className="dropdown">
               <a
                 

@@ -87,7 +87,7 @@ hr {
 /* Large screens */
 @media (max-width: 1200px) {
   .navbar-content {
-    width: 82%;
+    /* width: 82%; */
     margin: 0 auto;
   }
 }
@@ -95,7 +95,7 @@ hr {
 /* Medium to large screens */
 @media (max-width: 992px) {
   .navbar-content {
-    width: 81%;
+    /* width: 81%; */
     margin: 0 auto;
   }
 }
@@ -103,7 +103,7 @@ hr {
 /* Small to medium screens */
 @media (max-width: 768px) {
   .navbar-content {
-    width: 81%;
+    width: 91%;
     margin: 0 5vw;
   }
 }
@@ -1045,6 +1045,7 @@ label {
   text-align: center;
   padding: 100px 0;
   
+  
 }
 
 /*Augmentation*/
@@ -1087,10 +1088,10 @@ label {
 
 #careers .banner{
   height: 100%;
-  /* height: 278.25px;
+  height: 278.25px;
   background: linear-gradient(to right, #e6f9fd 0%, #ecdffb 100%);
   display: flex;
-  flex-direction: row; */
+  flex-direction: row;
 }
 
 #careers .banner .banner-img{
@@ -1137,7 +1138,7 @@ label {
 }
 #careers .banner-right > p{
   padding: 30px 10px 20px 20px;
-    font-size: 20px;
+  font-size: 18px;
 }
 
 #careers .banner-icons{
@@ -1145,8 +1146,8 @@ label {
   justify-content: center;
 }
 .careers-top{
-  padding-top: 20px;
-  padding-bottom: 30px;
+  padding: 10px;
+  background-color: #F5F5F5;
   
 
 }
@@ -1175,11 +1176,12 @@ label {
 }
 
 #careers .sidebar {
+  border-right: 1px solid #0056b3;
   width: 25%;
-  padding: 90px 0;
+  padding: 30px 0;
   position: sticky;
   top: 0;
-  height: 90vh;
+  height: 100vh;
   overflow-y: auto;
 }
 
@@ -1190,16 +1192,24 @@ label {
 }
 
 #careers .sidebar li {
-  padding: 2rem;
-  list-style-type: none;
+  padding: 2rem 0 2rem 0;
+    list-style-type: none;
 }
 
 #careers .sidebar li a {
-  border-left: 3px solid #333;
-  text-decoration: none;
-  padding: 2rem;
-  font-size: 14pt;
-  transition: border-left-color 0.3s ease-in-out;
+  color: #0056b3;
+    font-weight: 500;
+    border-left: 3px solid #333;
+    text-decoration: none;
+    padding: 2rem 0px 2rem 13px;
+    font-size: 14pt;
+    transition: border-left-color 0.3s ease-in-out;
+}
+
+#careers h2{
+  font-size: 32px;
+  font-weight: 600;
+  text-transform: none;
 }
 
 #careers .sidebar li a:hover {
@@ -1208,7 +1218,6 @@ label {
 
 #careers .content-wrapper {
   display: flex;
-  margin-top: 2rem;
 }
 
 #careers main {
@@ -1285,6 +1294,22 @@ label {
 
 
 /* Responsive Styles */
+@media (max-width: 1200px) {
+  #careers .banner-left{
+    padding-left: 0;
+  }
+  #careers .banner-right > p{
+    font-size: 17px;
+    padding: 30px 10px 20px 10px;
+  }
+  #careers .sidebar {
+    width: 25%;
+  }
+
+  #careers main {
+    width: 75%;
+  }
+}
 
 @media (max-width: 991px) {
   #careers .sidebar {
@@ -1297,7 +1322,32 @@ label {
 }
 
 @media (max-width: 768px) {
+  #careers .banner-icons-img{
+    width: 90%;
+  }
+  #careers .banner .banner-left{
+    padding-left: 0;
+  }
+
+  #careers .banner .banner-right > p{
+    font-size: 14px;
+  }
+  #careers .banner .banner-left > h3{
+    font-size: 21px;
+  }
   
+  #careers .banner .banner-left > p{
+    font-size: 18px;
+  }
+
+  #careers .banner .banner-left > ol{
+    font-size: 11px;
+    padding-left: 95px;
+  }
+
+  #careers .banner .banner-left > ol > li{
+    padding: 5px;
+  }
   #careers .content-wrapper {
     flex-direction: column;
   }
@@ -1362,6 +1412,32 @@ label {
   
 }
 
+@media (max-width: 520px){
+  .careers-top{
+    position: relative;
+    height: 100%;
+  }
+  #careers .banner {
+    height: 430.25px;
+    flex-direction: column;
+
+  }
+
+  #careers .banner .banner-left{
+    margin: 0;
+    
+    width: 100%;
+    border-right: 0;
+    border-bottom: 3px solid black;
+  }
+  #careers .banner .banner-right > p{
+    font-size: 14px !important;
+  }
+  #careers .banner-icons-img{
+    width: 50%;
+  }
+}
+
 @media (max-width: 376px) {
   #working-navbar-content > h3{
     font-size: 24px !important;
@@ -1369,6 +1445,12 @@ label {
   
   #careers .job-card h4{
     font-size: 16px;
+  }
+
+  #careers .banner .banner-right > p{
+    font-size: 13px !important;
+    padding: 20px 10px 10px 10px;
+    margin-bottom: 0;
   }
 }
 

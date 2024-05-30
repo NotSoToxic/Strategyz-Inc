@@ -22,8 +22,8 @@ export const Careers = (props) => {
         <div id="careers">
             <div className="careers-top">
                 <div className="banner">
-                    <img src={banner} className="banner-img" alt="banner"></img>
-                    {/* <div className="banner-left">
+                    {/* <img src={banner} className="banner-img" alt="banner"></img> */}
+                    <div className="banner-left">
                         <h3>Define your career with STRATEGYZ</h3>
                         <p>What we stand for</p>
                         <ol>
@@ -38,7 +38,7 @@ export const Careers = (props) => {
                         <div className="banner-icons">
                         <img src={icons} className="banner-icons-img"></img>
                         </div>
-                    </div> */}
+                    </div>
                 </div>
             </div>
 
