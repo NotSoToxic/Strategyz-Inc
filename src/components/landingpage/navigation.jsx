@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
 
 export const Navigation = (props) => {
@@ -7,7 +8,7 @@ export const Navigation = (props) => {
   
   return (
     <nav id="menu" className="navbar navbar-default navbar-fixed-top">
-      <div className="container">
+      <div className="container navbar-content">
         <div className="navbar-header">
           <button
             type="button"
@@ -37,9 +38,14 @@ export const Navigation = (props) => {
                 Home
               </a>
             </li>
+            <li>
+              <a href="/strategyzinfo" className="page-scroll">
+                About Us
+              </a>
+            </li>
             <li className="dropdown">
               <a
-                href="#services"
+                
                 className=" page-scroll"
                 data-toggle="hover"
                 role="button"
@@ -81,43 +87,7 @@ export const Navigation = (props) => {
               </a>
             </li> */}
             
-            <li className="dropdown">
-              <a
-                href="#services"
-                className=" page-scroll"
-                data-toggle="hover"
-                role="button"
-                aria-haspopup="true"
-                aria-expanded="false"
-              >
-                Insights <span className="caret"></span>
-                
-                
-              </a>
-              <ul className="dropdown-menu">
-                <li>
-                  <div className='services-offered'>
-                  <h3>Blogs</h3>
-                  <ul className='services1'>
-                    {/* <li><a href="/">Business Transformation</a></li>
-                    <li><a href="/">Technology Consulting</a></li>
-                    <li><a href="/">Staff Augmentation</a></li> */}
-                  </ul>
-                  </div>
-                </li>
-                <li>
-                  <div className='services-offered'>
-                  <h3>Team</h3>
-                  <ul className='services1'>
-                    {/* <li><a href="/">Application Tracking System(ATS)</a></li>
-                    <li><a href="/">Human Resources Management System(HRMS)</a></li>
-                    <li><a href="/">Vendor Management System(VMS)</a></li> */}
-                  </ul>
-                  </div>
-                </li>
-
-              </ul>
-            </li>
+            
             
             
             <li>
@@ -127,7 +97,6 @@ export const Navigation = (props) => {
             </li>
             <li className="dropdown">
               <a
-                href="#services"
                 className=" page-scroll"
                 data-toggle="hover"
                 role="button"
@@ -139,7 +108,7 @@ export const Navigation = (props) => {
                 
               </a>
               <ul className="dropdown-menu vertical-dropdown">
-                <li>
+                <li className='contact-list'>
                   <div className='services-offered  contact-info'>
                   <ul className='services1'>
                     <li><a href="/locations">↪ Our Locations</a></li>

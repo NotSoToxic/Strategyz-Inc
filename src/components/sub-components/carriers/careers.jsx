@@ -1,6 +1,12 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { useState } from "react";
-import careers from "../../assets/images/careers.jpg";
+import { Testimonials } from "../../landingpage/testimonials";
+import JsonData from "../../../data/data.json";
+import icons from "../../assets/images/banner-img.png";
+import jobData from '../../../data/data.json';
+import { Link } from 'react-router-dom';
+import banner from "../../assets/images/career-banner.jpg";
+
 
 
 export const Careers = (props) => {
@@ -10,18 +16,28 @@ export const Careers = (props) => {
         setActiveTab(tab);
     };
 
+    
+
     return (
         <div id="careers">
             <div className="careers-top">
-                <h1>Define Your Career with Strategyz</h1>
-                <div className="career-banner">
-                    <div className="career-img">
-                        <img src={careers} alt="" className="careersimg" />
+                <div className="banner">
+                    {/* <img src={banner} className="banner-img" alt="banner"></img> */}
+                    <div className="banner-left">
+                        <h3>Define your career with STRATEGYZ</h3>
+                        <p>What we stand for</p>
+                        <ol>
+                            <li><b>Individuality:</b> At STRATEGYZ, uniqueness is not only recognized—it's celebrated.</li>
+                            <li><b>Curiosity:</b> Every STRATEGYZer is led by ourjoint passion for discovety.</li>
+                            <li><b>Possibility:</b> When faced with challenges, we turn problems into possibilities.</li>
+                        </ol>
                     </div>
-                    <div className="careers-top-content">
-                        <p>
-                            At Strategyz, we are always looking for talented individuals to join our team. We offer a wide range of career opportunities across a variety of disciplines. Whether you are an experienced professional or a recent graduate, we have a place for you.
-                        </p>
+                    <div className="banner-right">
+                        
+                        <p>At Strategyz, we are always looking for talented individuals to join our team. We offer a wide range of career opportunities across a variety of disciplines. Whether you are an experienced professional or a recent graduate, we have a place for you.</p>
+                        <div className="banner-icons">
+                        <img src={icons} className="banner-icons-img"></img>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -31,18 +47,18 @@ export const Careers = (props) => {
                     <ul>
                         <li><a href="#overview" className="page-scroll">What We Do</a></li>
                         <li><a href="#working" className="page-scroll">Apply</a></li>
-                        <li><a href="#clients" className="page-scroll">Insights</a></li>
+                        <li><a href="#testimonials" className="page-scroll">Insights</a></li>
                     </ul>
                 </aside>
 
                 <main>
                     <section id="overview">
                         <h2>Overview</h2>
-                        <p>“Our client's systems support modern society. In making them faster, more productive, and more secure, we don't just make business work better. We make the world work better.”</p>
+                        <p>Our curiosity runs deep. That's why we let you explore new paths at your own speed—making sure you're constantly learning. Discover the possibilities.</p>
                     </section>
                     <section id="working">
-                        <h2>What does STRATEGYZ do?</h2>
-                        <p>We bring together all the necessary technology and services to help our clients solve their business problems.</p>
+                        <h2>Apply your Skills</h2>
+                        <p>Explore the areas of work where you can apply your unique skills.</p>
                         
                         <nav className="working-navbar">
                             <ul>
@@ -66,46 +82,40 @@ export const Careers = (props) => {
                         </nav>
                         
                         {activeTab === "Internaljobs" && (
-                            <div id="working-navbar-content">
+                            <div id="working-navbar-content" >
                                 <h3>Internal Openings</h3>
-                                
+                                <div className="job-container">
+                                    {jobData.jobs.map((job) => (
+                                        <div key={job.domain} className="job-card">
+                                        <h4>{job.title}</h4>
+                                        <p>{job.description}</p>
+                                        <Link to={`/job/${job.domain}`}>Apply now</Link>
+                                        </div>
+                                    ))}
+                                </div>
                             </div>
                         )}
                         {activeTab === "Clientjobs" && (
                             <div id="working-navbar-content">
                                 <h3>Client Openings</h3>
+                                <div class="job-container">
+                                        
+                                        {jobData.jobs.map((job) => (
+                                        <div key={job.domain} className="job-card">
+                                        <h4>{job.title}</h4>
+                                        <p>{job.description}</p>
+                                        <Link to={`/job/${job.domain}`}>Apply now</Link>
+                                        </div>
+                                    ))}
+                                </div>
                                 
                             </div>
                         )}
                     </section>
-                    <section id="clients">
-                <h2>Clients</h2>
-                  <div class="flex-container">
-                    <div class="box">
-                      <img src="img/StrategyzInfo_logo/ibm.png" alt="ibm logo"></img>
-                      <p>IBM</p>
-                    </div>
-                    <div class="box">
-                      <img src="img/StrategyzInfo_logo/hexawareT logo.jpeg" alt="Hexaware logo"></img>
-                      <p>Hexaware Technologies</p>
-                    </div>
-                    <div class="box">
-                      <img src="img/StrategyzInfo_logo/RangT logo.png" alt="Rang Technologies logo"></img>
-                      <p>Rang Technologies</p>
-                    </div>
-                    <div class="box">
-                      <img src="img/StrategyzInfo_logo/HarjaiC logo.png" alt="Harjai Computers logo"></img>
-                      <p>Harjai Computers</p>
-                    </div>
-                    <div class="box">
-                      <img src="img/StrategyzInfo_logo/fabH logo.png" alt="Fab Hotels logo"></img>
-                      <p>FabHotels</p>
-                    </div>
-                    
-                    
-                  </div>
-            </section>
-                </main>
+                    <section id="review">
+                        <Testimonials data={JsonData.Testimonials} />
+                    </section>
+            </main>
             </div>
 
             <div id="footer">

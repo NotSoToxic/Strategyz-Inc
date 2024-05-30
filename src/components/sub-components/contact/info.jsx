@@ -73,7 +73,7 @@ export const Info = (props) => {
                 )}
             </form>
             <div className="download-info">
-            <a id="download-link" href="/img/test.txt" download style={{ display: "none" }}>
+            <a id="download-link" href="/img/Strategyz Corporate Presentation.pdf" download style={{ display: "none" }}>
                 Download File
             </a>
             </div>
