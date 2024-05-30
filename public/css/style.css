@@ -1040,19 +1040,21 @@ label {
   
 }
 
-
-#empowerBuisness{
-  height: 100%;
+#buisnesstransformation .buisness-bg{
+  background-color: #F5F5F5;
+  padding: 10px;
+  
 }
 
 #buisnesstransformation .buisness-banner{
+  padding: 10px !important;
   display: table;
   width: 100%;
   height: 278.25px;
   /* margin-left: 150px; */
   padding: 0;
   background: url(../img/buiness-banner.png) center center no-repeat;
-  background-color: #CECECE;
+  background-color: #F5F5F5;
   background-shadow: 5px 5px 50px black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -1125,6 +1127,83 @@ label {
   width: 70%;
   flex-grow: 1;
   padding: 2rem;
+}
+
+#buisnesstransformation h2{
+  font-size: 32px;
+  font-weight: 600;
+  text-transform: none;
+
+}
+
+#buisnesstransformation .buisness-card{
+  flex: 1 1 calc(33.333% - 20px); /* 33.333% - 20px is for 3 cards in a row with some margin */
+  margin: 10px;
+  
+  border-radius: 5px;
+  padding: 10px;
+}
+
+#buisnesstransformation .buisness-card:hover{
+  border-bottom: 1px solid #0056b3;
+}
+
+@media (max-width: 1200px){
+  #buisnesstransformation .buisness-banner-text h1{
+    font-size: 28px;
+  }
+  
+  .buisness-banner-content{
+    font-size: 18px;
+  } 
+
+}
+
+@media (max-width: 992px){
+  #buisnesstransformation .buisness-banner-text h1{
+    font-size: 24px;
+  }
+  
+  .buisness-banner-content{
+    font-size: 16px;
+  } 
+
+}
+
+@media (max-width: 768px){
+
+  #buisnesstransformation .buisness-banner-text{
+    padding-top: 20px
+  }
+
+  #buisnesstransformation .buisness-banner-text h1{
+    font-size: 22px;
+    padding-left: 35px;
+  }
+  
+  .buisness-banner-content{
+    font-size: 15px;
+    padding-left: 35px;
+  } 
+
+}
+
+@media (max-width: 500px){
+  #buisnesstransformation .buisness-banner-text{
+    width: 50%;
+  }
+  #buisnesstransformation .buisness-banner-text h1{
+    font-size: 18px;
+    padding-left: 20px;
+  }
+
+  .buisness-banner-content{
+    font-size: 14px;
+    padding-left: 20px;
+  }
+  #buisnesstransformation .sidebar{
+    display: none;
+  }
 }
 
 /* Business Transformation over */
@@ -2890,6 +2969,7 @@ label {
   }
 
   #working{
+    margin: 0 10px;
     padding-top: 30px;
   }
 

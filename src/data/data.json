@@ -703,5 +703,38 @@
       ]
 
     }
+  ],
+  "buisness": [
+    {
+      "domain": "Business strategy",
+      "title": "Business strategy",
+      "description": "Deﬁne, realize and orchestrate your North Star vision by intersecting business model and technology transformation to unlock enterprise agility."
+    },
+    {
+      "domain": "Sustainability strategy",
+      "title": "Sustainability strategy",
+      "description": "Our sustainability framework was developed to orient your business towards innovation and growth while amplifying social and cultural initiatives."
+    },
+    {
+      "domain": "Process Automation & Design",
+      "title": "Process Automation & Design",
+      "description": "By evaluating and restructuring the fundamentals of how data and work flows across your business we create opportunities for new value."
+    },
+    {
+      "domain": "Data & Analytics",
+      "title": "Data & Analytics",
+      "description": "Data is the fuel for the modern enterprise. Unlock the value of enterprise data and build an insight-driven organization that delivers business advantage."
+    },
+    {
+      "domain": "Hybrid Cloud Strategy",
+      "title": "Hybrid Cloud Strategy",
+      "description": "Accelerate your journey to hybrid cloud, driving cost efﬁciency, increased productivity, sustainability and faster time to market."
+    },
+    {
+      "domain": "Operations",
+      "title": "Operations",
+      "description": "Experience-led co-creation that drives business value quickly, modernizes essential business processes, and helps you deploy enterprise-wide AI strategies."
+    }
+    
   ]
 }
