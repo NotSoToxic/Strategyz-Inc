@@ -1036,156 +1036,96 @@ label {
 /*buisnesstransformation start*/
 #buisnesstransformation{
   text-align: center;
-  padding: 100px 0;
+  padding: 100px 0 0 0;
   
 }
 
 
 #empowerBuisness{
-  
-  padding-top: 10%;
-  margin: auto;
-  
-  height: 95vh;
-
+  height: 100%;
 }
 
-#buisnessButton{
-  color: white;
-  font-weight: bolder;
-  background-color: #004EAF;
-  margin: 10%;
-  /* margin-top: 5%; */
-  /* margin-right: 35%; */
-  width: 10vw;
-}
-#buisnessButton a {
-  text-decoration: none;
-  color: inherit;
-  font-weight: inherit;
-}
-
-
-#headding{
-  padding:2%;
-}
-.sec1buttons{
- display: flex;
-}
-.getStartedB{
-  display: flex;
-  margin-left: 35%;
-  
-}
-.learnMoreB{
-  display: flex;
-  margin-left: 4%;
-  
-}
-
-#features{
-  background-color: #f1deda;
-  
-  padding: 5%;
-  height: 110vh;
-}
-#fH{ /*feature heading*/
-  color: #14062f;
-}
-
-#featureSection{
-    
-}
-#featuresSection{
+#buisnesstransformation .buisness-banner{
+  display: table;
   width: 100%;
+  height: 278.25px;
+  /* margin-left: 150px; */
+  padding: 0;
+  background: url(../img/buiness-banner.png) center center no-repeat;
+  background-color: #CECECE;
+  background-shadow: 5px 5px 50px black;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
 }
 
-#firstRow{
-  padding: 2%;
-  margin-bottom: 0.3%;
-}
-
-#firstRow h3 {
-  color: #0c062a;
+#buisnesstransformation .buisness-banner-text{
   text-align: left;
-  margin-left: 3%;
-  margin-top: 5%;
-  padding-bottom: 2%;
-  font-weight: 800;
-  font-size: 170%;
-  
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  color: #000;
 }
-#firstRow p {
-  color: #0c062a;
+
+#buisnesstransformation .buisness-banner-text h1{
+  padding: 10px 10px 10px 50px;
   text-align: left;
-  margin-left: 10%;
-  font-style: italic;
-  font-weight: 400;
-  font-size: 150%;
- 
-  
-  padding-bottom: 2%;
-  
 }
-#secondRow{
-  padding: 2%;
-  margin-bottom: 2%;
-}
-#secondRow h3{
-  color: #0c062a;
+
+.buisness-banner-content{
   text-align: left;
-  margin-left: 3%;
-  margin-top: 5%;
-  padding-bottom: 2%;
-  font-size: 170%;
-  font-weight: 800;
+  font-size: 24px;
+  max-width: 50%;
+  padding-left: 50px;
 }
-#secondRow li {
-  list-style: circle;
-  color: #0c062a;
+
+#buisnesstransformation .content-wrapper {
+  display: flex;
+  margin-top: 2rem;
+}
+
+#buisnesstransformation .sidebar {
+  border-right: 1px solid #0056b3;
+  width: 25%;
+  padding: 30px 0;
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  overflow-y: auto;
+}
+
+#buisnesstransformation .sidebar ul {
   text-align: left;
-  margin-left: 10%;
-  font-style: italic;
-  font-weight: 400;
-  font-size: 140%;
- 
-  
-  padding-bottom: 2%;
-  
-}
-#strategicPlanning{
-  color: #0c0940;
-  
-  background-color: #e5d2ce;
-  height: 30vh;
+  list-style: none;
+  padding: 1rem;
 }
 
-#strategicPlanning h3{
-  
+#buisnesstransformation .sidebar li {
+  padding: 2rem 0 2rem 0;
+  list-style-type: none;
 }
 
-
-#changeManagement{
-  
-  height: 30vh;
-  background-color: #e5d2ce;
-
-}
-#changeManagement h3{
-  color: #0c062a;
-  text-align: left;
-  margin-left: 3%;
-  margin-top: 5%;
-  padding-bottom: 2%;
-}
-#offered{
-  background-color: #e5d2ce;
+#buisnesstransformation .sidebar li a {
+  color: #0056b3;
+  font-weight: 500;
+  border-left: 3px solid #333;
+  text-decoration: none;
+  padding: 2rem 0px 2rem 13px;
+  font-size: 14pt;
+  transition: border-left-color 0.3s ease-in-out;
 }
 
-#whyChoose{
-  background-color: #e5d2ce;
+#buisnesstransformation .sidebar li a:hover {
+  border-left-color: #999;
 }
 
+#buisnesstransformation main {
+  right: 0;
+  width: 70%;
+  flex-grow: 1;
+  padding: 2rem;
+}
 
 /* Business Transformation over */
 
