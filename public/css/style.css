@@ -1042,12 +1042,28 @@ label {
 
 
 #empowerBuisness{
-  
-  padding-top: 10%;
-  margin: auto;
-  
   height: 95vh;
+}
 
+#buisnesstransformation .buisness-banner{
+  display: table;
+  width: 100%;
+  height: 278.25px;
+  /* margin-left: 150px; */
+  padding: 0;
+  background: url(../img/buiness-banner.png) center center no-repeat;
+  background-color: #CECECE;
+  background-shadow: 5px 5px 50px black;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+#buisnesstransformation .buisness-banner-text{
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
 }
 
 #buisnessButton{
