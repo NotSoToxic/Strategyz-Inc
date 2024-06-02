@@ -63,9 +63,7 @@ export const Buisnesstransformation = (props) => {
 
           <section id="working">
             <h2>Capabilities</h2>
-            <p>
-              We bring together all the necessary technology and services to help our clients solve their business problems. Bringing together a diverse set of voices with new technology, we collaborate closely, ideate freely and swiftly apply breakthrough innovations that drive big impact.
-            </p>
+            
             <div id="working-navbar-content" >
                                 
                                 <div className="job-container">
@@ -86,26 +84,24 @@ export const Buisnesstransformation = (props) => {
 
           <section id="clients">
             <h2>Next Steps</h2>
-            <div className="flex-container">
-              <div className="box">
-                <img src="img/StrategyzInfo_logo/ibm.png" alt="IBM logo" />
-                <p>IBM</p>
+            <div className="job-container">
+              <div className="buisness-card">
+                <h4>Get Started</h4>
+                <p>Connect with our diverse group of Strategyz
+experts that can help you make your next
+big move.
+
+</p>
+                <Link to="/info">Contact Us</Link>
               </div>
-              <div className="box">
-                <img src="img/StrategyzInfo_logo/hexawareT logo.jpeg" alt="Hexaware logo" />
-                <p>Hexaware Technologies</p>
-              </div>
-              <div className="box">
-                <img src="img/StrategyzInfo_logo/RangT logo.png" alt="Rang Technologies logo" />
-                <p>Rang Technologies</p>
-              </div>
-              <div className="box">
-                <img src="img/StrategyzInfo_logo/HarjaiC logo.png" alt="Harjai Computers logo" />
-                <p>Harjai Computers</p>
-              </div>
-              <div className="box">
-                <img src="img/StrategyzInfo_logo/fabH logo.png" alt="Fab Hotels logo" />
-                <p>FabHotels</p>
+              <div className="buisness-card">
+                <h4>Explore career opportunities</h4>
+                <p>Join our team of dedicated, innovative
+people who are bringing positive change to
+work and the world.
+
+</p>
+                <Link to="/careers">Apply now</Link>
               </div>
             </div>
           </section>
