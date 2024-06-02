@@ -1137,7 +1137,7 @@ label {
 }
 
 #buisnesstransformation #clients{
-  margin: 0 30px;
+  margin: 0 10px;
     text-align: left;
     padding-top: 45px;
 }
@@ -1200,12 +1200,13 @@ label {
   }
   #buisnesstransformation .buisness-banner-text h1{
     font-size: 18px;
-    padding-left: 20px;
+    padding-left: 0px;
+    width: 50%;
   }
 
   .buisness-banner-content{
     font-size: 14px;
-    padding-left: 20px;
+    padding-left: 0px;
   }
   #buisnesstransformation .sidebar{
     display: none;
@@ -1214,13 +1215,202 @@ label {
 
 /* Business Transformation over */
 
-/*Consulting*/
+/*Consulting page starts */
+
 #consulting{
   text-align: center;
-  padding: 100px 0;
+  padding: 100px 0 0 0;
   
   
 }
+
+#consulting .intro-bg{
+  background-color: #F5F5F5;
+  padding: 10px;
+  
+}
+
+#consulting .consulting-banner{
+  display: table;
+  width: 100%;
+  height: 278.25px;
+  /* margin-left: 150px; */
+  padding: 0;
+  background: url(../img/servicesPage/consulting\ banner.png) center center no-repeat;
+  background-color: #CECECE;
+  background-shadow: 5px 5px 50px black;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+#consulting .consulting-banner-text{
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  width: 750px;
+}
+
+
+#consulting .consulting-banner-text h1{
+  padding: 10px 10px 10px 50px;
+  text-align: left;
+  color: black;
+}
+
+#consulting-para {
+  text-align: left;
+  font-size: 24px;
+  max-width: 70%;
+  padding-left: 50px;
+  color: black;
+}
+
+#consulting h2 {
+  font-size: 32px;
+  font-weight: 600;
+  text-transform: none;
+}
+
+#consulting .content-wrapper {
+  display: flex;
+  margin-top: 2rem;
+}
+
+#consulting .sidebar {
+  border-right: 1px solid #0056b3;
+  width: 25%;
+  padding: 30px 0;
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  overflow-y: auto;
+}
+
+#consulting .sidebar ul {
+  text-align: left;
+  list-style: none;
+  padding: 1rem;
+}
+
+#consulting .sidebar li {
+  padding: 2rem 0 2rem 0;
+  list-style-type: none;
+}
+
+#consulting .sidebar li a {
+  color: #0056b3;
+  font-weight: 500;
+  border-left: 3px solid #333;
+  text-decoration: none;
+  padding: 2rem 0px 2rem 13px;
+  font-size: 14pt;
+  transition: border-left-color 0.3s ease-in-out;
+}
+
+#consulting .sidebar li a:hover {
+  border-left-color: #999;
+}
+
+#consulting main {
+  right: 0;
+  width: 70%;
+  flex-grow: 1;
+  padding: 2rem;
+}
+
+#consulting .consulting-card{
+  flex: 1 1 calc(33.333% - 20px); /* 33.333% - 20px is for 3 cards in a row with some margin */
+  margin: 10px;
+  
+  border-radius: 5px;
+  padding: 10px;
+}
+
+#consulting .consulting-card{
+  flex: 1 1 calc(33.333% - 20px); /* 33.333% - 20px is for 3 cards in a row with some margin */
+  margin: 10px;
+  
+  border-radius: 5px;
+  padding: 10px;
+}
+
+#consulting .consulting-card:hover{
+   border-bottom: 1px solid #0056b3;
+ 
+}
+
+#consulting #clients{
+  margin: 0 10px;
+    text-align: left;
+    padding-top: 45px;
+}
+
+@media (max-width: 1200px){
+  #consulting .consulting-banner-text h1{
+    font-size: 28px;
+  }
+  
+  #consulting-para{
+    font-size: 18px;
+    width: 50%;
+  } 
+
+}
+
+@media (max-width: 992px){
+  #consulting .consulting-banner-text h1{
+    font-size: 24px;
+  }
+  
+  #consulting-para{
+    font-size: 16px;
+  } 
+
+}
+
+@media (max-width: 768px){
+
+  #consulting .consulting-banner-text{
+    padding-top: 20px
+  }
+
+  #consulting .consulting-banner-text h1{
+    font-size: 22px;
+    padding-left: 35px;
+  }
+  
+  #consulting-para{
+    font-size: 15px;
+    padding-left: 35px;
+  } 
+
+}
+
+@media (max-width: 500px){
+  #consulting .consulting-banner-text{
+    width: 50%;
+  }
+  #consulting .consulting-banner-text h1{
+    width: 50%;
+    font-size: 18px;
+    padding-left: 0px;
+  }
+
+  #consulting-para{
+    width: 50%;
+    font-size: 14px;
+    padding-left: 0px;
+  }
+  #consulting .sidebar{
+    display: none;
+  }
+}
+
+
+
+/*consulting page ends*/
 
 /*Augmentation*/
 /*Staff Augmentation start*/
