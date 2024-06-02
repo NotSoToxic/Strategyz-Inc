@@ -737,6 +737,36 @@
     }
     
   ],
+
+  "augument": [
+    {
+      "domain": "Talent acquisition and skills development",
+      "title": "Talent acquisition and skills development",
+      "description": "Equip your workforce with the skills of the future. Transform your talent acquisition and skills strategies and processes with the right balance of people, AI and data."
+    },
+    {
+      "domain": "HR operations and outsourcing",
+      "title": "HR operations and outsourcing",
+      "description": "AI - first approach to modernize the HR function will enhance employee experience while reducing your operational cost whether you decide to outsource, or keep your services retained."
+    },
+    {
+      "domain": "Employee experience",
+      "title": "Employee experience",
+      "description": "Deliver exceptional experiences to meet ever - evolving work-life employees need with data-driven insights and intelligent workflows."
+    },
+    {
+      "domain": "HR technology transformation",
+      "title": "HR technology transformation",
+      "description": "Reinvent your HR function with employee-centric AI design, reduce HR operating costs through managed employee services that deliver state-of-the art, always on, consumer-like HR services to employees."
+    },
+    {
+      "domain": "HR digital transformation",
+      "title": "HR digital transformation",
+      "description": "Transform HR and employee experiences using agile and design thinking methods, cognitive technologies and underpinned by HR systems, Oracle, Workday and SAP SuccessFactors."
+      }
+    
+  ],
+
   "consulting" : [
     {
       "domain": "Custom and data-managed services",
@@ -752,6 +782,7 @@
       "domain": "Platform services",
       "title": "Platform services",
       "description": "Strategyz Consulting provides clients with specialized services for increased cybersecurity, efficiency and visibility such as DevSecOps, automation, quality engineering, platform engineering and service management."
+
     }
     
   ]
