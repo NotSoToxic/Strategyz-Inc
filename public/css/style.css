@@ -1177,36 +1177,36 @@ label {
 
 }
 
-@media (max-width: 768px){
+@media (max-width: 770px){
 
    .buisness-banner-text{
-    padding-top: 20px
+    padding-top: 20px !important;
   }
 
    .buisness-banner-text h1{
-    font-size: 22px;
-    padding-left: 35px;
+    font-size: 22px !important;
+    padding-left: 35px !important;
   }
   
   .buisness-banner-content{
-    font-size: 15px;
-    padding-left: 35px;
+    font-size: 15px !important;
+    padding-left: 35px !important;
   } 
 
 }
 
 @media (max-width: 500px){
   .buisness-banner-text{
-    width: 50%;
+    width: 50% !important;
   }
   .buisness-banner-text h1{
-    font-size: 18px;
-    padding-left: 20px;
+    font-size: 18px !important;   
+    padding-left: 20px !important;
   }
 
   .buisness-banner-content{
-    font-size: 14px;
-    padding-left: 20px;
+    font-size: 14px !important;
+    padding-left: 20px !important;
   }
    .sidebar{
     display: none;
@@ -1247,6 +1247,7 @@ label {
   background-size: cover;
   -o-background-size: cover;
 }
+
 
 #augmentation.augmentation-banner-text{
   text-align: left;
