@@ -1301,7 +1301,7 @@ label {
   padding: 2rem;
 }
 
-#consulting .buisness-card{
+#consulting .consulting-card{
   flex: 1 1 calc(33.333% - 20px); /* 33.333% - 20px is for 3 cards in a row with some margin */
   margin: 10px;
   
@@ -1309,8 +1309,17 @@ label {
   padding: 10px;
 }
 
-#consulting .buisness-card:hover{
-  border-bottom: 1px solid #0056b3;
+#consulting .consulting-card{
+  flex: 1 1 calc(33.333% - 20px); /* 33.333% - 20px is for 3 cards in a row with some margin */
+  margin: 10px;
+  
+  border-radius: 5px;
+  padding: 10px;
+}
+
+#consulting .consulting-card:hover{
+   border-bottom: 1px solid #0056b3;
+ 
 }
 
 
