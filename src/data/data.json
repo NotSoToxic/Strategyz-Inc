@@ -736,5 +736,23 @@
       "description": "Experience-led co-creation that drives business value quickly, modernizes essential business processes, and helps you deploy enterprise-wide AI strategies."
     }
     
+  ],
+  "consulting" : [
+    {
+      "domain": "Custom and data-managed services",
+      "title": "Custom and data-managed services",
+      "description": "Reduce your total cost of ownership and lower maintenance of applications and data, managing custom apps on cloud by leveraging capabilities in intelligent automation, self-healing, DevSecOps, platform engineering and SRE."
+    },
+    {
+      "domain": "Enterprise application management services",
+      "title": "Enterprise application management services",
+      "description": "IBM Consulting helps clients efficiently manage their enterprise applications with application services that leverage our proven capabilities in automation, mining, Finops and Garage, as well as our top-tier partnership status."
+    },
+    {
+      "domain": "Platform services",
+      "title": "Process Automation & Design",
+      "description": "IBM Consulting provides clients with specialized services for increased cybersecurity, efficiency and visibility such as DevSecOps, automation, quality engineering, platform engineering and service management. |"
+    }
+    
   ]
 }

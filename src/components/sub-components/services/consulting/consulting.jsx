@@ -1,5 +1,5 @@
 import React from "react";
-import buisnessData from '../../../../data/data.json';
+import consultingData from '../../../../data/data.json';
 import { Link } from 'react-router-dom';
 export const Consulting = (props) => {
     return (
@@ -47,19 +47,15 @@ export const Consulting = (props) => {
             <div id="working-navbar-content" >
                                 
                                 <div className="job-container">
-                                    {buisnessData.buisness.map((buisness) => (
-                                        <div key={buisness.domain} className="consulting-card">
-                                        <h4>{buisness.title}</h4>
-                                        <p>{buisness.description}</p>
+                                    {consultingData.consulting.map((consulting) => (
+                                        <div key={consulting.domain} className="consulting-card">
+                                        <h4>{consulting.title}</h4>
+                                        <p>{consulting.description}</p>
                                         
                                         </div>
                                     ))}
                                 </div>
                             </div>
-
-            
-            
-
             
           </section>
 
