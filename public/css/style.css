@@ -1137,7 +1137,7 @@ label {
 }
 
 #buisnesstransformation #clients{
-  margin: 0 30px;
+  margin: 0 10px;
     text-align: left;
     padding-top: 45px;
 }
@@ -1200,12 +1200,13 @@ label {
   }
   #buisnesstransformation .buisness-banner-text h1{
     font-size: 18px;
-    padding-left: 20px;
+    padding-left: 0px;
+    width: 50%;
   }
 
   .buisness-banner-content{
     font-size: 14px;
-    padding-left: 20px;
+    padding-left: 0px;
   }
   #buisnesstransformation .sidebar{
     display: none;
@@ -1341,7 +1342,7 @@ label {
 }
 
 #consulting #clients{
-  margin: 0 30px;
+  margin: 0 10px;
     text-align: left;
     padding-top: 45px;
 }
@@ -1353,6 +1354,7 @@ label {
   
   #consulting-para{
     font-size: 18px;
+    width: 50%;
   } 
 
 }
@@ -1391,13 +1393,15 @@ label {
     width: 50%;
   }
   #consulting .consulting-banner-text h1{
+    width: 50%;
     font-size: 18px;
-    padding-left: 20px;
+    padding-left: 0px;
   }
 
   #consulting-para{
+    width: 50%;
     font-size: 14px;
-    padding-left: 20px;
+    padding-left: 0px;
   }
   #consulting .sidebar{
     display: none;
