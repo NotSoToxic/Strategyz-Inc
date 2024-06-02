@@ -1223,6 +1223,12 @@ label {
   
 }
 
+#consulting .intro-bg{
+  background-color: #F5F5F5;
+  padding: 10px;
+  
+}
+
 #consulting .consulting-banner{
   display: table;
   width: 100%;
@@ -1258,6 +1264,12 @@ label {
   max-width: 70%;
   padding-left: 50px;
   color: black;
+}
+
+#consulting h2 {
+  font-size: 32px;
+  font-weight: 600;
+  text-transform: none;
 }
 
 #consulting .content-wrapper {
@@ -1332,6 +1344,64 @@ label {
   margin: 0 30px;
     text-align: left;
     padding-top: 45px;
+}
+
+@media (max-width: 1200px){
+  #consulting .consulting-banner-text h1{
+    font-size: 28px;
+  }
+  
+  #consulting-para{
+    font-size: 18px;
+  } 
+
+}
+
+@media (max-width: 992px){
+  #consulting .consulting-banner-text h1{
+    font-size: 24px;
+  }
+  
+  #consulting-para{
+    font-size: 16px;
+  } 
+
+}
+
+@media (max-width: 768px){
+
+  #consulting .consulting-banner-text{
+    padding-top: 20px
+  }
+
+  #consulting .consulting-banner-text h1{
+    font-size: 22px;
+    padding-left: 35px;
+  }
+  
+  #consulting-para{
+    font-size: 15px;
+    padding-left: 35px;
+  } 
+
+}
+
+@media (max-width: 500px){
+  #consulting .consulting-banner-text{
+    width: 50%;
+  }
+  #consulting .consulting-banner-text h1{
+    font-size: 18px;
+    padding-left: 20px;
+  }
+
+  #consulting-para{
+    font-size: 14px;
+    padding-left: 20px;
+  }
+  #consulting .sidebar{
+    display: none;
+  }
 }
 
 
