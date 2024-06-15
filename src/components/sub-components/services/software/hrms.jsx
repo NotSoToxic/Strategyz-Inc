@@ -4,7 +4,7 @@ import hrmsData from "../../../../data/data.json";
 
 export const Hrms = (props) => {
     return (
-        <div id="Ats">
+        <div id="hrms">
           <div className="intro-bg">
             <div className="consulting-banner">
               <div className="overlay">
