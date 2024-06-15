@@ -70,7 +70,7 @@ export const Hrms = (props) => {
               </section>
 
               <section id="working">
-                <h2>Why Choose Our ATS ?</h2>
+                <h2>Why Choose Our HRMS ?</h2>
                 <p>Powerful Features to Enhance Your Recruitment Process</p>    
                 <div id="working-navbar-content">
                   <div className="job-container">
