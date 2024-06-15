@@ -785,5 +785,64 @@
 
     }
     
-  ]
+  ],
+  
+  "ats" : [
+    {
+      "domain": "Resume Parsing",
+      "title": "Resume Parsing",
+      "description": "Automatically extract and organize key information from resumes, reducing manual data entry and ensuring consistency"
+    },
+    {
+      "domain": "Job Posting Management",
+      "title": "Job Posting Management",
+      "description": "Post job listings to multiple job boards and social media platforms with just one click, reaching a wider audience effortlessly."
+    },
+    {
+      "domain": "Candidate Database",
+      "title": "Candidate Database",
+      "description": "Maintain a searchable database of past and present candidates, making it easy to find suitable candidates for future openings."
+
+    }
+    ,{
+      "domain": "Collaboration Tools",
+      "title": "Collaboration Tools",
+      "description": "Enable team collaboration with shared notes, feedback, and candidate ratings, ensuring a unified hiring decision."
+
+    },
+    {
+      "domain": "Analytics and Reporting",
+      "title": "Analytics and Reporting",
+      "description": "Gain insights into your recruitment process with detailed reports and analytics, helping you make data-driven decisions"
+
+    }
+    
+  ],
+  "atsBenefits": [
+    {
+      "domain": "Increased Efficiency",
+      "title": "Increased Efficiency",
+      "description": "Automate time-consuming tasks like resume screening and interview scheduling, allowing your team to focus on more strategic activities."
+    },
+    {
+      "domain": "Improved Candidate Experience",
+      "title": "Improved Candidate Experience",
+      "description": "Provide a seamless and professional experience for candidates with timely communication and a user-friendly application process."
+    },
+    {
+      "domain": "Better Quality of Hires",
+      "title": "Better Quality of Hires",
+      "description": "Utilize powerful matching algorithms and detailed analytics to identify and attract the best candidates for your positions."
+    },
+    {
+      "domain": "Cost Savings",
+      "title": "Cost Savings",
+      "description": "Reduce hiring costs by minimizing the time-to-hire and eliminating the need for multiple recruitment tools and services."
+    },
+    {
+      "domain": "Scalability",
+      "title": "Scalability",
+      "description": "Whether you are a small business or a large enterprise, our ATS can scale to meet your evolving recruitment needs."
+    }
+]
 }
