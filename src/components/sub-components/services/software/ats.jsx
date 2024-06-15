@@ -23,7 +23,7 @@ export const Ats = (props) => {
               <ul>
                 <li>
                   <a href="#overview" className="page-scroll">
-                    What is ATS ?
+                    Introduction
                   </a>
                 </li>
                 <li>

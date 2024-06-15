@@ -844,5 +844,59 @@
       "title": "Scalability",
       "description": "Whether you are a small business or a large enterprise, our ATS can scale to meet your evolving recruitment needs."
     }
+],
+  "hrms": [
+    {
+      "domain": "Employee Data Management",
+      "title": "Employee Data Management",
+      "description": "Maintain detailed employee records, including personal information, job history, and performance reviews in a secure database."
+    },
+    {
+      "domain": "Payroll and Benefits Administration",
+      "title": "Payroll and Benefits Administration",
+      "description": "Automate payroll processing, tax calculations, and benefits enrollment to ensure timely and accurate compensation."
+    },
+    {
+      "domain": "Time and Attendance Tracking",
+      "title": "Time and Attendance Tracking",
+      "description": "Monitor employee attendance, leave balances, and work hours with integrated time tracking tools."
+    },
+    {
+      "domain": "Performance Management",
+      "title": "Performance Management",
+      "description": "Conduct performance appraisals, set goals, and provide continuous feedback to foster employee development."
+    },
+    {
+      "domain": "Learning and Development",
+      "title": "Learning and Development",
+      "description": "Offer training programs and track employee progress to support ongoing skill development and career growth."
+    }
+],
+"hrmsBenefits": [
+  {
+    "domain": "Enhanced Efficiency",
+    "title": "Enhanced Efficiency",
+    "description": "Automate repetitive HR tasks, freeing up your HR team to focus on strategic initiatives and employee engagement."
+  },
+  {
+    "domain": "Accurate Data Management",
+    "title": "Accurate Data Management",
+    "description": "Ensure data accuracy and compliance with centralized employee records and automated workflows."
+  },
+  {
+    "domain": "Improved Employee Experience",
+    "title": "Improved Employee Experience",
+    "description": "Provide employees with self-service portals for easy access to their information, benefits, and performance feedback."
+  },
+  {
+    "domain": "Scalable Solutions",
+    "title": "Scalable Solutions",
+    "description": "Adaptable to organizations of any size, our HRMS grows with your business needs."
+  },
+  {
+    "domain": "Cost-Effective",
+    "title": "Cost-Effective",
+    "description": "Reduce administrative costs and errors, and improve overall HR productivity with a unified system."
+  }
 ]
 }
