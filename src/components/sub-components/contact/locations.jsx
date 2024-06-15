@@ -4,13 +4,15 @@ import { useState, useRef } from "react";
 
 export const Locations = (props) => {
   const firstLocation =
-    "Abiroo Strategyz Technologies Private Limited, We Work Institutional Area, Sector 44, Gurgaon, Haryana, India - 122002";
+  "Abiroo Strategyz Technologies Private Limited, WeWork Forum, DLF Cyber City, DLF Phase 3, Sector 24, Gurugram, Haryana 122002";
   const secondLocation =
-    "Abiroo Strategyz Technologies Private Limited, Bengaluru, Karnataka, India - 560076";
+  "Abiroo Strategyz Technologies Private Limited,WeWork Forum, Bannerghatta Rd, Arekere Village, Begur Hobli, Bengaluru, Karnataka 560076";
   const iframeSrcAddress1 =
     "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3782.544486188889!2d77.0646029!3d28.4560152!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6af56b5a1202865b%3A0xdf2a55d5213c97ff!2sStrategyz+Inc.!5e0!3m2!1sen!2sin!4v1645561134858!5m2!1sen!2sin";
   const iframeSrcAddress2 =
-    "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3782.544486188889!2d77.0646029!3d28.4560152!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6af56b5a1202865b%3A0xdf2a55d5213c97ff!2sStrategyz+Inc.!5e0!3m2!1sen!2sin!4v1645561134858!5m2!1sen!2sin";
+    "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3889.318574076183!2d77.5971658!3d12.887225099999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae15480ec31b5b%3A0x2ee906dd2ca3768!2sWeWork%20Salarpuria%20Symbiosis!5e0!3m2!1sen!2sin!4v1718432787881!5m2!1sen!2sin";
+
+
 
   //for form
   const formRef = useRef();
