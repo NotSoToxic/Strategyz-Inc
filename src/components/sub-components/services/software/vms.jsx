@@ -1,6 +1,5 @@
 import React from "react";
 import vmsData from "../../../../data/data.json";
-import { Link } from "react-router-dom";
 
 export const Vms = (props) => {
   return (
