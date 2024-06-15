@@ -737,6 +737,7 @@
     }
     
   ],
+
   "augument": [
     {
       "domain": "Talent acquisition and skills development",
@@ -762,6 +763,26 @@
       "domain": "HR digital transformation",
       "title": "HR digital transformation",
       "description": "Transform HR and employee experiences using agile and design thinking methods, cognitive technologies and underpinned by HR systems, Oracle, Workday and SAP SuccessFactors."
+      }
+    
+  ],
+
+  "consulting" : [
+    {
+      "domain": "Custom and data-managed services",
+      "title": "Custom and data-managed services",
+      "description": "Reduce your total cost of ownership and lower maintenance of applications and data, managing custom apps on cloud by leveraging capabilities in intelligent automation, self-healing, DevSecOps, platform engineering and SRE."
+    },
+    {
+      "domain": "Enterprise application management services",
+      "title": "Enterprise application management services",
+      "description": "Strategyz Consulting helps clients efficiently manage their enterprise applications with application services that leverage our proven capabilities in automation, mining, Finops and Garage, as well as our top-tier partnership status."
+    },
+    {
+      "domain": "Platform services",
+      "title": "Platform services",
+      "description": "Strategyz Consulting provides clients with specialized services for increased cybersecurity, efficiency and visibility such as DevSecOps, automation, quality engineering, platform engineering and service management."
+
     }
     
   ],
