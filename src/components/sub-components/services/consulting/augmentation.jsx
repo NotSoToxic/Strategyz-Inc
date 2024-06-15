@@ -1,8 +1,11 @@
 import React from "react";
 import augumentData from "../../../../data/data.json";
 import { Link } from "react-router-dom";
+import useSmoothScrollWithOffset from "../../useSmoothScrollWithOffset";
+
 
 export const Augmentation = (props) => {
+  useSmoothScrollWithOffset(80);
   return (
     <div id="buisnesstransformation">
       <div className="buisness-bg">

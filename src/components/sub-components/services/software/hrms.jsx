@@ -1,8 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import hrmsData from "../../../../data/data.json";
+import useSmoothScrollWithOffset from "../../useSmoothScrollWithOffset";
 
 export const Hrms = (props) => {
+  useSmoothScrollWithOffset(80);
     return (
         <div id="hrms">
           <div className="intro-bg">

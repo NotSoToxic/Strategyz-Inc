@@ -1,9 +1,11 @@
 import React from "react";
 import buisnessData from '../../../../data/data.json';
 import { Link } from 'react-router-dom';
+import useSmoothScrollWithOffset from "../../useSmoothScrollWithOffset";
 
 
 export const Buisnesstransformation = (props) => {
+  useSmoothScrollWithOffset(80);
     return (
         <div id="buisnesstransformation">
           <div className="buisness-bg">
@@ -21,7 +23,7 @@ export const Buisnesstransformation = (props) => {
           <div className="content-wrapper">
           <aside className="sidebar">
           <ul>
-            <li><a href="#overview" className="page-scroll">Overview</a></li>
+            <li><a href="#overview" className="page-scroll" >Overview</a></li>
             <li><a href="#working" className="page-scroll">Capabilities</a></li>
             <li><a href="#clients" className="page-scroll">Next Steps</a></li>
           </ul>

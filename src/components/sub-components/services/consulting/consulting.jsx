@@ -1,7 +1,10 @@
 import React from "react";
 import consultingData from "../../../../data/data.json";
 import { Link } from "react-router-dom";
+import useSmoothScrollWithOffset from "../../useSmoothScrollWithOffset";
+
 export const Consulting = (props) => {
+  useSmoothScrollWithOffset(80);
   return (
     <div id="consulting">
       <div className="intro-bg">

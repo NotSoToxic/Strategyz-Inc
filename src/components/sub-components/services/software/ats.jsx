@@ -1,8 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import atsData from "../../../../data/data.json";
+import useSmoothScrollWithOffset from "../../useSmoothScrollWithOffset";
 
 export const Ats = (props) => {
+  useSmoothScrollWithOffset(80);
     return (
         <div id="Ats">
           <div className="intro-bg">
