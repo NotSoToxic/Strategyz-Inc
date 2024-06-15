@@ -143,7 +143,7 @@
   ],
   "Contact": {
     "address": "Abiroo Strategyz Technologies Private Limited, WeWork Forum, DLF Cyber City, DLF Phase 3, Sector 24, Gurugram, Haryana 122002",
-    "address2": "Abiroo Strategyz Technologies Private Limited, Bengaluru, Karnataka, India - 560076",
+    "address2": "Abiroo Strategyz Technologies Private Limited,WeWork Forum, Bannerghatta Rd, Arekere Village, Begur Hobli, Bengaluru, Karnataka 560076",
     "phone": "+91-9560303407",
     "email": "info@strategyzinc.com",
     "instagram": "https://www.instagram.com/strategyzinc?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
@@ -786,7 +786,120 @@
     }
     
   ],
-  "vmsData" :[
+  
+  "ats" : [
+    {
+      "domain": "Resume Parsing",
+      "title": "Resume Parsing",
+      "description": "Automatically extract and organize key information from resumes, reducing manual data entry and ensuring consistency"
+    },
+    {
+      "domain": "Job Posting Management",
+      "title": "Job Posting Management",
+      "description": "Post job listings to multiple job boards and social media platforms with just one click, reaching a wider audience effortlessly."
+    },
+    {
+      "domain": "Candidate Database",
+      "title": "Candidate Database",
+      "description": "Maintain a searchable database of past and present candidates, making it easy to find suitable candidates for future openings."
+
+    }
+    ,{
+      "domain": "Collaboration Tools",
+      "title": "Collaboration Tools",
+      "description": "Enable team collaboration with shared notes, feedback, and candidate ratings, ensuring a unified hiring decision."
+
+    },
+    {
+      "domain": "Analytics and Reporting",
+      "title": "Analytics and Reporting",
+      "description": "Gain insights into your recruitment process with detailed reports and analytics, helping you make data-driven decisions"
+
+    }
+    
+  ],
+  "atsBenefits": [
+    {
+      "domain": "Increased Efficiency",
+      "title": "Increased Efficiency",
+      "description": "Automate time-consuming tasks like resume screening and interview scheduling, allowing your team to focus on more strategic activities."
+    },
+    {
+      "domain": "Improved Candidate Experience",
+      "title": "Improved Candidate Experience",
+      "description": "Provide a seamless and professional experience for candidates with timely communication and a user-friendly application process."
+    },
+    {
+      "domain": "Better Quality of Hires",
+      "title": "Better Quality of Hires",
+      "description": "Utilize powerful matching algorithms and detailed analytics to identify and attract the best candidates for your positions."
+    },
+    {
+      "domain": "Cost Savings",
+      "title": "Cost Savings",
+      "description": "Reduce hiring costs by minimizing the time-to-hire and eliminating the need for multiple recruitment tools and services."
+    },
+    {
+      "domain": "Scalability",
+      "title": "Scalability",
+      "description": "Whether you are a small business or a large enterprise, our ATS can scale to meet your evolving recruitment needs."
+    }
+],
+  "hrms": [
+    {
+      "domain": "Employee Data Management",
+      "title": "Employee Data Management",
+      "description": "Maintain detailed employee records, including personal information, job history, and performance reviews in a secure database."
+    },
+    {
+      "domain": "Payroll and Benefits Administration",
+      "title": "Payroll and Benefits Administration",
+      "description": "Automate payroll processing, tax calculations, and benefits enrollment to ensure timely and accurate compensation."
+    },
+    {
+      "domain": "Time and Attendance Tracking",
+      "title": "Time and Attendance Tracking",
+      "description": "Monitor employee attendance, leave balances, and work hours with integrated time tracking tools."
+    },
+    {
+      "domain": "Performance Management",
+      "title": "Performance Management",
+      "description": "Conduct performance appraisals, set goals, and provide continuous feedback to foster employee development."
+    },
+    {
+      "domain": "Learning and Development",
+      "title": "Learning and Development",
+      "description": "Offer training programs and track employee progress to support ongoing skill development and career growth."
+    }
+],
+"hrmsBenefits": [
+  {
+    "domain": "Enhanced Efficiency",
+    "title": "Enhanced Efficiency",
+    "description": "Automate repetitive HR tasks, freeing up your HR team to focus on strategic initiatives and employee engagement."
+  },
+  {
+    "domain": "Accurate Data Management",
+    "title": "Accurate Data Management",
+    "description": "Ensure data accuracy and compliance with centralized employee records and automated workflows."
+  },
+  {
+    "domain": "Improved Employee Experience",
+    "title": "Improved Employee Experience",
+    "description": "Provide employees with self-service portals for easy access to their information, benefits, and performance feedback."
+  },
+  {
+    "domain": "Scalable Solutions",
+    "title": "Scalable Solutions",
+    "description": "Adaptable to organizations of any size, our HRMS grows with your business needs."
+  },
+  {
+    "domain": "Cost-Effective",
+    "title": "Cost-Effective",
+    "description": "Reduce administrative costs and errors, and improve overall HR productivity with a unified system."
+  }
+],
+"vms" :[
     {  
       "domain": " keyfeatures",
       "title": "Vendor Registration and Onboarding",
@@ -811,7 +924,9 @@
       "domain": " keyfeatures",
       "title": "Risk Management",
       "description": "Identify and mitigate risks associated with vendor management by monitoring compliance and conducting regular audits."
-    },
+    }
+  ],
+  "vmsBenefits" : [
     {
       "domain" : "benefits",
       "title": "Improved Efficiency",
