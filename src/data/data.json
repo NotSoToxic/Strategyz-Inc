@@ -898,5 +898,59 @@
     "title": "Cost-Effective",
     "description": "Reduce administrative costs and errors, and improve overall HR productivity with a unified system."
   }
-]
+],
+"vms" :[
+    {  
+      "domain": " keyfeatures",
+      "title": "Vendor Registration and Onboarding",
+      "description": "Simplify the process of vendor registration and onboarding with automated workflows and standardized procedures."
+    },
+    {
+      "domain": " keyfeatures",
+      "title": "Contract Management",
+      "description": "Create, store, and manage vendor contracts, ensuring compliance and tracking key contract milestones and renewals."
+    },
+    {
+      "domain": " keyfeatures",
+      "title": "Performance Monitoring",
+       "description": "Evaluate vendor performance through metrics and KPIs, ensuring vendors meet your quality and service standards."
+    },
+    {
+      "domain": " keyfeatures",
+      "title": "Invoice and Payment Processing",
+      "description": "Automate the invoicing and payment process to reduce errors and ensure timely payments."
+    },
+    {
+      "domain": " keyfeatures",
+      "title": "Risk Management",
+      "description": "Identify and mitigate risks associated with vendor management by monitoring compliance and conducting regular audits."
+    }
+  ],
+  "vmsBenefits" : [
+    {
+      "domain" : "benefits",
+      "title": "Improved Efficiency",
+      "description": "Streamline vendor management processes with automation and centralized data, reducing administrative overhead."
+    },
+    {
+      "domain" : "benefits",
+      "title": "Enhanced Visibility",
+      "description": "Gain real-time insights into vendor performance and compliance, enabling better decision-making."
+    },
+    {
+      "domain" : "benefits",
+      "title": "Cost Savings",
+      "description": "Optimize procurement processes and negotiate better rates with data-driven insights and performance tracking."
+    },
+    {
+      "domain" : "benefits",
+      "title": "Risk Reduction",
+      "description": "Ensure compliance and reduce risks associated with vendor relationships through robust monitoring and audit capabilities."
+    },
+    {
+      "domain" : "benefits",
+      "title": "Scalability",
+      "description": "Our VMS can scale with your organization, accommodating a growing vendor base and evolving business needs."
+    }
+  ]
 }
