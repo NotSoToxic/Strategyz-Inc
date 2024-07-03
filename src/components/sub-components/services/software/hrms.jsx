@@ -34,7 +34,7 @@ export const Hrms = (props) => {
                   </a>
                 </li>
                 <li>
-                  <a href="#clients" className="page-scroll">
+                  <a href="#benefits" className="page-scroll">
                     Benefits
                   </a>
                 </li>
@@ -71,7 +71,7 @@ export const Hrms = (props) => {
                 </div>
               </section>
 
-              <section id="working">
+              <section id="benefits">
                 <h2>Why Choose Our HRMS ?</h2>
                 <p>Powerful Features to Enhance Your Recruitment Process</p>    
                 <div id="working-navbar-content">

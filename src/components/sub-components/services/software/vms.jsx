@@ -34,7 +34,7 @@ export const Vms = (props) => {
                   </a>
                 </li>
                 <li>
-                  <a href="#clients" className="page-scroll">
+                  <a href="#benefits" className="page-scroll">
                     Benefits
                   </a>
                 </li>
@@ -64,7 +64,7 @@ export const Vms = (props) => {
                 </div>
               </section>
 
-              <section id="working">
+              <section id="benefits">
                 <h2>Why Choose Our VMS ?</h2>
                 <p>Benefits of Effective Vendor Management</p>    
                 <div id="working-navbar-content">

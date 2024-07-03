@@ -2406,7 +2406,7 @@ label {
     margin: 0 10px;
     padding-top: 20px
   }
-  #working{
+  #working, #benefits{
     padding-top: 30px;
   }
   .working-navbar ul {
@@ -3337,13 +3337,14 @@ label {
   font-size: 14.5pt;
 }
 
-#working{
+#working, #benefits{
   margin: 0 30px;
   text-align: left;
   padding-top: 45px;
 }
 
-#working > p{
+#working > p,
+#benefits > p{
   font-size: 14.5pt;
 
 }
@@ -3445,20 +3446,23 @@ label {
 
 /* Responsive Styles */
 @media (max-width:1440px){
-  #working img{
+  #working img,
+  #benefits img{
     width: 100%;
   
   }
 }
 
 @media (max-width: 1200px) {
-  #working img{
+  #working img,
+  #benefits img{
     width: 100%;
   }
 }
 
 @media (max-width: 1024px) {
-  #working img{
+  #working img,
+  #benefits img{
     width: 100%;
   }
   .Strategyz_info .sidebar {
@@ -3482,7 +3486,8 @@ label {
 }
 
 @media (max-width: 768px) {
-  #working img{
+  #working img,
+  #benefits img{
     width: 100%;
   }
 
@@ -3541,7 +3546,8 @@ label {
     padding-top: 20px
   }
 
-  #working{
+  #working,
+  #benefits{
     padding-top: 30px;
   }
 
@@ -3560,7 +3566,8 @@ label {
     
     margin: 0.5rem;
   }
-  #working img{
+  #working img,
+  #benefits img{
     width: 100%;
   }
   #footer{
@@ -3582,7 +3589,8 @@ label {
     padding-top: 20px
   }
 
-  #working{
+  #working,
+  #benefits{
     margin: 0 10px;
     padding-top: 30px;
   }
@@ -3604,7 +3612,8 @@ label {
     
     margin: 0.5rem;
   }
-  #working img{
+  #working img,
+  #benefits img{
     width: 100%;
   }
   #footer{
