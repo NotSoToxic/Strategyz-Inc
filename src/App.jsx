@@ -58,9 +58,9 @@ const App = () => {
           <Route path="/augmentation" element={<Augmentation />} />
 
           {/* Software pages */}
-          {/* <Route path="/ats" element={<Ats />}/>
+          <Route path="/ats" element={<Ats />}/>
           <Route path="/hrms" element={<Hrms />}/>
-          <Route path="/vms" element={<Vms />}/> */}
+          <Route path="/vms" element={<Vms />}/>
 
           {/* Careers Section  */}
           

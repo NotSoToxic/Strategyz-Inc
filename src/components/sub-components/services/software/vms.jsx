@@ -6,7 +6,7 @@ import useSmoothScrollWithOffset from "../../useSmoothScrollWithOffset";
 export const Vms = (props) => {
   useSmoothScrollWithOffset(80);
   return (
-    <div id="Ats">
+    <div id="Vms">
           <div className="intro-bg">
             <div className="consulting-banner">
               <div className="overlay">
