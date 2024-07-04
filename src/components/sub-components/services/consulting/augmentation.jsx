@@ -11,9 +11,9 @@ export const Augmentation = (props) => {
       <div className="buisness-bg">
         <div className="augmentation-banner">
           <div className="overlay">
-            <div className="buisness-banner-text">
-              <h1>HR and talent transformation consulting</h1>
-              <p className="buisness-banner-content">
+            <div className="buisness-banner-text augumentaion-banner-text">
+              <h1 className="aug-h1">HR and talent transformation consulting</h1>
+              <p className="buisness-banner-content augumentaion-banner-content">
                 Reimagine and modernize HR with AI at the core to deliver
                 bettter business outcomes, and unlock employee and work
                 potential

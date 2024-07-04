@@ -562,6 +562,9 @@ a:focus,
   background-size: cover;
   -o-background-size: cover;
 }
+
+
+
 .intro .overlay {
   background: rgba(0, 0, 0, 0.5);
 
@@ -965,6 +968,16 @@ label {
 #contact .contact-item i.fa {
   margin-right: 10px;
 }
+
+@media (max-width: 560px){
+  #contact .contact-misc{
+    flex-direction: column;
+  }
+  #contact .address2{
+    padding-left: 0px;
+  
+  }
+}
 /* #contact .social {
   border-top: 1px solid rgba(255, 255, 255, 0.15);
   padding-top: 50px;
@@ -1042,12 +1055,11 @@ label {
 
 #buisnesstransformation .buisness-bg{
   background-color: #F5F5F5;
-  padding: 10px;
+  padding: 10px 0 10px 0;
   
 }
 
 #buisnesstransformation .buisness-banner{
-  padding: 10px !important;
   display: table;
   width: 100%;
   height: 278.25px;
@@ -1060,6 +1072,14 @@ label {
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
+}
+
+
+@media (max-width: 560px){
+  #buisnesstransformation .buisness-banner {
+    height: auto;
+    background: url(../img/servicesPage/buiness-banner-transformed.png) center center no-repeat;
+  }
 }
 
 #buisnesstransformation .buisness-banner-text{
@@ -1140,7 +1160,7 @@ label {
 
 #buisnesstransformation #clients,
 #augmentation #clients{
-  margin: 0 30px;
+  margin: 0 10px;
 
   text-align: left;
   padding-top: 45px;
@@ -1183,7 +1203,7 @@ label {
 @media (max-width: 770px){
 
    .buisness-banner-text{
-    padding-top: 20px !important;
+    
   }
 
    .buisness-banner-text h1{
@@ -1199,12 +1219,15 @@ label {
 }
 
 @media (max-width: 500px){
+  
   .buisness-banner-text{
     width: 50% !important;
   }
 
   .buisness-banner-text h1{
-    font-size: 18px !important;   
+    padding-top: 0 !important;
+    width: 60%;
+    font-size: 17px !important;  
     padding-left: 20px !important;
   }
 
@@ -1247,6 +1270,19 @@ label {
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
+}
+
+@media (max-width: 560px){
+  #consulting .intro-bg{
+    padding: 10px 0 10px 0;
+  }
+  #consulting .consulting-banner {
+    height: auto;
+    background: url(../img/servicesPage/consulting_banner-transformed.png) center center no-repeat;
+  }
+  #consulting .consulting-banner-text{
+    padding-top: 0!important;
+  }
 }
 
 #consulting .consulting-banner-text{
@@ -1346,7 +1382,7 @@ label {
 }
 
 #consulting #clients{
-  margin: 0 30px;
+  margin: 0 10px;
     text-align: left;
     padding-top: 45px;
 }
@@ -1398,14 +1434,16 @@ label {
   }
   #consulting .consulting-banner-text h1{
     width: 50%;
-    font-size: 18px;
-    padding-left: 0px;
+    font-size: 17px;
+    padding-left: 5px;
+    padding-top:0 ;
   }
 
   #consulting-para{
+    margin: 0 !important;
     width: 50%;
-    font-size: 14px;
-    padding-left: 0px;
+    font-size: 13px;
+    padding-left: 5px;
   }
   #consulting .sidebar{
     display: none;
@@ -1439,6 +1477,23 @@ label {
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
+}
+
+@media (max-width: 560px){
+  #buisnesstransformation .augmentation-banner {
+    height: auto;
+    background: url(../img/servicesPage/aug-transformed.png) center center no-repeat;
+    padding: 0 !important;
+  }
+  #buisnesstransformation .augmentation-banner-text .aug-h1{
+    padding-top: 0!important;
+    margin: 0 !important;
+  }
+
+ .augmentation-banner-content{
+    font-size: 13px !important;
+  }
+
 }
 
 
@@ -1542,6 +1597,27 @@ label {
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
+}
+
+@media (max-width: 560px){
+  #Ats .consulting-banner,
+  #hrms .consulting-banner,
+  #Vms .consulting-banner{
+    height: 174px !important;
+  }
+
+  #Ats .consulting-banner-text,
+  #hrms .consulting-banner-text,
+  #Vms .consulting-banner-text{
+    padding-top: 0!important;
+  }
+
+  #Ats .consulting-banner-text h1,
+  #hrms .consulting-banner-text h1,
+  #Vms .consulting-banner-text h1{
+    padding-top: 0!important;
+    margin: 10px 0 0 0 !important;
+  }
 }
 
 #Ats .consulting-banner-text{
@@ -1687,20 +1763,21 @@ label {
 
 }
 
-@media (max-width: 500px){
+@media (max-width: 560px){
   #Ats .consulting-banner-text{
     width: 50%;
   }
   #Ats .consulting-banner-text h1{
     width: 50%;
-    font-size: 18px;
-    padding-left: 0px;
+    font-size: 17px;
+    padding-left: 10px;
   }
 
   #Ats-para{
+    
     width: 50%;
-    font-size: 14px;
-    padding-left: 0px;
+    font-size: 13px;
+    padding-left: 10px;
   }
   #Ats .sidebar{
     display: none;
@@ -1892,14 +1969,15 @@ label {
   }
   #hrms .consulting-banner-text h1{
     width: 50%;
-    font-size: 18px;
-    padding-left: 0px;
+    font-size: 17px;
+    padding-left: 10px;
+    margin-top: 10px;
   }
 
   #hrms-para{
     width: 50%;
-    font-size: 14px;
-    padding-left: 0px;
+    font-size: 13px;
+    padding-left: 10px;
   }
   #hrms .sidebar{
     display: none;
@@ -2085,14 +2163,15 @@ label {
   }
   #Vms .consulting-banner-text h1{
     width: 50%;
-    font-size: 18px;
-    padding-left: 0px;
+    font-size: 17px;
+    padding-left: 10px;
+    margin-top: 10px;
   }
 
   #Vms-para{
     width: 50%;
-    font-size: 14px;
-    padding-left: 0px;
+    font-size: 13px;
+    padding-left: 10px;
   }
   #Vms .sidebar{
     display: none;

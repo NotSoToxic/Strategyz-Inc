@@ -165,20 +165,21 @@ export const Contact = (props) => {
               </p>
             </div> */}
             <div className="contact-item">
-              <div className='contact-address'>
-              <p className='address1'>
+              <div className='contact-address contact-misc'>
+              <p className='address1 field1'>
+                <span>
+                  <i className="fa fa-envelope-o"></i> Email
+                </span>{" "}
+                {props.data ? props.data.email : "loading"}
+              </p>
+              <p className='address2 field2'>
                 <span>
                    CIN Number
                 </span>{" "}
                 U62011HR2024PTC121414
               </p>
             
-              <p className='address2'>
-                <span>
-                  <i className="fa fa-envelope-o"></i> Email
-                </span>{" "}
-                {props.data ? props.data.email : "loading"}
-              </p>
+              
               </div>
             </div>
           </div>
