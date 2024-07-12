@@ -2014,9 +2014,15 @@ label {
   -o-background-size: cover;
 }
 
-@media (max-width: 560px){
+@media (max-width: 450px){
   #Vms .consulting-banner{
     background: url(../img/ats-image/vms_banner_resized.png);
+  }
+}
+
+@media (max-width: 380px){
+  #Vms .consulting-banner{
+    background: url(../img/ats-image/vms_banner_resized-375.png);
   }
 }
 
@@ -2164,20 +2170,24 @@ label {
 }
 
 @media (max-width: 500px){
+  #Vms #consulting-para{
+    width: 60%;
+  }
   #Vms .consulting-banner-text{
-    width: 50%;
+    width: 60%;
   }
   #Vms .consulting-banner-text h1{
-    width: 50%;
+    width: 60%;
     font-size: 17px;
     padding-left: 10px;
     margin-top: 10px;
   }
 
   #Vms-para{
-    width: 50%;
+    margin: 0 !important;
+    width: 60%;
     font-size: 13px;
-    padding-left: 10px;
+    padding-left: 5px;
   }
   #Vms .sidebar{
     display: none;

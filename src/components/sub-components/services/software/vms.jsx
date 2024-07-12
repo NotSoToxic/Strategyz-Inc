@@ -13,7 +13,7 @@ export const Vms = (props) => {
                 <div className="consulting-banner-text">
                   <h1>Optimize Your Vendor Relationships with Our Robust VMS</h1>
                   <p id="consulting-para">
-                  Enhance visibility, control, and efficiency in your vendor management processes with our comprehensive Vendor Management System.{" "}
+                  Enhance visibility, control, and efficiency in your vendor management processes with our comprehensive Vendor Management System.
                   </p>
                 </div>
               </div>
