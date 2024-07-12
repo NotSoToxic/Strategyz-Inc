@@ -1075,10 +1075,10 @@ label {
 }
 
 
-@media (max-width: 560px){
+@media (max-width: 450px){
   #buisnesstransformation .buisness-banner {
     height: auto;
-    background: url(../img/servicesPage/buiness-banner-transformed.png) center center no-repeat;
+    background: url(../img/servicesPage/buiness-banner-resized.png) center center no-repeat;
   }
 }
 
@@ -1225,8 +1225,9 @@ label {
   }
 
   .buisness-banner-text h1{
+    margin-top: 10px !important;
     padding-top: 0 !important;
-    width: 60%;
+    width: 59%;
     font-size: 17px !important;  
     padding-left: 20px !important;
   }
@@ -1272,16 +1273,22 @@ label {
   -o-background-size: cover;
 }
 
-@media (max-width: 560px){
+@media (max-width: 450px){
   #consulting .intro-bg{
     padding: 10px 0 10px 0;
   }
   #consulting .consulting-banner {
     height: auto;
-    background: url(../img/servicesPage/consulting_banner-transformed.png) center center no-repeat;
+    background: url(../img/servicesPage/consulting-banner_resized.png) center center no-repeat;
   }
   #consulting .consulting-banner-text{
     padding-top: 0!important;
+  }
+}
+
+@media (max-width: 380px){
+  #consulting .consulting-banner{
+    background: url(../img/servicesPage/consulting-banner_resized-375.png);
   }
 }
 
@@ -1479,10 +1486,10 @@ label {
   -o-background-size: cover;
 }
 
-@media (max-width: 560px){
+@media (max-width: 480px){
   #buisnesstransformation .augmentation-banner {
     height: auto;
-    background: url(../img/servicesPage/aug-transformed.png) center center no-repeat;
+    background: url(../img/servicesPage/staff_AugmentationB_resized.png) center center no-repeat;
     padding: 0 !important;
   }
   #buisnesstransformation .augmentation-banner-text .aug-h1{
@@ -1493,6 +1500,19 @@ label {
  .augmentation-banner-content{
     font-size: 13px !important;
   }
+
+}
+
+@media (max-width: 380px){
+  #buisnesstransformation .augmentation-banner{
+    background: url(../img/servicesPage/staff_AugmentationB_resized-375.png);
+  }
+  #buisnesstransformation .buisness-banner-text .aug-h1{
+    width: 65%;
+    font-size: 16px!important;
+  }
+
+  
 
 }
 
