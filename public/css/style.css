@@ -2014,6 +2014,12 @@ label {
   -o-background-size: cover;
 }
 
+@media (max-width: 560px){
+  #Vms .consulting-banner{
+    background: url(../img/ats-image/vms_banner_resized.png);
+  }
+}
+
 #Vms .consulting-banner-text{
   display: table-cell;
   vertical-align: middle;
@@ -3244,7 +3250,7 @@ label {
 @media (max-width: 768px) {
 
   #location{
-    width: 200vw;
+    width: 100%;
     background-color: #E5E4E2;
     margin-top: 20px;
     margin-right: -20px ;
@@ -3266,7 +3272,7 @@ label {
 
   #location-form{
     margin-top: 10%;
-    width: 850px;
+    width: 100%;
     background-color: #004EAF;
     position: static;
     transform: translate(0%, -0%);
@@ -3279,6 +3285,7 @@ label {
   
 
   #address {
+    width: 100%;
     height: auto; /* Let the content dictate the height */
   }
 
