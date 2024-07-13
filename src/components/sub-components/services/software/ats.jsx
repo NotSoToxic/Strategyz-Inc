@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import atsData from "../../../../data/data.json";
 import useSmoothScrollWithOffset from "../../useSmoothScrollWithOffset";
 

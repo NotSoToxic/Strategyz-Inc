@@ -81,11 +81,29 @@ export const Navigation = (props) => {
               </ul>
             </li>
     
-            {/* <li>
-              <a href="#portfolio" className="page-scroll">
-                Gallery
+            <li className="dropdown">
+              <a
+                className=" page-scroll"
+                data-toggle="hover"
+                role="button"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Learning <span className="caret"></span>
+                
+                
               </a>
-            </li> */}
+              <ul className="dropdown-menu vertical-dropdown">
+                <li className='contact-list'>
+                  <div className='services-offered  contact-info'>
+                  <ul className='services1'>
+                    <li><a href="/stratathon">↪ Stratathon</a></li>
+                    {/* <li><a href="/info">↪ Download</a></li> */}
+                  </ul>
+                  </div>
+                </li>
+              </ul>
+            </li>
             
             
             
