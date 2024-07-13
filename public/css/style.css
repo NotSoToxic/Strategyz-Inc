@@ -2141,7 +2141,7 @@ label {
 
 @media (max-width: 380px){
   #Vms .consulting-banner{
-    background: url(../img/ats-image/vms_banner_resized-375.png);
+    background: url(../img/ats-image/vms_banner_resized-375.png)!important;
   }
 }
 
@@ -2250,11 +2250,12 @@ label {
 @media (max-width: 1200px){
   #Vms .consulting-banner-text h1{
     font-size: 28px;
+    width: 75%;
   }
   
-  #Vms-para{
+  #Vms #consulting-para{
     font-size: 18px;
-    width: 50%;
+    width: 75%;
   } 
 
 }
@@ -2271,7 +2272,9 @@ label {
 }
 
 @media (max-width: 768px){
-
+  #Vms .consulting-banner{
+    background: url(../img/ats-image/vms_banner_resized-768.png);
+  }
   #Vms .consulting-banner-text{
     padding-top: 20px
   }
@@ -2279,18 +2282,24 @@ label {
   #Vms .consulting-banner-text h1{
     font-size: 22px;
     padding-left: 35px;
+    width: 55%;
   }
   
-  #Vms-para{
-    font-size: 15px;
-    padding-left: 35px;
+  #Vms #consulting-para{
+    font-size: 18px;
+    width: 53%;
+    
   } 
 
 }
 
 @media (max-width: 500px){
+  #Vms .consulting-banner{
+    background: url(../img/ats-image/vms_banner_resized-425.png);
+  }
   #Vms #consulting-para{
     width: 60%;
+    font-size: 13px;
   }
   #Vms .consulting-banner-text{
     width: 60%;
