@@ -12,7 +12,7 @@ export const Hrms = (props) => {
               <div className="overlay">
                 <div className="consulting-banner-text">
                   <h1>Human Resource Management System </h1>
-                  <p id="consulting-para">
+                  <p id="consulting-para" >
                   Optimize HR processes, enhance employee experience, and manage talent effectively with our advanced Human Resource Management System.{" "}
                   </p>
                 </div>

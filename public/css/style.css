@@ -1908,6 +1908,18 @@ label {
   -o-background-size: cover;
 }
 
+
+@media (max-width: 990px){
+  #hrms .consulting-banner{
+    background: url(../img/ats-image/hrms-banner-980.png);
+  }
+}
+
+@media (max-width: 780px){
+  #hrms .consulting-banner{
+    background: url(../img/ats-image/hrms-banner-768.png);
+  }
+}
 @media(max-width:450px){
   #hrms .consulting-banner{
     background: url(../img/ats-image/hrms_banner_resized.png);
@@ -2028,11 +2040,12 @@ label {
 @media (max-width: 1200px){
   #hrms .consulting-banner-text h1{
     font-size: 28px;
+    width: 65%;
   }
   
-  #hrms-para{
+  #hrms #consulting-para{
     font-size: 18px;
-    width: 50%;
+    width: 60%!important;
   } 
 
 }
@@ -2051,17 +2064,19 @@ label {
 @media (max-width: 768px){
 
   #hrms .consulting-banner-text{
-    padding-top: 20px
+    padding-top: 20px;
   }
 
   #hrms .consulting-banner-text h1{
     font-size: 22px;
     padding-left: 35px;
+    width: 55%;
   }
   
-  #hrms-para{
-    font-size: 15px;
+  #hrms #consulting-para{
+    font-size: 18px;
     padding-left: 35px;
+    width: 48% !important;
   } 
 
 }
@@ -2077,8 +2092,9 @@ label {
     margin-top: 10px;
   }
 
-  #hrms-para{
-    width: 50%;
+  #hrms #consulting-para{
+    margin: 0;
+    width: 50% !important;
     font-size: 13px;
     padding-left: 10px;
   }
