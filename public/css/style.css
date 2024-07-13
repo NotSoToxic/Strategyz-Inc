@@ -1074,11 +1074,33 @@ label {
   -o-background-size: cover;
 }
 
+@media (max-width: 1050px){
+  #buisnesstransformation .buisness-banner{
+    background: url(../img/servicesPage/buiness-banner_resized-1024.png);
+  }
+}
 
+@media (max-width: 990px){
+  #buisnesstransformation .buisness-banner{
+    background: url(../img/servicesPage/buiness-banner_resized-980.png);
+  }
+}
+
+@media (max-width: 780px){
+  #buisnesstransformation .buisness-banner{
+    background: url(../img/servicesPage/buiness-banner_resized-768.png);
+  }
+}
 @media (max-width: 450px){
   #buisnesstransformation .buisness-banner {
     height: auto;
     background: url(../img/servicesPage/buiness-banner-resized.png) center center no-repeat;
+  }
+}
+
+@media (max-width: 380px){
+  #buisnesstransformation .buisness-banner{
+    background: url(../img/servicesPage/buiness-banner_resized-375.png);
   }
 }
 
