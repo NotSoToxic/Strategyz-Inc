@@ -1295,6 +1295,22 @@ label {
   -o-background-size: cover;
 }
 
+@media (max-width: 1030px){
+  #consulting .consulting-banner{
+    background: url(../img/servicesPage/consulting-banner_resized-1024.png);
+  }
+}
+@media (max-width: 990px){
+  #consulting .consulting-banner{
+    background: url(../img/servicesPage/consulting-banner_resized-980.png);
+  }
+}
+
+@media (max-width: 780px){
+  #consulting .consulting-banner{
+    background: url(../img/servicesPage/consulting-banner_resized-768.png);
+  }
+}
 @media (max-width: 450px){
   #consulting .intro-bg{
     padding: 10px 0 10px 0;
