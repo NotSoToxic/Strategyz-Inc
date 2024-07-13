@@ -1811,11 +1811,12 @@ label {
 @media (max-width: 1200px){
   #Ats .consulting-banner-text h1{
     font-size: 28px;
+    width: 65%;
   }
   
   #Ats-para{
     font-size: 18px;
-    width: 50%;
+    width: 65%;
   } 
 
 }
@@ -1840,6 +1841,7 @@ label {
   #Ats .consulting-banner-text h1{
     font-size: 22px;
     padding-left: 35px;
+    width: 55%;
   }
   
   #Ats-para{
