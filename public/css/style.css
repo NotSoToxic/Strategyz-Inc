@@ -1523,7 +1523,17 @@ label {
   background-size: cover;
   -o-background-size: cover;
 }
+@media (max-width: 1030px){
+  #buisnesstransformation .augmentation-banner{
+    background: url(../img/servicesPage/staff_AugmentationB_1024.png);
+  }
+}
 
+@media (max-width: 780px){
+  #buisnesstransformation .augmentation-banner{
+    background: url(../img/servicesPage/staff_AugmentationB_resized-768.png);
+  }
+}
 @media (max-width: 480px){
   #buisnesstransformation .augmentation-banner {
     height: auto;
