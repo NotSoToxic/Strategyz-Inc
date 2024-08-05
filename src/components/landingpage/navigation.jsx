@@ -2,11 +2,40 @@
 import React from 'react';
 
 export const Navigation = (props) => {
-  
+  window.addEventListener('resize', function() {
+    const links = document.querySelectorAll('.service-link');
+
+    if (window.innerWidth <= 768) {
+        links.forEach(link => {
+            if (link.href.includes('/ats')) {
+                link.textContent = '↪ ATS';
+            } else if (link.href.includes('/hrms')) {
+                link.textContent = '↪ HRMS';
+            } else if (link.href.includes('/vms')) {
+                link.textContent = '↪ VMS';
+            }
+        });
+    } else {
+        links.forEach(link => {
+            if (link.href.includes('/ats')) {
+                link.textContent = '↪ Application Tracking System (ATS)';
+            } else if (link.href.includes('/hrms')) {
+                link.textContent = '↪ Human Resources Management System (HRMS)';
+            } else if (link.href.includes('/vms')) {
+                link.textContent = '↪ Vendor Management System (VMS)';
+            }
+        });
+    }
+});
+
+// Trigger resize event to apply changes on page load
+window.dispatchEvent(new Event('resize'));
+
 
   
   
   return (
+    
     <nav id="menu" className="navbar navbar-default navbar-fixed-top">
       <div className="container navbar-content">
         <div className="navbar-header">
@@ -71,9 +100,19 @@ export const Navigation = (props) => {
                   <div className='services-offered'>
                   <h3>STRATEGYZ Software</h3>
                   <ul className='services1'>
-                    <li><a href="/ats">↪ Application Tracking System (ATS)</a></li>
-                    <li><a href="/hrms">↪ Human Resources Management System (HRMS)</a></li>
-                    <li><a href="/vms">↪ Vendor Management System (VMS)</a></li>
+                    <li><a href="/ats" className='service-link'>↪ Application Tracking System (ATS)</a></li>
+                    <li><a href="/hrms" className='service-link'>↪ Human Resources Management System (HRMS)</a></li>
+                    <li><a href="/vms" className='service-link'>↪ Vendor Management System (VMS)</a></li>
+                  </ul>
+                  </div>
+                </li>
+                <li>
+                  <div className='services-offered'>
+                  <h3>STRATEGYZ Learning</h3>
+                  <ul className='services1'>
+                    <li><a href="/stratathon">↪ Stratathon</a></li>
+                    <li><a href="/stratathon">↪ Internships</a></li>
+                    <li><a href="/stratathon">↪ Courses</a></li>
                   </ul>
                   </div>
                 </li>
@@ -81,7 +120,7 @@ export const Navigation = (props) => {
               </ul>
             </li>
     
-            <li className="dropdown">
+            {/* <li className="dropdown">
               <a
                 className=" page-scroll"
                 data-toggle="hover"
@@ -98,12 +137,12 @@ export const Navigation = (props) => {
                   <div className='services-offered  contact-info'>
                   <ul className='services1'>
                     <li><a href="/stratathon">↪ Stratathon</a></li>
-                    {/* <li><a href="/info">↪ Download</a></li> */}
+                    
                   </ul>
                   </div>
                 </li>
               </ul>
-            </li>
+            </li> */}
             
             
             

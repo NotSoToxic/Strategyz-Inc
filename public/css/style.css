@@ -146,6 +146,12 @@ hr {
   vertical-align: top;
 }
 
+@media (max-width: 768px){
+  .dropdown .dropdown-menu > li {
+    width: 30%;
+  }
+}
+
 .dropdown .dropdown-menu .services-offered {
   position: static;
   padding: 10px 30px;
@@ -277,7 +283,8 @@ hr {
 
 @media (max-width: 480px){
   .dropdown .dropdown-menu{
-    width: 250px;
+    width: 380px;
+    
     right: 50px;
   }
   .dropdown .dropdown-menu .services-offered{
