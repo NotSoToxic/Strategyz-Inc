@@ -101,20 +101,20 @@ export const Strategyzinfo = (props) => {
                 <p>IBM</p>
               </div>
               <div className="box">
-                <img src="img/StrategyzInfo_logo/hexawareT logo.jpeg" alt="Hexaware logo" />
+                <img src="img/StrategyzInfo_logo/amazon.png" alt="Hexaware logo" />
+                <p>Amazon</p>
+              </div>
+              <div className="box">
+                <img src="img/StrategyzInfo_logo/flipkart.png" alt="Rang Technologies logo" />
+                <p>Flipkart</p>
+              </div>
+              <div className="box">
+                <img src="img/StrategyzInfo_logo/hexawareT logo.jpeg" alt="Harjai Computers logo" />
                 <p>Hexaware Technologies</p>
               </div>
               <div className="box">
-                <img src="img/StrategyzInfo_logo/RangT logo.png" alt="Rang Technologies logo" />
-                <p>Rang Technologies</p>
-              </div>
-              <div className="box">
-                <img src="img/StrategyzInfo_logo/HarjaiC logo.png" alt="Harjai Computers logo" />
-                <p>Harjai Computers</p>
-              </div>
-              <div className="box">
-                <img src="img/StrategyzInfo_logo/fabH logo.png" alt="Fab Hotels logo" />
-                <p>FabHotels</p>
+                <img src="img/StrategyzInfo_logo/glenmark.png" alt="Fab Hotels logo" />
+                <p>Glenmark Pharmaceuticals</p>
               </div>
             </div>
           </section>
