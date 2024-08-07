@@ -22,7 +22,7 @@ import "./App.css";
 import { Analytics } from '@vercel/analytics/react';
 import { Vacancies } from "./components/sub-components/carriers/career-subcomponents/vacancies.jsx";
 import { JobDescription } from "./components/sub-components/carriers/career-subcomponents/jobDescription.jsx";
-import { Stratathon } from "./components/sub-components/learning/stratathon.jsx";
+import { Hackathon } from "./components/sub-components/learning/hackathon.jsx";
 
 
 export const scroll = new SmoothScroll('a[href*="#"]', {
@@ -64,7 +64,7 @@ const App = () => {
           <Route path="/vms" element={<Vms />}/>
 
           {/* Learning Section */}
-          <Route path="stratathon" element={<Stratathon/>}/>
+          <Route path="hackathon" element={<Hackathon/>}/>
 
           {/* Careers Section  */}
           

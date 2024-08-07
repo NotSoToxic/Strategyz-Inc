@@ -1,7 +1,7 @@
 import React from "react";
 import useSmoothScrollWithOffset from "../useSmoothScrollWithOffset";
 
-export const Stratathon = (props) => {
+export const Hackathon = (props) => {
     useSmoothScrollWithOffset(80);
     return(
         <div id="Stratathon">
