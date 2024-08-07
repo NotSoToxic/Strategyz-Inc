@@ -110,9 +110,9 @@ window.dispatchEvent(new Event('resize'));
                   <div className='services-offered'>
                   <h3>STRATEGYZ Learning</h3>
                   <ul className='services1'>
-                    <li><a href="/stratathon">↪ Hackathons</a></li>
-                    <li><a href="/stratathon">↪ Internships</a></li>
-                    <li><a href="/stratathon">↪ Courses</a></li>
+                    <li><a href="/hackathon">↪ Hackathons</a></li>
+                    <li><a href="/hackathon">↪ Internships</a></li>
+                    <li><a href="/hackathon">↪ Courses</a></li>
                   </ul>
                   </div>
                 </li>
