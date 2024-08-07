@@ -209,6 +209,7 @@
     {
       "domain": "Software Engineering",
       "title": "Full Stack Developer",
+      "id":"FullStackDeveloper",
       "type": "Full-time",
       "location": "Gurgaon, Haryana, India",
       "salary": "INR 10,00,000 - 15,00,000",
@@ -246,6 +247,7 @@
     {
       "domain": "Software Engineering",
       "title": "Backend Developer",
+      "id":"BackendDeveloper",
       "type": "Full-time",
       "location": "Gurgaon, Haryana, India",
       "description": "Join our team as a Backend Developer with expertise in Java and Spring Boot. You will be responsible for server-side web application logic and integration of the work front-end developers do.",
@@ -277,7 +279,8 @@
     },
     {
       "domain": "Software Engineering",
-      "title": "Dev ops Engineer",
+      "title": "Dev Ops Engineer",
+      "id":"DevopsEngineer",
       "type": "Full-time",
       "location": "Gurgaon, Haryana, India",
       "description": "We are looking for a DevOps Engineer to join our team. You will be responsible for managing the deployment and operation of our systems, ensuring high availability and performance.",
@@ -309,6 +312,7 @@
     {
       "domain": "Software Engineering",
       "title": "Database Administrator",
+      "id":"DatabaseAdministrator",
       "type": "Full-time",
       "location": "Gurgaon, Haryana, India",
       "description": "As a Database Administrator, you will be responsible for maintaining and optimizing our database systems. You will ensure data integrity, security, and performance of our databases.",
@@ -342,6 +346,7 @@
     {
       "domain": "Software Engineering",
       "title": "Security Engineer",
+      "id":"SecurityEngineer",
       "type": "Full-time",
       "location": "Gurgaon, Haryana, India",
       "description": "Join our team as a Security Engineer. You will be responsible for protecting our systems and networks from cyber threats, ensuring the security and privacy of our data and infrastructure.",
@@ -374,6 +379,7 @@
     {
       "domain": "Software Engineering",
       "title": "UI/UX Designer",
+      "id":"UI-UX-Designer",
       "type": "Full-time",
       "location": "Gurgaon, Haryana, India",
       "description": "We are looking for a UI/UX Designer to join our team. You will be responsible for designing user interfaces and creating user experiences that meet our clients' needs and expectations.",
@@ -406,6 +412,7 @@
     {
       "domain": "Sales",
       "title": "Sales Executive",
+      "id":"SalesExecutive",
       "type": "Full-time",
       "location": "Gurgaon, Haryana, India",
       "description": "We are seeking a motivated Sales Executive to join our growing team. Your role will involve identifying new sales opportunities, building client relationships, and achieving sales targets.",
@@ -437,6 +444,7 @@
     {
       "domain": "Sales",
       "title": "Account Manager",
+      "id":"AccountManager",
       "type": "Full-time",
       "location": "Gurgaon, Haryana, India",
       "description": "As an Account Manager, you will manage client accounts, ensure client satisfaction, and help to grow our business by maintaining and developing client relationships.",
@@ -468,6 +476,7 @@
     {
       "domain": "Marketing",
       "title": "Marketing Coordinator",
+      "id":"MarketingCoordinator",
       "type": "Full-time",
       "location": "Gurgaon, Haryana, India",
       "description": "We are looking for a Marketing Coordinator to assist with planning and executing marketing campaigns. You will work closely with the marketing team to develop content, coordinate events, and track campaign performance.",
@@ -498,6 +507,7 @@
     {
       "domain": "Marketing",
       "title": "Digital Marketing Specialist",
+      "id":"DigitalMarketingSpecialist",
       "type": "Full-time",
       "location": "Gurgaon, Haryana, India",
       "description": "Join our team as a Digital Marketing Specialist. You will be responsible for managing our online presence, executing SEO strategies, and running PPC campaigns to increase our brand awareness and drive traffic.",
@@ -528,6 +538,7 @@
     {
       "domain": "Customer Support",
       "title": "Customer Support Representative",
+      "id":"CustomerSupportRepresentative",
       "type": "Full-time",
       "location": "Gurgaon, Haryana, India",
       "description": "We are hiring a Customer Support Representative to provide excellent service to our clients. Responsibilities include resolving customer issues, providing product information, and maintaining customer satisfaction.",
@@ -558,6 +569,7 @@
     {
       "domain": "Customer Support",
       "title": "Technical Support Specialist",
+      "id":"TechnicalSupportSpecialist",
       "type": "Full-time",
       "location": "Gurgaon, Haryana, India",
       "description": "As a Technical Support Specialist, you will assist customers with technical problems, guide them through solutions, and ensure technical issues are resolved promptly and effectively.",
@@ -589,6 +601,7 @@
     {
       "domain": "Business Development",
       "title": "Business Development Manager",
+      "id":"BusinessDevelopmentManager",
       "type": "Full-time",
       "location": "Gurgaon, Haryana, India",
       "description": "We are looking for a Business Development Manager to identify new business opportunities, build relationships with potential clients, and develop strategic partnerships to drive business growth.",
@@ -618,6 +631,7 @@
     {
       "domain": "Business Development",
       "title": "Business Analyst",
+      "id":"BusinessAnalyst",
       "type": "Full-time",
       "location": "Gurgaon, Haryana, India",
       "description": "Join our team as a Business Analyst. You will analyze market trends, identify business opportunities, and provide insights to help shape our business strategy.",
@@ -647,6 +661,7 @@
     {
       "domain": "Human Resources",
       "title": "HR Manager",
+      "id":"HRManager",
       "type": "Full-time",
       "location": "Gurgaon, Haryana, India",
       "description": "We are seeking an HR Manager to oversee all aspects of human resources practices and processes. You will support business needs and ensure the proper implementation of company HR strategies.",
@@ -676,6 +691,7 @@
     {
       "domain": "Human Resources",
       "title": "Recruitment Specialist",
+      "id":"RecruitmentSpecialist",
       "type": "Full-time",
       "location": "Gurgaon, Haryana, India",
       "description": "Join our team as a Recruitment Specialist. You will manage the recruitment process, including sourcing candidates, conducting interviews, and coordinating hiring processes to find the best talent.",

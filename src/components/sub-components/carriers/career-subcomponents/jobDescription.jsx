@@ -5,8 +5,8 @@ import vacanciesData from '../../../../data/data.json';
 
 
 export const JobDescription = () => {
-  const { jobTitle } = useParams();
-  const job = vacanciesData.vacancies.find((job) => job.title === jobTitle);
+  const { jobId } = useParams();
+  const job = vacanciesData.vacancies.find((job) => job.id === jobId);
 
   if (!job) {
     return <div>Job not found. Please check the job title and try again.</div>;

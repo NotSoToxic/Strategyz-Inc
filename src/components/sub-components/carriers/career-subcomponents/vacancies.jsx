@@ -21,7 +21,7 @@ export const Vacancies = () => {
                 <div key={job.domain} className="job-card">
                   <h4>{job.title}</h4>
                   <p>{job.description}</p>
-                  <Link to={`/job/${jobDomain}/${job.title}`}>Apply now</Link>
+                  <Link to={`/job/${jobDomain}/${job.id}`}>Apply now</Link>
                 </div>
               ))}
             </div>
