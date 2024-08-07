@@ -3,8 +3,8 @@ import React, { useEffect, useRef, useState } from "react";
 import emailjs from 'emailjs-com';
 
 export const Applicationform = (props) => {
-  const resumeInputRef = useRef();
-  const fileNameRef = useRef();
+  // const resumeInputRef = useRef();
+  // const fileNameRef = useRef();
   // const formRef = useRef(null);
 
   const formRef = useRef();
@@ -29,25 +29,25 @@ export const Applicationform = (props) => {
     "Internal"
   ];
 
-  useEffect(() => {
-    const resumeInput = resumeInputRef.current;
-    const fileName = fileNameRef.current;
+  // useEffect(() => {
+  //   const resumeInput = resumeInputRef.current;
+  //   const fileName = fileNameRef.current;
 
-    const handleFileChange = () => {
-      const file = resumeInput.files[0];
-      if (file) {
-        fileName.textContent = file.name;
-      } else {
-        fileName.textContent = '';
-      }
-    };
+  //   const handleFileChange = () => {
+  //     const file = resumeInput.files[0];
+  //     if (file) {
+  //       fileName.textContent = file.name;
+  //     } else {
+  //       fileName.textContent = '';
+  //     }
+  //   };
 
-    resumeInput.addEventListener('change', handleFileChange);
+  //   resumeInput.addEventListener('change', handleFileChange);
 
-    return () => {
-      resumeInput.removeEventListener('change', handleFileChange);
-    };
-  }, []);
+  //   return () => {
+  //     resumeInput.removeEventListener('change', handleFileChange);
+  //   };
+  // }, []);
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -225,23 +225,31 @@ export const Applicationform = (props) => {
               </div>
             </div>
             <div className="app-card">
+              <label htmlFor="resume">Resume/CV link</label>
+              <input
+                type="text"
+                id="resume"
+                name="resume"
+                className="app-form-control"
+                placeholder="Please provide open access link"
+              />
+            </div>
+            {/* <div className="app-card">
               <label htmlFor="resume">Upload Resume*</label>
               <div className="resume-upload">
                 <label htmlFor="resume-input" className="upload-btn">
                   <span className="upload-text">Upload</span>
                 </label>
                 <input
-                  type="file"
-                  id="resume"
-                  name="resume"
-                  className="resume"
-                  accept=".pdf,.doc,.docx"
-                  required
-                  ref={resumeInputRef}
-                />
-                <span className="file-name" ref={fileNameRef}></span>
+                type="text"
+                id="portfolio"
+                name="portfolio"
+                className="app-form-control"
+                placeholder="Portfolio link"
+              />
+                
               </div>
-            </div>
+            </div> */}
           </div>
           <div className="app-form-group">
             <div className="app-card full-width">
