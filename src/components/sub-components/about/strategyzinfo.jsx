@@ -82,8 +82,8 @@ export const Strategyzinfo = (props) => {
             {activeTab === "technologyConsulting" && (
               <div id="working-navbar-content">
                 <h3>STRATEGYZ Software</h3>
-                <p>Enables clients to leverage the full power of software's, with strong demand for open-source innovation.</p>
-                <p>Three critical imperatives will determine a smarter, more responsive business:</p>
+                <p>Enables clients to leverage the full power of softwares, with strong demand for open-source innovation.</p>
+                <p>Three critical imperatives will determine a smarter, and more responsive business:</p>
                 <ul>
                   <li>Applicant Tracking System (ATS)</li>
                   <li>Vendor Management System (VMS)</li>

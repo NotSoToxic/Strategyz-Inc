@@ -33,7 +33,7 @@ export const Buisnesstransformation = (props) => {
           <section id="overview">
             <h2>Overview</h2>
             <p>
-            With a deep understanding of emerging trends and industry disruptions, we uncover untapped potential inside your business and help deliver new levels of productivity and growth. Our strategy consulting services help you align your team around a vision, activate your data and right size roadmaps and technology investments. Our co-creative, human-centric approach helps you realize additional value from existing and emerging technologies, improve decision making and problem solving and increase competitive advantage and long-term, sustainable impact.
+            With a deep understanding of emerging trends and industry disruptions, we uncover untapped potential inside your business and help deliver new levels of productivity and growth. Our strategy consulting services help you align your team around a vision, activate your data and right size roadmaps and technology investments. Our co-creative, human-centric approach helps you realize additional value from existing and emerging technologies, improve decision making and problem solving and increase competitive advantage and long-term sustainable impact.
             </p>
           </section>
 
