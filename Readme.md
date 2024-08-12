@@ -1,199 +1,49 @@
-Project Structure(14/05/2024)
+# Strategyz Inc Website Documentation
 
+## 1. Project Overview
+   - Project Name: Strategyz Inc Website
+   - Description: This website provides a brief overview of Strategyz Inc, showcasing the company and the different services they provide, along with their contact information.
+   - Technology Stack: HTML, CSS, JavaScript, React, Bootstrap
+   - Live URL: [https://www.strategyzinc.com/](https://www.strategyzinc.com/)
 
-.
-├── public
-│   ├── css
-│   │   ├── nivo-lightbox
-│   │   │   ├── close.png
-│   │   │   ├── close@2x.png
-│   │   │   ├── default.css
-│   │   │   ├── loading.gif
-│   │   │   ├── loading@2x.gif
-│   │   │   ├── next.png
-│   │   │   ├── next@2x.png
-│   │   │   ├── nivo-lightbox.css
-│   │   │   ├── prev.png
-│   │   │   └── prev@2x.png
-│   │   ├── bootstrap.css
-│   │   ├── bootstrap.min.css
-│   │   └── style.css
-│   ├── fonts
-│   │   ├── font-awesome
-│   │   │   ├── css
-│   │   │   │   ├── font-awesome.css
-│   │   │   │   └── font-awesome.min.css
-│   │   │   ├── fonts
-│   │   │   │   ├── fontawesome-webfont.eot
-│   │   │   │   ├── fontawesome-webfont.svg
-│   │   │   │   ├── fontawesome-webfont.ttf
-│   │   │   │   ├── fontawesome-webfont.woff
-│   │   │   │   ├── fontawesome-webfont.woff2
-│   │   │   │   └── FontAwesome.otf
-│   │   │   ├── less
-│   │   │   │   ├── animated.less
-│   │   │   │   ├── bordered-pulled.less
-│   │   │   │   ├── core.less
-│   │   │   │   ├── fixed-width.less
-│   │   │   │   ├── font-awesome.less
-│   │   │   │   ├── icons.less
-│   │   │   │   ├── larger.less
-│   │   │   │   ├── list.less
-│   │   │   │   ├── mixins.less
-│   │   │   │   ├── path.less
-│   │   │   │   ├── rotated-flipped.less
-│   │   │   │   ├── stacked.less
-│   │   │   │   └── variables.less
-│   │   │   └── scss
-│   │   │       ├── _animated.scss
-│   │   │       ├── _bordered-pulled.scss
-│   │   │       ├── _core.scss
-│   │   │       ├── _fixed-width.scss
-│   │   │       ├── _icons.scss
-│   │   │       ├── _larger.scss
-│   │   │       ├── _list.scss
-│   │   │       ├── _mixins.scss
-│   │   │       ├── _path.scss
-│   │   │       ├── _rotated-flipped.scss
-│   │   │       ├── _stacked.scss
-│   │   │       ├── _variables.scss
-│   │   │       └── font-awesome.scss
-│   │   └── fonts
-│   │       ├── glyphicons-halflings-regular.eot
-│   │       ├── glyphicons-halflings-regular.svg
-│   │       ├── glyphicons-halflings-regular.ttf
-│   │       ├── glyphicons-halflings-regular.woff
-│   │       └── glyphicons-halflings-regular.woff2
-│   ├── img
-│   │   ├── portfolio
-│   │   │   ├── 01-large.jpg
-│   │   │   ├── 01-small.jpg
-│   │   │   ├── 02-large.jpg
-│   │   │   ├── 02-small.jpg
-│   │   │   ├── 03-large.jpg
-│   │   │   ├── 03-small.jpg
-│   │   │   ├── 04-large.jpg
-│   │   │   ├── 04-small.jpg
-│   │   │   ├── 05-large.jpg
-│   │   │   ├── 05-small.jpg
-│   │   │   ├── 06-large.jpg
-│   │   │   ├── 06-small.jpg
-│   │   │   ├── 07-large.jpg
-│   │   │   ├── 07-small.jpg
-│   │   │   ├── 08-large.jpg
-│   │   │   ├── 08-small.jpg
-│   │   │   ├── 09-large.jpg
-│   │   │   └── 09-small.jpg
-│   │   ├── StrategyzInfo_logo
-│   │   │   ├── fabH logo.png
-│   │   │   ├── HarjaiC logo.png
-│   │   │   ├── hexawareT logo.jpeg
-│   │   │   ├── ibm.png
-│   │   │   └── RangT logo.png
-│   │   ├── team
-│   │   │   ├── 01.jpg
-│   │   │   ├── 02.jpg
-│   │   │   ├── 03.jpg
-│   │   │   └── 04.jpg
-│   │   ├── testimonials
-│   │   │   ├── _AJ.jpg
-│   │   │   ├── _AS.jpg
-│   │   │   ├── _BD.jpg
-│   │   │   ├── _DJ.jpg
-│   │   │   ├── _GJ.jpg
-│   │   │   ├── _SJ.jpg
-│   │   │   ├── 01.jpg
-│   │   │   ├── 02.jpg
-│   │   │   ├── 03.jpg
-│   │   │   ├── 04.jpg
-│   │   │   ├── 05.jpg
-│   │   │   ├── 06.jpg
-│   │   │   ├── AJ.jpg
-│   │   │   ├── AS.jpg
-│   │   │   ├── BD.jpg
-│   │   │   ├── DJ.jpg
-│   │   │   ├── GJ.jpg
-│   │   │   └── SJ.jpg
-│   │   ├── 1.ico
-│   │   ├── 1.png
-│   │   ├── 1.svg
-│   │   ├── 2.png
-│   │   ├── 3.png
-│   │   ├── 4.png
-│   │   ├── about.jpg
-│   │   ├── banner.png
-│   │   ├── header_gif.gif
-│   │   ├── header_gif2.gif
-│   │   ├── header_img.jpg
-│   │   ├── logo-nav.png
-│   │   └── test.txt
-│   ├── js
-│   │   ├── bootstrap.js
-│   │   └── jquery.1.11.1.js
-│   ├── index.html
-│   ├── robots.txt
-│   └── sitemap.xml
-├── src
-│   ├── components
-│   │   ├── assets
-│   │   │   ├── file
-│   │   │   │   └── test.txt
-│   │   │   ├── images
-│   │   │   │   ├── banner.png
-│   │   │   │   ├── careers.jpg
-│   │   │   │   └── working.png
-│   │   │   └── logos
-│   │   │       ├── Fabhotels_Logo.png
-│   │   │       ├── frankfinn.png
-│   │   │       ├── harjai.png
-│   │   │       ├── Hexaware.png
-│   │   │       ├── IBM.jpg
-│   │   │       ├── IBM.png
-│   │   │       └── tumbledry.png
-│   │   ├── landingpage
-│   │   │   ├── about.jsx
-│   │   │   ├── contact.jsx
-│   │   │   ├── header.jsx
-│   │   │   ├── image.jsx
-│   │   │   ├── navigation.jsx
-│   │   │   ├── services.jsx
-│   │   │   ├── Team.jsx
-│   │   │   └── testimonials.jsx
-│   │   └── sub-components
-│   │       ├── about
-│   │       │   └── strategyzinfo.jsx
-│   │       ├── carriers
-│   │       │   ├── career-subcomponents
-│   │       │   │   ├── application-form.jsx
-│   │       │   │   ├── client-form.jsx
-│   │       │   │   ├── jobDescription.jsx
-│   │       │   │   └── vacancies.jsx
-│   │       │   └── careers.jsx
-│   │       ├── contact
-│   │       │   ├── info.jsx
-│   │       │   └── locations.jsx
-│   │       └── services
-│   │           ├── consulting
-│   │           │   ├── augmentation.jsx
-│   │           │   ├── buisnesstransformation.jsx
-│   │           │   └── consulting.jsx
-│   │           └── software
-│   │               ├── ats.jsx
-│   │               ├── hrms.jsx
-│   │               └── vms.jsx
-│   ├── data
-│   │   └── data.json
-│   ├── App.css
-│   ├── App.jsx
-│   ├── index.css
-│   ├── index.js
-│   ├── logo.svg
-│   ├── serviceWorker.js
-│   └── setupTests.js
-├── _config.yml
-├── .gitignore
-├── LICENSE
-├── package-lock.json
-├── package.json
-├── Readme.md
-└── yarn.lock
+## 2. Getting Started
+   ### Prerequisites
+   - Git: Ensure Git is installed on your system. You can download it from [here](https://git-scm.com/).
+
+   ### Installation Guide
+   1. Cloning the Repository:
+      ```bash
+      git clone https://github.com/NotSoToxic/Strategyz-Inc.git
+      ```
+   2. Running the Project:
+      - Navigate to the repository location on your device.
+      - Open the terminal and run the following commands:
+        ```bash
+        npm install --f
+        npm start
+        ```
+Here’s how you can include the contribution guidelines in your documentation:
+
+---
+
+## 3. Contributing
+
+### Contribution Guidelines
+To contribute to the Strategyz Inc Website, please follow these guidelines to ensure consistency and maintainability across the project.
+
+1. **Routes Management**:
+   - All routes are defined in the `app.js` file. When adding new routes, ensure they are appropriately defined and linked within this file.
+
+2. **Styling**:
+   - The project uses a global CSS file named `style.css`. Any and all styling changes or additions should be made within this file to maintain consistency across the website.
+
+3. **Component Structure**:
+   - When adding new components, ensure they directly correspond to their respective categories.
+   - Components should be placed in the relevant subdirectory that reflects their function or role within the application. For example, a service-related component should be placed in the `services` directory.
+
+### Contribution Process
+   1. **Fork the Repository**: Start by forking the repository to your GitHub account.
+   2. **Create a New Branch**: Create a new branch for your feature or bug fix.
+   3. **Make Your Changes**: Implement your changes according to the guidelines above.
+   4. **Commit Your Changes**: Write clear and concise commit messages.
+   5. **Submit a Pull Request**: Submit your changes for review via a pull request.
