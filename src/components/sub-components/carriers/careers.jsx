@@ -6,6 +6,7 @@ import icons from "../../assets/images/banner-img.png";
 import jobData from '../../../data/data.json';
 import { Link } from 'react-router-dom';
 import banner from "../../assets/images/career-banner.jpg";
+import useSmoothScrollWithOffset from "../useSmoothScrollWithOffset";
 
 
 
@@ -15,6 +16,7 @@ export const Careers = (props) => {
     const handleTabClick = (tab) => {
         setActiveTab(tab);
     };
+    useSmoothScrollWithOffset(80);
 
     
 
