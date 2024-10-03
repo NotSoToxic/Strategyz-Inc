@@ -4045,7 +4045,7 @@ strong {
   text-align: left;
   padding-top: 45px;
 }
-#perks .stratathon-card{
+#stratathon #perks .stratathon-card{
   flex-direction: column;
 }
 #stratathon #perks p{
@@ -4078,7 +4078,7 @@ strong {
 
 
 #stratathon  #clients ,
-#augmentation #clients  {
+#stratathon #augmentation #clients  {
   margin: 0 10px;
 
   text-align: left;
@@ -4121,10 +4121,6 @@ strong {
 
 @media (max-width: 770px){
 
-   .stratathon-banner-text{
-    
-  }
-
    .stratathon-banner-text h1{
     font-size: 22px !important;
     padding-left: 35px !important;
@@ -4155,39 +4151,39 @@ strong {
     font-size: 14px !important;
     padding-left: 20px !important;
   }
-   .sidebar{
+   #stratathon.sidebar{
     display: none;
   }
 }
-#benefits {
+#stratathon #benefits {
   padding-top: 45px;
   background-color: white; /* Consistent with other sections */
   margin: 0 30px;
 }
 
-#benefits h2 {
+#stratathon #benefits h2 {
   font-size: 32px;
   font-weight: 600;
   text-align: left; /* Center align the heading */
   margin-bottom: 20px; /* Space below the heading */
 }
 
-.benefits-container {
+#stratathon .benefits-container {
   display: flex;
   flex-wrap: wrap;
   gap: 10px; /* Space between cards */
   justify-content: center; /* Center align cards */
 }
- #benefits .benefits-container .stratathon-card ul{
+ #stratathon #benefits .benefits-container .stratathon-card ul{
   list-style-type: disc;
   padding-left: 20px;
 }
-#benefits .benefits-container .stratathon-card   li {
+#stratathon #benefits .benefits-container .stratathon-card   li {
   font-size: 16px;
   margin: 0 0 10px;
 }
 
-#working .job-container .stratathon-card ul {
+#stratathon #working .job-container .stratathon-card ul {
   list-style-type: disc;
   padding-left: 20px;
 }
@@ -4195,7 +4191,7 @@ strong {
   font-size: 16px;
   margin: 0 0 10px;
 }
-#working .job-container .stratathon-card ul li {
+#stratathon #working .job-container .stratathon-card ul li {
   margin-bottom: 7px;
 }
 #stratathon #working h4{
