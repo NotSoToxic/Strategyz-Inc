@@ -64,7 +64,7 @@ const App = () => {
           <Route path="/vms" element={<Vms />}/>
 
           {/* Learning Section */}
-          <Route path="hackathon" element={<Hackathon/>}/>
+          <Route path="/hackathon" element={<Hackathon/>}/>
 
           {/* Careers Section  */}
           
