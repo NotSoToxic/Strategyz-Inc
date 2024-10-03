@@ -1432,6 +1432,9 @@ label {
    border-bottom: 1px solid #0056b3;
  
 }
+strong {
+  font-size:15px;
+}
 
 #consulting #clients{
   margin: 0 10px;
@@ -3902,3 +3905,343 @@ label {
   box-shadow: 0 0 10px rgba(0, 6, 6, 0.5); 
 
 }
+
+
+/*Hackathon start*/
+
+#stratathon{
+  text-align: center;
+  padding: 100px 0 0 0;
+  
+}
+
+#stratathon .stratathon-bg{
+  background-color: #F5F5F5;
+  padding: 10px 0 10px 0;
+  
+}
+
+#stratathon .stratathon-banner{
+  display: table;
+  width: 100%;
+  height: 278.25px;
+  /* margin-left: 150px; */
+  padding: 0;
+  background: url(../img/buiness-banner.png) center center no-repeat;
+  background-color: #F5F5F5;
+  background-shadow: 5px 5px 50px black;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+@media (max-width: 1050px){
+  #stratathon .stratathon-banner{
+    background: url(../img/servicesPage/buiness-banner_resized-1024.png);
+  }
+}
+
+@media (max-width: 990px){
+  #stratathon .stratathon-banner{
+    background: url(../img/servicesPage/buiness-banner_resized-980.png);
+  }
+}
+
+@media (max-width: 780px){
+  #stratathon .stratathon-banner{
+    background: url(../img/servicesPage/buiness-banner_resized-768.png);
+  }
+}
+@media (max-width: 450px){
+  #stratathon .stratathon-banner {
+    height: auto;
+    background: url(../img/servicesPage/buiness-banner-resized.png) center center no-repeat;
+  }
+}
+
+@media (max-width: 380px){
+  #stratathon .stratathon-banner{
+    background: url(../img/servicesPage/buiness-banner_resized-375.png);
+  }
+}
+
+#stratathon .stratathon-banner-text{
+  text-align: left;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  color: #000;
+}
+
+#stratathon .stratathon-banner-text h1{
+  padding: 10px 10px 10px 50px;
+  text-align: left;
+}
+
+.stratathon-banner-content{
+  text-align: left;
+  font-size: 24px;
+  max-width: 50%;
+  padding-left: 50px;
+}
+
+#stratathon .content-wrapper {
+  display: flex;
+  margin-top: 2rem;
+}
+
+#stratathon .sidebar {
+  border-right: 1px solid #0056b3;
+  width: 25%;
+  padding: 30px 0;
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  overflow-y: auto;
+}
+
+#stratathon .sidebar ul {
+  text-align: left;
+  list-style: none;
+  padding: 1rem;
+}
+
+#stratathon .sidebar li {
+  padding: 2rem 0 2rem 0;
+  list-style-type: none;
+}
+
+#stratathon .sidebar li a {
+  color: #0056b3;
+  font-weight: 500;
+  border-left: 3px solid #333;
+  text-decoration: none;
+  padding: 2rem 0px 2rem 13px;
+  font-size: 14pt;
+  transition: border-left-color 0.3s ease-in-out;
+}
+
+#stratathon .sidebar li a:hover {
+  border-left-color: #999;
+}
+
+#stratathon main {
+  right: 0;
+  width: 70%;
+  flex-grow: 1;
+  padding: 2rem;
+}
+
+#stratathon h2{
+  font-size: 32px;
+  font-weight: 600;
+  text-transform: none;
+
+}
+
+#stratathon #perks{
+  margin: 0  30px;
+  text-align: left;
+  padding-top: 45px;
+}
+#stratathon #perks .stratathon-card{
+  flex-direction: column;
+}
+#stratathon #perks p{
+  font-size: 14.5pt;
+  
+}
+#stratathon #perks li{
+  font-size: 16px;
+  margin: 0 0 10px;
+}
+
+#stratathon #perks hr{
+  border: none;
+  background-color: #007BFF;
+  height: 0.5px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  width: 100%;
+  float:left;
+  
+}
+#perks .job-container .stratathon-card ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+#perks .job-container .stratathon-card ul li {
+  margin-bottom: 7px;
+}
+
+
+#stratathon  #clients ,
+#stratathon #augmentation #clients  {
+  margin: 0 10px;
+
+  text-align: left;
+  padding-top: 45px;
+}
+
+.stratathon-card{
+  flex: 1 1 calc(33.333% - 20px); /* 33.333% - 20px is for 3 cards in a row with some margin */
+  margin: 10px;
+  
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.stratathon-card:hover{
+  border-bottom: 1px solid #0056b3;
+}
+
+@media (max-width: 1200px){
+  #stratathon .stratathon-banner-text h1{
+    font-size: 28px;
+  }
+  
+  .stratathon-banner-content{
+    font-size: 18px;
+  } 
+
+}
+
+@media (max-width: 992px){
+   .stratathon-banner-text h1{
+    font-size: 24px;
+  }
+  
+  .stratathon-banner-content{
+    font-size: 16px;
+  } 
+
+}
+
+@media (max-width: 770px){
+
+   .stratathon-banner-text h1{
+    font-size: 22px !important;
+    padding-left: 35px !important;
+  }
+  
+  .stratathon-banner-content{
+    font-size: 15px !important;
+    padding-left: 35px !important;
+  } 
+
+}
+
+@media (max-width: 500px){
+  
+  .stratathon-banner-text{
+    width: 50% !important;
+  }
+
+  .stratathon-banner-text h1{
+    margin-top: 10px !important;
+    padding-top: 0 !important;
+    width: 59%;
+    font-size: 17px !important;  
+    padding-left: 20px !important;
+  }
+
+  .stratathon-banner-content{
+    font-size: 14px !important;
+    padding-left: 20px !important;
+  }
+   #stratathon.sidebar{
+    display: none;
+  }
+}
+#stratathon #benefits {
+  padding-top: 45px;
+  background-color: white; /* Consistent with other sections */
+  margin: 0 30px;
+}
+
+#stratathon #benefits h2 {
+  font-size: 32px;
+  font-weight: 600;
+  text-align: left; /* Center align the heading */
+  margin-bottom: 20px; /* Space below the heading */
+}
+
+#stratathon .benefits-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px; /* Space between cards */
+  justify-content: center; /* Center align cards */
+}
+ #stratathon #benefits .benefits-container .stratathon-card ul{
+  list-style-type: disc;
+  padding-left: 20px;
+}
+#stratathon #benefits .benefits-container .stratathon-card   li {
+  font-size: 16px;
+  margin: 0 0 10px;
+}
+
+#stratathon #working .job-container .stratathon-card ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+#stratathon #working li{
+  font-size: 16px;
+  margin: 0 0 10px;
+}
+#stratathon #working .job-container .stratathon-card ul li {
+  margin-bottom: 7px;
+}
+#stratathon #working h4{
+  width: 50%;
+  float: left;
+  margin-bottom: 0px;
+}
+#stratathon #working h6 {
+  text-transform: lowercase;
+  font-weight: 700;
+  line-height: 18px;
+  width: 50%;
+  text-align: right;
+  float: right;
+  margin-bottom: 0px;
+}
+#stratathon #working hr{
+  border: none;
+  background-color: #007BFF;
+  height: 0.5px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  width: 100%;
+  float:left;
+  
+}
+#stratathon #working p{
+  width: 100%;
+  float:left;
+  margin-top: 10px;
+}
+
+
+/* For 770px width */
+@media (max-width: 770px) {
+  #stratathon .sidebar {
+    width: 30%; /* Further reduce the sidebar width */
+    padding: 5px 0; /* Adjust the padding for a tighter fit */
+    margin-left: 0px; /* No extra margin */
+  }
+  
+  #stratathon .sidebar ul {
+    padding-left: 5px; /* Reduce padding between the sidebar content and the border */
+  }
+
+  #stratathon .sidebar li a {
+    padding-left: 8px; /* Further reduce padding between the text and the vertical line */
+    font-size: 12pt; /* Adjust the font size for better readability */
+  }
+}
+
+
+/*Hackathon end*/

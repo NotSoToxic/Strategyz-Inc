@@ -753,6 +753,34 @@
     }
     
   ],
+ "hackathon": [
+    {
+      "domain": "phase 1",
+      "title": "Phase 1",
+      "subtitle": "2 weeks",
+      "description": "Idea Proposal",
+      "li1":"Submit a detailed plan or idea.",
+      "li2":"Receive feedback from industry experts."
+    },
+    {
+      "domain": "Phase 2",
+      "title": "Phase 2",
+      "subtitle": "1.5 months",
+      "description": "Project Status Assessment",
+      "li1":"Develop your project and present status updates.",
+      "li2":"Interim evaluations for project tracking.",
+      "li3":"Receive support and guidance to keep your project on track."
+    },
+    {
+      "domain": "Phase 3",
+      "title": "Phase 3",
+      "subtitle": "2 months",
+      "description": "Final Review",
+      "li1": "Complete your project and submit for final review.",
+      "li2": "Showcase your project to a panel of judges.",
+      "li3": "Get continuous support and expert guidance to perfect your project."
+    }
+  ],
 
   "augument": [
     {
@@ -969,4 +997,6 @@
       "description": "Our VMS can scale with your organization, accommodating a growing vendor base and evolving business needs."
     }
   ]
+  
+  
 }
