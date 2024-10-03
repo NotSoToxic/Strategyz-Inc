@@ -52,10 +52,6 @@ export const Buisnesstransformation = (props) => {
                                     ))}
                                 </div>
                             </div>
-            
-            
-
-            
           </section>
 
           <section id="clients">
