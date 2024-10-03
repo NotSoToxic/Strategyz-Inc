@@ -23,7 +23,9 @@ import { Analytics } from '@vercel/analytics/react';
 import { Vacancies } from "./components/sub-components/carriers/career-subcomponents/vacancies.jsx";
 import { JobDescription } from "./components/sub-components/carriers/career-subcomponents/jobDescription.jsx";
 import { Hackathon } from "./components/sub-components/learning/hackathon.jsx";
-
+import { Careerplus } from "./components/sub-components/learning/Career+.jsx";
+import { Courses } from "./components/sub-components/learning/courses.jsx";
+import { Internship } from "./components/sub-components/learning/internships.jsx";
 
 export const scroll = new SmoothScroll('a[href*="#"]', {
   speed: 1000,
@@ -65,6 +67,9 @@ const App = () => {
 
           {/* Learning Section */}
           <Route path="/hackathon" element={<Hackathon/>}/>
+          <Route path="/careerplus" element={<Careerplus/>}/>
+          <Route path="/courses" element={<Courses/>}/>
+          <Route path="/internships" element={<Internship/>}/>
 
           {/* Careers Section  */}
           
